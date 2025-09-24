@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0',
+        'version' => '1.0.0.0',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => null,
+        'name' => 'flycartinc/checkout-upsell-woocommerce',
+        'dev' => false,
+    ),
+    'versions' => array(
+        'flycartinc/checkout-upsell-woocommerce' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => null,
+            'dev_requirement' => false,
+        ),
+        'vlucas/valitron' => array(
+            'pretty_version' => 'v1.4.11',
+            'version' => '1.4.11.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../vlucas/valitron',
+            'aliases' => array(),
+            'reference' => 'fadce39f5f235755bb9794b2573af2d5bfcba85f',
+            'dev_requirement' => false,
+        ),
+        'yahnis-elsts/plugin-update-checker' => array(
+            'pretty_version' => 'v5.6',
+            'version' => '5.6.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../yahnis-elsts/plugin-update-checker',
+            'aliases' => array(),
+            'reference' => 'a2db6871deec989a74e1f90fafc6d58ae526a879',
+            'dev_requirement' => false,
+        ),
+    ),
+);

@@ -1,0 +1,203 @@
+# Copyright (C) 2019-2022 LifterLMS
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: LifterLMS PDFs 2.1.0\n"
+"Report-Msgid-Bugs-To: https://lifterlms.com/my-account/my-tickets\n"
+"Last-Translator: Team LifterLMS <team@lifterlms.com>\n"
+"Language-Team: Team LifterLMS <team@lifterlms.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-03-21T16:27:14-06:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: llms/dev 0.0.3\n"
+"X-Domain: lifterlms-pdfs\n"
+
+#. Plugin Name of the plugin
+#: includes/class-llms-integration-pdfs.php:45
+msgid "LifterLMS PDFs"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://lifterlms.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Generate PDFs for LifterLMS Certificates"
+msgstr ""
+
+#. Author of the plugin
+msgid "LifterLMS"
+msgstr ""
+
+#: includes/abstracts/class-llms-pdfs-abstract-exportable-content.php:93
+msgid "Extending classes must define an id."
+msgstr ""
+
+#: includes/admin/integration-settings.php:17
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/integration-settings.php:23
+msgid "Export Header Title"
+msgstr ""
+
+#: includes/admin/integration-settings.php:24
+msgid "Text displayed as the title in the header of most exports. Leave blank to disable."
+msgstr ""
+
+#: includes/admin/integration-settings.php:31
+msgid "Export Header Description"
+msgstr ""
+
+#: includes/admin/integration-settings.php:32
+msgid "Additional text displayed in the header of most exports. Leave blank to disable."
+msgstr ""
+
+#: includes/admin/integration-settings.php:37
+msgid "Determines the paper size used for most export types."
+msgstr ""
+
+#: includes/admin/integration-settings.php:39
+msgid "Paper size"
+msgstr ""
+
+#: includes/admin/integration-settings.php:54
+msgid "Export Types"
+msgstr ""
+
+#: includes/admin/integration-settings.php:55
+msgid "Choose what types of PDF downloads are made available to your students."
+msgstr ""
+
+#: includes/admin/integration-settings.php:77
+msgid "Image Proxy Settings"
+msgstr ""
+
+#. Translators: %1$s = opening anchor tag linking to documentation; %2$s = closing anchor tag.
+#: includes/admin/integration-settings.php:80
+msgid "If the site utilizes a CDN, an image proxy is necessary to enable client-side PDF generators to include images served from the CDN. %1$sRead more%2$s."
+msgstr ""
+
+#: includes/admin/integration-settings.php:89
+msgid "Enable Image Proxy"
+msgstr ""
+
+#: includes/admin/integration-settings.php:90
+msgid "Use the image proxy for client-side PDF generation."
+msgstr ""
+
+#: includes/admin/integration-settings.php:97
+msgid "Allowed Origins"
+msgstr ""
+
+#: includes/admin/integration-settings.php:98
+msgid "Only images with URLs matching a domain (or domain part) in this list will be passed through the proxy. Enter one domain (or partial domain) per line. To allow any domain, use the \"*\" wildcard character."
+msgstr ""
+
+#: includes/class-llms-pdfs-install.php:181
+msgid "Welcome to LifterLMS PDFS v2.0!"
+msgstr ""
+
+#: includes/class-llms-pdfs-install.php:182
+msgid "This version removes the integration with the PDFLayer service in favor of a new self-hosted PDF generation method. You don't have to do anything to start using this new method, it's already setup and ready to go!"
+msgstr ""
+
+#: includes/class-llms-pdfs-install.php:183
+msgid "If you were previously using PDFLayer only to generate PDFs through this integration, you may wish to cancel your active subscription as it is no longer needed by LifterLMS PDFs."
+msgstr ""
+
+#. Translators: %1$s = Opening anchor tag; %2$s = closing anchor tag.
+#: includes/class-llms-pdfs-install.php:188
+msgid "If you would like to read more about these changes %1$sclick here.%2$s"
+msgstr ""
+
+#: includes/content-types/class-llms-pdfs-exportable-certificates.php:151
+msgid "Replaces the default certificate download format with a PDF."
+msgstr ""
+
+#: includes/content-types/class-llms-pdfs-exportable-certificates.php:162
+msgid "Certificates"
+msgstr ""
+
+#: includes/content-types/class-llms-pdfs-exportable-grades.php:207
+msgid "Students can download their course grade and progress reports."
+msgstr ""
+
+#: includes/content-types/class-llms-pdfs-exportable-grades.php:218
+msgid "Grade and Progress Reports"
+msgstr ""
+
+#. Translators: %d = Order ID.
+#: includes/content-types/class-llms-pdfs-exportable-orders.php:115
+msgctxt "order export filename"
+msgid "order-%d"
+msgstr ""
+
+#. Translators: %d = Order ID.
+#: includes/content-types/class-llms-pdfs-exportable-orders.php:146
+#: includes/views/order.php:14
+msgid "Order #%d"
+msgstr ""
+
+#: includes/views/grades.php:33
+msgid "Student Name"
+msgstr ""
+
+#: includes/views/grades.php:37
+msgid "Progress"
+msgstr ""
+
+#: includes/views/grades.php:41
+msgid "Grade"
+msgstr ""
+
+#: includes/views/grades.php:45
+msgid "Enrollment Status"
+msgstr ""
+
+#: includes/views/grades.php:49
+msgid "Enrollment Date"
+msgstr ""
+
+#: includes/views/grades.php:53
+msgid "Last Activity Date"
+msgstr ""
+
+#: includes/views/order.php:19
+msgid "Customer Information"
+msgstr ""
+
+#: includes/views/order.php:24
+msgid "Name"
+msgstr ""
+
+#: includes/views/order.php:28
+msgid "Email"
+msgstr ""
+
+#: includes/views/order.php:32
+msgid "Address"
+msgstr ""
+
+#: includes/views/order.php:46
+msgid "Phone"
+msgstr ""
+
+#: includes/views/order.php:55
+msgid "Order Details"
+msgstr ""
+
+#: includes/views/order.php:60
+msgid "Transactions"
+msgstr ""
+
+#: assets/js/llms-pdfs-certificates.js:1
+msgid "Tainted certificate content detected. Please refresh the page and try again."
+msgstr ""
+
+#: assets/js/llms-pdfs-certificates.js:1
+msgid "An error was encountered during PDF generation."
+msgstr ""

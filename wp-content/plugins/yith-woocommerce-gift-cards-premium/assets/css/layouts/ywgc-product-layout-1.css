@@ -1,0 +1,127 @@
+.product-type-gift-card .woocommerce-product-gallery__wrapper {
+	box-shadow: 0 0 19px -12px gray;
+}
+
+.ywgc-main-form-preview-container {
+	height: auto;
+	padding: 1em 1em 1em 1em;
+	box-shadow: 0 10px 19px -12px;
+}
+
+.product-type-gift-card .woocommerce-product-gallery__image {
+	padding: 1em;
+}
+
+.gift-cards-list button {
+	border-radius: unset;
+	background-color: white;
+	color: #404040;
+	vertical-align: top;
+}
+
+.ywgc-amount-buttons {
+	margin-bottom: 1em;
+}
+
+.ywgc-manual-amount-container {
+	border: 1px solid #448a85;
+	display: inline-flex;
+	height: 51.3333px;
+}
+
+#ywgc-manual-amount {
+	width: 7em;
+	min-width: unset;
+	border: none;
+	border-radius: unset;
+}
+
+.ywgc-single-recipient .ywgc-recipient-name {
+	margin-bottom: 15px;
+}
+
+.ywgc-single-recipient {
+	/*margin-bottom: 2em;*/
+	position: relative;
+}
+
+.gift-card-content-editor.step-content label {
+	display: inline-block;
+	/*margin-top: 11px;*/
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 46px;
+}
+
+.gift-card-content-editor.step-content textarea {
+	float: right;
+	width: 70%;
+}
+
+.ywgc-postdated {
+	position: relative;
+}
+
+.gift-card-content-editor.step-content input {
+	float: right;
+	width: 70%;
+}
+
+.ywgc-sender-name {
+	margin-bottom: 15px;
+}
+
+.ywgc-choose-image.ywgc-choose-template {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	border: unset;
+	border-radius: unset;
+	line-height: unset;
+	overflow: hidden;
+	padding: unset;
+	font-size: 16px;
+	color: white;
+}
+
+.ywgc-form-preview-separator {
+	width: 40px;
+	height: 7px;
+	margin-top: 10px;
+}
+
+.gift-card-content-editor.step-content textarea#ywgc-edit-message {
+	resize: vertical;
+}
+
+.ywgc-manual-amount-error {
+	font-size: smaller;
+	color: red;
+}
+
+.ywgc-delivery-notification-checkbox-container{
+	text-align: right;
+}
+
+a.add-recipient {
+	display: block;
+	float: right;
+	margin-top: 5px;
+}
+
+.ywgc-additional-recipient {
+	position: relative;
+	margin-top: 35px;
+}
+
+.ywgc-additional-recipient label {
+	margin-bottom: 15px;
+}
+
+a.ywgc-remove-recipient{
+	top: 0;
+}

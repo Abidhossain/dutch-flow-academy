@@ -1,0 +1,1582 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Moneybird API integration for WooCommerce v2.3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-11 09:50+0000\n"
+"PO-Revision-Date: 2025-07-14 08:52+0000\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Loco-Version: 2.6.6; wp-6.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-wc-gateway-moneybirdestimate.php:137
+#: includes/class-wc-gateway-moneybirdestimate.php:138
+msgid "%d days after checkout"
+msgstr "%d dagen na bestelling"
+
+#: includes/class-wc-moneybird2.php:1576
+msgid "%d deletions in queue"
+msgstr "%d verwijderingen in de wachtrij"
+
+#: includes/class-wc-moneybird2.php:1570
+msgid "%d estimates in queue"
+msgstr "%d offertes in de wachtrij"
+
+#: includes/class-wc-gateway-moneybirdestimate.php:133
+#: includes/class-wc-gateway-moneybirdestimate.php:134
+#: includes/class-wc-gateway-moneybirdestimate.php:135
+msgid "%d hours after checkout"
+msgstr "%d uren na bestelling"
+
+#: includes/class-wc-moneybird2.php:1564
+msgid "%d invoices in queue"
+msgstr "%d facturen acties in de wachtrij"
+
+#: includes/backend_integrations.php:151 includes/backend_integrations.php:176
+#, php-format
+msgid ""
+"%s could not be loaded through API. <br/> To clear the link, remove custom "
+"field \"%s\"."
+msgstr ""
+"%s kon niet geladen worden via API. <br/> Link kan verwijderd worden door "
+"meta veld \"%s\" te verwijderen."
+
+#: includes/backend_integrations.php:160 includes/backend_integrations.php:185
+#, php-format
+#| msgid "Invoice generation is queued..."
+msgid "%s generation is queued..."
+msgstr "%s aanmaak is ingepland..."
+
+#: includes/class-wc-gateway-moneybirdestimate.php:136
+msgid "1 day after checkout"
+msgstr "1 dag na bestelling"
+
+#: includes/class-wc-gateway-moneybirdestimate.php:132
+msgid "1 hour after checkout"
+msgstr "1 uur na bestelling"
+
+#: includes/class-wc-moneybird2.php:4726
+msgid ""
+"A credit invoice can only be created if the refunded items are specified. If "
+"you only specified the total refund amount, you should manually create a "
+"credit invoice to make sure that the appropriate tax rates are applied."
+msgstr ""
+"Een creditfactuur kan alleen worden aangemaakt als de terugbetaalde items "
+"gespecificeerd zijn. Als u alleen het totaalbedrag van de terugbetaling "
+"heeft ingevuld moet u handmatig de creditfactuur aanmaken om er zeker van te "
+"zijn dat de juiste BTW tarieven toegepast worden."
+
+#: includes/class-wc-moneybird2.php:973
+msgid ""
+"A valid license key is required to use the plugin. You can keep using the "
+"plugin even if the license key has expired. However, you won't receive "
+"updates and support in that case."
+msgstr ""
+"Een geldige licentie key is nodig om de plugin te kunnen gebruiken. De "
+"plugin mag in gebruik blijven als de licentie is verlopen. U ontvangt in dat "
+"geval echter geen updates en support."
+
+#: includes/class-wc-moneybird2.php:1359 includes/backend_integrations.php:98
+msgid "accepted"
+msgstr "geaccepteerd"
+
+#: includes/class-wc-moneybird2.php:1328
+msgid "Activate but do not send to customer"
+msgstr "Activeer maar stuur niet naar de klant"
+
+#: includes/class-wc-moneybird2.php:1067 includes/class-wc-moneybird2.php:1261
+msgid "Activate the invoice but don't send (mark as manually sent)"
+msgstr "Activeer de factuur zonder versturen (markeer als handmatig verstuurd)"
+
+#: includes/class-wc-moneybird2.php:1796
+msgid "Add"
+msgstr "Toevoegen"
+
+#: includes/class-wc-moneybird2.php:1197
+#| msgid ""
+#| "Add a correction line if there is a rounding difference between the order "
+#| "an invoice."
+msgid ""
+"Add a correction line if there is a rounding difference between the order "
+"and invoice."
+msgstr ""
+"Voeg een correctieregel toe als er een afrondingsverschil ontstaat tussen "
+"bestelling en factuur."
+
+#: includes/backend_integrations.php:392
+msgid "Additional text on invoice/estimate"
+msgstr "Extra tekst op factuur/offerte"
+
+#: includes/backend_integrations.php:868
+msgid "All Moneybird statuses"
+msgstr "Alle Moneybird statussen"
+
+#: includes/class-wc-moneybird2.php:4109
+msgid "All orders should have the same invoice email address."
+msgstr "Alle bestellingen moeten hetzelfde factuur emailadres hebben."
+
+#: includes/class-wc-moneybird2.php:4121
+msgid "All orders should have the same type."
+msgstr "Alle bestellingen moeten van hetzelfde type zijn."
+
+#: includes/class-wc-moneybird2.php:1666
+msgid "All payment methods"
+msgstr "Alle betaalmethodes"
+
+#: includes/class-wc-gateway-moneybirdestimate.php:83
+msgid "All users"
+msgstr "Alle gebruikers"
+
+#: includes/class-wc-moneybird2.php:1020
+msgid "Always respect the preferred workflow setting of a contact if set."
+msgstr ""
+"Gebruik indien beschikbaar altijd de workflow die is ingesteld op het "
+"contact."
+
+#: includes/backend_integrations.php:101
+msgid "archived"
+msgstr "gearchiveerd"
+
+#: includes/class-wc-moneybird2.php:1898
+msgid "Are you sure you want to clear all settings?"
+msgstr "Weet u zeker dat u alle instellingen wilt resetten?"
+
+#: includes/backend_integrations.php:337
+msgid "As specified by the product category or store-wide default"
+msgstr "Zoals bepaald door de productcategorie of de algemene standaard"
+
+#: includes/backend_integrations.php:504
+msgid "As specified by the store-wide default"
+msgstr "De standaard volgens de plugin instellingen"
+
+#: includes/backend_integrations.php:355 includes/backend_integrations.php:369
+#: includes/backend_integrations.php:383
+msgid "As specified in store-wide plugin settings"
+msgstr "Zoals gekozen in de plugin instellingen"
+
+#: includes/class-wc-moneybird2.php:1294
+msgid "Attach PDF invoice to e-mails"
+msgstr "Voeg PDF factuur toe aan e-mails"
+
+#: includes/class-wc-moneybird2.php:1296
+msgid ""
+"Attach the Moneybird invoice as PDF to the selected WooCommerce e-mails (if "
+"available at the time of sending). Use Ctrl/Cmd to select multiple."
+msgstr ""
+"Voeg de Moneybird factuur als PDF bijlage toe aan de geselecteerde "
+"WooCommerce e-mails (indien beschikbaar op het moment van zenden). Gebruik "
+"Ctrl/Cmd om meerdere te selecteren."
+
+#: includes/class-wc-gateway-moneybirdestimate.php:118
+msgid "Automatic estimate generation"
+msgstr "Automatische offerte aanmaak"
+
+#: includes/class-wc-moneybird2.php:1234
+msgid "Automatic generation"
+msgstr "Automatisch aanmaken"
+
+#: includes/class-wc-moneybird2.php:1235
+msgid "Automatically create credit invoices for refunds."
+msgstr "Maak automatisch creditfacturen voor terugbetalingen."
+
+#: includes/class-wc-moneybird2.php:1027
+msgid "Automatically create invoice when an order gets the following status"
+msgstr ""
+"Genereer automatisch een factuur als een bestelling de volgende status krijgt"
+
+#: includes/class-wc-moneybird2.php:25
+msgid "Automatically create Moneybird invoices for WooCommerce orders."
+msgstr "Automatisch Moneybird facturen maken voor WooCommerce bestellingen."
+
+#. Description of the plugin
+msgid ""
+"Automatically create Moneybird invoices for WooCommerce orders. Configure "
+"via WooCommerce settings &rarr; Integration."
+msgstr ""
+"Maak automatisch Moneybird facturen voor WooCommerce bestellingen. "
+"Configureer via WooCommerce instellingen &rarr; Integratie."
+
+#: includes/class-wc-gateway-moneybirdestimate.php:62
+msgid "Automatically generate and send a Moneybird estimate upon checkout."
+msgstr ""
+"Automatische Moneybird offerte aanmaak en verzending na een bestelling."
+
+#: includes/class-wc-moneybird2.php:1037
+msgid ""
+"Automatically mark Moneybird invoice as paid if the WooCommerce order is "
+"paid."
+msgstr ""
+"Markeer de Moneybird factuur automatisch als betaald als de WooCommerce "
+"bestelling betaald is."
+
+#: includes/class-wc-moneybird2.php:1043
+#| msgid ""
+#| "Automatically mark WooCommerce order as paid when the Moneybird invoice "
+#| "is paid."
+msgid ""
+"Automatically mark WooCommerce order as paid when the Moneybird invoice is "
+"fully paid."
+msgstr ""
+"Markeer de WooCommerce bestelling automatisch als betaald zodra de Moneybird "
+"factuur volledig betaald is."
+
+#: includes/class-wc-moneybird2.php:1375 includes/backend_integrations.php:100
+msgid "billed"
+msgstr "gefactureerd"
+
+#: includes/class-wc-moneybird2.php:4283
+msgid "Cannot connect to the Moneybird API"
+msgstr "Verbinden met de Moneybird API is mislukt"
+
+#: includes/class-wc-moneybird2.php:1926
+msgid "cannot connect to the Moneybird API."
+msgstr "kan geen verbinding maken met de Moneybird API."
+
+#: includes/class-wc-moneybird2.php:4316
+#, php-format
+msgid "Cannot create Moneybird %s because this order already has one."
+msgstr "Kan geen Moneybird %s maken omdat deze bestelling er al een heeft."
+
+#: includes/class-wc-moneybird2.php:4351
+#| msgid ""
+#| "Cannot create Moneybird invoice: another invoice is already being created "
+#| "for order"
+msgid ""
+"Cannot create Moneybird document: another document is already being created "
+"for order"
+msgstr ""
+"Kan Moneybird document niet genereren omdat er al een document in de maak is "
+"voor bestelling"
+
+#: includes/class-wc-moneybird2.php:1961
+msgid ""
+"Click 'External applications' at the bottom of the Moneybird settings page."
+msgstr ""
+"Klik op 'Externe applicaties' onderaan op de Moneybird instellingen pagina."
+
+#: includes/class-wc-moneybird2.php:1983
+msgid "Click the button below to save the authentication details."
+msgstr "Druk op onderstaande knop om de authenticatie gegevens op te slaan."
+
+#: includes/class-wc-moneybird2.php:1962
+msgid "Click the green 'Create API token' button."
+msgstr "Klik op de groene 'API token aanmaken' knop."
+
+#: includes/class-wc-moneybird2.php:1229
+msgid "Configure the (automatic) generation of credit invoices for refunds."
+msgstr ""
+"Configureer het (automatisch) aanmaken van creditfacturen voor "
+"terugbetalingen."
+
+#: includes/class-wc-moneybird2.php:985
+msgid ""
+"Configure the (automatic) generation of Moneybird invoices for orders. Some "
+"settings apply to both invoices and estimates."
+msgstr ""
+"Configureer het (automatisch) aanmaken van Moneybird facturen voor "
+"bestellingen. Sommige instelling hebben betrekking op zowel facturen als "
+"offertes."
+
+#: includes/class-wc-moneybird2.php:1924
+#, php-format
+msgid "connected to \"%s\"."
+msgstr "verbonden met \"%s\"."
+
+#: includes/class-wc-moneybird2.php:1922
+msgid "Connection status:"
+msgstr "API verbinding status:"
+
+#: includes/class-wc-moneybird2.php:1125
+msgid "Contact reuse policy"
+msgstr "Contact hergebruik mode"
+
+#: includes/class-wc-moneybird2.php:1019
+msgid "Contact-specific workflow"
+msgstr "Contact-specifieke workflow"
+
+#: includes/class-wc-moneybird2.php:1969
+msgid "Copy the generated API token in here:"
+msgstr "Plak de gegenereerde API token hier:"
+
+#: includes/frontend.php:64
+msgid "credit invoice"
+msgstr "creditfactuur"
+
+#: includes/class-wc-moneybird2.php:1254
+msgid "Credit invoice sending"
+msgstr "Creditfactuur verzending"
+
+#: includes/class-wc-moneybird2.php:1228
+msgid "Credit invoice settings"
+msgstr "Creditfactuur instellingen"
+
+#: includes/class-wc-moneybird2.php:1241
+msgid "Credit invoice workflow"
+msgstr "Creditfactuur workflow"
+
+#: includes/class-wc-moneybird2.php:1387 includes/class-wc-moneybird2.php:1393
+msgid "Custom field mappings"
+msgstr "Extra veld koppelingen"
+
+#: includes/backend_integrations.php:412
+#, fuzzy
+#| msgid ""
+#| "The customer ID of the Moneybird contact to use on invoices or estimates "
+#| "for this user."
+msgid ""
+"Customer ID of the Moneybird contact to use on invoices and estimates for "
+"this user."
+msgstr ""
+"Klantnummer van het Moneybird contact dat gebruikt moet worden op facturen "
+"en offertes voor deze gebruiker."
+
+#: includes/class-wc-moneybird2.php:1080
+#| msgid "Date on which the invoice is generated"
+msgid "Date on which the invoice/estimate is generated"
+msgstr "Datum waarop de factuur/offerte gegenereerd wordt"
+
+#: includes/class-wc-moneybird2.php:1081
+msgid "Date on which the order is placed"
+msgstr "Datum waarop de bestelling geplaatst is"
+
+#: includes/class-wc-moneybird2.php:1089 includes/class-wc-moneybird2.php:1097
+#: includes/class-wc-moneybird2.php:1105 includes/class-wc-moneybird2.php:1113
+#: includes/class-wc-moneybird2.php:1205 includes/class-wc-moneybird2.php:2295
+msgid "Default"
+msgstr "Standaard"
+
+#: includes/class-wc-moneybird2.php:2332 includes/class-wc-moneybird2.php:2333
+msgid "Default (let Moneybird decide)"
+msgstr "Standaard (laat Moneybird kiezen)"
+
+#: includes/class-wc-moneybird2.php:1085
+msgid "Default revenue ledger account for products"
+msgstr "Standaard omzetcategorie voor producten"
+
+#: includes/class-wc-moneybird2.php:1191
+msgid ""
+"Delete invoice payments if the corresponding order is set to \"failed\"."
+msgstr ""
+"Verwijder factuur betalingen als de bijbehorende bestelling de status "
+"\"mislukt\" krijgt."
+
+#: includes/class-wc-moneybird2.php:3542
+msgid "Discount per item:"
+msgstr "Korting per stuk:"
+
+#: includes/class-wc-moneybird2.php:3546
+msgid "Discount:"
+msgstr "Korting:"
+
+#: includes/class-wc-moneybird2.php:3539
+msgid "discount:"
+msgstr "korting:"
+
+#: includes/class-wc-gateway-moneybirdestimate.php:130
+msgid "Do not generate automatically"
+msgstr "Niet automatisch genereren"
+
+#: includes/class-wc-moneybird2.php:1168
+msgid "Do not specify discounts"
+msgstr "Kortingen niet uitsplitsen"
+
+#: includes/class-wc-moneybird2.php:998 includes/class-wc-moneybird2.php:1337
+#: includes/backend_integrations.php:378
+msgid "Document style"
+msgstr "Huisstijl"
+
+#: includes/class-wc-moneybird2.php:26
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: includes/class-wc-moneybird2.php:1179
+msgid "Don't create Moneybird invoice for orders with order total 0.0."
+msgstr ""
+"Maak geen Moneybird factuur voor bestellingen met een totaalbedrag van 0.0."
+
+#: includes/class-wc-moneybird2.php:1066 includes/class-wc-moneybird2.php:1260
+msgid "Don't send, create invoice as draft"
+msgstr "Niet verzenden, maak factuur aan als concept"
+
+#: includes/class-wc-moneybird2.php:412 includes/backend_integrations.php:82
+#: includes/backend_integrations.php:122
+msgid "Draft"
+msgstr "Concept"
+
+#: includes/class-wc-moneybird2.php:390 includes/backend_integrations.php:54
+#: includes/backend_integrations.php:95
+msgid "draft"
+msgstr "concept"
+
+#: includes/class-wc-gateway-moneybirdestimate.php:73
+msgid "Enable Moneybird estimate checkout"
+msgstr "Schakel Moneybird offerte afrekenmethode in"
+
+#: includes/class-wc-moneybird2.php:1314
+msgid "Enable Moneybird estimate functionality."
+msgstr "Activeer Moneybird offerte features."
+
+#: includes/class-wc-moneybird2.php:1963
+msgid "Enter a descriptive name, for example"
+msgstr "Vul een duidelijke naam in, bijvoorbeeld"
+
+#: includes/class-wc-gateway-moneybirdestimate.php:38
+#: includes/class-wc-moneybird2.php:508 includes/class-wc-moneybird2.php:1344
+#: includes/webhook.php:333 includes/backend_integrations.php:117
+#: includes/backend_integrations.php:152 includes/backend_integrations.php:161
+msgid "Estimate"
+msgstr "Offerte"
+
+#: includes/class-wc-gateway-moneybirdestimate.php:61
+#: includes/class-wc-moneybird2.php:324 includes/class-wc-moneybird2.php:1331
+#: includes/class-wc-moneybird2.php:2022 includes/class-wc-moneybird2.php:2081
+#: includes/class-wc-moneybird2.php:2085
+msgid "estimate"
+msgstr "offerte"
+
+#: includes/class-wc-moneybird2.php:1358
+msgid "Estimate accepted"
+msgstr "Offerte geaccepteerd"
+
+#: includes/class-wc-moneybird2.php:1374
+msgid "Estimate billed"
+msgstr "Offerte gefactureerd"
+
+#: includes/class-wc-moneybird2.php:1581
+msgid "Estimate generation"
+msgstr "Offerte aanmaak"
+
+#: includes/class-wc-moneybird2.php:2026
+msgid "Estimate generation queued"
+msgstr "Offerte aanmaak ingepland"
+
+#: includes/endpoints.php:149
+msgid "Estimate is not available."
+msgstr "Offerte is niet beschikbaar."
+
+#: includes/class-wc-moneybird2.php:1366
+msgid "Estimate rejected"
+msgstr "Offerte afgewezen"
+
+#: includes/class-wc-moneybird2.php:1321
+msgid "Estimate sending"
+msgstr "Offerte verzending"
+
+#: includes/backend_integrations.php:874
+msgid "Estimate status"
+msgstr "Offerte status"
+
+#: includes/class-wc-moneybird2.php:1305
+msgid "Estimates"
+msgstr "Offertes"
+
+#: includes/class-wc-moneybird2.php:2119 includes/class-wc-moneybird2.php:2165
+msgid "estimates"
+msgstr "offertes"
+
+#: includes/class-wc-gateway-moneybirdestimate.php:121
+#, php-format
+msgid ""
+"Estimates can be generated automatically or manually. Estimate settings can "
+"be configured on the <a href=\"%s\">Moneybird plugin settings page</a>."
+msgstr ""
+"Offertes kunnen automatisch of handmatig gegenereerd worden. Offerte "
+"instellingen kunnen geconfigureerd worden op de <a href=\"%s\">Moneybird "
+"plugin instellingen pagina</a>."
+
+#: includes/class-wc-moneybird2.php:4772
+msgid "excl. tax"
+msgstr "excl. btw"
+
+#: includes/backend_integrations.php:323
+msgid "Exclude product"
+msgstr "Product uitsluiten"
+
+#: includes/backend_integrations.php:326
+msgid "Exclude this product from Moneybird invoices."
+msgstr "Plaats dit product niet op Moneybird facturen."
+
+#: includes/class-wc-moneybird2.php:1413
+msgid "Explicitly map WooCommerce tax rates to Moneybird tax rates."
+msgstr ""
+"Koppel WooCommerce belasting tarieven expliciet aan Moneybird BTW tarieven."
+
+#: includes/class-wc-moneybird2.php:972 includes/class-wc-moneybird2.php:1978
+msgid "Extension license key"
+msgstr "Extensie licentie key"
+
+#. Author of the plugin
+msgid "ExtensionTree.com"
+msgstr "ExtensionTree.com"
+
+#: includes/backend_integrations.php:393
+msgid ""
+"Extra text that will be added to invoice/estimate lines corresponding to "
+"this product."
+msgstr ""
+"Extra tekst die toegevoegd zal worden aan factuur/offerte regels die "
+"corresponderen met dit product."
+
+#: includes/class-wc-moneybird2.php:1590
+msgid "Flush queues"
+msgstr "Maak wachtrijen leeg"
+
+#: includes/class-wc-moneybird2.php:1954
+msgid ""
+"Follow these instructions step by step to grant this plugin access to your "
+"Moneybird account."
+msgstr ""
+"Volg de instructies stap voor stap om de plugin toegang te geven tot uw "
+"Moneybird account."
+
+#: includes/class-wc-moneybird2.php:1215
+msgid "Front-end invoice PDF link"
+msgstr "Front-end PDF factuur link"
+
+#: includes/class-wc-gateway-moneybirdestimate.php:126
+msgid "Generate automatically"
+msgstr "Genereer automatisch"
+
+#: includes/class-wc-moneybird2.php:2031 includes/backend_integrations.php:166
+msgid "Generate estimate"
+msgstr "Genereer offerte"
+
+#: includes/class-wc-moneybird2.php:2056 includes/backend_integrations.php:191
+msgid "Generate invoice"
+msgstr "Genereer factuur"
+
+#: includes/class-wc-moneybird2.php:315 includes/class-wc-moneybird2.php:323
+#, php-format
+msgid "Generate Moneybird %s"
+msgstr "Genereer Moneybird %s"
+
+#: includes/backend_integrations.php:257
+msgid "Generate Moneybird credit invoice"
+msgstr "Genereer Moneybird creditfactuur"
+
+#: includes/class-wc-moneybird2.php:3856 includes/class-wc-moneybird2.php:3881
+msgid "Gift card"
+msgstr "Cadeaubon"
+
+#. Author URI of the plugin
+msgid "https://extensiontree.com"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://extensiontree.com/nl/producten/woocommerce-extensies/moneybird-api-"
+"koppeling/"
+msgstr ""
+
+#: includes/class-wc-gateway-moneybirdestimate.php:113
+msgid "If disabled, the order status will be set to Pending payment."
+msgstr ""
+"Als dit uit staat zal de orderstatus op Wachtend op betaling blijven staan. "
+
+#: includes/class-wc-moneybird2.php:1028
+msgid ""
+"If you want to automatically create invoices for WooCommerce orders, select "
+"the order statuses that should trigger invoice generation. Orders that "
+"already have an invoice will not be invoiced again."
+msgstr ""
+"Selecteer de bestelstatussen die het automatisch genereren van een Moneybird "
+"factuur moeten triggeren. Bestellingen die al een factuur hebben "
+"(bijvoorbeeld vanwege een eerdere trigger) zullen niet nogmaals gefactureerd "
+"worden."
+
+#: includes/class-wc-moneybird2.php:1178
+msgid "Ignore 0.0 orders"
+msgstr "Negeer gratis bestellingen"
+
+#: includes/class-wc-moneybird2.php:1184
+msgid "Ignore free items"
+msgstr "Negeer gratis items"
+
+#: includes/class-wc-gateway-moneybirdestimate.php:131
+msgid "Immediately after checkout"
+msgstr "Meteen na bestelling"
+
+#: includes/class-wc-gateway-moneybirdestimate.php:112
+msgid "Immediately mark order as paid."
+msgstr "Markeer bestelling meteen als betaald."
+
+#: includes/backend_integrations.php:840 includes/backend_integrations.php:858
+msgid "In queue"
+msgstr "In wachtrij"
+
+#: includes/backend_integrations.php:862
+msgid "In queue or no estimate"
+msgstr "In wachtrij of zonder offerte"
+
+#: includes/backend_integrations.php:844
+msgid "In queue or no invoice"
+msgstr "In wachtrij of zonder factuur"
+
+#: includes/class-wc-moneybird2.php:4770
+msgid "incl. tax"
+msgstr "incl. btw"
+
+#: includes/class-wc-moneybird2.php:506 includes/backend_integrations.php:77
+#: includes/backend_integrations.php:177 includes/backend_integrations.php:186
+msgid "Invoice"
+msgstr "Factuur"
+
+#: includes/emails.php:56 includes/frontend.php:74
+#: includes/class-wc-moneybird2.php:316 includes/class-wc-moneybird2.php:1070
+#: includes/class-wc-moneybird2.php:1264 includes/class-wc-moneybird2.php:2063
+#: includes/class-wc-moneybird2.php:2072 includes/class-wc-moneybird2.php:2076
+#: includes/backend_integrations.php:245
+msgid "invoice"
+msgstr "factuur"
+
+#: includes/class-wc-moneybird2.php:1076
+msgid "Invoice date"
+msgstr "Factuur datum"
+
+#: includes/class-wc-moneybird2.php:1582
+msgid "Invoice deletion"
+msgstr "Factuur verwijdering"
+
+#: includes/class-wc-moneybird2.php:1580
+msgid "Invoice generation"
+msgstr "Factuur aanmaak"
+
+#: includes/class-wc-moneybird2.php:2051
+msgid "Invoice generation queued"
+msgstr "Factuur aanmaak in wachtrij"
+
+#: includes/endpoints.php:183 includes/endpoints.php:217
+msgid "Invoice is not available."
+msgstr "Factuur is niet beschikbaar."
+
+#: includes/class-wc-moneybird2.php:1060
+msgid "Invoice sending"
+msgstr "Factuur verzending"
+
+#: includes/class-wc-moneybird2.php:984
+msgid "Invoice settings"
+msgstr "Factuur instellingen"
+
+#: includes/backend_integrations.php:869
+#, fuzzy
+#| msgid "Invoicing status"
+msgid "Invoice status"
+msgstr "Factuur status"
+
+#: includes/backend_integrations.php:364
+msgid "Invoice workflow"
+msgstr "Factuur workflow"
+
+#: includes/class-wc-moneybird2.php:1012
+msgid "Invoice workflow [paid]"
+msgstr "Factuur workflow [betaald]"
+
+#: includes/class-wc-moneybird2.php:1005
+msgid "Invoice workflow [unpaid]"
+msgstr "Factuur workflow [niet betaald]"
+
+#: includes/class-wc-moneybird2.php:2068 includes/class-wc-moneybird2.php:2103
+#: includes/class-wc-moneybird2.php:2152
+msgid "invoices"
+msgstr "facturen"
+
+#: includes/class-wc-moneybird2.php:1022
+msgid ""
+"It is possible to specify the preferred workflow for contacts in Moneybird. "
+"Enable this option to always respect the contact-specific workflow setting "
+"(if set)."
+msgstr ""
+"Het is mogelijk om een voorkeursworkflow in te stellen voor contacten in "
+"Moneybird. Schakel deze optie in om altijd de contact-specifieke workflow "
+"instelling te gebruiken (indien ingevuld)."
+
+#: includes/class-wc-moneybird2.php:393 includes/backend_integrations.php:59
+#: includes/backend_integrations.php:97
+msgid "late"
+msgstr "verlopen"
+
+#: includes/backend_integrations.php:413
+msgid "Leave empty to automatically select or create the Moneybird contact."
+msgstr ""
+"Laat leeg om het Moneybird contact automatisch te laten selecteren of "
+"aanmaken."
+
+#: includes/class-wc-moneybird2.php:1327
+msgid "Leave estimate in draft state, do not send"
+msgstr "Laat offerte in concept status, niet versturen"
+
+#: includes/class-wc-moneybird2.php:943
+msgid "Let WooCommerce decide new order status when invoice is paid"
+msgstr "Laat WooCommerce de nieuwe orderstatus bepalen"
+
+#: includes/class-wc-moneybird2.php:1395
+msgid ""
+"Link fields to automatically fill custom fields in Moneybird with the "
+"contents of the corresponding order fields."
+msgstr ""
+"Koppel velden om automatisch extra velden in Moneybird te vullen met de "
+"gegevens uit de corresponderende ordervelden."
+
+#: includes/class-wc-moneybird2.php:1529
+msgid "Log Moneybird events and errors"
+msgstr "Log Moneybird gebeurtenissen en foutmeldingen"
+
+#: includes/class-wc-moneybird2.php:1532
+#, php-format
+msgid "Log Moneybird events and errors in <code>%s</code>"
+msgstr "Log Moneybird activiteit en foutmeldingen in <code>%s</code>"
+
+#: includes/class-wc-moneybird2.php:1964
+msgid ""
+"Make sure the permission checkboxes for Invoices, Estimates and Settings are "
+"checked."
+msgstr "Vink bij toestemming minstens Facturen, Offertes en Instellingen aan."
+
+#: includes/class-wc-gateway-moneybirdestimate.php:111
+#: includes/class-wc-moneybird2.php:1248
+msgid "Mark as paid"
+msgstr "Markeer als betaald"
+
+#: includes/class-wc-moneybird2.php:1249
+msgid "Mark credit invoices as paid in Moneybird."
+msgstr "Markeer creditfacturen als betaald in Moneybird."
+
+#: includes/class-wc-moneybird2.php:2075
+#, php-format
+msgid "Moneybird %s delete"
+msgstr "Moneybird %s verwijderen"
+
+#: includes/class-wc-moneybird2.php:2062 includes/class-wc-moneybird2.php:2080
+#, php-format
+msgid "Moneybird %s generate"
+msgstr "Moneybird %s genereren"
+
+#: includes/class-wc-moneybird2.php:5227
+#, php-format
+#| msgid "Moneybird invoice generated successfully."
+msgid "Moneybird %s generated successfully."
+msgstr "Moneybird %s succesvol gegenereerd."
+
+#: includes/class-wc-moneybird2.php:5217 includes/class-wc-moneybird2.php:5222
+#, php-format
+msgid "Moneybird %s generated."
+msgstr "Moneybird %s gegenereerd."
+
+#: includes/class-wc-moneybird2.php:2151 includes/class-wc-moneybird2.php:2164
+#, php-format
+#| msgid "Moneybird invoices have been unlinked from the selected orders."
+msgid "Moneybird %s have been unlinked from the selected orders."
+msgstr "Moneybird %s zijn ontkoppeld van de geselecteerde bestellingen."
+
+#: includes/class-wc-moneybird2.php:2067
+#, php-format
+msgid "Moneybird %s PDF download"
+msgstr "Moneybird %s PDF download"
+
+#: includes/class-wc-moneybird2.php:2071 includes/class-wc-moneybird2.php:2084
+#, php-format
+msgid "Moneybird %s unlink"
+msgstr "Moneybird %s ontkoppelen"
+
+#: includes/class-wc-moneybird2.php:2102 includes/class-wc-moneybird2.php:2118
+#, php-format
+#| msgid ""
+#| "Moneybird invoices will be generated for %d orders (3 invoices per minute)"
+#| "."
+msgid "Moneybird %s will be generated for %d orders (3 per minute)."
+msgstr "Moneybird %s worden gegenereerd voor %d bestellingen (3 per minuut)."
+
+#: includes/class-wc-moneybird2.php:24
+msgid "Moneybird API"
+msgstr "Moneybird API"
+
+#. Name of the plugin
+msgid "Moneybird API integration for WooCommerce"
+msgstr "Moneybird API integratie voor WooCommerce"
+
+#: includes/class-wc-moneybird2.php:2065
+msgid "Moneybird combined invoice generate"
+msgstr "Moneybird verzamelfactuur genereren"
+
+#: includes/class-wc-moneybird2.php:5214
+msgid "Moneybird credit invoice generated for refund #%d."
+msgstr "Moneybird creditfactuur aangemaakt voor terugbetaling #%d."
+
+#: includes/class-wc-moneybird2.php:1771
+msgid "Moneybird custom field"
+msgstr "Moneybird extra veld"
+
+#: includes/backend_integrations.php:408
+msgid "Moneybird customer ID"
+msgstr "Moneybird klantnummer"
+
+#: includes/backend_integrations.php:284
+msgid "Moneybird default"
+msgstr "Moneybird standaard"
+
+#: includes/class-wc-moneybird2.php:4952
+msgid "Moneybird document was not created since all lines have amount 0.0"
+msgstr ""
+"Moneybird document is niet aangemaakt omdat alle regels prijs 0.0 hebben."
+
+#: includes/class-wc-moneybird2.php:4444
+#| msgid "Moneybird invoice was not created since the order total is 0.0"
+msgid "Moneybird document was not created since the order total is 0.0."
+msgstr ""
+"Moneybird document is niet aangemaakt omdat het totaalbedrag van de "
+"bestelling 0,0 is."
+
+#: includes/class-wc-moneybird2.php:5188
+#| msgid "Moneybird invoice not sent to customer due to error."
+msgid "Moneybird document was not sent to customer due to error."
+msgstr "Moneybird document is niet verstuurd naar de klant vanwege een fout."
+
+#: includes/class-wc-moneybird2.php:3512 includes/class-wc-moneybird2.php:3816
+#, php-format
+msgid ""
+"Moneybird error: cannot find appropriate Moneybird tax rate for %s. Please "
+"make sure your WooCommerce tax rates have matching Moneybird tax rates."
+msgstr ""
+"Moneybird fout: kan geen geschikt Moneybird BTW tarief vinden voor %s. Zorg "
+"ervoor dat uw WooCommerce belasting tarieven corresponderen met een "
+"Moneybird BTW tarief."
+
+#: includes/class-wc-moneybird2.php:3749
+msgid ""
+"Moneybird error: cannot find appropriate Moneybird tax rate for the shipping "
+"costs. Please make sure your WooCommerce tax rates have matching Moneybird "
+"tax rates."
+msgstr ""
+"Moneybird fout: kan geen geschikt Moneybird BTW tarief vinden voor de "
+"verzendkosten. Zorg ervoor dat uw WooCommerce belasting tarieven "
+"corresponderen met een Moneybird BTW tarief."
+
+#: includes/class-wc-moneybird2.php:1308
+#, php-format
+msgid ""
+"Moneybird estimates can be generated manually or automatically. For "
+"automatic generation, use the <a href=\"%s\">Moneybird Estimate payment "
+"gateway</a>. Settings that apply to both invoices and estimates (revenue "
+"ledger accounts, projects, etc.) can be configured in the invoice settings "
+"section."
+msgstr ""
+"Moneybird offertes kunnen automatisch of handmatig gegenereerd worden. "
+"Gebruik de <a href=\"%s\">Moneybird Offerte betaalmethode</a> voor "
+"automatische genereren. Instellingen met betrekking op zowel facturen als "
+"offertes (omzetcategorie, project, etc.) kunnen bij de factuurinstellingen "
+"geconfigureerd worden."
+
+#: includes/webhook.php:295
+#| msgid "Moneybird invoice deleted"
+msgid "Moneybird invoice deleted."
+msgstr "Moneybird factuur verwijderd."
+
+#: includes/class-wc-moneybird2.php:2168
+msgid ""
+"Moneybird invoices will be deleted for %d orders (max. 15 invoices per "
+"minute)."
+msgstr ""
+"Moneybird facturen voor %d bestellingen zullen verwijderd worden (max. 15 "
+"facturen per minuut)."
+
+#: includes/backend_integrations.php:29 includes/backend_integrations.php:501
+msgid "Moneybird revenue ledger account"
+msgstr "Moneybird omzetcategorie"
+
+#: includes/class-wc-moneybird2.php:1453 includes/class-wc-moneybird2.php:1470
+#: includes/class-wc-moneybird2.php:1486
+msgid "Moneybird VAT rate."
+msgstr "Moneybird btw tarief."
+
+#: includes/class-wc-moneybird2.php:946
+msgid "No action"
+msgstr "Geen actie"
+
+#: includes/class-wc-moneybird2.php:1561 includes/class-wc-moneybird2.php:1567
+#: includes/class-wc-moneybird2.php:1573
+msgid "no actions in queue"
+msgstr "geen acties in de wachtrij"
+
+#: includes/class-wc-moneybird2.php:1468
+msgid "No tax"
+msgstr "Geen belasting"
+
+#: includes/class-wc-moneybird2.php:1121
+msgid "None"
+msgstr "Geen"
+
+#: includes/backend_integrations.php:249
+msgid "not available"
+msgstr "niet beschikbaar"
+
+#: includes/class-wc-moneybird2.php:1006 includes/class-wc-moneybird2.php:1013
+msgid "Note: the workflow of existing invoices will never be updated."
+msgstr "Let op: de workflow van bestaande facturen wordt nooit aangepast."
+
+#: includes/class-wc-gateway-moneybirdestimate.php:86
+msgid "Only admin users (manage WooCommerce permission)"
+msgstr "Alleen admin gebruikers (manage WooCommerce rechten)"
+
+#: includes/class-wc-gateway-moneybirdestimate.php:85
+msgid "Only guests without account"
+msgstr "Alleen gasten zonder account"
+
+#: includes/class-wc-gateway-moneybirdestimate.php:84
+msgid "Only logged in users"
+msgstr "Allen ingelogde gebruikers"
+
+#: includes/class-wc-moneybird2.php:1236
+msgid ""
+"Only refunds for an order that already has a Moneybird invoice will trigger "
+"automatic credit invoice generation."
+msgstr ""
+"Alleen terugbetalingen voor een bestelling die reeds een Moneybird "
+"verkoopfactuur heeft zal het automatisch maken van een creditfactuur "
+"triggeren."
+
+#: includes/class-wc-moneybird2.php:1129
+msgid "Only reuse existing Moneybird contact if all fields are identical"
+msgstr ""
+"Hergebruik bestaand Moneybird contact alleen als alle velden identiek zijn"
+
+#: includes/class-wc-moneybird2.php:391 includes/backend_integrations.php:55
+#: includes/backend_integrations.php:96
+msgid "open"
+msgstr "open"
+
+#: includes/class-wc-moneybird2.php:414
+msgid "open in Moneybird"
+msgstr "open in Moneybird"
+
+#: includes/class-wc-moneybird2.php:2043
+msgid "Open invoice"
+msgstr "Open factuur"
+
+#: includes/class-wc-moneybird2.php:1460 includes/class-wc-moneybird2.php:1477
+#: includes/class-wc-moneybird2.php:1493
+msgid "Optional revenue ledger account override."
+msgstr "Optionele omzetcategorie overrule."
+
+#: includes/class-wc-moneybird2.php:1389
+msgid ""
+"Optionally map checkout fields or extra order fields to Moneybird custom "
+"fields."
+msgstr "Koppel optioneel extra (afreken) velden aan extra velden in Moneybird."
+
+#: includes/class-wc-moneybird2.php:1414
+msgid ""
+"Optionally select a revenue ledger account if it should be assigned based on "
+"the VAT rate."
+msgstr ""
+"Per btw tarief kan een omzetcategorie overrule ingesteld worden om de "
+"omzetcategorie afhankelijk te maken van het btw tarief."
+
+#: includes/class-wc-moneybird2.php:1029
+msgid ""
+"Optionally, you can filter the invoicing trigger on the used payment method."
+msgstr ""
+"Optioneel kunnen de facturatie triggers gefilterd worden op de gebruikte "
+"betaalmethode."
+
+#: includes/class-wc-moneybird2.php:1156 includes/class-wc-moneybird2.php:1157
+#: includes/class-wc-moneybird2.php:1159 includes/class-wc-moneybird2.php:1160
+msgid "options"
+msgstr ""
+"\n"
+"opties"
+
+#: includes/class-wc-moneybird2.php:4526
+msgid "Order"
+msgstr "Bestelling"
+
+#: includes/class-wc-moneybird2.php:705
+msgid "Order #{{order_id}}"
+msgstr "Bestelling {{order_id}}"
+
+#: includes/class-wc-moneybird2.php:1147 includes/class-wc-moneybird2.php:1355
+msgid "Order {{order_ids}}"
+msgstr "Bestelling {{order_ids}}"
+
+#: includes/backend_integrations.php:379
+msgid "Override the default document style for this product."
+msgstr ""
+"Overrule de huisstijl instelling voor facturen die dit product bevatten."
+
+#: includes/backend_integrations.php:351
+msgid "Override the default Moneybird project for this product."
+msgstr "Vervang de standaard Moneybird project instelling voor dit product."
+
+#: includes/backend_integrations.php:333
+msgid "Override the default revenue ledger account for this product."
+msgstr "Overrule de standaard omzetcategorie voor dit product."
+
+#: includes/backend_integrations.php:365
+msgid ""
+"Override the default workflow for this product. Note that a product-specific "
+"workflow will be applied independently of the order payment status. This "
+"setting does not apply to credit invoices."
+msgstr ""
+"Overrule de standaard workflow voor dit product. Let op: de product-"
+"specifieke workflow wordt toegepast onafhankelijk van de betalingsstatus van "
+"de bestelling. Deze instelling is niet van toepassing op creditfacturen."
+
+#: includes/class-wc-moneybird2.php:419 includes/class-wc-moneybird2.php:2047
+#: includes/backend_integrations.php:88
+msgid "Packing slip"
+msgstr "Pakbon"
+
+#: includes/class-wc-moneybird2.php:392 includes/backend_integrations.php:58
+msgid "paid"
+msgstr "betaald"
+
+#: includes/webhook.php:264 includes/webhook.php:266 includes/webhook.php:273
+msgid "Paid through Moneybird invoice."
+msgstr "Betaald via Moneybird factuur."
+
+#: includes/backend_integrations.php:57
+msgid "pending payment"
+msgstr "in betaling"
+
+#: includes/class-wc-moneybird2.php:1872
+msgid "Please enter a valid access token of at most 64 characters."
+msgstr "Vul een access token in van miximaal 64 tekens lang."
+
+#: includes/class-wc-moneybird2.php:1878
+msgid "Please enter a valid license key first."
+msgstr "Vul eerst een geldige licentie key in."
+
+#: includes/class-wc-moneybird2.php:1977
+#, php-format
+msgid ""
+"Please enter your license key to receive plugin updates. You received this "
+"key by email when you purchased the license. In case you lost your license "
+"key, please contact us through <a href=\"%s\">%s</a>"
+msgstr ""
+"Vul uw licentie key in om plugin updates te ontvangen. U heeft deze key via "
+"email ontvangen na uw aankoop. Neem contact met ons op via <a "
+"href=\\\"%s\\\">%s</a> als u de licentie key kwijt bent."
+
+#: includes/class-wc-moneybird2.php:1965
+msgid "Press save."
+msgstr "Druk op opslaan."
+
+#: includes/class-wc-moneybird2.php:1196
+msgid "Prevent rounding errors"
+msgstr "Voorkom afrondingsverschillen"
+
+#: includes/class-wc-moneybird2.php:1190
+msgid "Processing of failed orders"
+msgstr "Verwerken van mislukte bestellingen"
+
+#: includes/class-wc-moneybird2.php:664
+#, php-format
+msgid "product category %s"
+msgstr "productcategorie %s"
+
+#: includes/class-wc-moneybird2.php:1150
+msgid "Product info on invoice"
+msgstr "Productgegevens op factuur"
+
+#: includes/class-wc-moneybird2.php:1155 includes/class-wc-moneybird2.php:1156
+#: includes/class-wc-moneybird2.php:1157 includes/class-wc-moneybird2.php:1158
+#: includes/class-wc-moneybird2.php:1159 includes/class-wc-moneybird2.php:1160
+msgid "Product name"
+msgstr "Productnaam"
+
+#: includes/class-wc-moneybird2.php:658
+msgid "product-specific setting"
+msgstr "product-specifieke instelling"
+
+#: includes/class-wc-moneybird2.php:1117
+msgid "Project"
+msgstr "Project"
+
+#: includes/class-wc-moneybird2.php:1557
+msgid "Queue status"
+msgstr "Wachtrij status"
+
+#: includes/class-wc-moneybird2.php:4899
+#| msgid "Reason for refund: "
+msgid "Reason for refund"
+msgstr "Reden van de terugbetaling"
+
+#: includes/class-wc-gateway-moneybirdestimate.php:100
+msgid "Receive an estimate by email."
+msgstr "Ontvang een offerte per email."
+
+#: includes/class-wc-moneybird2.php:1270
+msgid "Reference on credit invoice"
+msgstr "Referentie op creditfactuur."
+
+#: includes/class-wc-moneybird2.php:1351
+msgid "Reference on estimate"
+msgstr "Kenmerk op de offerte"
+
+#: includes/class-wc-moneybird2.php:1143
+msgid "Reference on invoice"
+msgstr "Kenmerk op factuur"
+
+#: includes/class-wc-moneybird2.php:738
+msgid "Refund order #{{order_id}}"
+msgstr "Terugbetaling bestelling #{{order_id}}"
+
+#: includes/class-wc-moneybird2.php:1274
+msgid "Refund order {{order_id}}"
+msgstr "Terugbetaling bestelling {{order_id}}"
+
+#: includes/class-wc-moneybird2.php:1036
+msgid "Register payments"
+msgstr "Betalingen registreren"
+
+#: includes/class-wc-moneybird2.php:3541
+msgid "Regular price per item:"
+msgstr "Reguliere prijs per stuk:"
+
+#: includes/class-wc-moneybird2.php:3538
+msgid "Regular price:"
+msgstr "Reguliere prijs:"
+
+#: includes/class-wc-moneybird2.php:1367 includes/backend_integrations.php:99
+msgid "rejected"
+msgstr "afgewezen"
+
+#: includes/backend_integrations.php:60
+msgid "reminded"
+msgstr "herinnerd"
+
+#: includes/class-wc-moneybird2.php:1915
+msgid "Reset and start over"
+msgstr "Reset en begin opnieuw"
+
+#: includes/class-wc-moneybird2.php:1924 includes/class-wc-moneybird2.php:1926
+msgid "Reset/disable"
+msgstr "Reset/deactiveren"
+
+#: includes/class-wc-moneybird2.php:1130
+msgid "Reuse existing Moneybird contact if email is identical"
+msgstr "Hergebruik bestaand Moneybird contact als email adres identiek is"
+
+#: includes/class-wc-moneybird2.php:1101
+msgid "Revenue category for miscellaneous fees"
+msgstr "Omzetcategorie voor extra kosten"
+
+#: includes/class-wc-moneybird2.php:1093
+msgid "Revenue category for shipping"
+msgstr "Omzetcategorie voor verzendkosten"
+
+#: includes/class-wc-moneybird2.php:1109
+#| msgid "Revenue category for gift card redemption"
+msgid "Revenue category for voucher redemption"
+msgstr "Omzetcategorie voor waardebon verzilvering"
+
+#: includes/backend_integrations.php:332
+msgid "Revenue ledger account"
+msgstr "Omzetcategorie"
+
+#: includes/backend_integrations.php:344
+#, php-format
+msgid ""
+"Revenue ledger account resulting from the current settings: <i><b>%s</b></i> "
+"(due to %s)."
+msgstr ""
+"Omzetcategorie volgens de huidige instellingen: <i><b>%s</b></i> (vanwege %s)"
+"."
+
+#: includes/backend_integrations.php:511
+msgid ""
+"Revenue ledger accounts specified at the product level will take priority "
+"over the category setting."
+msgstr ""
+"De omzetcategorie instelling op product niveau heeft voorrang op de "
+"productcategorie instelling."
+
+#: includes/class-wc-moneybird2.php:1484
+msgid "Reverse charge"
+msgstr "BTW verlegd"
+
+#: includes/class-wc-moneybird2.php:1500
+msgid "Reverse charge text"
+msgstr "BTW verlegging tekst"
+
+#: includes/class-wc-moneybird2.php:4838 includes/class-wc-moneybird2.php:5082
+msgid "Rounding error correction"
+msgstr "Afrondingsverschil correctie"
+
+#: includes/class-wc-moneybird2.php:1984
+msgid "Save details and connect to Moneybird"
+msgstr "Opslaan en koppelen met Moneybird"
+
+#: includes/backend_integrations.php:56
+msgid "scheduled"
+msgstr "ingepland"
+
+#: includes/class-wc-moneybird2.php:1118
+msgid "Select a Moneybird project to book all invoice lines on."
+msgstr ""
+"Selecteer een Moneybird project waarop alle factuurregels geboekt moeten "
+"worden."
+
+#: includes/class-wc-moneybird2.php:1255
+msgid "Select if credit invoices should be send to the customer."
+msgstr ""
+"Kies of creditfacturen door Moneybird verstuurd moeten worden naar de klant."
+
+#: includes/class-wc-moneybird2.php:1061
+msgid "Select if invoices should be send to the customer."
+msgstr "Selecteer of (en hoe) facturen naar de klant verstuurd moeten worden."
+
+#: includes/class-wc-moneybird2.php:1787
+msgid "Select Moneybird custom field"
+msgstr "Selecteer Moneybird extra veld"
+
+#: includes/class-wc-moneybird2.php:1086
+msgid ""
+"Select the default revenue ledger account that should be assigned to invoice "
+"lines corresponding to products. This default can be overruled for specific "
+"categories and/or individual products."
+msgstr ""
+"Selecteer de standaard omzetcategorie die toegewezen moet worden aan "
+"factuurregels voor producten. Deze standaard instelling kan overruled worden "
+"voor specifieke productcategorieën en/of individuele producten."
+
+#: includes/class-wc-moneybird2.php:1126
+msgid ""
+"Select the desired strategy for reusing existing Moneybird contacts. You can "
+"explicitly link a WP user to a Moneybird contact on the WP user edit page."
+msgstr ""
+"Selecteer de gewenste mode voor het hergebruiken van bestaande Moneybird "
+"contacten. Het is mogelijk om een WP gebruiker expliciet aan een Moneybird "
+"contact te koppelen op de WP gebruiker bewerk pagina."
+
+#: includes/class-wc-moneybird2.php:999 includes/class-wc-moneybird2.php:1338
+#| msgid "Select the invoice style that should be used."
+msgid "Select the document style that should be used."
+msgstr "Selecteer de huisstijl die gebruikt moet worden."
+
+#: includes/class-wc-moneybird2.php:1345
+msgid "Select the estimate workflow that should be used."
+msgstr "Kies de offerte workflow die gebruikt moet worden."
+
+#: includes/class-wc-moneybird2.php:1013
+msgid "Select the invoice workflow that should be used for paid orders."
+msgstr ""
+"Selecteer de factuur workflow die gebruikt moet worden voor betaalde "
+"bestellingen."
+
+#: includes/class-wc-moneybird2.php:1006
+msgid "Select the invoice workflow that should be used for unpaid orders."
+msgstr ""
+"Selecteer de factuur workflow die gebruikt moet worden voor onbetaalde "
+"bestellingen."
+
+#: includes/class-wc-moneybird2.php:1204
+msgid ""
+"Select the ledger account that should be used for the rounding error "
+"correction line."
+msgstr "Selecteer de (omzet)categorie van de correctieregel."
+
+#: includes/class-wc-moneybird2.php:1359 includes/class-wc-moneybird2.php:1367
+#: includes/class-wc-moneybird2.php:1375
+msgid "Select the order status that should be set when an estimate is"
+msgstr ""
+"Selecteer de orderstatus die toegewezen moet worden als een offerte wordt"
+
+#: includes/class-wc-moneybird2.php:1151
+msgid "Select the product information to include on Moneybird documents"
+msgstr ""
+"Selecteer de productgegevens die op Moneybird documenten geplaatst moeten "
+"worden."
+
+#: includes/class-wc-moneybird2.php:1102
+msgid ""
+"Select the revenue ledger account that should be assigned to invoice lines "
+"corresponding to fees."
+msgstr ""
+"Selecteer de omzetcategorie die toegewezen moet worden aan factuurregels "
+"voor extra kosten."
+
+#: includes/class-wc-moneybird2.php:1094
+msgid ""
+"Select the revenue ledger account that should be assigned to invoice lines "
+"corresponding to shipping costs."
+msgstr ""
+"Selecteer de omzetcategorie die toegewezen moet worden aan factuurregels "
+"voor verzendkosten."
+
+#: includes/class-wc-moneybird2.php:1110
+#| msgid ""
+#| "Select the revenue ledger account that should be assigned to invoice "
+#| "lines corresponding to gift card redemption."
+msgid ""
+"Select the revenue ledger account that should be assigned to invoice lines "
+"corresponding to voucher or gift card redemption."
+msgstr ""
+"Selecteer de omzetcategorie die toegewezen moet worden aan factuurregels "
+"voor waardebon of cadeaubon verzilvering."
+
+#: includes/class-wc-gateway-moneybirdestimate.php:80
+msgid ""
+"Select the types of users for which this gateway is available. If the Login "
+"as User plugin by Yiannis Christodoulou is used, the gateway will be "
+"available if either the current or the old user qualifies."
+msgstr ""
+"Selecteer het soort gebruikers waarvoor deze methode beschikbaar is. Als de "
+"Login as User plugin van Yiannis Christodoulou gebruikt wordt, is de methode "
+"beschikbaar als de huidige of de oude gebruikers aan de eisen voldoet."
+
+#: includes/class-wc-moneybird2.php:1242
+msgid "Select the workflow that should be used for credit invoices."
+msgstr "Selecteer de workflow voor creditfacturen."
+
+#: includes/class-wc-gateway-moneybirdestimate.php:127
+msgid "Select when the estimate should be generated automatically."
+msgstr "Kies wanneer de offerte automatisch gemaakt moet worden."
+
+#: includes/class-wc-moneybird2.php:1325
+msgid "Select which action should be taken after the estimate is generated."
+msgstr ""
+"Kies welke actie uitgevoerd moet worden nadat de offerte is gegenereerd."
+
+#: includes/class-wc-moneybird2.php:1077
+#| msgid "Select which date should should be used as invoice date."
+msgid "Select which date should should be used as invoice/estimate date."
+msgstr "Kies welke datum gebruikt moet worden als factuur/offerte datum."
+
+#: includes/class-wc-moneybird2.php:1777
+msgid "Select WooCommerce field"
+msgstr "Selecteer WooCommerce veld"
+
+#: includes/class-wc-moneybird2.php:1069 includes/class-wc-moneybird2.php:1263
+#: includes/class-wc-moneybird2.php:1330
+#, php-format
+#| msgid "Send the invoice according to the workflow and contact settings"
+msgid "Send the %s according to the workflow and contact settings"
+msgstr "Verstuur de %s volgens de workflow/contact instellingen"
+
+#: includes/class-wc-moneybird2.php:1071 includes/class-wc-moneybird2.php:1265
+msgid "Send the invoice by email"
+msgstr "Verstuur de factuur per email"
+
+#: includes/class-wc-moneybird2.php:1072 includes/class-wc-moneybird2.php:1266
+msgid "Send the invoice by Peppol"
+msgstr "Verstuur de factuur met Peppol"
+
+#: includes/class-wc-moneybird2.php:1332
+msgid "Send to customer by email"
+msgstr "Verstuur naar klant per email"
+
+#: includes/class-wc-moneybird2.php:1953 includes/class-wc-moneybird2.php:1987
+msgid "Set up Moneybird API authorization"
+msgstr "Stel Moneybird account koppeling in"
+
+#: includes/class-wc-moneybird2.php:3729
+msgid "Shipping costs"
+msgstr "Verzendkosten"
+
+#: includes/class-wc-moneybird2.php:1169
+msgid "Show discount per item and regular price per item"
+msgstr "Toon korting per stuk en normale prijs per stuk"
+
+#: includes/class-wc-moneybird2.php:1172
+msgid ""
+"Show discount per item and regular price per item + total order discount on "
+"separate line"
+msgstr ""
+"Toon korting per stuk en normale prijs per stuk + totale bestelling korting "
+"op aparte regel"
+
+#: includes/class-wc-moneybird2.php:1216
+msgid "Show invoice PDF link in front-end for orders that have an invoice"
+msgstr ""
+"Toon een \"download factuur\" knop in het front-end voor bestellingen met "
+"een factuur"
+
+#: includes/class-wc-moneybird2.php:1170
+msgid "Show total discount per line"
+msgstr "Toon totale korting per regel"
+
+#: includes/class-wc-moneybird2.php:1173
+msgid "Show total discount per line + total order discount on separate line"
+msgstr ""
+"Toon totale korting per regel + totale bestelling korting op aparte regel"
+
+#: includes/class-wc-moneybird2.php:1171
+msgid "Show total order discount on separate line"
+msgstr "Toon totale bestelling korting op aparte regel"
+
+#: includes/class-wc-moneybird2.php:1185
+msgid "Skip free items on the Moneybird invoice."
+msgstr "Sla gratis items over op de Moneybird factuur."
+
+#: includes/class-wc-moneybird2.php:1165
+msgid "Specify applied discounts per item on the invoice."
+msgstr "Specificeer toegepaste kortingen per product op de factuur."
+
+#: includes/class-wc-moneybird2.php:1164
+msgid "Specify discounts"
+msgstr "Specificeer kortingen"
+
+#: includes/class-wc-moneybird2.php:1271
+msgid ""
+"Specify the content of the reference field on the credit invoice. You may "
+"use the {{order_id}} placeholder to insert the order number."
+msgstr ""
+"Specificeer de inhoud van het referentie veld op de creditfactuur. Gebruik "
+"{{order_id}} om het bestelnummer in te voegen."
+
+#: includes/class-wc-moneybird2.php:1352
+msgid ""
+"Specify the content of the reference field on the estimate. Available "
+"placeholders:"
+msgstr ""
+"Specificeer de inhoud van het kenmerk veld op de offerte. Beschikbare "
+"placeholders:"
+
+#: includes/class-wc-moneybird2.php:1144
+msgid ""
+"Specify the content of the reference field on the invoice. Available "
+"placeholders:"
+msgstr ""
+"Specificeer de inhoud van het referentie veld op de factuur. Beschikbare "
+"placeholders:"
+
+#: includes/class-wc-moneybird2.php:1956
+msgid "Step 1: Create API token"
+msgstr "Stap 1: Maak API token aan"
+
+#: includes/class-wc-moneybird2.php:1974
+msgid "Step 2: Enter license key"
+msgstr "Stap 2: Vul licentie key in"
+
+#: includes/class-wc-moneybird2.php:1981
+msgid "Step 3: Link the plugin to your Moneybird account"
+msgstr "Stap 3: Link de plugin aan het Moneybird account"
+
+#: includes/class-wc-moneybird2.php:669
+msgid "store-wide default"
+msgstr "plugin instellingen"
+
+#: includes/class-wc-moneybird2.php:1411
+msgid "Tax mapping"
+msgstr "BTW tarief koppelingen"
+
+#: includes/class-wc-moneybird2.php:242 includes/class-wc-moneybird2.php:1911
+#, php-format
+msgid "The configured license key (%s) is invalid."
+msgstr "De ingevulde licentie key (%s) is ongeldig."
+
+#: includes/class-wc-moneybird2.php:1217
+msgid "The link is added to the order details page in the My Account section."
+msgstr ""
+"De knop linkt naar het PDF versie van de factuur en wordt geplaatst op de "
+"bestelling details pagina in de Mijn Account omgeving."
+
+#: includes/backend_integrations.php:512
+#, php-format
+msgid ""
+"The store-wide default revenue ledger account can be configured on the <a "
+"href=\"%s\">plugin settings page</a>."
+msgstr ""
+"De standaard omzetcategorie voor producten kan gekozen worden op de <a "
+"href=\"%s\">plugin configuratie pagina</a>."
+
+#: includes/class-wc-moneybird2.php:1006 includes/class-wc-moneybird2.php:1013
+msgid "This setting can be overridden for individual products."
+msgstr "Deze instelling kan overschreven worden voor individuele producten. "
+
+#: includes/class-wc-moneybird2.php:1501
+msgid ""
+"This text will be placed on the invoice if VAT reverse charge is applicable."
+msgstr ""
+"Deze tekst zal op de factuur geplaatst worden als BTW verlegging is "
+"toegepast."
+
+#: includes/class-wc-moneybird2.php:4767
+msgid "Total discount:"
+msgstr "Totale korting:"
+
+#: includes/backend_integrations.php:61
+msgid "uncollectible"
+msgstr "oninbaar"
+
+#: includes/backend_integrations.php:252
+msgid "unlink invoice"
+msgstr "ontkoppel factuur"
+
+#: includes/class-wc-moneybird2.php:1131
+msgid "Update and reuse existing Moneybird contact if email is identical"
+msgstr ""
+"Update en hergebruik bestaand Moneybird contact als email adres identiek is"
+
+#: includes/class-wc-moneybird2.php:951
+#, php-format
+msgid "Update order status to \"%s\""
+msgstr "Wijzig orderstatus naar \"%s\""
+
+#: includes/class-wc-moneybird2.php:960
+#, php-format
+msgid "Update order status to \"%s\" when invoice is paid"
+msgstr "Wijzig orderstatus naar \"%s\" als factuur is betaald"
+
+#: includes/class-wc-moneybird2.php:1959
+msgid ""
+"Visit the settings page of your Moneybird administration and create an API "
+"token:"
+msgstr ""
+"Ga naar de instellingen pagina van de Moneybird administratie en maak een "
+"API token aan:"
+
+#: includes/class-wc-gateway-moneybirdestimate.php:107
+msgid "We will send an estimate by email."
+msgstr "We zullen een offerte per email sturen."
+
+#: includes/backend_integrations.php:850
+msgid "With Moneybird estimate"
+msgstr "Met Moneybird offerte"
+
+#: includes/backend_integrations.php:832
+msgid "With Moneybird invoice"
+msgstr "Met Moneybird factuur"
+
+#: includes/backend_integrations.php:854
+msgid "Without Moneybird estimate"
+msgstr "Zonder Moneybird offerte"
+
+#: includes/backend_integrations.php:836
+msgid "Without Moneybird invoice"
+msgstr "Zonder Moneybird factuur"
+
+#: includes/class-wc-moneybird2.php:1289
+msgid "WooCommerce e-mail attachments"
+msgstr "WooCommerce e-mail bijlages"
+
+#: includes/class-wc-moneybird2.php:1768
+msgid "WooCommerce field"
+msgstr "WooCommerce veld"
+
+#: includes/class-wc-moneybird2.php:1136
+msgid "WP user id if invoice address is empty"
+msgstr "WP user id als factuuradres leeg is"
+
+#: includes/class-wc-moneybird2.php:1137
+msgid ""
+"WP user id to take invoice address from in case the order has no WP user and "
+"no invoice address."
+msgstr ""
+"ID van een WP user om contactgegevens van te gebruiken als een bestelling "
+"geen WP user en geen factuuradres bevat."
+
+#: includes/backend_integrations.php:510
+msgid "You may link a product category to a specific revenue ledger account."
+msgstr ""
+"Een productcategorie kan toegewezen worden aan een specifieke omzetcategorie."

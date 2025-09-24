@@ -1,0 +1,75 @@
+/**
+ * Frontend Modals CSS
+ *
+ * @author  YITH <plugins@yithemes.com>
+ * @package YITH\Deposits\Styles
+ * @version 2.0.0
+ */
+
+@import './mixins';
+
+.yith-wcdp-modal {
+	background: #fff;
+	border-radius: 10px;
+	display: none;
+	left: 50%;
+	max-height: 90vh;
+	max-width: 600px;
+	padding: 40px 20px;
+	position: fixed;
+	top: 5vh;
+	transform: translate( -50%, 0 );
+	width: 90vw;
+	z-index: 10010;
+
+	.main-close-button {
+		display: block;
+		font-size: 1.5em;
+		padding: 5px;
+		line-height: 1;
+		position: absolute;
+		right: 10px;
+		text-decoration: none;
+		top: 5px;
+	}
+
+	.title {
+		padding: 0 20px;
+
+		h3 {
+			margin-top: 0;
+		}
+	}
+
+	.centered {
+		text-align: center;
+	}
+
+	.content {
+		max-height: calc(80vh - 80px);
+		overflow-y: auto;
+		padding: 0 20px;
+
+		& > div {
+			display: block!important;
+		}
+
+		@include pretty-scrollbar;
+	}
+
+	.errors {
+		margin-bottom: 15px;
+		margin-top: 0;
+	}
+}
+
+.yith-wcdp-open-modal:before {
+	bottom: 0;
+	background: rgba(0,0,0,0.5);
+	content: '';
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 10005;
+}

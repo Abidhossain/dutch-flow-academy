@@ -1,0 +1,258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Invoice Pro\n"
+"POT-Creation-Date: 2021-01-12 12:58+0600\n"
+"PO-Revision-Date: 2021-11-10 18:18+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woo-invoice-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-woo-invoice-pro-template.php:715
+msgid "Billing"
+msgstr "بلنگ"
+
+#: includes/class-woo-invoice-pro-template.php:716
+#: includes/class-woo-invoice-pro-template.php:1253
+msgid "Shipping"
+msgstr "شپنگ"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1600
+#: admin/partials/woo-invoice-pro-admin-display.php:1903
+#: includes/class-woo-invoice-pro-template.php:759
+msgid "Order Number"
+msgstr "آرڈر نمبر"
+
+#: includes/class-woo-invoice-pro-template.php:764
+msgid "Order Date"
+msgstr "آرڈر کی تاریخ"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1872
+#: includes/class-woo-invoice-pro-template.php:742
+msgid "Invoice Number"
+msgstr "انوائس نمبر"
+
+#: includes/class-woo-invoice-pro-template.php:1298
+msgid "Net Payment"
+msgstr "ادائیگی"
+
+#: includes/class-woo-invoice-pro-template.php:775
+msgid "Shipping Method"
+msgstr "شپنگ کا طریقہ"
+
+#: includes/class-woo-invoice-pro-template.php:769
+msgid "Payment Method"
+msgstr "ادائیگی کا طریقہ"
+
+#: includes/class-woo-invoice-pro-template.php:782
+msgid "Delivery Date"
+msgstr "ڈلیوری کی تاریخ"
+
+#: includes/class-woo-invoice-pro-template.php:788
+msgid "Time Slot"
+msgstr "ٹائم سلاٹ"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:178
+#: admin/partials/woo-invoice-pro-admin-display.php:4166
+#: includes/class-woo-invoice-pro-hooks.php:708
+msgid "Invoice"
+msgstr "انوائس"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:186
+#: admin/partials/woo-invoice-pro-admin-display.php:4167
+#: includes/class-woo-invoice-pro-hooks.php:523
+#: includes/class-woo-invoice-pro-hooks.php:713
+#: includes/class-woo-invoice-pro-hooks.php:794
+msgid "Packing Slip"
+msgstr "پیکنگ پرچی"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:226
+#: includes/class-woo-invoice-pro-hooks.php:719
+#: includes/class-woo-invoice-pro-hooks.php:804
+msgid "Delivery Address"
+msgstr "شپنگ لیبل"
+
+#: includes/class-woo-invoice-pro-hooks.php:580
+#: includes/class-woo-invoice-pro-hooks.php:663
+#: includes/class-woo-invoice-pro-template.php:225
+msgid "Credit Note"
+msgstr "کریڈٹ نوٹ"
+
+#: includes/class-woo-invoice-pro-template.php:1082
+msgid "Cost"
+msgstr "لاگت"
+
+#: includes/class-woo-invoice-pro-template.php:1106
+msgid "Quantity"
+msgstr "مقدار"
+
+#: includes/class-woo-invoice-pro-template.php:1329
+msgid "Total Quantity"
+msgstr "کل مقدار"
+
+#: includes/class-woo-invoice-pro-template.php:1083
+msgid "Qty"
+msgstr "یونٹ"
+
+#: includes/class-woo-invoice-pro-orders.php:454
+#: includes/class-woo-invoice-pro-template.php:1101
+msgid "Dimensions"
+msgstr "حدود ابعاد"
+
+#: includes/class-woo-invoice-pro-orders.php:457
+#: includes/class-woo-invoice-pro-template.php:1105
+msgid "Weight"
+msgstr "وزن"
+
+#: includes/class-woo-invoice-pro-template.php:1084
+msgid "Total"
+msgstr "کل"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2509
+#: includes/class-woo-invoice-pro-template.php:1247
+msgid "Fees"
+msgstr "فیسیں"
+
+#: includes/class-woo-invoice-pro-template.php:1088
+#: includes/class-woo-invoice-pro-template.php:1093
+msgid "Tax"
+msgstr "محصول"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2599
+msgid "Discount"
+msgstr "چھوٹ"
+
+#: includes/class-woo-invoice-pro-template.php:1263
+msgid "Order Total With Tax"
+msgstr "ٹیکس کے ساتھ کل آرڈر"
+
+#: includes/class-woo-invoice-pro-template.php:1263
+msgid "Order Total Without Tax"
+msgstr "ٹیکس کے بغیر کل آرڈر"
+
+#: includes/class-woo-invoice-pro-template.php:1293
+msgid "Order Total"
+msgstr "آرڈر میزان"
+
+#: includes/class-woo-invoice-pro-template.php:1214
+#: includes/class-woo-invoice-pro-template.php:1297
+msgid "Refund"
+msgstr "ریفنڈ"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:522
+#: admin/partials/woo-invoice-pro-admin-display.php:3527
+#: includes/class-woo-invoice-pro-template.php:1409
+msgid "Customer Note"
+msgstr "گاہک"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1477
+msgid "Signature"
+msgstr "دستخط"
+
+#: includes/class-woo-invoice-pro-template.php:1503
+msgid "Authorized Signature"
+msgstr "مجاز دستخط"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2645
+msgid "Bank Accounts"
+msgstr "بینک اکاؤنٹس"
+
+#: includes/class-woo-invoice-pro-template.php:1464
+msgid "Account Name"
+msgstr "ایکاونٹ کا نام"
+
+#: includes/class-woo-invoice-pro-template.php:1078
+msgid "Item"
+msgstr "آئٹم"
+
+#: includes/class-woo-invoice-pro-template.php:1233
+msgid "Coupon(s)"
+msgstr "کوپن (ے)"
+
+#: includes/class-woo-invoice-pro-template.php:1463
+msgid "Bank Name"
+msgstr "بینک کا نام"
+
+#: includes/class-woo-invoice-pro-template.php:1465
+msgid "Account No"
+msgstr "اکاؤنٹ کا نمبر-"
+
+#: includes/class-woo-invoice-pro-template.php:1466
+msgid "Sort Code"
+msgstr "کوڈ ترتیب دیں"
+
+#: includes/class-woo-invoice-pro-template.php:1467
+msgid "IBAN"
+msgstr "IBAN"
+
+#: includes/class-woo-invoice-pro-template.php:1468
+msgid "BIC/Swift"
+msgstr "ب/سوئفٹ"
+
+#: includes/class-woo-invoice-pro-template.php:1336
+msgid "Total Weight"
+msgstr "کل وزن"
+
+#: includes/class-woo-invoice-pro-template.php:1352
+msgid "Refund Address"
+msgstr "رقم کی واپسی کا پتہ"
+
+#: includes/class-woo-invoice-pro-helper.php:187
+msgid "Phone"
+msgstr "فون"
+
+#: includes/class-woo-invoice-pro-helper.php:190
+msgid "Email"
+msgstr "ای میل"
+
+#: includes/class-woo-invoice-pro-helper.php:420
+msgid "VAT Number"
+msgstr "واٹ نمبر"
+
+#: includes/class-woo-invoice-pro-orders.php:475
+msgid "Category"
+msgstr "قسم"
+
+#: includes/class-woo-invoice-pro-orders.php:397
+msgid "Description"
+msgstr "تفصیل"
+
+#: includes/class-woo-invoice-pro-orders.php:616
+msgid "Duration"
+msgstr "دورانیہ"
+
+#: includes/class-woo-invoice-pro-orders.php:619
+msgid "From"
+msgstr "مِن جانِب"
+
+#: includes/class-woo-invoice-pro-orders.php:622
+msgid "To"
+msgstr "کرنا"
+
+#: includes/class-woo-invoice-pro-template.php:1217
+msgid "Items Subtotal"
+msgstr "آئٹمز کل"
+
+#: includes/class-woo-invoice-pro-orders.php:316
+msgid "ID"
+msgstr "ID"
+
+#: includes/class-woo-invoice-pro-orders.php:319
+msgid "SKU"
+msgstr "ایس کیو"
+
+msgid "Download Invoice"
+msgstr "انوائس"

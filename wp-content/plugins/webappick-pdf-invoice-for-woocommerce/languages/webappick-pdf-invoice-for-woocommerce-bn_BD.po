@@ -1,0 +1,1606 @@
+# Translation of Plugins - Challan &#8211; PDF Invoice &amp; Packing Slip for WooCommerce - Development (trunk) in Bengali (Bangladesh)
+# This file is distributed under the same license as the Plugins - Challan &#8211; PDF Invoice &amp; Packing Slip for WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-09-15 13:04+0600\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.4.3\n"
+"Language: bn_BD\n"
+"Project-Id-Version: Plugins - Challan &#8211; PDF Invoice &amp; Packing Slip for WooCommerce - Development (trunk)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: includes/notices/admin-notice-for-review.php:81
+msgid "Never Ask Again"
+msgstr "আর কখনও দেখাবেন না"
+
+#: includes/notices/admin-notice-for-review.php:80
+msgid "Already Done!"
+msgstr "ইতিমধ্যে সম্পন্ন!"
+
+#: includes/notices/admin-notice-for-review.php:79
+msgid "Remind Me Later"
+msgstr "আমাকে পরে মনে করিয়ে দিন"
+
+#: includes/notices/admin-notice-for-review.php:78
+msgid "Review Now"
+msgstr "এখন পর্যালোচনা করুন"
+
+#. translators: 1: plugin name,2: Slightly Smiling Face (Emoji), 3: line break
+#. 'br' tag
+#: includes/notices/admin-notice-for-review.php:70
+msgid "%3$s %2$s We have spent countless hours developing this free plugin for you, and we would really appreciate it if you drop us a quick rating. Your opinion matters a lot to us.%4$s It helps us to get better. Thanks for using %1$s."
+msgstr "%3$s %2$s আমরা আপনার জন্য এই বিনামূল্যে প্লাগইনটি বিকাশের জন্য অগণিত ঘন্টা ব্যয় করেছি এবং আপনি যদি আমাদের দ্রুত রেটিং ফেলে দেন তবে আমরা সত্যিই এটির প্রশংসা করব। আপনার মতামত আমাদের কাছে অনেক গুরুত্বপূর্ণ। %4$s এটি আমাদের আরও ভাল হতে সহায়তা করে। %1$s ব্যবহার করার জন্য ধন্যবাদ।"
+
+#: includes/settings.php:24
+msgid "<h1>Challan</h1>  <b>Your uploads folder is not writable. Please make <code style=\"color: #ff0000;\">wp-content/uploads</code> folder writable to generate and save invoices.</b>"
+msgstr "<h1>চালান</h1>  <b>আপনার আপলোড ফোল্ডারটি লিখনযোগ্য নয়। <code style=\"color: #ff0000;\">wp-content/uploads</code> অনুগ্রহ করে ইনভয়েস তৈরি ও সংরক্ষণ করতে ফোল্ডারকে লিখনযোগ্য করে তুলুন।</b>"
+
+#: includes/notices/admin-notice-wp-content-dir-is-not-writeable-error.php:28
+msgid "An error has occurred, the directory of <strong style=\"color: red;\">wp-content/uploads/</strong> is not writeable. The WordPress system wont't work well without write permission. More details about "
+msgstr "একটি ত্রুটি সংঘটিত হয়েছে, <strong style=\"color: red;\">wp-content/uploads/-</strong> এর ডিরেক্টরিটি লিখনযোগ্য নয়। লেখার অনুমতি ছাড়া ওয়ার্ডপ্রেস সিস্টেমভালভাবে কাজ করবে না। সম্পর্কে আরও বিস্তারিত "
+
+#: includes/notices/admin-notice-invoice-dir-is-not-writeable-error.php:26
+msgid "An error has occurred the directory of <strong style=\"color: red;\">"
+msgstr "এর ডিরেক্টরিতে একটি ত্রুটি সংঘটিত হয়েছে <strong style=\"color: red;\">"
+
+#: includes/notices/admin-notice-downloading-font-background-process-in-progress-info.php:31
+msgid "From Challan plugin, background process for downloading the fonts in progress for PDF invoice, Packing Slip, and delivery address."
+msgstr "চালান প্লাগইন থেকে, পিডিএফ চালান, প্যাকিং স্লিপ এবং ডেলিভারি অ্যাড্রেসের জন্য চলমান ফন্টগুলি ডাউনলোড করার জন্য ব্যাকগ্রাউন্ড প্রক্রিয়া।"
+
+#: includes/class-woo-invoice-hooks.php:272
+msgid "Challan Invoice"
+msgstr "চালান চালান চালান"
+
+#. translators: 1: plugin name,2: Slightly Smiling Face (Emoji), 3: line break
+#. 'br' tag
+#: includes/class-notifications.php:362
+#: includes/notices/admin-notice-for-review.php:360
+msgid "%1$s %2$s %3$s %4$s %5$s %6$s"
+msgstr "%1$s %2$s %3$s %4$s %5$s %6$s"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:170
+#: admin/partials/woo-invoice-pro-vs-free.php:281
+msgid "Generate credit note template"
+msgstr "ক্রেডিট নোট টেমপ্লেট জেনারেট করুন"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:166
+#: admin/partials/woo-invoice-pro-vs-free.php:277
+msgid "Display fee details"
+msgstr "প্রদর্শন ফি বিবরণ"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:44
+msgid "Polylang Compatibility"
+msgstr "Polylang সামঞ্জস্যতা"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:24
+#: admin/partials/woo-invoice-pro-vs-free.php:285
+msgid "ZATCA QR code"
+msgstr "ZATCA QR কোড"
+
+#: admin/partials/tabs/settings-tab.php:959
+msgid "TEST QR CODE"
+msgstr "QR কোড পরীক্ষা করুন"
+
+#: admin/partials/tabs/settings-tab.php:854
+msgid "Order Total Settings"
+msgstr "মোট সেটিংস অর্ডার করুন"
+
+#: admin/partials/tabs/settings-tab.php:648
+msgid "Product Settings"
+msgstr "পণ্য সেটিংস"
+
+#: admin/partials/tabs/settings-tab.php:425
+msgid "Order Settings"
+msgstr "অর্ডার সেটিংস"
+
+#: admin/partials/tabs/settings-tab.php:262
+msgid "Document Output Type HTML"
+msgstr "নথি আউটপুট প্রকার HTML"
+
+#: admin/partials/tabs/bulk-download-tab.php:228
+msgid "Order Payment Method"
+msgstr "অর্ডার পেমেন্ট পদ্ধতি"
+
+#: admin/partials/tabs/bulk-download-tab.php:219
+msgid "Order User ID"
+msgstr "অর্ডার ইউজার আইডি"
+
+#: admin/partials/tabs/bulk-download-tab.php:210
+msgid "Order Email"
+msgstr "ই মেইল"
+
+#: admin/partials/tabs/bulk-download-tab.php:62
+msgid "Add Fields"
+msgstr "ক্ষেত্রগুলি জুড়ুন"
+
+#: admin/partials/tabs/bulk-download-tab.php:47
+#: admin/partials/tabs/bulk-download-tab.php:232
+msgid "All"
+msgstr "সব"
+
+#: admin/partials/tabs/bulk-download-tab.php:43
+msgid "Order Status"
+msgstr "অবস্থা "
+
+#: admin/partials/tabs/bulk-download-tab.php:17
+msgid "CSV File"
+msgstr "CSV ফাইল"
+
+#. translators: 1: plugin name,2: Slightly Smiling Face (Emoji), 3: line break
+#. 'br' tag
+#: includes/class-woo-invoice-fonts.php:204
+msgid "To generate invoice you need to download fonts. Please click here to download.  <button class=\"button button-primary\" id=\"download_button\" >Download</button>"
+msgstr "চালান তৈরি করতে আপনাকে ফন্টগুলি ডাউনলোড করতে হবে। ডাউনলোড করতে এখানে ক্লিক করুন।  <button class=\"button button-primary\" id=\"download_button\" >ডাউনলোড</button>"
+
+#: includes/class-woo-invoice-fonts.php:156
+msgid "Fonts downloaded."
+msgstr "ফন্টগুলি ডাউনলোড হয়েছে।"
+
+#: admin/partials/tabs/settings-tab.php:903
+msgid "Write Invoice Template CSS"
+msgstr "ইনভয়েস টেমপ্লেট সিএসএস লিখুন"
+
+#: admin/partials/tabs/settings-tab.php:900
+msgid "Invoice Template CSS"
+msgstr "চালান টেমপ্লেট সিএসএস"
+
+#: admin/partials/tabs/settings-tab.php:793
+#: admin/partials/tabs/settings-tab.php:823
+msgid "Select Order Item Meta"
+msgstr "অর্ডার আইটেম মেটা নির্বাচন করুন"
+
+#: admin/partials/tabs/settings-tab.php:764
+#: admin/partials/tabs/settings-tab.php:768
+msgid "Add Order Item Meta"
+msgstr "অর্ডার আইটেম মেটা যোগ করুন"
+
+#: admin/partials/tabs/settings-tab.php:703
+#: admin/partials/tabs/settings-tab.php:733
+msgid "Select Post Meta"
+msgstr "পোস্ট মেটা নির্বাচন করুন"
+
+#: admin/partials/tabs/settings-tab.php:674
+#: admin/partials/tabs/settings-tab.php:678
+msgid "Add Product Meta"
+msgstr "প্রোডাক্ট মেটা যোগ করুন"
+
+#: admin/partials/tabs/settings-tab.php:572
+#: admin/partials/tabs/settings-tab.php:621
+msgid "Whare to show ?"
+msgstr "দেখানোর জন্য হিয়ার?"
+
+#: admin/partials/tabs/settings-tab.php:557
+#: admin/partials/tabs/settings-tab.php:606
+msgid "Select Order Meta"
+msgstr "অর্ডার মেটা নির্বাচন করুন"
+
+#: admin/partials/tabs/settings-tab.php:524
+#: admin/partials/tabs/settings-tab.php:529
+msgid "Add Order Meta"
+msgstr "অর্ডার মেটা যোগ করুন"
+
+#. translators: 1: plugin name,2: Slightly Smiling Face (Emoji), 3: line break
+#. 'br' tag
+#: includes/class-notifications.php:141 includes/class-notifications.php:192
+#: includes/class-notifications.php:246
+#: includes/notices/admin-notice-for-review.php:139
+#: includes/notices/admin-notice-for-review.php:190
+#: includes/notices/admin-notice-for-review.php:244
+msgid ""
+"<a class=\"woo_invoice_price_update\" href=\"https://webappick.com/plugin/woocommerce-pdf-invoice-packing-slips/?utm_source=customer_site&utm_medium=free_vs_pro&utm_campaign=woo_invoice_free\" target=\"_blank\">\n"
+"<img  src=\""
+msgstr ""
+"<a class=\"woo_invoice_price_update\" href=\"https://webappick.com/plugin/woocommerce-pdf-invoice-packing-slips/?utm_source=customer_site&utm_medium=free_vs_pro&utm_campaign=woo_invoice_free\" target=\"_blank\">\n"
+"<img  src=\"</a>"
+
+#: admin/partials/tabs/settings-tab.php:91
+#: admin/partials/tabs/settings-tab.php:210
+msgid "On Hold Order"
+msgstr "অন হোল্ড অর্ডার"
+
+#: admin/partials/tabs/settings-tab.php:1007
+msgid "Free VS Pro"
+msgstr "ফ্রি VS Pro"
+
+#: admin/partials/tabs/settings-tab.php:991
+msgid "PREVIEW LAST ORDER"
+msgstr "প্রাকদর্শন  "
+
+#: admin/partials/woo-invoice-pro-vs-free.php:289
+msgid "Header and Address section ordering"
+msgstr "শিরোনাম এবং ঠিকানা বিভাগ অর্ডার করা"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:162
+#: admin/partials/woo-invoice-pro-vs-free.php:273
+msgid "Display refund details"
+msgstr "অর্থ ফেরতের বিশদ প্রদর্শন করুন"
+
+#: includes/class-woo-invoice-hooks.php:297
+#: includes/class-woo-invoice-hooks.php:380
+msgid "Delivery Address"
+msgstr "বিতরণ ের ঠিকানা"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:150
+#: admin/partials/woo-invoice-pro-vs-free.php:249
+msgid "Download Bulk Delivery Address Print"
+msgstr "ডাউনলোড বাল্ক ডেলিভারি ঠিকানা মুদ্রণ"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:146
+#: admin/partials/woo-invoice-pro-vs-free.php:245
+msgid "Order Delivery Address Print"
+msgstr "অর্ডার ডেলিভারি ঠিকানা মুদ্রণ"
+
+#: admin/partials/tabs/system-status-tab.php:204
+msgid "Recommend: "
+msgstr "প্রস্তাব: "
+
+#: admin/partials/tabs/system-status-tab.php:201
+msgid "Current PHP Max Input Vars: "
+msgstr "বর্তমান পিএইচপি ম্যাক্স ইনপুট ভারস: "
+
+#: admin/partials/tabs/system-status-tab.php:200
+msgid "PHP Max Input Vars"
+msgstr "PHP Max Input Vars"
+
+#: includes/class-notifications.php:337
+#: includes/notices/admin-notice-for-review.php:335
+msgid "Request Successful."
+msgstr "অনুরোধ সফল হয়েছে।"
+
+#: includes/class-notifications.php:83
+msgid "Review Here"
+msgstr "এখানে পর্যালোচনা করুন"
+
+#: includes/class-notifications.php:82
+msgid "I already did!"
+msgstr "আমি তো ইতিমধ্যে করেছি!"
+
+#: includes/class-notifications.php:81
+msgid "I would not"
+msgstr "আমি তো করব না"
+
+#: includes/class-notifications.php:80
+msgid "Remind me later"
+msgstr "আমাকে পরে মনে করিয়ে দিন"
+
+#. translators: 1: plugin name,2: Slightly Smiling Face (Emoji), 3: line break
+#. 'br' tag
+#: includes/class-notifications.php:72
+msgid "%3$s %2$s We have spent countless hours developing this free plugin for you, and we would really appreciate it if you dropped us a quick rating. Your opinion matters a lot to us.%4$s It helps us to get better. Thanks for using %1$s."
+msgstr "%3$s %2$s আমরা আপনার জন্য এই বিনামূল্যে প্লাগইনটি বিকাশের জন্য অগণিত ঘন্টা ব্যয় করেছি, এবং আপনি যদি আমাদের দ্রুত রেটিং ফেলে দেন তবে আমরা সত্যিই এটির প্রশংসা করব। আপনার মতামত আমাদের কাছে অনেক গুরুত্বপূর্ণ। %4$s এটি আমাদের আরও ভাল হতে সহায়তা করে। %1$s ব্যবহার করার জন্য ধন্যবাদ।"
+
+#: admin/partials/tabs/system-status-tab.php:250
+msgid "Title"
+msgstr "খেতাব"
+
+#: admin/partials/tabs/system-status-tab.php:245
+msgid "Dom extension is not enable from hosting."
+msgstr "হোস্টিং থেকে ডোম এক্সটেনশন সক্ষম নয়।"
+
+#: admin/partials/tabs/system-status-tab.php:241
+msgid "Dom extension"
+msgstr "ডোম এক্সটেনশন"
+
+#: admin/partials/tabs/system-status-tab.php:237
+msgid "Please enable MBString extension from hosting."
+msgstr "অনুগ্রহ করে হোস্টিং থেকে MBString এক্সটেনশন সক্ষম করুন।"
+
+#: admin/partials/tabs/system-status-tab.php:233
+msgid "MBString extension"
+msgstr "MBString এক্সটেনশন"
+
+#: admin/partials/tabs/system-status-tab.php:229
+msgid "Please enable zip extension from hosting."
+msgstr "অনুগ্রহ করে হোস্টিং থেকে জিপ এক্সটেনশন সক্ষম করুন।"
+
+#: admin/partials/tabs/system-status-tab.php:225
+msgid "zipArchive Extension"
+msgstr "zipArchive এক্সটেনশন"
+
+#: admin/partials/tabs/system-status-tab.php:221
+msgid "<b>WP_DEBUG_LOG</b> is false. Plugin can not write error logs if WP_DEBUG_LOG is set to false. You can learn more about debugging in WordPress from <a target=\"_blank\" href=\"https://wordpress.org/support/article/debugging-in-wordpress/\">here</a>"
+msgstr "<b>WP_DEBUG_LOG</b> মিথ্যা। প্লাগইন ত্রুটি লগ লিখতে পারে না যদি WP_DEBUG_LOG মিথ্যাতে সেট করা থাকে। আপনি <a target=\"_blank\" href=\"https://wordpress.org/support/article/debugging-in-wordpress/\">এখান</a> থেকে ওয়ার্ডপ্রেসে ডিবাগিং সম্পর্কে আরও জানতে পারেন"
+
+#: admin/partials/tabs/system-status-tab.php:220
+msgid "WordPress Debug Mode is On"
+msgstr "WordPress ডিবাগ মোড চালু আছে"
+
+#: admin/partials/tabs/system-status-tab.php:217
+msgid "WordPress Debug Mode"
+msgstr "ওয়ার্ডপ্রেস ডিবাগ মোড"
+
+#: admin/partials/tabs/system-status-tab.php:213
+msgid "Upload folder not writable permission"
+msgstr "ফোল্ডার আপলোড করার অনুমতি নেই"
+
+#: admin/partials/tabs/system-status-tab.php:212
+msgid "Writable - Ok"
+msgstr "লিখনযোগ্য - ঠিক আছে"
+
+#: admin/partials/tabs/system-status-tab.php:209
+msgid "WordPress Upload Directory Writable Permission"
+msgstr "WordPress আপলোড ডিরেক্টরি লিখনযোগ্য অনুমতি"
+
+#: admin/partials/tabs/system-status-tab.php:195
+#: admin/partials/tabs/system-status-tab.php:203
+msgid "- Ok"
+msgstr "- ঠিক আছে"
+
+#: admin/partials/tabs/system-status-tab.php:193
+msgid "Current Limit Time: "
+msgstr "বর্তমান সীমা সময়: "
+
+#: admin/partials/tabs/system-status-tab.php:192
+msgid "PHP Limit Time"
+msgstr "PHP সীমা সময়"
+
+#: admin/partials/tabs/system-status-tab.php:184
+msgid "WordPress Upload Limit Set By Hosting Provider"
+msgstr "হোস্টিং সরবরাহকারী দ্বারা সেট করা ওয়ার্ডপ্রেস আপলোডের সীমা"
+
+#: admin/partials/tabs/system-status-tab.php:180
+#: admin/partials/tabs/system-status-tab.php:188
+#: admin/partials/tabs/system-status-tab.php:196
+msgid "Required:"
+msgstr "প্রয়োজনীয়:"
+
+#: admin/partials/tabs/system-status-tab.php:176
+msgid "WordPress Upload Limit"
+msgstr "ওয়ার্ডপ্রেস আপলোডের সীমা"
+
+#: admin/partials/tabs/system-status-tab.php:168
+msgid "Woocommerce Version"
+msgstr "Woocommerce সংস্করণ"
+
+#: admin/partials/tabs/system-status-tab.php:164
+#: admin/partials/tabs/system-status-tab.php:172
+msgid "Required: "
+msgstr "প্রয়োজনীয়: "
+
+#: admin/partials/tabs/system-status-tab.php:160
+msgid "WordPress Version"
+msgstr "ওয়ার্ডপ্রেস সংস্করণ"
+
+#: admin/partials/tabs/system-status-tab.php:156
+msgid "Required Version: "
+msgstr "আবশ্যক সংস্করণ: "
+
+#: admin/partials/tabs/system-status-tab.php:155
+#: admin/partials/tabs/system-status-tab.php:163
+#: admin/partials/tabs/system-status-tab.php:171
+#: admin/partials/tabs/system-status-tab.php:179
+#: admin/partials/tabs/system-status-tab.php:187
+msgid "- ok"
+msgstr "- ঠিক আছে"
+
+#: admin/partials/tabs/system-status-tab.php:153
+msgid "Current Version:  "
+msgstr "বর্তমান সংস্করণ:  "
+
+#: admin/partials/tabs/system-status-tab.php:152
+msgid "PHP Version"
+msgstr "পিএইচপি সংস্করণ"
+
+#: admin/partials/tabs/upload-fonts-tab.php:31
+msgid "Uploading"
+msgstr "আপলোড চলছে"
+
+#: admin/partials/tabs/upload-fonts-tab.php:28
+msgid "Upload"
+msgstr "আপলোড"
+
+#: admin/partials/tabs/upload-fonts-tab.php:12
+#: admin/partials/woo-invoice-settings.php:141
+msgid "Upload Fonts"
+msgstr "ফন্ট আপলোড করুন"
+
+#: includes/class-woo-invoice-pdf.php:227
+msgid " Please read the doc to download your missing fonts."
+msgstr " আপনার হারিয়ে যাওয়া ফন্টগুলি ডাউনলোড করতে অনুগ্রহ করে ডকটি পড়ুন।"
+
+#: admin/class-woo-invoice-admin.php:168
+#: admin/partials/woo-invoice-settings.php:43
+#: includes/class-notifications.php:44 includes/class-notifications.php:132
+#: includes/class-notifications.php:184 includes/class-notifications.php:238
+#: includes/class-woo-invoice-fonts.php:196
+#: includes/notices/admin-notice-for-review.php:42
+#: includes/notices/admin-notice-for-review.php:130
+#: includes/notices/admin-notice-for-review.php:182
+#: includes/notices/admin-notice-for-review.php:236
+msgid "Challan"
+msgstr "Challan"
+
+#: admin/partials/tabs/settings-tab.php:140
+msgid "Invoice Attach to Email"
+msgstr "ইমেলের সাথে চালান সংযুক্ত করুন"
+
+#. Plugin Name of the plugin
+msgid "Challan - PDF Invoice & Packing Slip for WooCommerce"
+msgstr "Challan - PDF Invoice & Packing Slip for WooCommerce"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:20
+#: admin/partials/woo-invoice-pro-vs-free.php:269
+msgid "QR Code"
+msgstr "QR কোড"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:16
+#: admin/partials/woo-invoice-pro-vs-free.php:265
+msgid "Bar Code"
+msgstr "বার কোড"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:158
+#: admin/partials/woo-invoice-pro-vs-free.php:257
+msgid "Pagination Style"
+msgstr "পিজিনেশন শৈলী"
+
+#: admin/partials/tabs/seller-buyer-tab.php:28
+msgid "Logo Size"
+msgstr "লোগোর আকার"
+
+#: admin/partials/tabs/settings-tab.php:995
+msgid "PREVIEW"
+msgstr "পূর্বরূপ"
+
+#: includes/class-notifications.php:313 includes/class-notifications.php:343
+#: includes/class-woo-invoice-fonts.php:162
+#: includes/notices/admin-notice-for-review.php:311
+#: includes/notices/admin-notice-for-review.php:341 woo-invoice.php:625
+msgid "Invalid Request."
+msgstr "অবৈধ অনুরোধ।"
+
+#: includes/class-notifications.php:339
+#: includes/notices/admin-notice-for-review.php:337 woo-invoice.php:622
+msgid "Something is wrong."
+msgstr "কিছু একটা ভুল হয়েছে।"
+
+#: woo-invoice.php:636
+msgid "<h1>Challan</h1>  <b>Your uploads folder is not writable. Please make <code style=\"color: red;\">wp-content/uploads</code> folder writable to generate and save invoices.</b>"
+msgstr "<h1>চালান</h1>  <b>আপনার আপলোড ফোল্ডারটি লিখনযোগ্য নয়। <code style=\"color: red;\">wp-content/uploads</code> অনুগ্রহ করে ইনভয়েস তৈরি ও সংরক্ষণ করতে ফোল্ডারকে লিখনযোগ্য করে তুলুন।</b>"
+
+#: admin/partials/tabs/bulk-download-tab.php:16
+msgid "Shipping Label"
+msgstr "শিপিং ঠিকানা"
+
+#: admin/partials/tabs/seller-buyer-tab.php:109
+msgid "Disable Email Address"
+msgstr "ইমেল ঠিকানা অক্ষম করুন"
+
+#: admin/partials/tabs/seller-buyer-tab.php:90
+msgid "Disable Phone Number"
+msgstr "ফোন নম্বর অক্ষম করুন"
+
+#: admin/partials/tabs/settings-tab.php:252
+msgid "Customer Invoice"
+msgstr "গ্রাহক চালান"
+
+#: admin/partials/tabs/settings-tab.php:238
+msgid "Refunded Order"
+msgstr "ফেরত দেওয়া আদেশ"
+
+#: admin/partials/tabs/settings-tab.php:195
+msgid "Completed Order"
+msgstr "সম্পূর্ণ আদেশ"
+
+#: admin/partials/tabs/settings-tab.php:180
+msgid "New Order"
+msgstr "নতুন আদেশ"
+
+#: admin/partials/tabs/settings-tab.php:132
+msgid "Always Allow"
+msgstr "সর্বদা অনুমতি দিন"
+
+#: admin/partials/tabs/settings-tab.php:118
+msgid "After Payment Complete"
+msgstr "পেমেন্ট সম্পূর্ণ হওয়ার পরে"
+
+#: admin/partials/tabs/settings-tab.php:105
+msgid "Complete Order"
+msgstr "সম্পূর্ণ আদেশ"
+
+#: admin/partials/tabs/settings-tab.php:78
+#: admin/partials/tabs/settings-tab.php:224
+msgid "Processing Order"
+msgstr "প্রসেসিং অর্ডার"
+
+#: admin/partials/tabs/settings-tab.php:37
+msgid "Allow My Account To Download Invoice"
+msgstr "আমার অ্যাকাউন্টকে চালান ডাউনলোড করার অনুমতি দিন"
+
+#: admin/class-woo-invoice-admin.php:170
+msgid "Docs"
+msgstr "ডক্স  "
+
+#: woo-invoice.php:225
+msgid "Toggle panel: %s"
+msgstr "প্যানেল টগল করুন: %s"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:181
+msgid "%1$s"
+msgstr "%1$s"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:28
+#: admin/partials/woo-invoice-pro-vs-free.php:261
+msgid "Invoice Backup To Dropbox"
+msgstr "ড্রপবক্সে চালান ব্যাকআপ"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:154
+#: admin/partials/woo-invoice-pro-vs-free.php:253
+msgid "Custom Paper Size"
+msgstr "কাস্টম কাগজের আকার"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:117
+#: admin/partials/woo-invoice-pro-vs-free.php:205
+msgid "Custom Background"
+msgstr "কাস্টম পটভূমি"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:92
+#: admin/partials/woo-invoice-pro-vs-free.php:177
+msgid "Display Shipping Cost With Tax / Without Tax"
+msgstr "ট্যাক্স সহ শিপিং খরচ প্রদর্শন করুন / ট্যাক্স ছাড়া"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:73
+msgid "Invoice Backup to Dropbox"
+msgstr "ড্রপবক্সে চালান ব্যাকআপ"
+
+#: admin/partials/tabs/settings-tab.php:867
+msgid "Without Tax"
+msgstr "ট্যাক্স ছাড়া"
+
+#: admin/partials/tabs/settings-tab.php:866
+msgid "With Tax"
+msgstr "ট্যাক্স সহ"
+
+#: admin/partials/tabs/settings-tab.php:862
+msgid "Display Shipping Total"
+msgstr "ডিসপ্লে শিপিং মোট"
+
+#: admin/partials/tabs/settings-tab.php:420
+msgid "Letter"
+msgstr "বর্ণ"
+
+#: admin/partials/tabs/settings-tab.php:419
+msgid "A5"
+msgstr "A5"
+
+#: admin/partials/tabs/settings-tab.php:418
+msgid "A4"
+msgstr "A4"
+
+#: admin/partials/tabs/settings-tab.php:415
+msgid "Paper Size"
+msgstr "কাগজের আকার"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:32
+#: admin/partials/woo-invoice-pro-vs-free.php:185
+msgid "Write Custom CSS"
+msgstr "কাস্টম CSS লিখুন"
+
+#: includes/class-woo-invoice-helper.php:359
+#: includes/class-woo-invoice-helper.php:362
+msgid "SSN"
+msgstr "এসএসএন"
+
+#: includes/class-woo-invoice-helper.php:345
+#: includes/class-woo-invoice-helper.php:348
+msgid "VAT ID"
+msgstr "ভ্যাট আইডি"
+
+#: includes/widget.php:67
+msgid "Get more woocommerce tips & news on our blog..."
+msgstr "আমাদের ব্লগে আরও WooCommerce টিপস এবং সংবাদ পান ..."
+
+#: includes/widget.php:52
+msgid "WEBAPPICK.COM"
+msgstr "webappick.com"
+
+#: includes/widget.php:21
+msgid "Latest News from WebAppick Blog"
+msgstr "ওয়েব অ্যাপিক ব্লগের সর্বশেষ সংবাদ"
+
+#: admin/partials/tabs/seller-buyer-tab.php:37
+msgid "Seller Title"
+msgstr "বিক্রেতার শিরোনাম"
+
+#: admin/partials/tabs/settings-tab.php:920
+msgid "Enable debug mode to show errors."
+msgstr "ত্রুটি দেখাতে ডিবাগ মুড চালু করুন"
+
+#: admin/partials/tabs/settings-tab.php:917
+msgid "Enable Debug Mode"
+msgstr "ডিবাগ মুড চালু করুন"
+
+#: admin/partials/woo-invoice-settings.php:77
+msgid "Join Facebook Group"
+msgstr "ফেসবুক গ্রুপে যোগ দিন"
+
+#: woo-invoice.php:480
+msgid "No order found with your given date range."
+msgstr "আপনার দেয়া তারিখের সীমার মধ্যে কোনও অর্ডার পাওয়া যায় নি।"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:527
+msgid "Have we not answered your question? Don't worry, you can contact us for more information..."
+msgstr "আমরা কি আপনার প্রশ্নের উত্তর দিইনি?  চিন্তা করবেন না, আপনি আরও তথ্যের জন্য আমাদের সাথে যোগাযোগ করতে পারেন"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:526
+msgid "Still need help?"
+msgstr "এখনও সাহায্য প্রয়োজন?"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:492
+msgid "Join the squad today!"
+msgstr "আজ স্কোয়াডে যোগ দিন!"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:491
+msgid "Our Happy Customer"
+msgstr "আমাদের শুভ গ্রাহক"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:483
+msgid "Diners"
+msgstr "রাতের খাবার"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:482
+msgid "JCB"
+msgstr "JCB"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:481
+msgid "Discover"
+msgstr "আবিষ্কার করুন"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:480
+msgid "Mastercard"
+msgstr "মাস্টারকার্ড"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:479
+msgid "American Express"
+msgstr "আমেরিকান এক্সপ্রেস"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:478
+msgid "Visa"
+msgstr "ভিসা"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:476
+msgid "Credit Cards (Stripe)"
+msgstr "ক্রেডিট কার্ড (স্ট্রাইপ)"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:474
+msgid "Payment Options:"
+msgstr "পেমেন্ট অপশন"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:470
+msgid "Refund Policy"
+msgstr "অর্থফেরত নীতি"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:469
+msgid "After successful purchase, you will be eligible for conditional refund"
+msgstr "সফল ক্রয়ের পরে, আপনি শর্তসাপেক্ষ ফেরত পাওয়ার যোগ্য হবেন"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:465
+#: admin/partials/woo-invoice-pro-vs-free.php:468
+msgid "30 Days Money Back Guarantee"
+msgstr "30 দিনের অর্থ ফেরতের গ্যারান্টি"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:448
+msgid "Buy Now"
+msgstr "এখন ক্রয় করুন"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:436
+msgid "For %d Site"
+msgid_plural "For %d Sites"
+msgstr[0] "%d সাইটের জন্য"
+msgstr[1] "%d সাইটসমূহের জন্য"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:419
+msgctxt "Free Package Price Display"
+msgid "Free"
+msgstr "বিনামূল্যে"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:393
+msgid "Choose your subscription plan and get started"
+msgstr "আপনার সাবস্ক্রিপশন পরিকল্পনাটি বাছাই করুন এবং শুরু করুন"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:392
+msgid "Take Your Products To The Next Level"
+msgstr "আপনার পণ্যগুলি পরবর্তী স্তরে নিয়ে যান"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:381
+msgid "Woowoo-invoice Pro"
+msgstr "Woowoo-invoice Pro"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:373
+msgid "Woowoo-invoice Lite"
+msgstr "Woowoo-invoice Lite"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:368
+msgid "Find the plan that suits best for you business"
+msgstr "আপনার ব্যবসায়ের জন্য সবচেয়ে উপযুক্ত এমন পরিকল্পনাটি সন্ধান করুন"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:367
+msgid "Pro"
+msgstr "প্রো"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:367
+msgid "vs"
+msgstr "বনাম"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:367
+msgid "Free"
+msgstr "বিনামূল্যে"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:345
+msgid "Super charge your Store with awesome features"
+msgstr "দুর্দান্ত স্টোর সহ আপনার স্টোরকে সুপার চার্জ করুন"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:344
+msgid "Why Upgrade"
+msgstr "কেন আপগ্রেড"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:337
+msgid "Upgrade to Wooinvoice Pro to unlock more powerful features."
+msgstr "আরও শক্তিশালী বৈশিষ্ট্যগুলি আনলক করতে Wooinvoice Pro তে আপগ্রেড করুন।"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:142
+#: admin/partials/woo-invoice-pro-vs-free.php:241
+msgid "WooCommerce Subscription Compatibility"
+msgstr "WooCommerce সাবস্ক্রিপশন সামঞ্জস্য"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:40
+#: admin/partials/woo-invoice-pro-vs-free.php:237
+msgid "WPML Compatibility"
+msgstr "WPML সামঞ্জস্য"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:137
+#: admin/partials/woo-invoice-pro-vs-free.php:233
+msgid "Proforma Invoice"
+msgstr "প্রোফর্মমা চালান"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:133
+#: admin/partials/woo-invoice-pro-vs-free.php:229
+msgid "Display Discounted Price"
+msgstr "ডিসকাউন্ট মূল্য প্রদর্শন করুন"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:129
+#: admin/partials/woo-invoice-pro-vs-free.php:225
+msgid "Display Product Short Description"
+msgstr "পণ্যের সংক্ষিপ্ত বিবরণ প্রদর্শন করুন"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:125
+#: admin/partials/woo-invoice-pro-vs-free.php:221
+msgid "Display Product Category"
+msgstr "প্রোডাক্ট ক্যাটাগরি দেখান"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:121
+#: admin/partials/woo-invoice-pro-vs-free.php:217
+msgid "Display Product Image"
+msgstr "প্রোডাক্ট ছবি দেখান"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:36
+#: admin/partials/woo-invoice-pro-vs-free.php:213
+msgid "Custom Invoice Numbering Options"
+msgstr "কাস্টম চালানের নম্বর দেওয়ার অপশনসমূহ"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:209
+msgid "Product per Page"
+msgstr "প্রতি পেইজে পণ্য"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:113
+#: admin/partials/woo-invoice-pro-vs-free.php:201
+msgid "Authorized Signature"
+msgstr "অনুমোদিত স্বাক্ষর"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:109
+#: admin/partials/woo-invoice-pro-vs-free.php:197
+msgid "Paid Stamp"
+msgstr "পরিশোধিত স্ট্যাম্প"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:105
+#: admin/partials/woo-invoice-pro-vs-free.php:193
+msgid "Total Without Tax"
+msgstr "কর ছাড়াই মোট"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:101
+#: admin/partials/woo-invoice-pro-vs-free.php:189
+msgid "Individual Product Tax & Tax %"
+msgstr "স্বতন্ত্র পণ্য কর এবং কর %"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:96
+#: admin/partials/woo-invoice-pro-vs-free.php:181
+msgid "Total Tax"
+msgstr "মোট কর"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:88
+#: admin/partials/woo-invoice-pro-vs-free.php:173
+msgid "Invoice Template Translation"
+msgstr "চালান টেম্পলেট অনুবাদ"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:84
+#: admin/partials/woo-invoice-pro-vs-free.php:169
+msgid "Bulk Invoice/Packing Slip Download"
+msgstr "একাধিক চালান / প্যাকিং স্লিপ ডাউনলোড"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:80
+#: admin/partials/woo-invoice-pro-vs-free.php:165
+msgid "Footer Info Section"
+msgstr "ফুটার তথ্য বিভাগ"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:60
+#: admin/partials/woo-invoice-pro-vs-free.php:145
+msgid "Custom Date Format"
+msgstr "নিজস্ব তারিখের ফরম্যাট"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:56
+#: admin/partials/woo-invoice-pro-vs-free.php:141
+msgid "Invoice Download From My Account"
+msgstr "চালানটি আমার অ্যাকাউন্ট থেকে ডাউনলোড করুন"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:48
+#: admin/partials/woo-invoice-pro-vs-free.php:133
+msgid "Automatic Invoicing"
+msgstr "স্বয়ংক্রিয় চালান"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:100
+msgid "Expert"
+msgstr "বিশেষজ্ঞ"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:91
+msgid "Plus"
+msgstr "যুক্ত"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:87
+msgid "Popular"
+msgstr "জনপ্রিয়"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:85
+#: admin/partials/woo-invoice-pro-vs-free.php:94
+#: admin/partials/woo-invoice-pro-vs-free.php:103
+msgid " Yearly"
+msgstr "বার্ষিক"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:82
+msgid "Personal"
+msgstr "ব্যক্তিগত"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:78
+msgid "3<sup>rd</sup> Party Plugin Supports"
+msgstr "3<sup>rd</sup> পার্টি প্লাগইন সমর্থন"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:77
+msgid "WPML Compatible"
+msgstr "WPML সামঞ্জস্যপূর্ণ"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:76
+msgid "Bulk Download Support"
+msgstr "বহু ডাউনলোড সমর্থন"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:75
+msgid "Generate Packing Slip"
+msgstr "প্যাকিং স্লিপ জেনারেট করুন"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:74
+msgid "Include Paid Stamp"
+msgstr "প্রদত্ত স্ট্যাম্প অন্তর্ভুক্ত করুন"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:72
+msgid "Attach Signature"
+msgstr "অনুমোদিত স্বাক্ষর"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:71
+msgid "Multiple Tax Classes"
+msgstr "একাধিক ট্যাক্স ক্লাস"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:70
+msgid "Easy Setup"
+msgstr "সহজ সেটআপ"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:69
+msgid "Automated Invoicing"
+msgstr "স্বয়ংক্রিয় চালান"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:68
+msgid "Updates for 1 Year"
+msgstr "1 বছরের জন্য আপডেট"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:67
+msgid "Support for 1 Year"
+msgstr "1 বছরের জন্য সমর্থন"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:66
+msgid "Unlimited Orders"
+msgstr "আনলিমিটেড অর্ডার"
+
+#: admin/class-woo-invoice-admin.php:171
+msgid "Premium"
+msgstr "প্রিমিয়াম"
+
+#: libs/WebAppick/AppServices/Insights.php:1140
+msgid "Processing..."
+msgstr "প্রক্রিয়াকরণ।।।"
+
+#: libs/WebAppick/AppServices/Insights.php:1035
+msgid "Open Support Ticket"
+msgstr "সমর্থন টিকেট খুলুন"
+
+#: libs/WebAppick/AppServices/Insights.php:1034
+msgid "Not Interested"
+msgstr "আগ্রহী নয়"
+
+#: libs/WebAppick/AppServices/Insights.php:1032
+msgid "In trouble? Please submit a support request."
+msgstr "সমস্যায়? অনুগ্রহ করে একটি সমর্থন অনুরোধ জমা দিন।"
+
+#: libs/WebAppick/AppServices/Insights.php:1006
+msgid "Send Message"
+msgstr "ম্যাসেজ সেন্ড করুন"
+
+#: admin/partials/tabs/system-status-tab.php:252
+#: libs/WebAppick/AppServices/Insights.php:996
+msgid "Message"
+msgstr "মেসেজ"
+
+#: libs/WebAppick/AppServices/Insights.php:989
+msgid "Website"
+msgstr "ওয়েবসাইট"
+
+#: libs/WebAppick/AppServices/Insights.php:983
+msgid "Subject"
+msgstr "বিষয় "
+
+#: libs/WebAppick/AppServices/Insights.php:976
+msgid "Email"
+msgstr "ই-মেইল"
+
+#: libs/WebAppick/AppServices/Insights.php:970
+msgid "Name"
+msgstr "নাম"
+
+#: libs/WebAppick/AppServices/Insights.php:961
+#: libs/WebAppick/AppServices/Insights.php:1014
+msgid "Close"
+msgstr "বন্ধ"
+
+#: libs/WebAppick/AppServices/Insights.php:960
+msgid "Submit Support Ticket."
+msgstr "সাপোর্ট টিকেট জমা দিন।"
+
+#: libs/WebAppick/AppServices/Insights.php:956
+msgid "&ldquo;%s&rdquo; Uninstall Confirmation"
+msgstr "\"%s\" নিশ্চিতকরণ আনইনস্টল করুন"
+
+#: libs/WebAppick/AppServices/Insights.php:936
+msgid "Missing Required Fields."
+msgstr "প্রয়োজনীয় ক্ষেত্রগুলি অনুপস্থিত।"
+
+#: libs/WebAppick/AppServices/Insights.php:930
+msgid "Something Went Wrong. Please Try Again After Sometime."
+msgstr "কিছু একটা ভুল হয়েছে। অনুগ্রহ করে কিছুক্ষণ পরে আবার চেষ্টা করুন।"
+
+#: libs/WebAppick/AppServices/Insights.php:861
+msgid "Please try again after sometime."
+msgstr "অনুগ্রহ করে কিছুক্ষণ পরে আবার চেষ্টা করুন।"
+
+#: libs/WebAppick/AppServices/Insights.php:861
+msgid "Something Went Wrong."
+msgstr "কিছু একটা ভুল হয়েছে।"
+
+#: libs/WebAppick/AppServices/Insights.php:787
+msgid "Temporary deactivation for debugging"
+msgstr "ডিবাগিংয়ের জন্য অস্থায়ী নিষ্ক্রিয়করণ"
+
+#: admin/partials/tabs/system-status-tab.php:228
+#: admin/partials/tabs/system-status-tab.php:236
+#: admin/partials/tabs/system-status-tab.php:244
+msgid "Enable"
+msgstr "সক্ষম"
+
+#: admin/partials/tabs/system-status-tab.php:251
+#: admin/partials/woo-invoice-settings.php:151
+msgid "Status"
+msgstr "অবস্থা"
+
+#: includes/class-woo-invoice-webappick-api.php:224
+msgid "Number of Orders in your site."
+msgstr "আপনার সাইটে অর্ডারের সংখ্যা"
+
+#: includes/class-woo-invoice-webappick-api.php:208
+msgid "Support Ticket form will open in new tab in 5 seconds."
+msgstr "সাপোর্ট টিকেট ফর্ম টি 5 সেকেন্ডের মধ্যে নতুন ট্যাবে খুলবে।"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:530
+#: includes/class-woo-invoice-webappick-api.php:207
+msgid "Get Support"
+msgstr "সমর্থন পান"
+
+#: includes/class-woo-invoice-webappick-api.php:206
+msgid "Something Went Wrong. Please Try The Support Ticket Form On Our Website."
+msgstr "কিছু একটা ভুল হয়েছে। অনুগ্রহ করে আমাদের ওয়েবসাইটে সমর্থন টিকিট ফর্মটি চেষ্টা করুন।"
+
+#: includes/class-woo-invoice-webappick-api.php:193
+msgid "Please read our %1$s and %2$s"
+msgstr "দয়া করে আমাদের %1$s এবং %2$s পড়ুন"
+
+#: includes/class-woo-invoice-webappick-api.php:192
+msgid "Privacy Policy"
+msgstr "গোপনীয়তা নীতি"
+
+#: includes/class-woo-invoice-webappick-api.php:191
+msgid "Terms & Conditions"
+msgstr "শর্তাবলী"
+
+#: includes/class-woo-invoice-webappick-api.php:188
+msgid "Video Tutorials"
+msgstr "ভিডিও টিউটোরিয়াল"
+
+#: admin/partials/woo-invoice-settings.php:82
+#: includes/class-woo-invoice-webappick-api.php:187 woo-invoice.php:539
+msgid "Documentation"
+msgstr "ডকুমেন্টেশন"
+
+#: includes/class-woo-invoice-webappick-api.php:185
+msgid "Please Follow the email and WebAppick Support Team will get back with you shortly."
+msgstr "অনুগ্রহ করে ইমেলটি অনুসরণ করুন এবং WebAppick সাপোর্ট টিম শীঘ্রই আপনার সাথে ফিরে আসবে।"
+
+#: includes/class-woo-invoice-webappick-api.php:184
+msgid "You will receive an email notification from \"support@webappick.com\" in your inbox within %s."
+msgstr "আপনি %s মধ্যে আপনার ইনবক্সে \"support@webappick.com\" থেকে একটি ইমেল বিজ্ঞপ্তি পাবেন।"
+
+#: includes/class-woo-invoice-webappick-api.php:183
+msgid "24 hours"
+msgstr "24 ঘন্টা"
+
+#: includes/class-woo-invoice-webappick-api.php:182
+msgid "Your ticket has been successfully submitted."
+msgstr "আপনার টিকেট সফলভাবে জমা দেওয়া হয়েছে।"
+
+#: includes/class-woo-invoice-webappick-api.php:181
+#: libs/WebAppick/AppServices/Insights.php:914
+msgid "Thank you -- Support Ticket Submitted."
+msgstr "ধন্যবাদ - সমর্থন টিকেট জমা দেওয়া হয়েছে।"
+
+#: includes/class-woo-invoice-webappick-api.php:227
+msgid "Your name and email address."
+msgstr "আপনার নাম এবং ইমেল ঠিকানা।"
+
+#: includes/class-woo-invoice-webappick-api.php:226
+msgid "Number of active and inactive plugins."
+msgstr "সক্রিয় এবং নিষ্ক্রিয় প্লাগইনের সংখ্যা।"
+
+#: includes/class-woo-invoice-webappick-api.php:225
+msgid "Site name, language and url."
+msgstr "সাইটের নাম, ভাষা এবং url।"
+
+#: includes/class-woo-invoice-webappick-api.php:223
+msgid "Number of products in your site."
+msgstr "আপনার সাইটে পণ্যের সংখ্যা"
+
+#: includes/class-woo-invoice-webappick-api.php:111
+msgid "Cloning is forbidden."
+msgstr "ক্লোনিং নিষিদ্ধ।"
+
+#: admin/partials/woo-invoice-settings.php:80
+msgid "Get free support"
+msgstr "বিনামূল্যে সমর্থন পান"
+
+#: libs/WebAppick/AppServices/Insights.php:795
+msgid "Could you tell us a bit more?"
+msgstr "আপনি কি আমাদের আর একটু বলতে পারেন?"
+
+#: libs/WebAppick/AppServices/Insights.php:793
+msgid "Other"
+msgstr "অন্যান্য"
+
+#: libs/WebAppick/AppServices/Insights.php:783
+msgid "What did you expect?"
+msgstr "আপনি কি আশা করেছিলেন?"
+
+#: libs/WebAppick/AppServices/Insights.php:781
+msgid "The plugin didn't work as expected"
+msgstr "প্লাগইনটি প্রত্যাশিতভাবে কাজ করেনি"
+
+#: libs/WebAppick/AppServices/Insights.php:775
+msgid "It's not what I was looking for"
+msgstr "আমি যা খুঁজছিলাম তা এটি নয়"
+
+#: libs/WebAppick/AppServices/Insights.php:771
+msgid "Could you tell us a bit more whats not working?"
+msgstr "আপনি কি আমাদের আরও একটু বলতে পারেন যে কী কাজ করছে না?"
+
+#: libs/WebAppick/AppServices/Insights.php:769
+msgid "The plugin is not working"
+msgstr "প্লাগইনটি কাজ করছে না"
+
+#: libs/WebAppick/AppServices/Insights.php:765
+msgid "Could you tell us more about that feature?"
+msgstr "আপনি কি এই বৈশিষ্ট্যটি সম্পর্কে আমাদের আরও কিছু বলতে পারেন?"
+
+#: libs/WebAppick/AppServices/Insights.php:760
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "প্লাগইনটি দুর্দান্ত, তবে আমার নির্দিষ্ট বৈশিষ্ট্য প্রয়োজন যা আপনি সমর্থন করেন না"
+
+#: libs/WebAppick/AppServices/Insights.php:756
+msgid "Which plugin?"
+msgstr "কোন প্লাগইন?"
+
+#: libs/WebAppick/AppServices/Insights.php:754
+msgid "I found a better plugin"
+msgstr "আমি তো একটি ভাল প্লাগইন খুঁজে পেয়েছি"
+
+#: libs/WebAppick/AppServices/Insights.php:750
+msgid "Would you like us to assist you?"
+msgstr "আপনি কি চান আমরা আপনাকে সাহায্য করি?"
+
+#: libs/WebAppick/AppServices/Insights.php:748
+msgid "I couldn't understand how to make it work"
+msgstr "আমি তো বুঝতে পারছিলাম না কিভাবে এটি কাজ করতে হয়"
+
+#: libs/WebAppick/AppServices/Insights.php:679
+msgid "Once Weekly"
+msgstr "সাপ্তাহিক একবার"
+
+#: libs/WebAppick/AppServices/Insights.php:463
+msgid "Allow"
+msgstr "মঞ্জুর"
+
+#: libs/WebAppick/AppServices/Insights.php:467
+msgid "No thanks"
+msgstr "না ধন্যবাদ"
+
+#: libs/WebAppick/AppServices/Insights.php:456
+msgid "No sensitive data is tracked."
+msgstr "কোনও সংবেদনশীল তথ্য ট্র্যাক করা হয় না।"
+
+#: libs/WebAppick/AppServices/Insights.php:449
+msgid "what we collect"
+msgstr "আমরা যা সংগ্রহ করি"
+
+#: libs/WebAppick/AppServices/Insights.php:438
+msgid "Want to help make %1$s even more awesome? Allow %1$s to collect non-sensitive diagnostic data and usage information."
+msgstr "%1$s আরও ভয়ঙ্কর করে তুলতে সাহায্য করতে চান? %1$s অ-সংবেদনশীল ডায়গনিস্টিক তথ্য এবং ব্যবহারের তথ্য সংগ্রহ করার অনুমতি দিন।"
+
+#: libs/WebAppick/AppServices/Insights.php:321
+msgid "Server environment details (php, mysql, server, WordPress versions)."
+msgstr "সার্ভার পরিবেশের বিবরণ (পিএইচপি, মাইসকিউএল, সার্ভার, ওয়ার্ডপ্রেস সংস্করণ)।"
+
+#: libs/WebAppick/AppServices/Promotions.php:397
+msgid "Method must be invoked inside admin_init action"
+msgstr "পদ্ধতিটি অবশ্যই admin_init ক্রিয়াকলাপের অভ্যন্তরে প্রয়োগ করা আবশ্যক"
+
+#: libs/WebAppick/AppServices/Promotions.php:386
+msgid "Invalid Request"
+msgstr "অবৈধ অনুরোধ"
+
+#: libs/WebAppick/AppServices/Promotions.php:384
+msgid "Promo hidden"
+msgstr "প্রোমো লুকানো আছে"
+
+#: libs/WebAppick/AppServices/Promotions.php:131
+msgid "Promotion Source URL Not Set. see Promotions::set_source( $URL )"
+msgstr "প্রচারের উৎসের URL সেট করা হয়নি। প্রমোশন:::set_source($URL)"
+
+#: woo-invoice.php:538
+msgid "<b>Get Pro</b>"
+msgstr "<b>প্রো পান</b>"
+
+#: admin/partials/tabs/settings-tab.php:880
+msgid "Display Order Note"
+msgstr "ডিসপ্লে অর্ডার নোট"
+
+#: admin/partials/tabs/settings-tab.php:652
+msgid "Product Title limit"
+msgstr "পণ্যের শিরোনাম সীমা"
+
+#: admin/partials/tabs/settings-tab.php:967
+msgid "SELECTED TEMPLATE"
+msgstr "নির্বাচিত টেমপ্লেট"
+
+#: admin/partials/tabs/settings-tab.php:300
+msgid "Select Template"
+msgstr "টেমপ্লেট নির্বাচন করুন"
+
+#: admin/partials/tabs/settings-tab.php:297
+msgid "Invoice Template"
+msgstr "চালান টেমপ্লেট"
+
+#: admin/partials/tabs/settings-tab.php:453
+msgid "Invoice Download as"
+msgstr "চালান হিসাবে ডাউনলোড করুন"
+
+#: admin/partials/woo-invoice-settings.php:161
+msgid "Free vs Premium"
+msgstr "ফ্রি বনাম প্রিমিয়াম"
+
+#: admin/partials/tabs/bulk-download-tab.php:255
+msgid "Download"
+msgstr "Downloads"
+
+#: admin/partials/tabs/seller-buyer-tab.php:138
+msgid "Logo Preview"
+msgstr "লোগো প্রাকদর্শন"
+
+#: admin/partials/tabs/localization-tab.php:199
+#: admin/partials/tabs/seller-buyer-tab.php:126
+#: admin/partials/tabs/settings-tab.php:937
+msgid "Save Changes"
+msgstr "পরিবর্তন সমূহ সংরক্ষন করুন "
+
+#: admin/partials/tabs/settings-tab.php:665
+msgid "None"
+msgstr "কোনটাই নয়"
+
+#: admin/partials/tabs/settings-tab.php:664
+msgid "ID"
+msgstr "আইডি"
+
+#: admin/partials/tabs/settings-tab.php:663
+msgid "SKU"
+msgstr "এসকিউ"
+
+#: libs/WebAppick/AppServices/Insights.php:1007
+#: libs/WebAppick/AppServices/Insights.php:1044
+msgid "Cancel"
+msgstr "বাতিল করুন "
+
+#: libs/WebAppick/AppServices/Insights.php:1043
+msgid "Submit & Deactivate"
+msgstr "জমা দিন এবং নিষ্ক্রিয় করুন"
+
+#: libs/WebAppick/AppServices/Insights.php:1042
+msgid "I rather wouldn't say"
+msgstr "আমি বরং বলব না"
+
+#: libs/WebAppick/AppServices/Insights.php:1013
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "আপনার যদি একটু সময় থাকে, তাহলে অনুগ্রহ করে আমাদের জানান কেন আপনি নিষ্ক্রিয় করছেন:"
+
+#: admin/partials/tabs/bulk-download-tab.php:33
+#: admin/partials/tabs/bulk-download-tab.php:36
+msgid "Date To"
+msgstr "তারিখ থেকে"
+
+#: admin/partials/tabs/bulk-download-tab.php:23
+#: admin/partials/tabs/bulk-download-tab.php:26
+msgid "Date From"
+msgstr "এর থেকে তারিখ"
+
+#: admin/partials/tabs/bulk-download-tab.php:11
+msgid "Bulk Type"
+msgstr "বাল্ক টাইপ"
+
+#: admin/partials/tabs/bulk-download-tab.php:14
+#: includes/class-woo-invoice-hooks.php:288
+msgid "Invoice"
+msgstr "চালান"
+
+#: admin/partials/tabs/seller-buyer-tab.php:75
+msgid "Footer 2"
+msgstr "পাদচরণ 2"
+
+#: admin/partials/tabs/seller-buyer-tab.php:64
+msgid "Footer 1"
+msgstr "পাদচরণ 1"
+
+#. Author of the plugin
+msgid "WebAppick"
+msgstr "WebAppick"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:72
+#: admin/partials/tabs/settings-tab.php:506
+#: admin/partials/woo-invoice-pro-vs-free.php:157
+msgid "Display Payment Method"
+msgstr "প্রদানের পদ্ধতি প্রদর্শন করুন"
+
+#. Description of the plugin
+msgid "Automatic Generate PDF Invoice and attach  with order email for WooCommerce."
+msgstr "স্বয়ংক্রিয়ভাবে পিডিএফ চালান তৈরি করুন এবং WooCommerce এর জন্য অর্ডার ইমেলের সাথে সংযুক্ত করুন।"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://webappick.com"
+msgstr "https://webappick.com"
+
+#: admin/partials/tabs/bulk-download-tab.php:15
+#: admin/partials/tabs/free-vs-pro-tab.php:76
+#: admin/partials/woo-invoice-pro-vs-free.php:161
+#: includes/class-woo-invoice-hooks.php:292
+#: includes/class-woo-invoice-hooks.php:372
+msgid "Packing Slip"
+msgstr "প্যাকিং স্লিপ"
+
+#: includes/class-woo-invoice-hooks.php:364
+msgid "PDF Invoice"
+msgstr "পিডিএফ চালান"
+
+#: includes/class-woo-invoice-hooks.php:347
+msgid "Make Packing Slip"
+msgstr "প্যাকিং স্লিপ তৈরি করুন"
+
+#: includes/class-woo-invoice-hooks.php:336
+msgid "Make PDF Invoice"
+msgstr "পিডিএফ চালান তৈরি করুন"
+
+#: admin/partials/woo-invoice-settings.php:132
+msgid "Bulk download"
+msgstr "বাল্ক ডাউনলোড"
+
+#: admin/partials/tabs/localization-tab.php:142
+msgid "Packing Slip block"
+msgstr "প্যাকিং স্লিপ ব্লক"
+
+#: admin/partials/tabs/localization-tab.php:9
+msgid "Invoice block"
+msgstr "চালান ব্লক"
+
+#: admin/partials/tabs/seller-buyer-tab.php:84
+msgid "Buyer Block"
+msgstr "ক্রেতা ব্লক"
+
+#: admin/partials/tabs/seller-buyer-tab.php:53
+msgid "Company Details"
+msgstr "কোম্পানির বিস্তারিত"
+
+#: admin/partials/tabs/seller-buyer-tab.php:45
+msgid "Company Name"
+msgstr "নাম"
+
+#: admin/partials/tabs/seller-buyer-tab.php:18
+msgid "Upload Logo"
+msgstr "লোগো আপলোড করুন"
+
+#: admin/partials/tabs/seller-buyer-tab.php:13
+msgid "Logo Image"
+msgstr "লোগো চিত্র"
+
+#: admin/partials/tabs/seller-buyer-tab.php:10
+msgid "Seller Block"
+msgstr "বিক্রেতা ব্লক"
+
+#: admin/partials/woo-invoice-settings.php:123
+msgid "Seller & Buyer"
+msgstr "বিক্রেতা ও ক্রেতা"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:68
+#: admin/partials/tabs/settings-tab.php:281
+#: admin/partials/woo-invoice-pro-vs-free.php:153
+msgid "Display Currency Code"
+msgstr "মুদ্রা কোড প্রদর্শন করুন"
+
+#: admin/partials/tabs/settings-tab.php:467
+msgid "Date Format"
+msgstr "তারিখ বিন্যাস"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:64
+#: admin/partials/tabs/settings-tab.php:660
+#: admin/partials/woo-invoice-pro-vs-free.php:149
+msgid "Display ID/SKU"
+msgstr "এস কে উঁ "
+
+#: admin/partials/tabs/settings-tab.php:446
+msgid "Invoice No. Suffix"
+msgstr "ইনভয়েস নং। অনুসর্গ"
+
+#: admin/partials/tabs/settings-tab.php:438
+msgid "Invoice No. Prefix"
+msgstr "ইনভয়েস নং। উপসর্গ"
+
+#: admin/partials/tabs/settings-tab.php:430
+msgid "Next Invoice No."
+msgstr "পরবর্তী চালান নং।"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:52
+#: admin/partials/woo-invoice-pro-vs-free.php:137
+msgid "Attach to Order Email"
+msgstr "অর্ডার ইমেলের সাথে সংযুক্ত করুন"
+
+#: admin/partials/tabs/settings-tab.php:20
+msgid "Enable Invoicing"
+msgstr "সক্রীয়"
+
+#: admin/class-woo-invoice-admin.php:169
+#: admin/partials/woo-invoice-settings.php:110 woo-invoice.php:537
+msgid "Settings"
+msgstr "সেটিংস"
+
+#: includes/class-woo-invoice-hooks.php:217
+#: includes/class-woo-invoice-hooks.php:262
+#: includes/class-woo-invoice-hooks.php:585
+msgid "Download Invoice"
+msgstr "চালান ডাউনলোড করুন"
+
+#: admin/pdf-translation-strings.php:3
+msgid "Billing"
+msgstr "বিলিং"
+
+#: includes/class-woo-invoice-pro-template.php:716
+#: includes/class-woo-invoice-pro-template.php:1253
+msgid "Shipping"
+msgstr "শিপিং"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1600
+#: admin/partials/woo-invoice-pro-admin-display.php:1903
+#: includes/class-woo-invoice-pro-template.php:759
+msgid "Order Number"
+msgstr "অর্ডার নম্বর"
+
+#: includes/class-woo-invoice-pro-template.php:764
+msgid "Order Date"
+msgstr "অর্ডারের তারিখ"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1872
+#: includes/class-woo-invoice-pro-template.php:742
+msgid "Invoice Number"
+msgstr "চালান নম্বর"
+
+#: includes/class-woo-invoice-pro-template.php:1298
+msgid "Net Payment"
+msgstr "সর্বমোট প্রদান"
+
+#: includes/class-woo-invoice-pro-template.php:775
+msgid "Shipping Method"
+msgstr "শিপিং পদ্ধতি"
+
+#: includes/class-woo-invoice-pro-template.php:769
+msgid "Payment Method"
+msgstr "পেমেন্ট পদ্ধতি"
+
+#: includes/class-woo-invoice-pro-template.php:782
+msgid "Delivery Date"
+msgstr "ডেলিভারি তারিখ"
+
+#: includes/class-woo-invoice-pro-template.php:788
+msgid "Time Slot"
+msgstr "সময় স্লট"
+
+#: includes/class-woo-invoice-pro-hooks.php:580
+#: includes/class-woo-invoice-pro-hooks.php:663
+#: includes/class-woo-invoice-pro-template.php:225
+msgid "Credit Note"
+msgstr "ক্রেডিট নোট"
+
+#: includes/class-woo-invoice-pro-template.php:1082
+msgid "Cost"
+msgstr "দাম"
+
+#: includes/class-woo-invoice-pro-template.php:1106
+msgid "Quantity"
+msgstr "পরিমান"
+
+#: includes/class-woo-invoice-pro-template.php:1329
+msgid "Total Quantity"
+msgstr "মোট পরিমাণ"
+
+#: includes/class-woo-invoice-pro-template.php:1083
+msgid "Qty"
+msgstr "সংখ্যা"
+
+#: includes/class-woo-invoice-pro-orders.php:454
+#: includes/class-woo-invoice-pro-template.php:1101
+msgid "Dimensions"
+msgstr "মাপ"
+
+#: includes/class-woo-invoice-pro-orders.php:457
+#: includes/class-woo-invoice-pro-template.php:1105
+msgid "Weight"
+msgstr "ওজন"
+
+#: includes/class-woo-invoice-pro-template.php:1084
+msgid "Total"
+msgstr "মোট"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2509
+#: includes/class-woo-invoice-pro-template.php:1247
+msgid "Fees"
+msgstr "ফি"
+
+#: includes/class-woo-invoice-pro-template.php:1088
+#: includes/class-woo-invoice-pro-template.php:1093
+msgid "Tax"
+msgstr "কর"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2599
+msgid "Discount"
+msgstr "ছাড়"
+
+#: includes/class-woo-invoice-pro-template.php:1263
+msgid "Order Total With Tax"
+msgstr "করের সাথে মোট অর্ডার করুন"
+
+#: includes/class-woo-invoice-pro-template.php:1263
+msgid "Order Total Without Tax"
+msgstr "কর ছাড়াই মোট"
+
+#: includes/class-woo-invoice-pro-template.php:1293
+msgid "Order Total"
+msgstr "মোট"
+
+#: includes/class-woo-invoice-pro-template.php:1214
+#: includes/class-woo-invoice-pro-template.php:1297
+msgid "Refund"
+msgstr "ফেরত"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:522
+#: admin/partials/woo-invoice-pro-admin-display.php:3527
+#: includes/class-woo-invoice-pro-template.php:1409
+msgid "Customer Note"
+msgstr "গ্রাহক নোট"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1477
+msgid "Signature"
+msgstr "স্বাক্ষর"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2645
+msgid "Bank Accounts"
+msgstr "ব্যাংকের নাম"
+
+#: includes/class-woo-invoice-pro-template.php:1464
+msgid "Account Name"
+msgstr "একাউন্ট এর নাম"
+
+#: includes/class-woo-invoice-pro-template.php:1078
+msgid "Item"
+msgstr "প্রোডাক্ট"
+
+#: includes/class-woo-invoice-pro-template.php:1233
+msgid "Coupon(s)"
+msgstr "কুপন"
+
+#: includes/class-woo-invoice-pro-template.php:1463
+msgid "Bank Name"
+msgstr "ব্যাংকের নাম"
+
+#: includes/class-woo-invoice-pro-template.php:1465
+msgid "Account No"
+msgstr "হিসাব নাম্বার"
+
+#: includes/class-woo-invoice-pro-template.php:1466
+msgid "Sort Code"
+msgstr "শর্ট কোড"
+
+#: includes/class-woo-invoice-pro-template.php:1467
+msgid "IBAN"
+msgstr "IBAN"
+
+#: includes/class-woo-invoice-pro-template.php:1468
+msgid "BIC/Swift"
+msgstr "BIC/Swift"
+
+#: includes/class-woo-invoice-pro-template.php:1336
+msgid "Total Weight"
+msgstr "মোট পরিমাণ"
+
+#: includes/class-woo-invoice-pro-template.php:1352
+msgid "Refund Address"
+msgstr "ফেরতের ঠিকানা"
+
+#: includes/class-woo-invoice-pro-helper.php:187
+msgid "Phone"
+msgstr "মোবাইল"
+
+#: includes/class-woo-invoice-pro-helper.php:420
+msgid "VAT Number"
+msgstr "ভ্যাট নম্বর"
+
+#: includes/class-woo-invoice-pro-orders.php:475
+msgid "Category"
+msgstr "ক্যাটাগরি"
+
+#: includes/class-woo-invoice-pro-orders.php:397
+msgid "Description"
+msgstr "বর্ণনা"
+
+#: includes/class-woo-invoice-pro-orders.php:616
+msgid "Duration"
+msgstr "সময়"
+
+#: includes/class-woo-invoice-pro-orders.php:619
+msgid "From"
+msgstr "থেকে"
+
+#: includes/class-woo-invoice-pro-orders.php:622
+msgid "To"
+msgstr "প্রতি"
+
+#: includes/class-woo-invoice-pro-template.php:1217
+msgid "Items Subtotal"
+msgstr "আইটেম সাবটোটাল"

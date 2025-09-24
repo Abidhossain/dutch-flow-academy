@@ -1,0 +1,1597 @@
+# Copyright (C) 2022 package_name
+# This file is distributed under the same license as the package_name package.
+msgid ""
+msgstr ""
+"Project-Id-Version: package_name\n"
+"Project-Id-Version: package_name\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Transfer-Econdig: 8bit\n"
+"X-Domain: text-domain\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.4.3\n"
+"Last-Translator: \n"
+"Language: de\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-woo-invoice-admin.php:168
+#: admin/partials/woo-invoice-settings.php:43
+#: includes/class-woo-invoice-fonts.php:196
+#: includes/notices/admin-notice-for-review.php:42
+#: includes/notices/admin-notice-for-review.php:130
+#: includes/notices/admin-notice-for-review.php:182
+#: includes/notices/admin-notice-for-review.php:236
+msgid "Challan"
+msgstr "Challan"
+
+#: admin/class-woo-invoice-admin.php:169
+#: admin/partials/woo-invoice-settings.php:110 woo-invoice.php:537
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/class-woo-invoice-admin.php:170
+msgid "Docs"
+msgstr "Dokumentation"
+
+#: admin/class-woo-invoice-admin.php:171
+msgid "Premium"
+msgstr "Premium"
+
+#: admin/partials/pdf-translation-strings.php:3
+msgid "Billing"
+msgstr "Rechnung"
+
+#: admin/partials/pdf-translation-strings.php:4
+msgid "Shipping"
+msgstr "Versand"
+
+#: admin/partials/pdf-translation-strings.php:5
+msgid "Order Number"
+msgstr "Bestellnummer"
+
+#: admin/partials/pdf-translation-strings.php:6
+msgid "Order Date"
+msgstr "Bestelldatum"
+
+#: admin/partials/pdf-translation-strings.php:7
+msgid "Invoice Number"
+msgstr "Rechnungsnummer"
+
+#: admin/partials/pdf-translation-strings.php:8
+msgid "Net Payment"
+msgstr "Nettozahlung"
+
+#: admin/partials/pdf-translation-strings.php:9
+msgid "Shipping Method"
+msgstr "Versandart"
+
+#: admin/partials/pdf-translation-strings.php:10
+msgid "Payment Method"
+msgstr "Zahlungsart"
+
+#: admin/partials/pdf-translation-strings.php:11
+msgid "Delivery Date"
+msgstr "Lieferdatum"
+
+#: admin/partials/pdf-translation-strings.php:12
+msgid "Time Slot"
+msgstr "Zeitfenster"
+
+#: admin/partials/pdf-translation-strings.php:13
+msgid "Credit Note"
+msgstr "Rechnungskorrektur"
+
+#: admin/partials/pdf-translation-strings.php:14
+msgid "Cost"
+msgstr "Kosten"
+
+#: admin/partials/pdf-translation-strings.php:15
+msgid "Quantity"
+msgstr "Menge"
+
+#: admin/partials/pdf-translation-strings.php:16
+msgid "Qty"
+msgstr "Menge"
+
+#: admin/partials/pdf-translation-strings.php:17
+msgid "Dimensions"
+msgstr "Abmessungen"
+
+#: admin/partials/pdf-translation-strings.php:18
+msgid "Weight"
+msgstr "Gewicht"
+
+#: admin/partials/pdf-translation-strings.php:19
+msgid "Total"
+msgstr "Gesamt"
+
+#: admin/partials/pdf-translation-strings.php:20
+msgid "Fees"
+msgstr "Gebühren"
+
+#: admin/partials/pdf-translation-strings.php:21
+msgid "Tax"
+msgstr "Steuer"
+
+#: admin/partials/pdf-translation-strings.php:22
+msgid "Discount"
+msgstr "Rabatt"
+
+#: admin/partials/pdf-translation-strings.php:23
+msgid "Total Quantity"
+msgstr "Gesamtmenge"
+
+#: admin/partials/pdf-translation-strings.php:24
+msgid "Order Total With Tax"
+msgstr "Bestellsumme mit Steuern"
+
+#: admin/partials/pdf-translation-strings.php:25
+msgid "Order Total Without Tax"
+msgstr "Bestellsumme ohne Steuern"
+
+#: admin/partials/pdf-translation-strings.php:26
+msgid "Order Total"
+msgstr "Gesamtsumme"
+
+#: admin/partials/pdf-translation-strings.php:27
+msgid "Refund"
+msgstr "Rückerstattung"
+
+#: admin/partials/pdf-translation-strings.php:28
+msgid "Customer Note"
+msgstr "Anmerkung des Kunden"
+
+#: admin/partials/pdf-translation-strings.php:29
+msgid "Signature"
+msgstr "Unterschrift"
+
+#: admin/partials/pdf-translation-strings.php:30
+msgid "Bank Accounts"
+msgstr "Bankkonten"
+
+#: admin/partials/pdf-translation-strings.php:31
+msgid "Account Name"
+msgstr "Kontoinhaber"
+
+#: admin/partials/pdf-translation-strings.php:32
+msgid "Item"
+msgstr "Artikel"
+
+#: admin/partials/pdf-translation-strings.php:33
+msgid "Coupon(s)"
+msgstr "Gutschein(e)"
+
+#: admin/partials/pdf-translation-strings.php:34
+msgid "Bank Name"
+msgstr "Name der Bank"
+
+#: admin/partials/pdf-translation-strings.php:35
+msgid "Account No"
+msgstr "Account-Nr"
+
+#: admin/partials/pdf-translation-strings.php:36
+msgid "Sort Code"
+msgstr "Bankleitzahl"
+
+#: admin/partials/pdf-translation-strings.php:37
+msgid "IBAN"
+msgstr "IBAN"
+
+#: admin/partials/pdf-translation-strings.php:38
+msgid "BIC/Swift"
+msgstr "BIC/Swift"
+
+#: admin/partials/pdf-translation-strings.php:39
+msgid "Total Weight"
+msgstr "Gesamtgewicht"
+
+#: admin/partials/pdf-translation-strings.php:40
+msgid "Refund Address"
+msgstr "Rückerstattungsadresse"
+
+#: admin/partials/pdf-translation-strings.php:41
+msgid "Phone"
+msgstr "Telefon"
+
+#: admin/partials/pdf-translation-strings.php:42
+msgid "VAT Number"
+msgstr "Steuernummer"
+
+#: admin/partials/pdf-translation-strings.php:43
+msgid "Category"
+msgstr "Kategorie"
+
+#: admin/partials/pdf-translation-strings.php:44
+msgid "Description"
+msgstr "Beschreibung"
+
+#: admin/partials/pdf-translation-strings.php:45
+msgid "Duration"
+msgstr "Dauer"
+
+#: admin/partials/pdf-translation-strings.php:46
+msgid "From"
+msgstr "Von"
+
+#: admin/partials/pdf-translation-strings.php:47
+msgid "To"
+msgstr "Bis"
+
+#: admin/partials/pdf-translation-strings.php:48
+msgid "Items Subtotal"
+msgstr "Artikel gesamt"
+
+#: admin/partials/tabs/bulk-download-tab.php:11
+msgid "Bulk Type"
+msgstr "Bulk-Typ"
+
+#: admin/partials/tabs/bulk-download-tab.php:14
+#: includes/class-woo-invoice-hooks.php:288
+msgid "Invoice"
+msgstr "Rechnung"
+
+#: admin/partials/tabs/bulk-download-tab.php:15
+#: admin/partials/tabs/free-vs-pro-tab.php:76
+#: admin/partials/woo-invoice-pro-vs-free.php:161
+#: includes/class-woo-invoice-hooks.php:292
+#: includes/class-woo-invoice-hooks.php:372
+msgid "Packing Slip"
+msgstr "Lieferschein"
+
+#: admin/partials/tabs/bulk-download-tab.php:16
+msgid "Shipping Label"
+msgstr "Versandetikett"
+
+#: admin/partials/tabs/bulk-download-tab.php:17
+msgid "CSV File"
+msgstr "CSV Datei"
+
+#: admin/partials/tabs/bulk-download-tab.php:23
+#: admin/partials/tabs/bulk-download-tab.php:26
+msgid "Date From"
+msgstr "Datum von"
+
+#: admin/partials/tabs/bulk-download-tab.php:33
+#: admin/partials/tabs/bulk-download-tab.php:36
+msgid "Date To"
+msgstr "Datum bis"
+
+#: admin/partials/tabs/bulk-download-tab.php:43
+msgid "Order Status"
+msgstr "Bestellstatus"
+
+#: admin/partials/tabs/bulk-download-tab.php:47
+#: admin/partials/tabs/bulk-download-tab.php:232
+msgid "All"
+msgstr "Alle"
+
+#: admin/partials/tabs/bulk-download-tab.php:62
+msgid "Add Fields"
+msgstr "Felder hinzufügen"
+
+#: admin/partials/tabs/bulk-download-tab.php:210
+msgid "Order Email"
+msgstr "Bestell E-Mail"
+
+#: admin/partials/tabs/bulk-download-tab.php:219
+msgid "Order User ID"
+msgstr "Benutzer-ID bestellen"
+
+#: admin/partials/tabs/bulk-download-tab.php:228
+msgid "Order Payment Method"
+msgstr "Zahlungsmethode bestellen"
+
+#: admin/partials/tabs/bulk-download-tab.php:255
+msgid "Download"
+msgstr "Download"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:16
+#: admin/partials/woo-invoice-pro-vs-free.php:265
+msgid "Bar Code"
+msgstr "Barcode"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:20
+#: admin/partials/woo-invoice-pro-vs-free.php:269
+msgid "QR Code"
+msgstr "QR Code"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:24
+#: admin/partials/woo-invoice-pro-vs-free.php:285
+msgid "ZATCA QR code"
+msgstr "ZATCA QR-Code"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:28
+#: admin/partials/woo-invoice-pro-vs-free.php:261
+msgid "Invoice Backup To Dropbox"
+msgstr "Rechnungssicherung in Dropbox"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:32
+#: admin/partials/woo-invoice-pro-vs-free.php:185
+msgid "Write Custom CSS"
+msgstr "Benutzerdefiniertes CSS schreiben"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:36
+#: admin/partials/woo-invoice-pro-vs-free.php:213
+msgid "Custom Invoice Numbering Options"
+msgstr "Benutzerdefinierte Rechnungsnummerierungsoptionen"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:40
+#: admin/partials/woo-invoice-pro-vs-free.php:237
+msgid "WPML Compatibility"
+msgstr "WPML-Kompatibilität"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:44
+msgid "Polylang Compatibility"
+msgstr "Polylang-Kompatibilität"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:48
+#: admin/partials/woo-invoice-pro-vs-free.php:133
+msgid "Automatic Invoicing"
+msgstr "Automatische Rechnungsstellung"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:52
+#: admin/partials/woo-invoice-pro-vs-free.php:137
+msgid "Attach to Order Email"
+msgstr "An Bestell-E-Mail anhängen"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:56
+#: admin/partials/woo-invoice-pro-vs-free.php:141
+msgid "Invoice Download From My Account"
+msgstr "Rechnungsdownload von \"Mein Konto\""
+
+#: admin/partials/tabs/free-vs-pro-tab.php:60
+#: admin/partials/woo-invoice-pro-vs-free.php:145
+msgid "Custom Date Format"
+msgstr "Benutzerdefiniertes Datumsformat"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:64
+#: admin/partials/tabs/settings-tab.php:660
+#: admin/partials/woo-invoice-pro-vs-free.php:149
+msgid "Display ID/SKU"
+msgstr "Display-ID/SKU"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:68
+#: admin/partials/tabs/settings-tab.php:281
+#: admin/partials/woo-invoice-pro-vs-free.php:153
+msgid "Display Currency Code"
+msgstr "Währungscode anzeigen"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:72
+#: admin/partials/tabs/settings-tab.php:506
+#: admin/partials/woo-invoice-pro-vs-free.php:157
+msgid "Display Payment Method"
+msgstr "Zahlungsmethode anzeigen"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:80
+#: admin/partials/woo-invoice-pro-vs-free.php:165
+msgid "Footer Info Section"
+msgstr "Fußzeilen-Info-Bereich"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:84
+#: admin/partials/woo-invoice-pro-vs-free.php:169
+msgid "Bulk Invoice/Packing Slip Download"
+msgstr "Massenrechnung/Packzettel Download"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:88
+#: admin/partials/woo-invoice-pro-vs-free.php:173
+msgid "Invoice Template Translation"
+msgstr "Übersetzung von Rechnungsvorlagen"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:92
+#: admin/partials/woo-invoice-pro-vs-free.php:177
+msgid "Display Shipping Cost With Tax / Without Tax"
+msgstr "Anzeige der Versandkosten mit MwSt. / ohne Steuer"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:96
+#: admin/partials/woo-invoice-pro-vs-free.php:181
+msgid "Total Tax"
+msgstr "Gesamtsteuer"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:101
+#: admin/partials/woo-invoice-pro-vs-free.php:189
+msgid "Individual Product Tax & Tax %"
+msgstr "Individuelle Produktsteuer & Steuer%"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:105
+#: admin/partials/woo-invoice-pro-vs-free.php:193
+msgid "Total Without Tax"
+msgstr "Gesamt ohne Steuern"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:109
+#: admin/partials/woo-invoice-pro-vs-free.php:197
+msgid "Paid Stamp"
+msgstr "Bezahlter Stempel"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:113
+#: admin/partials/woo-invoice-pro-vs-free.php:201
+msgid "Authorized Signature"
+msgstr "Autorisierte Signatur"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:117
+#: admin/partials/woo-invoice-pro-vs-free.php:205
+msgid "Custom Background"
+msgstr "Benutzerdefinierter Hintergrund"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:121
+#: admin/partials/woo-invoice-pro-vs-free.php:217
+msgid "Display Product Image"
+msgstr "Produktbild anzeigen"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:125
+#: admin/partials/woo-invoice-pro-vs-free.php:221
+msgid "Display Product Category"
+msgstr "Produktkategorie anzeigen"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:129
+#: admin/partials/woo-invoice-pro-vs-free.php:225
+msgid "Display Product Short Description"
+msgstr "Produktkurzbeschreibung anzeigen"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:133
+#: admin/partials/woo-invoice-pro-vs-free.php:229
+msgid "Display Discounted Price"
+msgstr "Ermäßigten Preis anzeigen"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:137
+#: admin/partials/woo-invoice-pro-vs-free.php:233
+msgid "Proforma Invoice"
+msgstr "Proformarechnung"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:142
+#: admin/partials/woo-invoice-pro-vs-free.php:241
+msgid "WooCommerce Subscription Compatibility"
+msgstr "WooCommerce-Abonnementkompatibilität"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:146
+#: admin/partials/woo-invoice-pro-vs-free.php:245
+msgid "Order Delivery Address Print"
+msgstr "Lieferadresse drucken bestellen"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:150
+#: admin/partials/woo-invoice-pro-vs-free.php:249
+msgid "Download Bulk Delivery Address Print"
+msgstr "Massendruck der Lieferadresse herunterladen"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:154
+#: admin/partials/woo-invoice-pro-vs-free.php:253
+msgid "Custom Paper Size"
+msgstr "Individuelles Papierformat"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:158
+#: admin/partials/woo-invoice-pro-vs-free.php:257
+msgid "Pagination Style"
+msgstr "Stil der Seitennummerierung"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:162
+#: admin/partials/woo-invoice-pro-vs-free.php:273
+msgid "Display refund details"
+msgstr "Details zur Rückerstattung anzeigen"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:166
+#: admin/partials/woo-invoice-pro-vs-free.php:277
+msgid "Display fee details"
+msgstr "Gebührendetails anzeigen"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:170
+#: admin/partials/woo-invoice-pro-vs-free.php:281
+msgid "Generate credit note template"
+msgstr "Gutschriftsvorlage generieren"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:181
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: admin/partials/tabs/localization-tab.php:9
+msgid "Invoice block"
+msgstr "Rechnungsblock"
+
+#: admin/partials/tabs/localization-tab.php:142
+msgid "Packing Slip block"
+msgstr "Verpackungsschlupfblock"
+
+#: admin/partials/tabs/localization-tab.php:199
+#: admin/partials/tabs/seller-buyer-tab.php:126
+#: admin/partials/tabs/settings-tab.php:937
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: admin/partials/tabs/seller-buyer-tab.php:10
+msgid "Seller Block"
+msgstr "Verkäufer-Block"
+
+#: admin/partials/tabs/seller-buyer-tab.php:13
+msgid "Logo Image"
+msgstr "Logo-Bild"
+
+#: admin/partials/tabs/seller-buyer-tab.php:18
+msgid "Upload Logo"
+msgstr "Logo hochladen"
+
+#: admin/partials/tabs/seller-buyer-tab.php:28
+msgid "Logo Size"
+msgstr "Logo Größe"
+
+#: admin/partials/tabs/seller-buyer-tab.php:37
+msgid "Seller Title"
+msgstr "Titel des Verkäufers"
+
+#: admin/partials/tabs/seller-buyer-tab.php:45
+msgid "Company Name"
+msgstr "Firmenname"
+
+#: admin/partials/tabs/seller-buyer-tab.php:53
+msgid "Company Details"
+msgstr "Firmendetails"
+
+#: admin/partials/tabs/seller-buyer-tab.php:64
+msgid "Footer 1"
+msgstr "Footer 1"
+
+#: admin/partials/tabs/seller-buyer-tab.php:75
+msgid "Footer 2"
+msgstr "Fußzeile 2"
+
+#: admin/partials/tabs/seller-buyer-tab.php:84
+msgid "Buyer Block"
+msgstr "Käufer-Block"
+
+#: admin/partials/tabs/seller-buyer-tab.php:90
+msgid "Disable Phone Number"
+msgstr "Telefonnummer deaktivieren"
+
+#: admin/partials/tabs/seller-buyer-tab.php:109
+msgid "Disable Email Address"
+msgstr "E-Mail-Adresse deaktivieren"
+
+#: admin/partials/tabs/seller-buyer-tab.php:138
+msgid "Logo Preview"
+msgstr "Logo-Vorschau"
+
+#: admin/partials/tabs/settings-tab.php:20
+msgid "Enable Invoicing"
+msgstr "Ermögliche Rechnungen"
+
+#: admin/partials/tabs/settings-tab.php:37
+msgid "Allow My Account To Download Invoice"
+msgstr "Mein Konto zum Herunterladen der Rechnung zulassen"
+
+#: admin/partials/tabs/settings-tab.php:78
+#: admin/partials/tabs/settings-tab.php:224
+msgid "Processing Order"
+msgstr "Bestellung in Bearbeitung"
+
+#: admin/partials/tabs/settings-tab.php:91
+#: admin/partials/tabs/settings-tab.php:210
+msgid "On Hold Order"
+msgstr "In der Warteschleife angeordnete Reihenfolge"
+
+#: admin/partials/tabs/settings-tab.php:105
+msgid "Complete Order"
+msgstr "Bestellung abschließen"
+
+#: admin/partials/tabs/settings-tab.php:118
+msgid "After Payment Complete"
+msgstr "Nach Abschluss der Zahlung"
+
+#: admin/partials/tabs/settings-tab.php:132
+msgid "Always Allow"
+msgstr "Immer zulassen"
+
+#: admin/partials/tabs/settings-tab.php:140
+msgid "Invoice Attach to Email"
+msgstr "Rechnung an E-Mail anhängen"
+
+#: admin/partials/tabs/settings-tab.php:180
+msgid "New Order"
+msgstr "Neue Bestellung"
+
+#: admin/partials/tabs/settings-tab.php:195
+msgid "Completed Order"
+msgstr "Bestellung fertiggestellt"
+
+#: admin/partials/tabs/settings-tab.php:238
+msgid "Refunded Order"
+msgstr "Rückerstattete Zahlung"
+
+#: admin/partials/tabs/settings-tab.php:252
+msgid "Customer Invoice"
+msgstr "Kundenrechnung"
+
+#: admin/partials/tabs/settings-tab.php:262
+msgid "Document Output Type HTML"
+msgstr "Dokumentausgabetyp HTML"
+
+#: admin/partials/tabs/settings-tab.php:297
+msgid "Invoice Template"
+msgstr "Rechnungs-Vorlage"
+
+#: admin/partials/tabs/settings-tab.php:300
+msgid "Select Template"
+msgstr "Vorlage wählen"
+
+#: admin/partials/tabs/settings-tab.php:415
+msgid "Paper Size"
+msgstr "Papierformat"
+
+#: admin/partials/tabs/settings-tab.php:418
+msgid "A4"
+msgstr "A4"
+
+#: admin/partials/tabs/settings-tab.php:419
+msgid "A5"
+msgstr "A5"
+
+#: admin/partials/tabs/settings-tab.php:420
+msgid "Letter"
+msgstr "Buchstaben"
+
+#: admin/partials/tabs/settings-tab.php:425
+msgid "Order Settings"
+msgstr "Auftragseinstellungen"
+
+#: admin/partials/tabs/settings-tab.php:430
+msgid "Next Invoice No."
+msgstr "Nächste Rechnung Nr."
+
+#: admin/partials/tabs/settings-tab.php:438
+msgid "Invoice No. Prefix"
+msgstr "Prefix Rechnungsnr."
+
+#: admin/partials/tabs/settings-tab.php:446
+msgid "Invoice No. Suffix"
+msgstr "Rechnungs-Nr. Nachsilbe"
+
+#: admin/partials/tabs/settings-tab.php:453
+msgid "Invoice Download as"
+msgstr "Rechnung herunterladen als"
+
+#: admin/partials/tabs/settings-tab.php:467
+msgid "Date Format"
+msgstr "Datumsformat"
+
+#: admin/partials/tabs/settings-tab.php:524
+#: admin/partials/tabs/settings-tab.php:529
+msgid "Add Order Meta"
+msgstr "Bestellmeta hinzufügen"
+
+#: admin/partials/tabs/settings-tab.php:557
+#: admin/partials/tabs/settings-tab.php:606
+msgid "Select Order Meta"
+msgstr "Wählen Sie \"Meta bestellen\""
+
+#: admin/partials/tabs/settings-tab.php:572
+#: admin/partials/tabs/settings-tab.php:621
+msgid "Whare to show ?"
+msgstr "Was soll man zeigen?"
+
+#: admin/partials/tabs/settings-tab.php:648
+msgid "Product Settings"
+msgstr "Produkteinstellungen"
+
+#: admin/partials/tabs/settings-tab.php:652
+msgid "Product Title limit"
+msgstr "Limit für Produkttitel"
+
+#: admin/partials/tabs/settings-tab.php:663
+msgid "SKU"
+msgstr "SKU"
+
+#: admin/partials/tabs/settings-tab.php:664
+msgid "ID"
+msgstr "ID"
+
+#: admin/partials/tabs/settings-tab.php:665
+msgid "None"
+msgstr "Nichts"
+
+#: admin/partials/tabs/settings-tab.php:674
+#: admin/partials/tabs/settings-tab.php:678
+msgid "Add Product Meta"
+msgstr "Produktmeta hinzufügen"
+
+#: admin/partials/tabs/settings-tab.php:703
+#: admin/partials/tabs/settings-tab.php:733
+msgid "Select Post Meta"
+msgstr "Wählen Sie Post Meta"
+
+#: admin/partials/tabs/settings-tab.php:764
+#: admin/partials/tabs/settings-tab.php:768
+msgid "Add Order Item Meta"
+msgstr "Bestellartikel-Meta hinzufügen"
+
+#: admin/partials/tabs/settings-tab.php:793
+#: admin/partials/tabs/settings-tab.php:823
+msgid "Select Order Item Meta"
+msgstr "Bestellartikel Meta auswählen"
+
+#: admin/partials/tabs/settings-tab.php:854
+msgid "Order Total Settings"
+msgstr "Gesamteinstellungen bestellen"
+
+#: admin/partials/tabs/settings-tab.php:862
+msgid "Display Shipping Total"
+msgstr "Versandsumme anzeigen"
+
+#: admin/partials/tabs/settings-tab.php:866
+msgid "With Tax"
+msgstr "Mit Steuern"
+
+#: admin/partials/tabs/settings-tab.php:867
+msgid "Without Tax"
+msgstr "Ohne Steuern"
+
+#: admin/partials/tabs/settings-tab.php:880
+msgid "Display Order Note"
+msgstr "Bestellhinweis anzeigen"
+
+#: admin/partials/tabs/settings-tab.php:900
+msgid "Invoice Template CSS"
+msgstr "Rechnungsvorlage CSS"
+
+#: admin/partials/tabs/settings-tab.php:903
+msgid "Write Invoice Template CSS"
+msgstr "Rechnungsvorlage CSS schreiben"
+
+#: admin/partials/tabs/settings-tab.php:917
+msgid "Enable Debug Mode"
+msgstr "Debug-Modus aktivieren"
+
+#: admin/partials/tabs/settings-tab.php:920
+msgid "Enable debug mode to show errors."
+msgstr "Aktivieren Sie den Debugmodus, um Fehler anzuzeigen."
+
+#: admin/partials/tabs/settings-tab.php:959
+msgid "TEST QR CODE"
+msgstr "QR-CODE TESTEN"
+
+#: admin/partials/tabs/settings-tab.php:967
+msgid "SELECTED TEMPLATE"
+msgstr "AUSGEWÄHLTE VORLAGE"
+
+#: admin/partials/tabs/settings-tab.php:991
+msgid "PREVIEW LAST ORDER"
+msgstr "VORSCHAU DER LETZTEN BESTELLUNG"
+
+#: admin/partials/tabs/settings-tab.php:995
+msgid "PREVIEW"
+msgstr "VORSCHAU"
+
+#: admin/partials/tabs/settings-tab.php:1007
+msgid "Free VS Pro"
+msgstr "Kostenlos VS Pro"
+
+#: admin/partials/tabs/system-status-tab.php:152
+msgid "PHP Version"
+msgstr "PHP Version"
+
+#: admin/partials/tabs/system-status-tab.php:153
+msgid "Current Version:  "
+msgstr "Aktuelle Version:  "
+
+#: admin/partials/tabs/system-status-tab.php:155
+#: admin/partials/tabs/system-status-tab.php:163
+#: admin/partials/tabs/system-status-tab.php:171
+#: admin/partials/tabs/system-status-tab.php:179
+#: admin/partials/tabs/system-status-tab.php:187
+msgid "- ok"
+msgstr "- Einverstanden"
+
+#: admin/partials/tabs/system-status-tab.php:156
+msgid "Required Version: "
+msgstr "Erforderliche Version: "
+
+#: admin/partials/tabs/system-status-tab.php:160
+msgid "WordPress Version"
+msgstr "WordPress Version"
+
+#: admin/partials/tabs/system-status-tab.php:164
+#: admin/partials/tabs/system-status-tab.php:172
+msgid "Required: "
+msgstr "Erforderlich:"
+
+#: admin/partials/tabs/system-status-tab.php:168
+msgid "Woocommerce Version"
+msgstr "Woocommerce-Version"
+
+#: admin/partials/tabs/system-status-tab.php:176
+msgid "WordPress Upload Limit"
+msgstr "WordPress Upload-Limit"
+
+#: admin/partials/tabs/system-status-tab.php:180
+#: admin/partials/tabs/system-status-tab.php:188
+#: admin/partials/tabs/system-status-tab.php:196
+msgid "Required:"
+msgstr "Erforderlich:"
+
+#: admin/partials/tabs/system-status-tab.php:184
+msgid "WordPress Upload Limit Set By Hosting Provider"
+msgstr "WordPress-Upload-Limit vom Hosting-Anbieter festgelegt"
+
+#: admin/partials/tabs/system-status-tab.php:192
+msgid "PHP Limit Time"
+msgstr "PHP Limit Zeit"
+
+#: admin/partials/tabs/system-status-tab.php:193
+msgid "Current Limit Time: "
+msgstr "Aktuelle Begrenzungszeit: "
+
+#: admin/partials/tabs/system-status-tab.php:195
+#: admin/partials/tabs/system-status-tab.php:203
+msgid "- Ok"
+msgstr "- Ok"
+
+#: admin/partials/tabs/system-status-tab.php:200
+msgid "PHP Max Input Vars"
+msgstr "PHP Max Input Vars"
+
+#: admin/partials/tabs/system-status-tab.php:201
+msgid "Current PHP Max Input Vars: "
+msgstr "Aktuelle PHP Max Input Vars: "
+
+#: admin/partials/tabs/system-status-tab.php:204
+msgid "Recommend: "
+msgstr "Empfehlen: "
+
+#: admin/partials/tabs/system-status-tab.php:209
+msgid "WordPress Upload Directory Writable Permission"
+msgstr "Schreibfähige Berechtigung zum Hochladen des WordPress-Verzeichnisses"
+
+#: admin/partials/tabs/system-status-tab.php:212
+msgid "Writable - Ok"
+msgstr "Beschreibbar - Ok"
+
+#: admin/partials/tabs/system-status-tab.php:213
+msgid "Upload folder not writable permission"
+msgstr "Berechtigung Ordner nicht beschreibbar hochladen"
+
+#: admin/partials/tabs/system-status-tab.php:217
+msgid "WordPress Debug Mode"
+msgstr "WordPress Debug-Modus"
+
+#: admin/partials/tabs/system-status-tab.php:220
+msgid "WordPress Debug Mode is On"
+msgstr "Der WordPress-Debug-Modus ist aktiviert"
+
+#: admin/partials/tabs/system-status-tab.php:221
+msgid ""
+"<b>WP_DEBUG_LOG</b> is false. Plugin can not write error logs if "
+"WP_DEBUG_LOG is set to false. You can learn more about debugging in "
+"WordPress from <a target=\"_blank\" href=\"https://wordpress.org/support/"
+"article/debugging-in-wordpress/\">here</a>"
+msgstr ""
+"<b>WP_DEBUG_LOG</b> ist falsch. Plugin kann keine Fehlerprotokolle "
+"schreiben, wenn WP_DEBUG_LOG auf false gesetzt ist. Weitere Informationen "
+"zum Debuggen in WordPress finden Sie <a target=\"_blank\" href=\"https://"
+"wordpress.org/support/article/debugging-in-wordpress/\">hier</a>"
+
+#: admin/partials/tabs/system-status-tab.php:225
+msgid "zipArchive Extension"
+msgstr "zipArchive-Erweiterung"
+
+#: admin/partials/tabs/system-status-tab.php:228
+#: admin/partials/tabs/system-status-tab.php:236
+#: admin/partials/tabs/system-status-tab.php:244
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: admin/partials/tabs/system-status-tab.php:229
+msgid "Please enable zip extension from hosting."
+msgstr "Bitte aktivieren Sie die Zip-Erweiterung vom Hosting."
+
+#: admin/partials/tabs/system-status-tab.php:233
+msgid "MBString extension"
+msgstr "MBString-Erweiterung"
+
+#: admin/partials/tabs/system-status-tab.php:237
+msgid "Please enable MBString extension from hosting."
+msgstr "Bitte aktivieren Sie die MBString-Erweiterung vom Hosting."
+
+#: admin/partials/tabs/system-status-tab.php:241
+msgid "Dom extension"
+msgstr "Dom-Erweiterung"
+
+#: admin/partials/tabs/system-status-tab.php:245
+msgid "Dom extension is not enable from hosting."
+msgstr "Die Dom-Erweiterung ist vom Hosting nicht aktiviert."
+
+#: admin/partials/tabs/system-status-tab.php:250
+msgid "Title"
+msgstr "Titel"
+
+#: admin/partials/tabs/system-status-tab.php:251
+#: admin/partials/woo-invoice-settings.php:151
+msgid "Status"
+msgstr "Status"
+
+#: admin/partials/tabs/system-status-tab.php:252
+#: libs/WebAppick/AppServices/Insights.php:996
+msgid "Message"
+msgstr "Nachricht"
+
+#: admin/partials/tabs/upload-fonts-tab.php:12
+#: admin/partials/woo-invoice-settings.php:141
+msgid "Upload Fonts"
+msgstr "Schriften hochladen"
+
+#: admin/partials/tabs/upload-fonts-tab.php:28
+msgid "Upload"
+msgstr "Hochladen"
+
+#: admin/partials/tabs/upload-fonts-tab.php:31
+msgid "Uploading"
+msgstr "Wird hochgeladen"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:66
+msgid "Unlimited Orders"
+msgstr "Unbegrenzte Bestellungen"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:67
+msgid "Support for 1 Year"
+msgstr "Support für 1 Jahr"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:68
+msgid "Updates for 1 Year"
+msgstr "Updates für 1 Jahr"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:69
+msgid "Automated Invoicing"
+msgstr "Automatisierte Rechnungsstellung"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:70
+msgid "Easy Setup"
+msgstr "Einfache Einrichtung"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:71
+msgid "Multiple Tax Classes"
+msgstr "Mehrere Steuerklassen"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:72
+msgid "Attach Signature"
+msgstr "Unterschrift anhängen"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:73
+msgid "Invoice Backup to Dropbox"
+msgstr "Rechnungssicherung in Dropbox"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:74
+msgid "Include Paid Stamp"
+msgstr "Bezahlte Briefmarke einschließen"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:75
+msgid "Generate Packing Slip"
+msgstr "Lieferschein erstellen"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:76
+msgid "Bulk Download Support"
+msgstr "Unterstützung für Massen-Downloads"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:77
+msgid "WPML Compatible"
+msgstr "WPML kompatibel"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:78
+msgid "3<sup>rd</sup> Party Plugin Supports"
+msgstr "3<sup>rd</sup> Party Plugin unterstützt"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:82
+msgid "Personal"
+msgstr "Persönlich"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:85
+#: admin/partials/woo-invoice-pro-vs-free.php:94
+#: admin/partials/woo-invoice-pro-vs-free.php:103
+msgid " Yearly"
+msgstr " Jährlich"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:87
+msgid "Popular"
+msgstr "Beliebt"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:91
+msgid "Plus"
+msgstr "Plus"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:100
+msgid "Expert"
+msgstr "Experte"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:209
+msgid "Product per Page"
+msgstr "Produkt pro Seite"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:289
+msgid "Header and Address section ordering"
+msgstr "Reihenfolge der Kopfzeilen- und Adressabschnitte"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:337
+msgid "Upgrade to Wooinvoice Pro to unlock more powerful features."
+msgstr ""
+"Aktualisieren Sie auf Wooinvoice Pro, um leistungsfähigere Funktionen "
+"freizuschalten."
+
+#: admin/partials/woo-invoice-pro-vs-free.php:344
+msgid "Why Upgrade"
+msgstr "Warum Upgraden"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:345
+msgid "Super charge your Store with awesome features"
+msgstr "Laden Sie Ihren Shop mit fantastischen Funktionen auf"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:367
+msgid "Free"
+msgstr "Kostenlos"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:367
+msgid "vs"
+msgstr "gegen"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:367
+msgid "Pro"
+msgstr "Pro"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:368
+msgid "Find the plan that suits best for you business"
+msgstr "Finden Sie den Plan, der am besten zu Ihrem Unternehmen passt"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:373
+msgid "Woowoo-invoice Lite"
+msgstr "Woowoo-Rechnung Lite"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:381
+msgid "Woowoo-invoice Pro"
+msgstr "Woowoo-Rechnung Pro"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:392
+msgid "Take Your Products To The Next Level"
+msgstr "Bringen Sie Ihre Produkte auf die nächste Stufe"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:393
+msgid "Choose your subscription plan and get started"
+msgstr "Wählen Sie Ihr Abonnement aus und legen Sie los"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:419
+msgctxt "Free Package Price Display"
+msgid "Free"
+msgstr "Kostenlos"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:436
+#, php-format
+msgid "For %d Site"
+msgid_plural "For %d Sites"
+msgstr[0] "Für %d Website"
+msgstr[1] "Für %d Webseiten"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:448
+msgid "Buy Now"
+msgstr "Jetzt kaufen"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:465
+#: admin/partials/woo-invoice-pro-vs-free.php:468
+msgid "30 Days Money Back Guarantee"
+msgstr "30 Tage Geld-zurück-Garantie"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:469
+msgid "After successful purchase, you will be eligible for conditional refund"
+msgstr ""
+"Nach erfolgreichem Kauf, haben Sie Anspruch auf eine bedingte Rückerstattung"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:470
+msgid "Refund Policy"
+msgstr "Rückgaberecht"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:474
+msgid "Payment Options:"
+msgstr "Zahlungsoptionen :"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:476
+msgid "Credit Cards (Stripe)"
+msgstr "Kreditkarten (Stripe)"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:478
+msgid "Visa"
+msgstr "Visa"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:479
+msgid "American Express"
+msgstr "American Express"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:480
+msgid "Mastercard"
+msgstr "Mastercard"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:481
+msgid "Discover"
+msgstr "Discover"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:482
+msgid "JCB"
+msgstr "JCB"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:483
+msgid "Diners"
+msgstr "Diners"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:491
+msgid "Our Happy Customer"
+msgstr "Unser zufriedener Kunde"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:492
+msgid "Join the squad today!"
+msgstr "Werde noch heute Teil des Kaders!"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:526
+msgid "Still need help?"
+msgstr "Brauchst Du Hilfe?"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:527
+msgid ""
+"Have we not answered your question? Don't worry, you can contact us for more "
+"information..."
+msgstr ""
+"Haben wir Ihre Frage nicht beantwortet? Keine Sorge, Sie können uns für "
+"weitere Informationen kontaktieren..."
+
+#: admin/partials/woo-invoice-pro-vs-free.php:530
+#: includes/class-woo-invoice-webappick-api.php:207
+msgid "Get Support"
+msgstr "Support erhalten"
+
+#: admin/partials/woo-invoice-settings.php:77
+msgid "Join Facebook Group"
+msgstr "Facebook Gruppe beitreten"
+
+#: admin/partials/woo-invoice-settings.php:80
+msgid "Get free support"
+msgstr "Kostenlosen Support erhalten"
+
+#: admin/partials/woo-invoice-settings.php:82
+#: includes/class-woo-invoice-webappick-api.php:187 woo-invoice.php:539
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: admin/partials/woo-invoice-settings.php:123
+msgid "Seller & Buyer"
+msgstr "Verkäufer & Käufer"
+
+#: admin/partials/woo-invoice-settings.php:132
+msgid "Bulk download"
+msgstr "Massen-Download"
+
+#: admin/partials/woo-invoice-settings.php:161
+msgid "Free vs Premium"
+msgstr "Kostenlos vs. Premium"
+
+#: includes/class-woo-invoice-fonts.php:156
+msgid "Fonts downloaded."
+msgstr "Heruntergeladene Schriftarten."
+
+#: includes/class-woo-invoice-fonts.php:162
+#: includes/notices/admin-notice-for-review.php:311
+#: includes/notices/admin-notice-for-review.php:341 woo-invoice.php:625
+msgid "Invalid Request."
+msgstr "Ungültige Anfrage."
+
+#: includes/class-woo-invoice-fonts.php:204
+msgid ""
+"To generate invoice you need to download fonts. Please click here to "
+"download.  <button class=\"button button-primary\" id=\"download_button\" "
+">Download</button>"
+msgstr ""
+"Um eine Rechnung zu erstellen, müssen Sie Schriftarten herunterladen. Bitte "
+"klicken Sie hier zum Download.  <button class=\"button button-primary\" id="
+"\"download_button\" >Herunterladen</button>"
+
+#: includes/class-woo-invoice-helper.php:345
+#: includes/class-woo-invoice-helper.php:348
+msgid "VAT ID"
+msgstr "USt-IdNr."
+
+#: includes/class-woo-invoice-helper.php:359
+#: includes/class-woo-invoice-helper.php:362
+msgid "SSN"
+msgstr "Sozialvers.-Nummer"
+
+#: includes/class-woo-invoice-hooks.php:217
+#: includes/class-woo-invoice-hooks.php:262
+#: includes/class-woo-invoice-hooks.php:585
+msgid "Download Invoice"
+msgstr "Rechnung herunterladen"
+
+#: includes/class-woo-invoice-hooks.php:272
+msgid "Challan Invoice"
+msgstr "Challan Rechnung"
+
+#: includes/class-woo-invoice-hooks.php:297
+#: includes/class-woo-invoice-hooks.php:380
+msgid "Delivery Address"
+msgstr "Lieferadresse"
+
+#: includes/class-woo-invoice-hooks.php:336
+msgid "Make PDF Invoice"
+msgstr "PDF-Rechnung erstellen"
+
+#: includes/class-woo-invoice-hooks.php:347
+msgid "Make Packing Slip"
+msgstr "Packzettel machen"
+
+#: includes/class-woo-invoice-hooks.php:364
+msgid "PDF Invoice"
+msgstr "PDF Rechnung"
+
+#: includes/class-woo-invoice-pdf.php:227
+msgid " Please read the doc to download your missing fonts."
+msgstr ""
+" Bitte lesen Sie das Dokument, um Ihre fehlenden Schriftarten "
+"herunterzuladen."
+
+#: includes/class-woo-invoice-webappick-api.php:111
+msgid "Cloning is forbidden."
+msgstr "Das Klonen ist verboten."
+
+#: includes/class-woo-invoice-webappick-api.php:181
+#: libs/WebAppick/AppServices/Insights.php:914
+msgid "Thank you -- Support Ticket Submitted."
+msgstr "Vielen Dank -- Support-Ticket eingereicht."
+
+#: includes/class-woo-invoice-webappick-api.php:182
+msgid "Your ticket has been successfully submitted."
+msgstr "Ihr Ticket wurde erfolgreich eingereicht."
+
+#: includes/class-woo-invoice-webappick-api.php:183
+msgid "24 hours"
+msgstr "24 Stunden"
+
+#: includes/class-woo-invoice-webappick-api.php:185
+msgid ""
+"Please Follow the email and WebAppick Support Team will get back with you "
+"shortly."
+msgstr ""
+"Bitte folgen Sie der E-Mail und das WebAppick Support Team wird sich in "
+"Kürze mit Ihnen in Verbindung setzen."
+
+#: includes/class-woo-invoice-webappick-api.php:188
+msgid "Video Tutorials"
+msgstr "Videoanleitungen"
+
+#: includes/class-woo-invoice-webappick-api.php:191
+msgid "Terms & Conditions"
+msgstr "Allgemeine Geschäftsbedingungen"
+
+#: includes/class-woo-invoice-webappick-api.php:192
+msgid "Privacy Policy"
+msgstr "Datenschutzerklärung"
+
+#: includes/class-woo-invoice-webappick-api.php:206
+msgid ""
+"Something Went Wrong. Please Try The Support Ticket Form On Our Website."
+msgstr ""
+"Etwas ist schief gelaufen. Bitte probieren Sie das Support-Ticket-Formular "
+"auf unserer Website aus."
+
+#: includes/class-woo-invoice-webappick-api.php:208
+msgid "Support Ticket form will open in new tab in 5 seconds."
+msgstr ""
+"Das Support-Ticket-Formular wird in 5 Sekunden auf der neuen Registerkarte "
+"geöffnet."
+
+#: includes/class-woo-invoice-webappick-api.php:223
+msgid "Number of products in your site."
+msgstr "Anzahl der Produkte auf Ihrer Website."
+
+#: includes/class-woo-invoice-webappick-api.php:224
+msgid "Number of Orders in your site."
+msgstr "Anzahl der Bestellungen auf Ihrer Website."
+
+#: includes/class-woo-invoice-webappick-api.php:225
+msgid "Site name, language and url."
+msgstr "Site-Name, Sprache und URL."
+
+#: includes/class-woo-invoice-webappick-api.php:226
+msgid "Number of active and inactive plugins."
+msgstr "Anzahl der aktiven und inaktiven Plugins."
+
+#: includes/class-woo-invoice-webappick-api.php:227
+msgid "Your name and email address."
+msgstr "Ihren Namen und Ihre E-Mail-Adresse."
+
+#: includes/notices/admin-notice-downloading-font-background-process-in-progress-info.php:31
+msgid ""
+"From Challan plugin, background process for downloading the fonts in "
+"progress for PDF invoice, Packing Slip, and delivery address."
+msgstr ""
+"Vom Challan-Plugin, Hintergrundprozess zum Herunterladen der Schriftarten "
+"für PDF-Rechnung, Lieferschein und Lieferadresse."
+
+#: includes/notices/admin-notice-for-review.php:78
+msgid "Review Now"
+msgstr "Jetzt bewerten"
+
+#: includes/notices/admin-notice-for-review.php:79
+msgid "Remind Me Later"
+msgstr "Mich später erinnern"
+
+#: includes/notices/admin-notice-for-review.php:80
+msgid "Already Done!"
+msgstr "Schon fertig!"
+
+#: includes/notices/admin-notice-for-review.php:81
+msgid "Never Ask Again"
+msgstr "Fragen Sie nie wieder nach"
+
+#: includes/notices/admin-notice-for-review.php:139
+#: includes/notices/admin-notice-for-review.php:190
+#: includes/notices/admin-notice-for-review.php:244
+msgid ""
+"<a class=\"woo_invoice_price_update\" href=\"https://webappick.com/plugin/"
+"woocommerce-pdf-invoice-packing-slips/?"
+"utm_source=customer_site&utm_medium=free_vs_pro&utm_campaign=woo_invoice_free"
+"\" target=\"_blank\">\n"
+"<img  src=\""
+msgstr ""
+"<a class=\"woo_invoice_price_update\" href=\"https://webappick.com/plugin/"
+"woocommerce-pdf-invoice-packing-slips/?"
+"utm_source=customer_site&utm_medium=free_vs_pro&utm_campaign=woo_invoice_free"
+"\" target=\"_blank\">\n"
+"<img  src=\"</a>"
+
+#: includes/notices/admin-notice-for-review.php:335
+msgid "Request Successful."
+msgstr "Anfrage erfolgreich."
+
+#: includes/notices/admin-notice-for-review.php:337 woo-invoice.php:622
+msgid "Something is wrong."
+msgstr "Da ist etwas schiefgegangen!"
+
+#: includes/notices/admin-notice-invoice-dir-is-not-writeable-error.php:26
+msgid "An error has occurred the directory of <strong style=\"color: red;\">"
+msgstr "Im Verzeichnis von <strong style=\"color: red;\">"
+
+#: includes/notices/admin-notice-wp-content-dir-is-not-writeable-error.php:28
+msgid ""
+"An error has occurred, the directory of <strong style=\"color: red;\">wp-"
+"content/uploads/</strong> is not writeable. The WordPress system wont't work "
+"well without write permission. More details about "
+msgstr ""
+"Ein Fehler ist aufgetreten, das Verzeichnis von <strong style=\"color: red;"
+"\">wp-content/uploads/</strong> ist nicht beschreibbar. Das WordPress-System "
+"funktioniert ohne Schreibberechtigung nicht gut. Mehr Details zu "
+
+#: includes/settings.php:24
+msgid ""
+"<h1>Challan</h1>  <b>Your uploads folder is not writable. Please make <code "
+"style=\"color: #ff0000;\">wp-content/uploads</code> folder writable to "
+"generate and save invoices.</b>"
+msgstr ""
+"<h1>Challan |</h1>  <b>Ihr Upload-Ordner kann nicht beschreibbar werden. "
+"Bitte machen <code style=\"color: #ff0000;\">wp-content/uploads</code> Sie "
+"den Ordner beschreibbar, um Rechnungen zu generieren und zu speichern.</b>"
+
+#: includes/widget.php:21
+msgid "Latest News from WebAppick Blog"
+msgstr "Neueste Nachrichten von WebAppick Blog"
+
+#: includes/widget.php:52
+msgid "WEBAPPICK.COM"
+msgstr "WEBAPPICK.COM"
+
+#: includes/widget.php:67
+msgid "Get more woocommerce tips & news on our blog..."
+msgstr ""
+"Holen Sie sich weitere Woocommerce-Tipps und Neuigkeiten in unserem Blog..."
+
+#: libs/WebAppick/AppServices/Insights.php:321
+msgid "Server environment details (php, mysql, server, WordPress versions)."
+msgstr "Details zur Serverumgebung (php, mysql, Server, WordPress-Versionen)."
+
+#: libs/WebAppick/AppServices/Insights.php:450
+msgid "what we collect"
+msgstr "was wir erfassen"
+
+#: libs/WebAppick/AppServices/Insights.php:457
+msgid "No sensitive data is tracked."
+msgstr "Sensible Daten werden nicht erfasst."
+
+#: libs/WebAppick/AppServices/Insights.php:464
+msgid "Allow"
+msgstr "Erlauben"
+
+#: libs/WebAppick/AppServices/Insights.php:468
+msgid "No thanks"
+msgstr "Nein danke"
+
+#: libs/WebAppick/AppServices/Insights.php:679
+msgid "Once Weekly"
+msgstr "Einmal wöchentlich"
+
+#: libs/WebAppick/AppServices/Insights.php:748
+msgid "I couldn't understand how to make it work"
+msgstr "Ich habe nicht verstanden, wie es funktioniert"
+
+#: libs/WebAppick/AppServices/Insights.php:750
+msgid "Would you like us to assist you?"
+msgstr "Möchtest Du Hilfe?"
+
+#: libs/WebAppick/AppServices/Insights.php:754
+msgid "I found a better plugin"
+msgstr "Ich fand ein besseres Plugin"
+
+#: libs/WebAppick/AppServices/Insights.php:756
+msgid "Which plugin?"
+msgstr "Welches Plugin?"
+
+#: libs/WebAppick/AppServices/Insights.php:761
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr ""
+"Das Plugin ist großartig, aber ich brauche besondere Funktionen, die das "
+"PlugIn nicht bietet"
+
+#: libs/WebAppick/AppServices/Insights.php:765
+msgid "Could you tell us more about that feature?"
+msgstr "Kannst Du uns mehr über diese Funktion erzählen?"
+
+#: libs/WebAppick/AppServices/Insights.php:769
+msgid "The plugin is not working"
+msgstr "Das PlugIn funktioniert nicht"
+
+#: libs/WebAppick/AppServices/Insights.php:771
+msgid "Could you tell us a bit more whats not working?"
+msgstr "Können Sie uns mehr dazu sagen, was nicht funktioniert?"
+
+#: libs/WebAppick/AppServices/Insights.php:775
+msgid "It's not what I was looking for"
+msgstr "Es ist nicht das, was ich suchte"
+
+#: libs/WebAppick/AppServices/Insights.php:781
+msgid "The plugin didn't work as expected"
+msgstr "Das PlugIn funktioniert nicht wie erwartet"
+
+#: libs/WebAppick/AppServices/Insights.php:783
+msgid "What did you expect?"
+msgstr "Was haben Sie erwartet?"
+
+#: libs/WebAppick/AppServices/Insights.php:787
+msgid "Temporary deactivation for debugging"
+msgstr "Temporäre Deaktivierung für das Debuggen"
+
+#: libs/WebAppick/AppServices/Insights.php:793
+msgid "Other"
+msgstr "Andere"
+
+#: libs/WebAppick/AppServices/Insights.php:795
+msgid "Could you tell us a bit more?"
+msgstr "Können Sie uns etwas mehr erzählen?"
+
+#: libs/WebAppick/AppServices/Insights.php:861
+msgid "Something Went Wrong."
+msgstr "Etwas hat nicht funktioniert."
+
+#: libs/WebAppick/AppServices/Insights.php:861
+msgid "Please try again after sometime."
+msgstr "Bitte versuchen Sie es nach einiger Zeit erneut."
+
+#: libs/WebAppick/AppServices/Insights.php:930
+msgid "Something Went Wrong. Please Try Again After Sometime."
+msgstr ""
+"Etwas ist schief gelaufen. Bitte versuchen Sie es nach einiger Zeit erneut."
+
+#: libs/WebAppick/AppServices/Insights.php:936
+msgid "Missing Required Fields."
+msgstr "Fehlende Pflichtfelder."
+
+#: libs/WebAppick/AppServices/Insights.php:960
+msgid "Submit Support Ticket."
+msgstr "Support-Ticket einreichen."
+
+#: libs/WebAppick/AppServices/Insights.php:961
+#: libs/WebAppick/AppServices/Insights.php:1014
+msgid "Close"
+msgstr "Schließen"
+
+#: libs/WebAppick/AppServices/Insights.php:970
+msgid "Name"
+msgstr "Name"
+
+#: libs/WebAppick/AppServices/Insights.php:976
+msgid "Email"
+msgstr "E-Mail"
+
+#: libs/WebAppick/AppServices/Insights.php:983
+msgid "Subject"
+msgstr "Betreff"
+
+#: libs/WebAppick/AppServices/Insights.php:989
+msgid "Website"
+msgstr "Webseite"
+
+#: libs/WebAppick/AppServices/Insights.php:1006
+msgid "Send Message"
+msgstr "Nachricht senden"
+
+#: libs/WebAppick/AppServices/Insights.php:1007
+#: libs/WebAppick/AppServices/Insights.php:1044
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: libs/WebAppick/AppServices/Insights.php:1013
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr ""
+"Wenn Sie einen Moment Zeit haben, lassen Sie uns wissen, warum Sie "
+"deaktiviert haben:"
+
+#: libs/WebAppick/AppServices/Insights.php:1032
+msgid "In trouble? Please submit a support request."
+msgstr "In Schwierigkeiten? Bitte senden Sie eine Supportanfrage."
+
+#: libs/WebAppick/AppServices/Insights.php:1034
+msgid "Not Interested"
+msgstr "Nicht interessiert"
+
+#: libs/WebAppick/AppServices/Insights.php:1035
+msgid "Open Support Ticket"
+msgstr "Support-Ticket erstellen"
+
+#: libs/WebAppick/AppServices/Insights.php:1042
+msgid "I rather wouldn't say"
+msgstr "Ich würde das lieber nicht sagen"
+
+#: libs/WebAppick/AppServices/Insights.php:1043
+msgid "Submit & Deactivate"
+msgstr "Absenden & deaktivieren"
+
+#: libs/WebAppick/AppServices/Insights.php:1140
+msgid "Processing..."
+msgstr "Wird verarbeitet..."
+
+#: libs/WebAppick/AppServices/Promotions.php:131
+msgid "Promotion Source URL Not Set. see Promotions::set_source( $URL )"
+msgstr ""
+"URL der Heraufstufungsquelle nicht festgelegt. siehe Promotionen::"
+"set_source( $URL )"
+
+#: libs/WebAppick/AppServices/Promotions.php:384
+msgid "Promo hidden"
+msgstr "Promo versteckt"
+
+#: libs/WebAppick/AppServices/Promotions.php:386
+msgid "Invalid Request"
+msgstr "﻿Ungültige Anfrage"
+
+#: libs/WebAppick/AppServices/Promotions.php:397
+msgid "Method must be invoked inside admin_init action"
+msgstr "Methode muss innerhalb admin_init Aktion aufgerufen werden"
+
+#: woo-invoice.php:225
+#, php-format
+msgid "Toggle panel: %s"
+msgstr "Panel umschalten: %s"
+
+#: woo-invoice.php:480
+msgid "No order found with your given date range."
+msgstr "Keine Bestellung mit Ihrem angegebenen Datumsbereich gefunden."
+
+#: woo-invoice.php:538
+msgid "<b>Get Pro</b>"
+msgstr "<b>Holen Sie sich Pro</b>"
+
+#: woo-invoice.php:636
+msgid ""
+"<h1>Challan</h1>  <b>Your uploads folder is not writable. Please make <code "
+"style=\"color: red;\">wp-content/uploads</code> folder writable to generate "
+"and save invoices.</b>"
+msgstr ""
+"<h1>Challan |</h1>  <b>Ihr Upload-Ordner kann nicht beschreibbar werden. "
+"Bitte machen <code style=\"color: red;\">wp-content/uploads</code> Sie den "
+"Ordner beschreibbar, um Rechnungen zu generieren und zu speichern.</b>"

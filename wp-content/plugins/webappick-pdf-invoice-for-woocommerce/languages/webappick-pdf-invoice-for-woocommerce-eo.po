@@ -1,0 +1,447 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Invoice Pro\n"
+"POT-Creation-Date: 2021-01-12 12:58+0600\n"
+"PO-Revision-Date: 2021-11-10 15:54+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woo-invoice-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-woo-invoice-pro-template.php:715
+msgid "Billing"
+msgstr "faktura"
+
+#: includes/class-woo-invoice-pro-template.php:716
+#: includes/class-woo-invoice-pro-template.php:1253
+msgid "Shipping"
+msgstr "Sendo"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1600
+#: admin/partials/woo-invoice-pro-admin-display.php:1903
+#: includes/class-woo-invoice-pro-template.php:759
+msgid "Order Number"
+msgstr "Ordo Nombro"
+
+#: includes/class-woo-invoice-pro-template.php:764
+msgid "Order Date"
+msgstr "Dato de mendo"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1872
+#: includes/class-woo-invoice-pro-template.php:742
+msgid "Invoice Number"
+msgstr "Faktura Numero"
+
+#: includes/class-woo-invoice-pro-template.php:1298
+msgid "Net Payment"
+msgstr "Reta Pago"
+
+#: includes/class-woo-invoice-pro-template.php:775
+msgid "Shipping Method"
+msgstr "Sendometodo"
+
+#: includes/class-woo-invoice-pro-template.php:769
+msgid "Payment Method"
+msgstr "Pagmetodo"
+
+#: includes/class-woo-invoice-pro-template.php:782
+msgid "Delivery Date"
+msgstr "Dato de mendo"
+
+#: includes/class-woo-invoice-pro-template.php:788
+msgid "Time Slot"
+msgstr "Tempospaco"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:178
+#: admin/partials/woo-invoice-pro-admin-display.php:4166
+#: includes/class-woo-invoice-pro-hooks.php:708
+msgid "Invoice"
+msgstr "RicevoName"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:186
+#: admin/partials/woo-invoice-pro-admin-display.php:4167
+#: includes/class-woo-invoice-pro-hooks.php:523
+#: includes/class-woo-invoice-pro-hooks.php:713
+#: includes/class-woo-invoice-pro-hooks.php:794
+msgid "Packing Slip"
+msgstr "ĈifonojName"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:226
+#: includes/class-woo-invoice-pro-hooks.php:719
+#: includes/class-woo-invoice-pro-hooks.php:804
+msgid "Delivery Address"
+msgstr "Ekspeda Etikedo"
+
+#: includes/class-woo-invoice-pro-hooks.php:580
+#: includes/class-woo-invoice-pro-hooks.php:663
+#: includes/class-woo-invoice-pro-template.php:225
+msgid "Credit Note"
+msgstr "Kredita Noto"
+
+#: includes/class-woo-invoice-pro-template.php:1082
+msgid "Cost"
+msgstr "Kosto"
+
+#: includes/class-woo-invoice-pro-template.php:1106
+msgid "Quantity"
+msgstr "Kvanto"
+
+#: includes/class-woo-invoice-pro-template.php:1329
+msgid "Total Quantity"
+msgstr "Totala Kvanto"
+
+#: includes/class-woo-invoice-pro-template.php:1083
+msgid "Qty"
+msgstr "Kvt"
+
+#: includes/class-woo-invoice-pro-orders.php:454
+#: includes/class-woo-invoice-pro-template.php:1101
+msgid "Dimensions"
+msgstr "Dimensioj"
+
+#: includes/class-woo-invoice-pro-orders.php:457
+#: includes/class-woo-invoice-pro-template.php:1105
+msgid "Weight"
+msgstr "Pezo"
+
+#: includes/class-woo-invoice-pro-template.php:1084
+msgid "Total"
+msgstr "Fina sumo"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2509
+#: includes/class-woo-invoice-pro-template.php:1247
+msgid "Fees"
+msgstr "Kotizoj"
+
+#: includes/class-woo-invoice-pro-template.php:1088
+#: includes/class-woo-invoice-pro-template.php:1093
+msgid "Tax"
+msgstr "Imposto"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2599
+msgid "Discount"
+msgstr "Rabato"
+
+#: includes/class-woo-invoice-pro-template.php:1263
+msgid "Order Total With Tax"
+msgstr "Mendu Entute Kun Imposto"
+
+#: includes/class-woo-invoice-pro-template.php:1263
+msgid "Order Total Without Tax"
+msgstr "Mendu Entuta Sen Imposto"
+
+#: includes/class-woo-invoice-pro-template.php:1293
+msgid "Order Total"
+msgstr "Sumo de mendo"
+
+#: includes/class-woo-invoice-pro-template.php:1214
+#: includes/class-woo-invoice-pro-template.php:1297
+msgid "Refund"
+msgstr "Repago"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:522
+#: admin/partials/woo-invoice-pro-admin-display.php:3527
+#: includes/class-woo-invoice-pro-template.php:1409
+msgid "Customer Note"
+msgstr "Klienta noto"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1477
+msgid "Signature"
+msgstr "Subskribo"
+
+#: includes/class-woo-invoice-pro-template.php:1503
+msgid "Authorized Signature"
+msgstr "Rajtigita Subskribo"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2645
+msgid "Bank Accounts"
+msgstr "Bankaj Kontoj"
+
+#: includes/class-woo-invoice-pro-template.php:1464
+msgid "Account Name"
+msgstr "Kontonomo"
+
+#: includes/class-woo-invoice-pro-template.php:1078
+msgid "Item"
+msgstr "Elemento"
+
+#: includes/class-woo-invoice-pro-template.php:1233
+msgid "Coupon(s)"
+msgstr "Kupono(j)"
+
+#: includes/class-woo-invoice-pro-template.php:1463
+msgid "Bank Name"
+msgstr "Bankonomo"
+
+#: includes/class-woo-invoice-pro-template.php:1465
+msgid "Account No"
+msgstr "Kontonumero"
+
+#: includes/class-woo-invoice-pro-template.php:1466
+msgid "Sort Code"
+msgstr "Ordiga kodo"
+
+#: includes/class-woo-invoice-pro-template.php:1467
+msgid "IBAN"
+msgstr "IBAN"
+
+#: includes/class-woo-invoice-pro-template.php:1468
+msgid "BIC/Swift"
+msgstr "BIC/Swift"
+
+#: includes/class-woo-invoice-pro-template.php:1336
+msgid "Total Weight"
+msgstr "Totala Pezo"
+
+#: includes/class-woo-invoice-pro-template.php:1352
+msgid "Refund Address"
+msgstr "Rekompensa Adreso"
+
+#: includes/class-woo-invoice-pro-helper.php:187
+msgid "Phone"
+msgstr ""
+
+#: includes/class-woo-invoice-pro-helper.php:190
+#, fuzzy
+#| msgid "Order Total"
+msgid "Email"
+msgstr "Sumo de mendo"
+
+#: includes/class-woo-invoice-pro-helper.php:420
+#, fuzzy
+#| msgid "Order Number"
+msgid "VAT Number"
+msgstr "Ordo Nombro"
+
+#: includes/class-woo-invoice-pro-orders.php:475
+msgid "Category"
+msgstr ""
+
+#: includes/class-woo-invoice-pro-orders.php:397
+msgid "Description"
+msgstr ""
+
+#: includes/class-woo-invoice-pro-orders.php:616
+msgid "Duration"
+msgstr ""
+
+#: includes/class-woo-invoice-pro-orders.php:619
+msgid "From"
+msgstr ""
+
+#: includes/class-woo-invoice-pro-orders.php:622
+msgid "To"
+msgstr ""
+
+#: includes/class-woo-invoice-pro-template.php:1217
+msgid "Items Subtotal"
+msgstr ""
+
+#: includes/class-woo-invoice-pro-orders.php:316
+msgid "ID"
+msgstr ""
+
+#: includes/class-woo-invoice-pro-orders.php:319
+msgid "SKU"
+msgstr ""
+
+msgid "Download Invoice"
+msgstr "RicevoName"
+
+#, fuzzy
+#~| msgid "Invoice"
+#~ msgid "Woo Invoice"
+#~ msgstr "RicevoName"
+
+#, fuzzy
+#~| msgid "Invoice"
+#~ msgid "Woo Invoice Pro"
+#~ msgstr "RicevoName"
+
+#, fuzzy
+#~| msgid "Invoice"
+#~ msgid "Invoice Settings"
+#~ msgstr "RicevoName"
+
+#, fuzzy
+#~| msgid "Refund"
+#~ msgid "Refunded Order"
+#~ msgstr "Repago"
+
+#, fuzzy
+#~| msgid "Customer Note"
+#~ msgid "Customer Invoice"
+#~ msgstr "Klienta noto"
+
+#, fuzzy
+#~| msgid "Packing Slip"
+#~ msgid "Attach Packing Slip"
+#~ msgstr "ĈifonojName"
+
+#, fuzzy
+#~| msgid "Invoice Number"
+#~ msgid "Invoice Template"
+#~ msgstr "Faktura Numero"
+
+#, fuzzy
+#~| msgid "Credit Note"
+#~ msgid "Credit Note Template"
+#~ msgstr "Kredita Noto"
+
+#, fuzzy
+#~| msgid "Customer Note"
+#~ msgid "Custom Paper Size"
+#~ msgstr "Klienta noto"
+
+#, fuzzy
+#~| msgid "Customer Note"
+#~ msgid "Custom Stamp"
+#~ msgstr "Klienta noto"
+
+#, fuzzy
+#~| msgid "Signature"
+#~ msgid "Enable Signature"
+#~ msgstr "Subskribo"
+
+#, fuzzy
+#~| msgid "Signature"
+#~ msgid "Upload Signature"
+#~ msgstr "Subskribo"
+
+#, fuzzy
+#~| msgid "Order Total"
+#~ msgid "Order Info"
+#~ msgstr "Sumo de mendo"
+
+#, fuzzy
+#~| msgid "Order Total Without Tax"
+#~ msgid "Without Tax"
+#~ msgstr "Mendu Entuta Sen Imposto"
+
+#, fuzzy
+#~| msgid "Order Total"
+#~ msgid "Order Meta"
+#~ msgstr "Sumo de mendo"
+
+#, fuzzy
+#~| msgid "Order Total"
+#~ msgid "Add Order Meta"
+#~ msgstr "Sumo de mendo"
+
+#, fuzzy
+#~| msgid "Invoice Number"
+#~ msgid "Display Invoice Number"
+#~ msgstr "Faktura Numero"
+
+#, fuzzy
+#~| msgid "Invoice"
+#~ msgid "Next Invoice No."
+#~ msgstr "RicevoName"
+
+#, fuzzy
+#~| msgid "Invoice Number"
+#~ msgid "Invoice No. Prefix"
+#~ msgstr "Faktura Numero"
+
+#, fuzzy
+#~| msgid "Invoice Number"
+#~ msgid "Invoice No. Suffix"
+#~ msgstr "Faktura Numero"
+
+#, fuzzy
+#~| msgid "Payment Method"
+#~ msgid "Display Payment Method"
+#~ msgstr "Pagmetodo"
+
+#, fuzzy
+#~| msgid "Invoice"
+#~ msgid "Proforma Invoice"
+#~ msgstr "RicevoName"
+
+#, fuzzy
+#~| msgid "Order Total Without Tax"
+#~ msgid "Display Total Without Tax"
+#~ msgstr "Mendu Entuta Sen Imposto"
+
+#, fuzzy
+#~| msgid "Order Total Without Tax"
+#~ msgid "Show Total Without Discount"
+#~ msgstr "Mendu Entuta Sen Imposto"
+
+#, fuzzy
+#~| msgid "Bank Accounts"
+#~ msgid "Show Bank Accounts"
+#~ msgstr "Bankaj Kontoj"
+
+#, fuzzy
+#~| msgid "Billing"
+#~ msgid "Billing Title"
+#~ msgstr "faktura"
+
+#, fuzzy
+#~| msgid "Shipping"
+#~ msgid "Shipping Title"
+#~ msgstr "Sendo"
+
+#, fuzzy
+#~| msgid "Packing Slip"
+#~ msgid "Packing Slip Template"
+#~ msgstr "ĈifonojName"
+
+#, fuzzy
+#~| msgid "Order Date"
+#~ msgid "Order Status"
+#~ msgstr "Dato de mendo"
+
+#, fuzzy
+#~| msgid "Order Number"
+#~ msgid "Order User ID"
+#~ msgstr "Ordo Nombro"
+
+#, fuzzy
+#~| msgid "Payment Method"
+#~ msgid "Order Payment Method"
+#~ msgstr "Pagmetodo"
+
+#, fuzzy
+#~| msgid "Delivery Address"
+#~ msgid "Delivery Address Print"
+#~ msgstr "Ekspeda Etikedo"
+
+#, fuzzy
+#~| msgid "Invoice"
+#~ msgid "Make PDF Invoice"
+#~ msgstr "RicevoName"
+
+#, fuzzy
+#~| msgid "Packing Slip"
+#~ msgid "Make Packing Slip"
+#~ msgstr "ĈifonojName"
+
+#, fuzzy
+#~| msgid "Invoice"
+#~ msgid "PDF Invoice"
+#~ msgstr "RicevoName"
+
+#, fuzzy
+#~| msgid "Packing Slip"
+#~ msgid "Payment Slip"
+#~ msgstr "ĈifonojName"
+
+#, fuzzy
+#~| msgid "Bank Name"
+#~ msgid "Name"
+#~ msgstr "Bankonomo"

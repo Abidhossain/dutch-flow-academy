@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+msgid "Google Rating"
+msgstr "ເຣດຕິ້ງກູເກິລ"
+
+msgid "More reviews"
+msgstr "ຣີວິວຕໍ່ໄປ"
+
+msgid "See All Reviews"
+msgstr "ເບິ່ງຣີວິວທັງໝົດ"
+
+msgid "Google User"
+msgstr "ຜູ້ໃຊ້ກູເກິລ"
+
+msgid "read more"
+msgstr "ອ່ານເພີ່ມ"
+
+msgid "Based on %s reviews"
+msgstr "ອີງຕາມ %s ຣີວິວ"
+
+msgid "Response from the owner"
+msgstr "ການຕອບກັບຈາກຜູ້ລອງທີ່"
+
+msgid "%s place profile"
+msgstr "ໂປຣໄຟລ໌ສະຖານທີ່ %s"
+
+msgid "review us on Google"
+msgstr "ຂໍໃຫ້ຄະແນນພວກເຮົາໃນ Google"
+
+msgid "All reviews"
+msgstr "ທຸກຄໍາຄິດເຫັນ"
+
+msgid "%s user profile"
+msgstr "ໂປຣໄຟລ໌ຜູ້ໃຊ້ %s"
+
+msgid "opens in a new window"
+msgstr "ເປີດໃນປ່ອງໃໝ່"
+
+msgid "Rating: %s out of 5"
+msgstr "ຄະແນນ: %s ຈາກ 5"

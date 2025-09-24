@@ -1,0 +1,29 @@
+/**
+ * Blocks CSS
+ *
+ * @author  YITH <plugins@yithemes.com>
+ * @package YITH\Deposits\Styles
+ * @version 2.0.0
+ */
+
+@import './mixins';
+
+.wp-block-yith-yith-wcdp-grand-total {
+    .yith-wcdp-grand-total-block__items {
+        margin-bottom: 25px;
+
+        .yith-wcdp-grand-total-block-line-item {
+            font-size: .8em;
+
+            .wc-block-components-totals-item__description {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .yith-wcdp-grand-total-block__total {
+        .wc-block-components-totals-item__description {
+            display: none;
+        }
+    }
+}

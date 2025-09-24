@@ -1,0 +1,902 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Moneybird API integration for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-23 12:41+0000\n"
+"PO-Revision-Date: 2021-03-23 12:41+0000\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1-alpha-50553\n"
+"X-Domain: woocommerce_moneybird"
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:23
+msgid "Moneybird API"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:24
+msgid "Automatically create Moneybird invoices for WooCommerce orders."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:25
+msgid "User guide (dutch):"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:220
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:502
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1886
+msgid "Generate Moneybird invoice"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:310
+msgid "Moneybird default"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:336
+msgid "Revenue ledger account"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:337
+msgid "Override the default revenue ledger account for this product."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:341
+msgid "As specified by the product category or store-wide default"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:348
+#, php-format
+msgid ""
+"Revenue ledger account resulting from the current settings: <i><b>%s</b></i> "
+"(due to %s)."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:355
+msgid "Override the default Moneybird project for this product."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:359
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:373
+msgid "As specified in store-wide plugin settings"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:368
+msgid "Invoice workflow"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:369
+msgid ""
+"Override the default workflow for this product. Note that a product-specific "
+"workflow will be applied independently of the order payment status. This "
+"setting does not apply to credit invoices."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:421
+#: ../../../../../extensiontree/woocommerce-moneybird/third_party_integrations/woocommerce-moneybird-erlas/woocommerce-moneybird-erlas.php:52
+msgid "Moneybird revenue ledger account"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:424
+msgid "As specified by the store-wide default"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:430
+msgid "You may link a product category to a specific revenue ledger account."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:431
+msgid ""
+"Revenue ledger accounts specified at the product level will take priority "
+"over the category setting."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:432
+#, php-format
+msgid ""
+"The store-wide default revenue ledger account can be configured on the <a "
+"href=\"%s\">plugin settings page</a>."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:448
+msgid "draft"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:449
+msgid "open"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:450
+msgid "paid"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:451
+msgid "late"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:470
+msgid "Draft"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:472
+msgid "open in Moneybird"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:477
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1864
+msgid "Packing slip"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:490
+msgid "Moneybird Invoice"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:493
+msgid "Invoice generation is queued..."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:498
+msgid ""
+"Invoice could not be loaded. Perhaps it is deleted or the Moneybird API is "
+"not working. <br/> To delete the Moneybird invoice link, remove the custom "
+"field \"moneybird_invoice_id\"."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:547
+msgid "Moneybird credit invoice"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:551
+msgid "not available"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:554
+msgid "unlink invoice"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:559
+msgid "Generate Moneybird credit invoice"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:738
+msgid "product-specific setting"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:745
+#, php-format
+msgid "product category %s"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:750
+msgid "store-wide default"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:792
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1103
+msgid "Order #{{order_id}}"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:825
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1212
+msgid "Refund order #{{order_id}}"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:979
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1811
+msgid "Extension license key"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:980
+msgid "A valid license key is required to receive updates and support."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:989
+msgid "Invoice settings"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1000
+msgid "Invoice style"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1001
+msgid "Select the invoice style that should be used."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1007
+msgid "Invoice workflow [unpaid]"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1008
+msgid "Select the invoice workflow that should be used for unpaid orders."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1008
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1015
+msgid "This setting can be overridden for individual products."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1008
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1015
+msgid "Note: the workflow of existing invoices will never be updated."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1014
+msgid "Invoice workflow [paid]"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1015
+msgid "Select the invoice workflow that should be used for paid orders."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1021
+msgid "Automatically create invoice when an order gets the following status"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1022
+msgid ""
+"If you want to automatically create invoices for WooCommerce orders, select "
+"the order statuses that should trigger invoice generation. Orders that "
+"already have an invoice will not be invoiced again."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1023
+msgid ""
+"Optionally, you can filter the invoicing trigger on the used payment method."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1030
+msgid "Register payments"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1031
+msgid ""
+"Automatically mark Moneybird invoice as paid if the WooCommerce order is "
+"paid."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1036
+msgid "Invoice sending"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1037
+msgid "Select if invoices should be send to the customer."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1042
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1201
+msgid "Don't send, create invoice as draft"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1043
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1202
+msgid "Activate the invoice but don't send (mark as manually sent)"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1044
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1203
+msgid "Send the invoice by email"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1045
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1204
+msgid "Send the invoice by postal mail"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1049
+msgid "Invoice date"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1050
+msgid "Select which date should should be used as invoice date."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1053
+msgid "Date on which the invoice is generated"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1054
+msgid "Date on which the order is placed"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1058
+msgid "Default revenue ledger account for products"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1059
+msgid ""
+"Select the default revenue ledger account that should be assigned to invoice "
+"lines corresponding to products. This default can be overruled for specific "
+"categories and/or individual products."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1062
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1070
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1078
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1997
+msgid "Default"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1066
+msgid "Revenue category for shipping"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1067
+msgid ""
+"Select the revenue ledger account that should be assigned to invoice lines "
+"corresponding to shipping costs."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1074
+msgid "Revenue category for miscellaneous fees"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1075
+msgid ""
+"Select the revenue ledger account that should be assigned to invoice lines "
+"corresponding to fees."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1082
+msgid "Project"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1083
+msgid "Select a Moneybird project to book all invoice lines on."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1086
+msgid "None"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1090
+msgid "Contact reuse policy"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1091
+msgid "Select the desired strategy for reusing existing Moneybird contacts."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1094
+msgid "Only reuse existing Moneybird contact if all fields are identical"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1095
+msgid "Reuse existing Moneybird contact if email is identical"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1099
+msgid "Reference on invoice"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1100
+msgid ""
+"Specify the content of the reference field on the invoice. Available "
+"placeholders:"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1106
+msgid "Product info on invoice"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1107
+msgid "Select the product information to include on Moneybird documents"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1111
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1112
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1113
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1114
+msgid "Product name"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1112
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1114
+msgid "options"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1118
+msgid "Specify discounts"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1119
+msgid "Specify applied discounts per item on the invoice."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1124
+msgid "Ignore 0.0 orders"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1125
+msgid "Don't create Moneybird invoice for orders with order total 0.0."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1130
+msgid "Ignore free items"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1131
+msgid "Skip free items on the Moneybird invoice."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1136
+msgid "Processing of failed orders"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1137
+msgid ""
+"Delete invoice payments if the corresponding order is set to \"failed\"."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1142
+msgid "Round small amounts"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1143
+msgid "Round amounts below 1.0 to two decimals."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1144
+msgid "This may cause a rounding mismatch between order and invoice."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1149
+msgid "Prevent rounding errors"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1150
+msgid ""
+"Add a correction line if there is a rounding difference between the order an "
+"invoice."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1155
+msgid "Front-end invoice PDF link"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1156
+msgid "Show invoice PDF link in front-end for orders that have an invoice"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1157
+msgid "The link is added to the order details page in the My Account section."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1169
+msgid "Credit invoice settings"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1170
+msgid "Configure the (automatic) generation of credit invoices for refunds."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1175
+msgid "Automatic generation"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1176
+msgid "Automatically create credit invoices for refunds."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1177
+msgid ""
+"Only refunds for an order that already has a Moneybird invoice will trigger "
+"automatic credit invoice generation."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1182
+msgid "Credit invoice workflow"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1183
+msgid "Select the workflow that should be used for credit invoices."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1189
+msgid "Mark as paid"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1190
+msgid "Mark credit invoices as paid in Moneybird."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1195
+msgid "Credit invoice sending"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1196
+msgid "Select if credit invoices should be send to the customer."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1208
+msgid "Reference on credit invoice"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1209
+msgid ""
+"Specify the content of the reference field on the credit invoice. You may "
+"use the {{order_id}} placeholder to insert the order number."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1231
+msgid "WooCommerce e-mail attachments"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1236
+msgid "Attach PDF invoice to e-mails"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1238
+msgid ""
+"Attach the Moneybird invoice as PDF to the selected WooCommerce e-mails (if "
+"available at the time of sending). Use Ctrl/Cmd to select multiple."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1247
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1253
+msgid "Custom field mappings"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1249
+msgid ""
+"Optionally map checkout fields or extra order fields to Moneybird custom "
+"fields."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1255
+msgid ""
+"Link fields to automatically fill custom fields in Moneybird with the "
+"contents of the corresponding order fields."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1270
+msgid "Tax mapping"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1271
+msgid "Explicitly map WooCommerce tax rates to Moneybird tax rates."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1305
+msgid "No tax"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1311
+msgid "Reverse charge"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1317
+msgid "Reverse charge text"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1318
+msgid ""
+"This text will be placed on the invoice if VAT reverse charge is applicable."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1344
+#, php-format
+msgid "Log Moneybird events and errors in <code>%s</code>"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1368
+msgid "Queue status"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1371
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1377
+msgid "no actions in queue"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1374
+#, php-format
+msgid "%d invoices in queue"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1380
+#, php-format
+msgid "%d deletions in queue"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1384
+msgid "Invoice generation"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1385
+msgid "Invoice deletion"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1388
+msgid "Flush queues"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1465
+msgid "All payment methods"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1621
+msgid "WooCommerce field"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1624
+msgid "Moneybird custom field"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1630
+msgid "Select WooCommerce field"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1640
+msgid "Select Moneybird custom field"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1649
+msgid "Add"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1728
+msgid "Please enter a valid 64-symbol access token first."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1734
+msgid "Please enter a valid license key first."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1750
+msgid "Are you sure you want to clear all settings?"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1767
+msgid "Connection status:"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1769
+#, php-format
+msgid "connected to \"%s\"."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1769
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1771
+msgid "Reset/disable"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1771
+msgid "cannot connect to the Moneybird API."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1774
+msgid "The invoice generation queue contains the following orders:"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1787
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1820
+msgid "Set up Moneybird API authorization"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1788
+msgid ""
+"Follow these instructions step by step to grant this plugin access to your "
+"Moneybird account."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1790
+msgid "Step 1: Create API token"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1793
+msgid "Visit"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1793
+msgid "and create an API token for personal use:"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1795
+msgid ""
+"Click the green \"Create API token\" button and select \"API token for "
+"personal use\"."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1796
+msgid "Enter a descriptive name, for example"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1797
+msgid ""
+"Select the administration you want to link, and make sure the permission "
+"checkboxes for \"sales invoices\" and \"settings\" are filled."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1798
+msgid "Press save."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1802
+msgid "Copy the generated API token in here:"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1807
+msgid "Step 2: Enter license key"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1810
+#, php-format
+msgid ""
+"Please enter your license key to receive plugin updates. You received this "
+"key by email when you purchased the license. In case you lost your license "
+"key, please contact us through <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1814
+msgid "Step 3: Link the plugin to your Moneybird account"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1816
+msgid "Click the button below to save the authentication details."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1817
+msgid "Save details and connect to Moneybird"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1860
+msgid "Open invoice"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1869
+msgid "Invoice is being generated..."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1875
+msgid "Invoice generation queued"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1880
+msgid "Generate invoice"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1887
+msgid "Unlink Moneybird invoice"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1888
+msgid "Delete Moneybird invoice"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1900
+#, php-format
+msgid ""
+"Moneybird invoices will be generated for %d orders (3 invoices per minute)."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1909
+msgid "Moneybird invoices have been unlinked from the selected orders."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:1918
+#, php-format
+msgid ""
+"Moneybird invoices will be deleted for %d orders (max. 15 invoices per "
+"minute)."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:2024
+#: ../../../../../extensiontree/woocommerce-moneybird/third_party_integrations/woocommerce-moneybird-estimates/class-wc-moneybird-estimates.php:84
+msgid "Default (let Moneybird decide)"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:2684
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:2893
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:2921
+#, php-format
+msgid ""
+"Moneybird error: cannot find appropriate Moneybird tax rate for %s. Please "
+"make sure your WooCommerce tax rates have matching Moneybird tax rates."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:2810
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:2827
+msgid ""
+"Moneybird error: cannot find appropriate Moneybird tax rate for the shipping "
+"costs. Please make sure your WooCommerce tax rates have matching Moneybird "
+"tax rates."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:3044
+msgid "Cannot connect to the Moneybird API"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:3065
+msgid ""
+"Cannot create Moneybird invoice because this order already has a Moneybird "
+"invoice."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:3089
+msgid ""
+"Cannot create Moneybird invoice: another invoice is already being created "
+"for order"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:3140
+msgid "Moneybird invoice was not created since the order total is 0.0"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:3299
+#: ../../../../../extensiontree/woocommerce-moneybird/third_party_integrations/woocommerce-moneybird-estimates/class-wc-moneybird-estimates.php:274
+msgid "Shipping costs"
+msgstr "Versandkosten"
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:3344
+msgid ""
+"A credit invoice can only be created if the refunded items are specified. If "
+"you only specified the total refund amount, you should manually create a "
+"credit invoice to make sure that the appropriate tax rates are applied."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:3408
+msgid "Rounding error correction"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:3452
+msgid "Reason for refund: "
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:3502
+msgid ""
+"Moneybird invoice was not created since all invoice lines have amount 0.0"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:3660
+msgid "Moneybird invoice generated."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:3661
+msgid "Moneybird invoice generated successfully."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/class-wc-moneybird2.php:3663
+#, php-format
+msgid "Moneybird credit invoice generated for refund #%d."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/endpoints.php:88
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/endpoints.php:121
+msgid "Invoice is not available."
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/emails.php:53
+msgid "invoice"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/includes/frontend.php:40
+msgid "Download invoice"
+msgstr ""
+
+#: ../../../../../extensiontree/woocommerce-moneybird/third_party_integrations/woocommerce-moneybird-estimates/class-wc-moneybird-estimates.php:404
+msgid "Moneybird estimate generated."
+msgstr ""
+
+#. Name of the plugin
+msgid "Moneybird API integration for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Automatically create Moneybird invoices for WooCommerce orders. Configure "
+"via WooCommerce settings &rarr; Integration."
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://extensiontree.com/nl/producten/woocommerce-extensies/moneybird-api-"
+"koppeling/"
+msgstr ""
+
+#. Author of the plugin
+msgid ""
+"Marco Cox, <a href=\"https://extensiontree.com/nl/\">ExtensionTree.com</a>"
+msgstr ""

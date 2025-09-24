@@ -1,0 +1,20 @@
+{
+	"apiVersion": 2,
+	"name": "yith/yith-wcdp-grand-total",
+	"version": "2.16.0",
+	"title": "YITH Deposits \"Grand Total\"",
+	"category": "yith",
+	"description": "Shows the \"Grand Total\" line, for orders containing deposits.",
+	"supports": {
+		"html": false,
+		"align": false,
+		"multiple": false,
+		"reusable": false
+	},
+	"parent": [
+		"woocommerce/checkout-totals-block",
+		"woocommerce/cart-totals-block"
+	],
+	"textdomain": "yith-woocommerce-deposits-and-down-payments",
+	"editorStyle": "yith-wcdp"
+}

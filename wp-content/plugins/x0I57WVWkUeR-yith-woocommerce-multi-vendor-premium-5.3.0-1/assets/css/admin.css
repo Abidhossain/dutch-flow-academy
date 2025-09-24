@@ -1,0 +1,1193 @@
+a.page-title-action.button {
+  min-height: auto;
+}
+
+.yith-plugin-fw-media__preview__image {
+  max-height: 100px;
+}
+
+.yith-plugin-fw__panel__submenu__head {
+  align-items: center;
+}
+
+.yith-plugin-fw__panel__menu-item span.pending-count {
+  display: inline-block;
+  padding: 0 6px;
+  background-color: #d54e21;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  border-radius: 10px;
+  line-height: 17px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.suborders-list mark:after, .column-suborder mark:after {
+  font-family: WooCommerce;
+  speak: none;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  text-indent: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+/* Suborder Icon */
+.suborders-list mark.pending:after, .column-suborder mark.pending:after {
+  content: "\e012";
+  color: #ffba00;
+}
+
+.suborders-list mark.cancelled:after, .column-suborder mark.cancelled:after,
+.suborders-list mark.trash:after, .column-suborder mark.trash:after {
+  content: "\e602";
+  color: #a00;
+}
+
+.suborders-list mark.completed:after, .column-suborder mark.completed:after {
+  content: "\e015";
+  color: #2ea2cc;
+}
+
+.suborders-list mark.on-hold:after, .column-suborder mark.on-hold:after {
+  content: "\e033";
+  color: #999;
+}
+
+.suborders-list mark.failed:after, .column-suborder mark.failed:after {
+  content: "\e016";
+  color: #d0c21f;
+}
+
+.suborders-list mark.processing:after, .column-suborder mark.processing:after {
+  content: "\e011";
+  color: #73a724;
+}
+
+.suborders-list mark.refunded:after, .column-suborder mark.refunded:after {
+  content: "\e014";
+  color: #999;
+}
+
+.section-yith_wpv_panel .yith-plugin-fw-panel-wc-row input[type=text].field-error, .section-yith_wpv_panel .yith-plugin-fw-panel-wc-row input[type=password].field-error, .section-yith_wpv_panel .yith-plugin-fw-panel-wc-row input[type=email].field-error, .section-yith_wpv_panel .yith-plugin-fw-panel-wc-row select.field-error, .section-yith_wpv_panel .yith-plugin-fw-panel-wc-row textarea.field-error {
+  border-color: #d63638 !important;
+}
+.section-yith_wpv_panel .yith-plugin-fw-panel-wc-row input[type=text].field-error + .error-msg, .section-yith_wpv_panel .yith-plugin-fw-panel-wc-row input[type=password].field-error + .error-msg, .section-yith_wpv_panel .yith-plugin-fw-panel-wc-row input[type=email].field-error + .error-msg, .section-yith_wpv_panel .yith-plugin-fw-panel-wc-row select.field-error + .error-msg, .section-yith_wpv_panel .yith-plugin-fw-panel-wc-row textarea.field-error + .error-msg {
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+  font-weight: 400;
+  color: #d63638;
+}
+.section-yith_wpv_panel .yith-plugin-fw-field-wrapper input[type=number], .section-yith_wpv_panel .yith-plugin-fw-field-wrapper input[type=number] + .inline-description {
+  display: inline-block;
+  vertical-align: middle !important;
+}
+.section-yith_wpv_panel .yith-plugin-fw-field-wrapper input[type=number] + .inline-description {
+  margin-left: 5px;
+}
+.section-yith_wpv_panel .yith-plugin-fw-field-wrapper .yith-inline-fields > div {
+  margin-bottom: 10px;
+}
+
+.toplevel_page_yith_wpv_panel .yith-plugin-fw__panel__content .yith-plugin-fw__panel__content__actions {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.yith-plugins_page_yith_wpv_panel label.disabled-option {
+  color: #b0b0b0;
+}
+.yith-plugins_page_yith_wpv_panel input[type=checkbox]:disabled {
+  opacity: 0.5;
+}
+
+#vacation_schedule label {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0;
+  margin: 5px 0;
+  display: block;
+}
+#vacation_schedule input.yith-plugin-fw-datepicker {
+  width: 200px;
+}
+
+/* Use plugin-fw variables is available */
+.yith-wcmv-admin-notice {
+  display: none;
+  padding: 15px 40px 15px 45px;
+  margin: 0 0 35px;
+  border: 1px solid;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+  position: relative;
+  /* SUCCESS */
+  /* ERROR */
+}
+.yith-wcmv-admin-notice .notice-dismiss {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  padding: 7px;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+  box-shadow: none;
+}
+.yith-wcmv-admin-notice .notice-dismiss:before {
+  font-family: yith-icon;
+  content: "\e906";
+  font-weight: 600;
+  font-size: 12px;
+  color: inherit;
+}
+.yith-wcmv-admin-notice .notice-dismiss:hover {
+  color: #3c434a;
+}
+.yith-wcmv-admin-notice:before {
+  font-family: yith-icon;
+  position: absolute;
+  top: 50%;
+  left: 13px;
+  font-size: 21px;
+  font-weight: 400;
+  transform: translateY(-50%);
+}
+.yith-wcmv-admin-notice.notice-success {
+  background: var(--yith-fw-notice-bg, #f7fbe9);
+  border-color: var(--yith-fw-notice-border-color, #d7e0b0);
+  color: var(--yith-fw-notice-color, #6e861d);
+}
+.yith-wcmv-admin-notice.notice-success:before {
+  content: var(--yith-fw-notice-icon, "\e921");
+}
+.yith-wcmv-admin-notice.notice-error {
+  background: var(--yith-fw-notice-bg, #fff3f1);
+  border-color: var(--yith-fw-notice-border-color, #dbbcb7);
+  color: var(--yith-fw-notice-color, #a91803);
+}
+.yith-wcmv-admin-notice.notice-error:before {
+  content: var(--yith-fw-notice-icon, "\e906");
+}
+
+.yith-plugin-ui .custom-list-table .list-table-title {
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+.yith-plugin-ui .custom-list-table .list-table-title + .subsubsub {
+  margin-bottom: 15px;
+}
+.yith-plugin-ui .custom-list-table .tablenav > * {
+  vertical-align: middle;
+}
+.yith-plugin-ui .custom-list-table .tablenav .bulkactions > select,
+.yith-plugin-ui .custom-list-table .tablenav .select2-container {
+  max-width: 200px;
+  min-width: 150px !important;
+  margin-right: 15px;
+}
+.yith-plugin-ui .custom-list-table .tablenav .date-picker {
+  max-width: 150px;
+}
+.yith-plugin-ui .custom-list-table .tablenav #post-query-submit,
+.yith-plugin-ui .custom-list-table .tablenav .reset-button {
+  margin-right: 15px;
+  height: auto;
+  line-height: 33px;
+  border-radius: 8px;
+  padding: 0 15px;
+  font-weight: 600;
+}
+.yith-plugin-ui .custom-list-table .data_search_wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+.yith-plugin-ui .custom-list-table .status-badge {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 2em;
+  min-width: 100px;
+  padding: 5px;
+  margin: 0 10px 0 0;
+}
+.yith-plugin-ui .custom-list-table .status-badge.pending, .yith-plugin-ui .custom-list-table .status-badge.pending-fee {
+  background-color: #cf8300;
+}
+.yith-plugin-ui .custom-list-table .status-badge.unpaid, .yith-plugin-ui .custom-list-table .status-badge.disabled {
+  background-color: #748c9c;
+}
+.yith-plugin-ui .custom-list-table .status-badge.paid, .yith-plugin-ui .custom-list-table .status-badge.enabled {
+  background-color: #afb000;
+}
+.yith-plugin-ui .custom-list-table .status-badge.refunded {
+  background-color: #730000;
+}
+.yith-plugin-ui .custom-list-table .status-badge.cancelled, .yith-plugin-ui .custom-list-table .status-badge.rejected {
+  background-color: #cd1927;
+}
+.yith-plugin-ui .custom-list-table .status-badge.processing {
+  background-color: #cf8300;
+}
+.yith-plugin-ui .custom-list-table .yith-plugin-fw__action-button {
+  margin: 0 2px 0 0;
+}
+.yith-plugin-ui .custom-list-table table.wp-list-table.widefat thead th,
+.yith-plugin-ui .custom-list-table table.wp-list-table.widefat thead td,
+.yith-plugin-ui .custom-list-table table.wp-list-table.widefat tbody th {
+  padding: 15px;
+}
+.yith-plugin-ui .custom-list-table table.wp-list-table.widefat tr {
+  position: relative;
+}
+.yith-plugin-ui .custom-list-table table.wp-list-table.widefat tr th.sortable a,
+.yith-plugin-ui .custom-list-table table.wp-list-table.widefat tr th.sorted a {
+  padding-right: 0;
+}
+.yith-plugin-ui .custom-list-table table.wp-list-table.widefat tr th.sortable a span,
+.yith-plugin-ui .custom-list-table table.wp-list-table.widefat tr th.sorted a span {
+  float: none;
+}
+.yith-plugin-ui .custom-list-table table.wp-list-table.widefat tr th.sortable a span.sorting-indicator,
+.yith-plugin-ui .custom-list-table table.wp-list-table.widefat tr th.sorted a span.sorting-indicator {
+  display: inline-block;
+  position: absolute;
+}
+.yith-plugin-ui .custom-list-table table.wp-list-table.widefat tr th, .yith-plugin-ui .custom-list-table table.wp-list-table.widefat tr td {
+  position: static !important;
+}
+.yith-plugin-ui .custom-list-table table.wp-list-table.widefat tr th.column-date, .yith-plugin-ui .custom-list-table table.wp-list-table.widefat tr td.column-date {
+  width: auto;
+}
+.yith-plugin-ui .custom-list-table table.wp-list-table.widefat tr th.column-enable, .yith-plugin-ui .custom-list-table table.wp-list-table.widefat tr th.enable, .yith-plugin-ui .custom-list-table table.wp-list-table.widefat tr td.column-enable, .yith-plugin-ui .custom-list-table table.wp-list-table.widefat tr td.enable {
+  text-align: right;
+}
+.yith-plugin-ui .custom-list-table table.wp-list-table.widefat tr th.column-name, .yith-plugin-ui .custom-list-table table.wp-list-table.widefat tr td.column-name {
+  width: 10%;
+}
+.yith-plugin-ui .custom-list-table .yith-plugin-ui--has-scrolling table.wp-list-table th.check-column,
+.yith-plugin-ui .custom-list-table .yith-plugin-ui--has-scrolling table.wp-list-table td.check-column,
+.yith-plugin-ui .custom-list-table .yith-plugin-ui--has-scrolling table.wp-list-table th.check-column + *,
+.yith-plugin-ui .custom-list-table .yith-plugin-ui--has-scrolling table.wp-list-table td.check-column + * {
+  position: sticky !important;
+}
+.yith-plugin-ui .yith-plugin-fw__list-table-blank-state {
+  padding: 0;
+  margin: 100px auto;
+}
+.yith-plugin-ui .yith-plugin-fw__list-table-blank-state img.yith-plugin-fw__list-table-blank-state__icon {
+  width: 65px;
+}
+.yith-plugin-ui .yith-plugin-fw__list-table-blank-state .yith-plugin-fw__list-table-blank-state__message {
+  font-size: 14px;
+}
+
+#modules-container {
+  display: grid;
+  column-gap: 30px;
+  row-gap: 30px;
+  grid-template-columns: repeat(4, 23%);
+  margin: 40px;
+  margin-left: 0;
+}
+#modules-container .module {
+  border: 1px solid var(--yith-field-border-color, #cbd5e1);
+  border-radius: 8px;
+  padding: 25px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+#modules-container .module h3, #modules-container .module p {
+  margin: 0;
+}
+#modules-container .module h3 {
+  font-size: 1.1em;
+}
+#modules-container .module .module-description {
+  flex: 1 1 100%;
+}
+#modules-container .module .module-activation {
+  padding-top: 20px;
+  border-top: 1px solid #cbd5e1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#modules-container .module .module-activation label {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1600px) {
+  #modules-container {
+    grid-template-columns: repeat(3, 30%);
+  }
+}
+@media screen and (max-width: 1200px) {
+  #modules-container {
+    grid-template-columns: repeat(2, 45%);
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  #modules-container {
+    grid-template-columns: repeat(1, auto);
+    margin-right: 0;
+  }
+}
+#emails-container {
+  max-width: 1200px;
+}
+#emails-container .single-email {
+  background: var(--yith-content-bg);
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px var(--yith-light-border-color), 0 3px 11px 6px var(--yith-light-shadow);
+  margin-bottom: 25px;
+  margin-top: 25px;
+  overflow: hidden;
+}
+#emails-container .single-email .single-email-toggle-editing {
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+#emails-container .single-email:hover .single-email-toggle-editing, #emails-container .single-email.opened .single-email-toggle-editing {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+#emails-container .single-email:hover .single-email-headings, #emails-container .single-email.opened .single-email-headings {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background: var(--yith-table-row-highlight);
+}
+#emails-container .emails-headings,
+#emails-container .single-email-headings {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#emails-container .emails-headings {
+  padding-bottom: 0;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+#emails-container .emails-heading-name,
+#emails-container .single-email-heading-name {
+  flex: 1;
+}
+#emails-container .emails-heading-recipient,
+#emails-container .single-email-heading-recipient {
+  flex: 0 0 300px;
+}
+#emails-container .emails-heading-actions,
+#emails-container .single-email-heading-actions {
+  flex: 0 0 50px;
+  text-align: right;
+}
+#emails-container .emails-heading-actions > span,
+#emails-container .single-email-heading-actions > span {
+  margin: 0;
+}
+#emails-container .single-email-options {
+  display: none;
+}
+#emails-container .single-email-options .single-email-settings-form {
+  padding: 25px;
+}
+#emails-container .single-email-options .single-email-settings-form table tr:first-child {
+  display: none;
+}
+#emails-container .single-email-options .single-email-actions {
+  text-align: right;
+}
+#emails-container .single-email-options .description {
+  margin: 8px 0;
+  font-size: 12px;
+}
+#emails-container .single-email-options .description code {
+  font-size: inherit;
+  border-radius: 4px;
+  line-height: 1.2;
+  display: inline-block;
+  padding: 4px 6px;
+  margin: 0 5px 0 0;
+}
+
+#yith-wcmv-dashboard-root * {
+  box-sizing: border-box;
+}
+#yith-wcmv-dashboard-root .leaderboard-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 24px;
+}
+#yith-wcmv-dashboard-root .leaderboard-group table img {
+  border-radius: 4px;
+  float: left;
+  width: 100%;
+  height: auto;
+  max-width: 50px;
+  background-color: #ccc;
+  margin-right: 10px;
+}
+#yith-wcmv-dashboard-root .leaderboard-group table .vendor-details {
+  margin-left: 80px;
+}
+#yith-wcmv-dashboard-root .leaderboard-group table small.meta {
+  display: block;
+  font-size: 1em;
+  margin: 5px 0;
+}
+#yith-wcmv-dashboard-root .leaderboard-group table small.meta a {
+  color: #434343;
+  text-decoration: none;
+}
+
+.yith-plugin-fw-wp-page-wrapper .yith-plugin-fw-panel-custom-tab-container > .wrap {
+  border: none;
+  padding: 0;
+}
+
+#commissions-list-table .wp-list-table th.column-commission_id, #commissions-list-table .wp-list-table td.commission_id, #commissions-filter .wp-list-table th.column-commission_id, #commissions-filter .wp-list-table td.commission_id {
+  width: 5%;
+}
+#commissions-list-table .wp-list-table th.column-line_item, #commissions-list-table .wp-list-table td.column-line_item, #commissions-list-table .wp-list-table th.column-order_id, #commissions-list-table .wp-list-table td.column-order_id, #commissions-filter .wp-list-table th.column-line_item, #commissions-filter .wp-list-table td.column-line_item, #commissions-filter .wp-list-table th.column-order_id, #commissions-filter .wp-list-table td.column-order_id {
+  width: 15%;
+}
+#commissions-list-table .wp-list-table td.column-line_item > *, #commissions-filter .wp-list-table td.column-line_item > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+#commissions-list-table .wp-list-table td.column-line_item img, #commissions-filter .wp-list-table td.column-line_item img {
+  width: 60px;
+  height: auto;
+  margin: 0 10px 0 0;
+}
+
+.commission-details-modal a {
+  text-decoration: none;
+}
+.commission-details-modal .yith-plugin-fw__modal__title {
+  padding-bottom: 0 !important;
+}
+.commission-details-modal .yith-plugin-fw__modal__title h2 {
+  color: #03689f;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: none;
+  margin: 0;
+  padding: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.commission-details-modal .yith-plugin-fw__modal__title p {
+  margin: 0;
+  color: initial;
+  font-weight: 400;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e4e4e4;
+  font-size: 13px;
+}
+.commission-details-modal .yith-plugin-fw__modal__content {
+  padding-top: 20px !important;
+}
+.commission-details-modal .yith-plugin-fw__modal__content h3 {
+  color: #03689f;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+.commission-details-modal .yith-plugin-fw__modal__content .commission-details-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.commission-details-modal .yith-plugin-fw__modal__content .commission-details-data > div {
+  flex: 0 1 50%;
+}
+.commission-details-modal .yith-plugin-fw__modal__content .commission-details-item, .commission-details-modal .yith-plugin-fw__modal__content .commission-details-note {
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+}
+.commission-details-modal .yith-plugin-fw__modal__content .commission-details-item {
+  background-color: #f0f0f0;
+}
+.commission-details-modal .yith-plugin-fw__modal__content .commission-details-item:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.commission-details-modal .yith-plugin-fw__modal__content .commission-details-item .commission-item {
+  width: 100%;
+  margin: 0;
+}
+.commission-details-modal .yith-plugin-fw__modal__content .commission-details-item .commission-item td.thumb {
+  width: 50px;
+  padding-right: 10px;
+}
+.commission-details-modal .yith-plugin-fw__modal__content .commission-details-item .commission-item td.thumb img {
+  max-width: 100px;
+  height: auto;
+}
+.commission-details-modal .yith-plugin-fw__modal__content .commission-details-item .commission-item td.price {
+  text-align: right;
+}
+.commission-details-modal .yith-plugin-fw__modal__content .commission-details-item .commission-total {
+  float: right;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.commission-details-modal .yith-plugin-fw__modal__content .commission-details-item .commission-total td.total {
+  font-weight: bold;
+}
+.commission-details-modal .yith-plugin-fw__modal__content .commission-details-item .commission-total td.total.refunded {
+  color: #a00;
+}
+.commission-details-modal .yith-plugin-fw__modal__content .commission-details-note {
+  border: 1px solid #ddd;
+}
+.commission-details-modal .yith-plugin-fw__modal__content .commission-details-note li {
+  margin: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 13px;
+}
+.commission-details-modal .yith-plugin-fw__modal__content .commission-details-note li abbr {
+  font-size: 11px;
+}
+.commission-details-modal .yith-plugin-fw__modal__content .commission-details-note li:last-child {
+  border-bottom: 0;
+}
+.commission-details-modal .yith-plugin-fw__modal__content select {
+  font-size: 13px;
+  padding: 5px 20px 5px 10px;
+  min-height: auto;
+}
+.commission-details-modal .yith-plugin-fw__modal__footer {
+  text-align: right;
+}
+
+#yith-wcmv-gateways-list {
+  width: 100%;
+  max-width: 1000px;
+}
+#yith-wcmv-gateways-list .list-head, #yith-wcmv-gateways-list .list-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+}
+#yith-wcmv-gateways-list .list-head > div, #yith-wcmv-gateways-list .list-item > div {
+  padding: 10px;
+  box-sizing: border-box;
+}
+#yith-wcmv-gateways-list .list-head > div.name, #yith-wcmv-gateways-list .list-item > div.name {
+  flex: 0 1 30%;
+}
+#yith-wcmv-gateways-list .list-head > div.name span, #yith-wcmv-gateways-list .list-item > div.name span {
+  font-weight: bold;
+}
+#yith-wcmv-gateways-list .list-head > div.id, #yith-wcmv-gateways-list .list-item > div.id {
+  flex: 0 1 50%;
+}
+#yith-wcmv-gateways-list .list-head > div.status, #yith-wcmv-gateways-list .list-item > div.status {
+  flex: 0 1 20%;
+  text-align: right;
+}
+#yith-wcmv-gateways-list .list-head > div.options, #yith-wcmv-gateways-list .list-item > div.options {
+  display: none;
+  padding: 0 20px;
+}
+#yith-wcmv-gateways-list .list-head > div.options form, #yith-wcmv-gateways-list .list-item > div.options form {
+  padding: 20px 0;
+}
+#yith-wcmv-gateways-list .list-head > div.options table, #yith-wcmv-gateways-list .list-item > div.options table {
+  width: 100%;
+  border: none;
+}
+#yith-wcmv-gateways-list .list-head > div.options table img, #yith-wcmv-gateways-list .list-item > div.options table img {
+  max-width: 100%;
+  height: auto;
+}
+#yith-wcmv-gateways-list .list-head > div.options .actions, #yith-wcmv-gateways-list .list-item > div.options .actions {
+  text-align: right;
+}
+#yith-wcmv-gateways-list .list-item {
+  margin-bottom: 10px;
+  border-color: #e0e0e0;
+  border-radius: 4px;
+  box-shadow: 0 0 10px 0 rgba(167, 217, 236, 0.4);
+}
+#yith-wcmv-gateways-list .list-item.not-available .enable-gateway-trigger {
+  opacity: 0.5;
+  pointer-events: none;
+}
+#yith-wcmv-gateways-list .list-item.has-options .name > * {
+  cursor: pointer;
+}
+#yith-wcmv-gateways-list .list-item.has-options .name .yith-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  transform: rotate(0);
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+#yith-wcmv-gateways-list .list-item.has-options.opened .name .yith-icon {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+#yith-wcmv-gateways-list .list-head {
+  font-weight: bold;
+  border-color: transparent;
+}
+
+.announcement-modal .announcement-modal-form table {
+  border: none !important;
+}
+.announcement-modal .announcement-modal-form table th {
+  padding-right: 30px;
+}
+.announcement-modal .announcement-modal-form input[type=text], .announcement-modal .announcement-modal-form select {
+  width: 100%;
+}
+.announcement-modal .announcement-modal-form .select2-search__field, .announcement-modal .announcement-modal-form .select2-container, .announcement-modal .announcement-modal-form .yith-plugin-fw-select2-wrapper {
+  width: 100% !important;
+}
+.announcement-modal .announcement-modal-buttons {
+  text-align: right;
+}
+.announcement-modal .announcement-modal-buttons button {
+  margin-left: 10px;
+  min-width: 100px;
+}
+
+.yith-plugin-ui--announcement-post_type .check-column label {
+  width: auto;
+}
+.yith-plugin-ui--announcement-post_type tr.type-announcement {
+  position: relative;
+}
+.yith-plugin-ui--announcement-post_type tr.type-announcement th, .yith-plugin-ui--announcement-post_type tr.type-announcement td {
+  position: static !important;
+}
+
+#yith-plugin-fw-panel-custom-tab-staff .yith-plugin-fw__panel__content__page__title, #yith-plugin-fw-panel-custom-tab-staff .add-staff {
+  display: inline-block;
+  vertical-align: middle;
+}
+#yith-plugin-fw-panel-custom-tab-staff .yith-plugin-fw__panel__content__page__title {
+  margin-right: 15px;
+}
+
+.staff-modal table.form-table {
+  border: none !important;
+}
+.staff-modal table.form-table th {
+  padding-right: 20px;
+  width: 100px;
+}
+.staff-modal table.form-table td {
+  padding: 15px 0;
+}
+.staff-modal table.form-table input[type=text], .staff-modal table.form-table input[type=email], .staff-modal table.form-table select {
+  width: 100%;
+}
+.staff-modal table.form-table .select2-search__field, .staff-modal table.form-table .select2-container, .staff-modal table.form-table .yith-plugin-fw-select2-wrapper {
+  width: 100% !important;
+}
+.staff-modal p.submit {
+  text-align: right;
+}
+
+.vendor-fields-container .staff-list-wrapper {
+  flex: 0 0 100%;
+}
+.vendor-fields-container .staff-list-wrapper .staff-single {
+  border: 1px solid #DEDEDE;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+
+#yith_wpv_panel_vendors-registration .yith-plugin-fw__panel__option {
+  max-width: 800px;
+}
+
+.yith-vendor-registration-table {
+  width: 100%;
+  border: 2px solid #f1f1f1;
+  margin: 20px 0;
+  padding: 0;
+  border-collapse: collapse;
+}
+.yith-vendor-registration-table td {
+  position: relative;
+  padding: 15px 20px !important;
+}
+.yith-vendor-registration-table th {
+  border: 0;
+  padding: 15px 20px !important;
+  font-size: 13px;
+  font-weight: 600;
+}
+.yith-vendor-registration-table td.required, .yith-vendor-registration-table td.active, .yith-vendor-registration-table th.required, .yith-vendor-registration-table th.active {
+  text-align: center;
+}
+.yith-vendor-registration-table tbody tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+.yith-vendor-registration-table tbody tr:nth-child(odd):hover, .yith-vendor-registration-table tbody tr:hover {
+  background-color: #e7f0f6;
+}
+.yith-vendor-registration-table tbody .is_required {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.yith-vendor-registration-table tbody .is_required img {
+  width: 100%;
+  height: auto;
+}
+.yith-vendor-registration-table tbody td.actions {
+  opacity: 0;
+}
+.yith-vendor-registration-table tbody tr:hover td.actions {
+  opacity: 1;
+  transition: opacity 1s ease;
+  -webkit-transition: opacity 1s ease;
+  -moz-transition: opacity 1s ease;
+}
+.yith-vendor-registration-table .yith-vendor-registration-table__drag-field a {
+  pointer-events: none;
+}
+
+.yith-vendor-registration-form-modal .yith-plugin-ui table.form-table {
+  border: none;
+  margin-bottom: 0;
+}
+.yith-vendor-registration-form-modal .yith-plugin-ui table.form-table th {
+  width: 80px;
+  padding: 15px 10px 15px 0;
+}
+.yith-vendor-registration-form-modal .yith-plugin-ui table.form-table td {
+  padding: 10px 15px;
+}
+.yith-vendor-registration-form-modal .yith-plugin-ui table.form-table select, .yith-vendor-registration-form-modal .yith-plugin-ui table.form-table input[type=text] {
+  width: 100%;
+}
+.yith-vendor-registration-form-modal .yith-plugin-ui table.form-table .select2-container {
+  min-width: auto !important;
+  max-width: 100%;
+}
+.yith-vendor-registration-form-modal .yith-plugin-ui table.form-table span.description, .yith-vendor-registration-form-modal .yith-plugin-ui table.form-table span.error {
+  padding: 5px 0;
+  margin: 0;
+  display: inline-block;
+}
+.yith-vendor-registration-form-modal .yith-plugin-ui table.form-table input.error {
+  border-color: red !important;
+}
+.yith-vendor-registration-form-modal .yith-plugin-ui table.form-table input.error + span.error {
+  color: red;
+}
+.yith-vendor-registration-form-modal .yith-plugin-ui table.options-table th {
+  vertical-align: bottom;
+}
+.yith-vendor-registration-form-modal .yith-plugin-ui table.options-table th,
+.yith-vendor-registration-form-modal .yith-plugin-ui table.options-table td {
+  min-width: 150px;
+  padding: 5px;
+  width: auto;
+}
+.yith-vendor-registration-form-modal .yith-plugin-ui table.options-table th:first-child,
+.yith-vendor-registration-form-modal .yith-plugin-ui table.options-table td:first-child {
+  padding-left: 0;
+}
+.yith-vendor-registration-form-modal .yith-plugin-ui table.options-table th:last-child,
+.yith-vendor-registration-form-modal .yith-plugin-ui table.options-table td:last-child {
+  padding-right: 0;
+}
+.yith-vendor-registration-form-modal .yith-plugin-ui table.options-table th.column-actions .yith-icon,
+.yith-vendor-registration-form-modal .yith-plugin-ui table.options-table td.column-actions .yith-icon {
+  font-size: 1em;
+  text-decoration: none;
+}
+.yith-vendor-registration-form-modal .yith-plugin-ui table.options-table th.column-actions .drag,
+.yith-vendor-registration-form-modal .yith-plugin-ui table.options-table td.column-actions .drag {
+  cursor: grab;
+}
+.yith-vendor-registration-form-modal .yith-plugin-ui table.options-table th.column-actions .delete,
+.yith-vendor-registration-form-modal .yith-plugin-ui table.options-table td.column-actions .delete {
+  color: #ba3e3e;
+  margin-left: 5px;
+}
+.yith-vendor-registration-form-modal .yith-plugin-ui table.options-table th input,
+.yith-vendor-registration-form-modal .yith-plugin-ui table.options-table td input {
+  max-width: 100%;
+}
+.yith-vendor-registration-form-modal .yith-plugin-ui table.options-table .column-actions {
+  min-width: 0;
+  width: 11%;
+}
+.yith-vendor-registration-form-modal .form-actions {
+  text-align: right;
+}
+
+.vendor-fields-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+.vendor-fields-container h4 {
+  margin: 0 0 15px;
+  flex: 0 0 100%;
+}
+.vendor-fields-container .vendor-field {
+  flex: 0 1 48%;
+  margin-bottom: 15px;
+}
+.vendor-fields-container .vendor-field.wide {
+  flex: 0 1 100%;
+}
+.vendor-fields-container .vendor-field label {
+  display: block;
+  margin-bottom: 10px;
+  color: #131313;
+}
+.vendor-fields-container .vendor-field input[type=text], .vendor-fields-container .vendor-field input[type=password], .vendor-fields-container .vendor-field input[type=email], .vendor-fields-container .vendor-field select, .vendor-fields-container .vendor-field textarea {
+  width: 100%;
+}
+.vendor-fields-container .vendor-field .select2-container {
+  width: 100% !important;
+}
+.vendor-fields-container .vendor-field input::placeholder {
+  color: #c5c5c5;
+  font-size: 13px;
+}
+.vendor-fields-container .vendor-field span.description {
+  max-width: none;
+  font-size: 11px;
+  margin-top: 5px;
+  display: block;
+}
+.vendor-fields-container .vendor-field .ajax-check {
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: right center;
+}
+.vendor-fields-container .vendor-field .ajax-check.loading {
+  background-image: url("../images/ajax-loader.gif");
+}
+.vendor-fields-container .vendor-field .ajax-check.success {
+  background-image: url("../icons/tick.svg");
+  background-size: 15px;
+}
+.vendor-fields-container .vendor-field .ajax-check.error {
+  background-image: url("../icons/error.svg");
+  background-size: 15px;
+}
+.vendor-fields-container .vendor-field .error-msg {
+  font-size: 11px;
+}
+.vendor-fields-container .vendor-field-separator {
+  flex-basis: 100%;
+  height: 0;
+}
+.vendor-fields-container .vendor-image-upload {
+  flex: 1 1 100%;
+  align-self: stretch;
+  margin-bottom: 15px;
+  border: 1px solid #DFDFDF;
+  background-color: #F7F7F7;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  min-height: 100px;
+}
+.vendor-fields-container .vendor-image-upload.avatar-image {
+  flex: 0 1 25%;
+}
+.vendor-fields-container .vendor-image-upload.header-image {
+  flex: 0 1 73%;
+}
+.vendor-fields-container .vendor-image-upload a {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.vendor-fields-container .vendor-image-upload .remove_vendor_image_button {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.vendor-fields-container .vendor-image-upload .remove_vendor_image_button i {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+}
+.vendor-fields-container .vendor-image-upload:hover .remove_vendor_image_button {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+}
+
+#yith-plugin-fw-panel-custom-tab-vendors-vendors-list .yith-plugin-fw__panel__content__page__title, #yith-plugin-fw-panel-custom-tab-vendors-vendors-list .create-vendor {
+  display: inline-block;
+}
+#yith-plugin-fw-panel-custom-tab-vendors-vendors-list .yith-plugin-fw__panel__content__page__title {
+  margin-right: 15px;
+}
+
+#vendors-list-table tr.pending {
+  background-color: #fbefef;
+}
+#vendors-list-table .yith-plugin-fw__action-button--reject-action .yith-plugin-fw__action-button__icon {
+  color: #a10000;
+}
+#vendors-list-table .vendor-polices-container {
+  margin: 0;
+}
+#vendors-list-table .vendor-polices-container li {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+#vendors-list-table .vendor-polices-container li > * {
+  vertical-align: middle;
+  display: inline-block;
+}
+#vendors-list-table .vendor-polices-container li i {
+  font-size: 13px;
+  margin: 0 5px;
+}
+#vendors-list-table .vendor-polices-container li i.yith-icon-check-circle {
+  color: #929D00;
+}
+#vendors-list-table .vendor-polices-container li i.yith-icon-warning-triangle {
+  color: #9B0000;
+}
+
+.yith-wcmv-reject-vendor-modal p {
+  margin: 0 0 20px;
+}
+.yith-wcmv-reject-vendor-modal .textarea-wrapper {
+  margin-bottom: 20px;
+}
+.yith-wcmv-reject-vendor-modal .textarea-wrapper textarea {
+  width: 100%;
+}
+.yith-wcmv-reject-vendor-modal .submit-wrapper .submit {
+  padding: 5px 15px !important;
+  width: 100%;
+}
+
+.yith-wcmv-create-vendor-modal #error-message,
+.yith-wcmv-edit-vendor-modal #error-message {
+  flex: 1 1 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: rgb(255, 229, 229);
+  border-left: 3px solid #d63638;
+  color: #333;
+  line-height: 16px;
+}
+.yith-wcmv-create-vendor-modal .step-content,
+.yith-wcmv-edit-vendor-modal .step-content {
+  border: 1px solid #DEDEDE;
+  padding: 25px;
+  min-height: 350px;
+}
+.yith-wcmv-create-vendor-modal .vendor-fields-container[data-step=options] .vendor-field,
+.yith-wcmv-edit-vendor-modal .vendor-fields-container[data-step=options] .vendor-field {
+  flex: 0 0 100%;
+  display: grid;
+  grid-template-columns: 20% auto;
+  column-gap: 15px;
+  margin-bottom: 30px;
+}
+.yith-wcmv-create-vendor-modal .vendor-fields-container[data-step=options] .vendor-field span.description,
+.yith-wcmv-edit-vendor-modal .vendor-fields-container[data-step=options] .vendor-field span.description {
+  grid-column: 2;
+}
+.yith-wcmv-create-vendor-modal .vendor-owner-wrapper,
+.yith-wcmv-edit-vendor-modal .vendor-owner-wrapper {
+  flex: 1 1 100%;
+}
+.yith-wcmv-create-vendor-modal .vendor-owner-wrapper .owner-navigation,
+.yith-wcmv-edit-vendor-modal .vendor-owner-wrapper .owner-navigation {
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #000;
+}
+.yith-wcmv-create-vendor-modal .vendor-owner-wrapper .owner-navigation a,
+.yith-wcmv-edit-vendor-modal .vendor-owner-wrapper .owner-navigation a {
+  text-decoration: none;
+}
+.yith-wcmv-create-vendor-modal .vendor-owner-wrapper .owner-navigation a.current,
+.yith-wcmv-edit-vendor-modal .vendor-owner-wrapper .owner-navigation a.current {
+  color: #000;
+  pointer-events: none;
+}
+.yith-wcmv-create-vendor-modal .form-actions,
+.yith-wcmv-edit-vendor-modal .form-actions {
+  text-align: right;
+}
+.yith-wcmv-create-vendor-modal .form-header,
+.yith-wcmv-edit-vendor-modal .form-header {
+  margin-top: 20px;
+}
+.yith-wcmv-create-vendor-modal .form-header .steps-list,
+.yith-wcmv-edit-vendor-modal .form-header .steps-list {
+  padding: 0;
+  display: flex;
+}
+.yith-wcmv-create-vendor-modal .form-header .steps-list li,
+.yith-wcmv-edit-vendor-modal .form-header .steps-list li {
+  padding: 0 15px;
+  flex: 1 1 auto;
+  position: relative;
+}
+.yith-wcmv-create-vendor-modal .form-header .steps-list li a,
+.yith-wcmv-edit-vendor-modal .form-header .steps-list li a {
+  text-decoration: none;
+  display: block;
+}
+.yith-wcmv-create-vendor-modal .form-header .steps-list li .step-label,
+.yith-wcmv-edit-vendor-modal .form-header .steps-list li .step-label {
+  display: block;
+  color: #868686;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.yith-wcmv-create-vendor-modal .form-header .steps-list {
+  margin: 0;
+  justify-content: center;
+  counter-reset: step;
+}
+.yith-wcmv-create-vendor-modal .form-header .steps-list li {
+  text-align: center;
+}
+.yith-wcmv-create-vendor-modal .form-header .steps-list li:not(:last-child):after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-top: 1px solid #eee;
+  top: 27px;
+  left: 50%;
+  z-index: -1;
+}
+.yith-wcmv-create-vendor-modal .form-header .steps-list li a {
+  cursor: default;
+}
+.yith-wcmv-create-vendor-modal .form-header .steps-list li .step-number {
+  display: inline-block;
+  background: #d1d1d1;
+  color: #898989;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 34px;
+  border-radius: 50%;
+  border: 10px solid #fff;
+}
+.yith-wcmv-create-vendor-modal .form-header .steps-list li .step-number:before {
+  counter-increment: step;
+  content: counter(step);
+}
+.yith-wcmv-create-vendor-modal .form-header .steps-list li.current .step-number {
+  background: #0e87b8;
+  color: #fff;
+}
+.yith-wcmv-create-vendor-modal .form-header .steps-list li.current .step-label {
+  color: #0e87b8;
+}
+.yith-wcmv-create-vendor-modal .form-header .steps-list li.done a {
+  cursor: pointer;
+}
+.yith-wcmv-create-vendor-modal .form-header .steps-list li.done .step-number {
+  background: #a5b80e;
+  color: #fff;
+}
+.yith-wcmv-create-vendor-modal .form-header .steps-list li.done .step-label {
+  color: #a5b80e;
+}
+
+.yith-wcmv-edit-vendor-modal .form-header {
+  margin-top: 30px;
+}
+.yith-wcmv-edit-vendor-modal .form-header .steps-list {
+  margin: 0 0 -21px;
+}
+.yith-wcmv-edit-vendor-modal .form-header .steps-list li {
+  margin: 0;
+  padding: 0;
+}
+.yith-wcmv-edit-vendor-modal .form-header .steps-list li a {
+  padding: 0 10px 0 25px;
+}
+.yith-wcmv-edit-vendor-modal .form-header .steps-list li .step-number {
+  display: none;
+}
+.yith-wcmv-edit-vendor-modal .form-header .steps-list li.current, .yith-wcmv-edit-vendor-modal .form-header .steps-list li:hover {
+  border-bottom: 3px solid #0e87b8;
+}
+.yith-wcmv-edit-vendor-modal .form-header .steps-list li.current .step-label, .yith-wcmv-edit-vendor-modal .form-header .steps-list li:hover .step-label {
+  color: #0e87b8;
+}
+.yith-wcmv-edit-vendor-modal .vendor-next-step {
+  display: none !important;
+}
+.yith-wcmv-edit-vendor-modal .vendor-modal-submit {
+  display: inline-block !important;
+}
+
+/*# sourceMappingURL=admin.css.map */

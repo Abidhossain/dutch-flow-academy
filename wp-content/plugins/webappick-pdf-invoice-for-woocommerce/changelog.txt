@@ -1,0 +1,1238 @@
+= 3.7.59  ( May 05, 2025 ) =
+* Fixed: Nonce verification issue.
+* Added: Capability checks to settings form submission.
+
+= 3.7.58  ( April 28, 2025 ) =
+* Update: Code Refactored.
+
+= 3.7.57 ( April 21, 2025 ) =
+* Fixed: Minor issue.
+
+= 3.7.56 ( April 16, 2025 ) =
+* Tested: WordPress 6.8 Compatibility.
+
+= 3.7.55 ( April 15, 2025 ) =
+* Tested: WooCommerce 9.8 Compatibility.
+
+= 3.7.54 ( April 07, 2025 ) =
+* Fixed: Minor issue.
+
+= 3.7.53 ( March 24, 2025 ) =
+* Improved: Replaced direct DB query with wc_get_orders() for HPOS compatibility.
+* Added: Caching with wp_cache_get/set to optimize performance.
+
+= 3.7.52 ( March 20, 2025 ) =
+* Updated: Escaped all dynamic outputs to comply with WordPress security standards.
+* Fixed: XSS vulnerabilities by properly escaping JavaScript variables, attributes, URLs, and user inputs.
+* Resolved: WordPress.Security.EscapeOutput.OutputNotEscaped warnings for safer data handling.
+
+= 3.7.51 ( March 17, 2025 ) =
+* Fixed: Minor issue.
+
+= 3.7.50 ( March 13, 2025 ) =
+* Fixed: Escaped output using esc_url() to prevent security vulnerabilities.
+
+= 3.7.49 ( March 10, 2025 ) =
+* Updated: Improved security and compliance by properly validating, unslashing, and sanitizing $_SERVER['REMOTE_ADDR'] before usage.
+
+= 3.7.48 ( March 06, 2025 ) =
+* Security Improvement: wp_strip_all_tags() ensures no malicious scripts remain.
+
+= 3.7.47 ( March 03, 2025 ) =
+* Tested: WooCommerce 9.7 Compatibility.
+
+= 3.7.46 ( February 25, 2025 ) =
+* Fixed: Escaped output using wp_kses_post() to prevent XSS.
+
+= 3.7.45 ( February 17, 2025 ) =
+* Fixed: Minor issue fixed.
+
+= 3.7.44 ( February 10, 2025 ) =
+* Updated: Replaced is_writeable() with wp_is_writable() (WordPress recommended).
+
+= 3.7.43 ( February 03, 2025 ) =
+* Fixed: WordPress.Security.EscapeOutput.OutputNotEscaped issue.
+
+= 3.7.42 ( January 27, 2025 ) =
+* Tested: WooCommerce 9.6 Compatibility.
+
+= 3.7.41 ( January 20, 2025 ) =
+* Added: Minor issue fixed.
+
+= 3.7.40 ( January 16, 2025 ) =
+* Updated: readme.txt updated.
+
+= 3.7.39 ( January 13, 2025 ) =
+* Added: A filter 'wpifw_admin_order_action_buttons' to modify the buttons in admin orders page.
+
+= 3.7.38 ( January 06, 2025 ) =
+* Added: Introduced a new filter hook 'wpifw_order_buttons_array' to allow dynamic modification of the buttons array.
+
+= 3.7.37 ( January 01, 2025 ) =
+* Removed: Christmas discount banner removed.
+
+= 3.7.36 ( December 30, 2024 ) =
+* Fixed: Minor bug.
+
+= 3.7.35 ( December 26, 2024 ) =
+* Fixed: Initial Invoice Number issue fixed.
+
+= 3.7.34 ( December 23, 2024 ) =
+* Tested: WooCommerce 9.5 Compatibility.
+
+= 3.7.33 ( December 20, 2024 ) =
+* Added: Christmas discount banner added.
+
+= 3.7.32 ( December 17, 2024 ) =
+* Improved: Added esc_attr and esc_html for better data sanitization and security when rendering meta key options.
+
+= 3.7.31 ( December 10, 2024 ) =
+* Fixed: Minor bug.
+
+= 3.7.30 ( December 6, 2024 ) =
+* Removed: Cyber Monday banner.
+
+= 3.7.29 ( December 5, 2024 ) =
+* Updated: Enhanced Caching for Direct Queries.
+
+= 3.7.28 ( December 3, 2024 ) =
+* Updated: Replaced `is_writeable()` with `wp_is_writable()` for compatibility with WordPress standards in Status tab.
+
+= 3.7.27 ( November 30, 2024 ) =
+* Added: Cyber Monday banner added.
+
+= 3.7.26 ( November 28, 2024 ) =
+* Fixed: Minor bug.
+
+= 3.7.25 ( November 26, 2024 ) =
+* Updated: Replaced file_put_contents with WordPress Filesystem API, improved security, compatibility, and error handling for file operations.
+
+= 3.7.24 ( November 21, 2024 ) =
+* Fixed: BFCM Banner issue.
+
+= 3.7.23 ( November 18, 2024 ) =
+* Updated: Replaced unlink() with wp_delete_file() to adhere to WordPress coding standards and resolve warnings.
+
+= 3.7.22 ( November 15, 2024 ) =
+* Fixed: MPDF file loading issue.
+
+= 3.7.21 ( November 15, 2024 ) =
+* Added: BFCM banner added.
+* Tested: WordPress 6.7 & WooCommerce 9.4
+* Fixed: "PHP Notice:  Function _load_textdomain_just_in_time" issue fixed.
+
+= 3.7.20 ( November 11, 2024 ) =
+* Updated: Replaced `is_writeable()` with `wp_is_writable()` for compatibility with WordPress standards.
+* Improved: Enhanced security in admin notice sanitization.
+
+= 3.7.19 ( November 5, 2024 ) =
+* Removed: Halloween promotion banner removed.
+
+= 3.7.18 ( October 31, 2024 ) =
+* Fix: Minor bug fixed.
+
+= 3.7.17 ( October 28, 2024 ) =
+* Enhancement: Improved admin notice for WooCommerce installation and activation checks.
+* Fixed: Resolved translation issue with dynamic messages.
+
+= 3.7.16 ( October 22, 2024 ) =
+* Added: Halloween promotion banner added.
+* Fix: Minor bug fixed.
+
+= 3.7.15 ( October 21, 2024 ) =
+* Improved: Security by sanitizing and unslashing inputs in AJAX promo dismissal.
+* Fixed: Nonce validation issues.
+* Resolved: Input sanitization and $_REQUEST handling warnings.
+
+= 3.7.14 ( October 17, 2024 ) =
+* Improved: Secured JavaScript and HTML attributes by applying proper escaping for URLs and text.
+
+= 3.7.13 ( October 14, 2024 ) =
+* Tested: WooCommerce 9.3 compatibility checked.
+
+= 3.7.12 ( October 07, 2024 ) =
+* Fixed: Secured output by adding esc_html() for safer data handling.
+
+= 3.7.11 ( October 03, 2024 ) =
+* Fixed: Translators Comment issue fixed.
+
+= 3.7.10 ( September 30, 2024 ) =
+* Fixed: Unescaped output in table column rendering issue fixed.
+
+= 3.7.9 ( September 23, 2024 ) =
+* Fixed: Minor issue fixed.
+
+= 3.7.8 ( September 18, 2024 ) =
+* Fixed: Missing Translators Comment issue fixed.
+
+= 3.7.7 ( September 12, 2024 ) =
+* Improved: Secured output by adding esc_html() for safer data handling.
+
+= 3.7.6 ( September 09, 2024 ) =
+* Fixed: Missing Translators Comment issue fixed.
+
+= 3.7.5 ( September 02, 2024 ) =
+* Fixed: Resolved design issue with the Seller and Buyer block titles.
+
+= 3.7.4 ( September 02, 2024 ) =
+* Removed: Unused code removed.
+
+= 3.7.3 ( August 30, 2024 ) =
+* Fixed: Corrected a spelling error.
+
+= 3.7.2 ( August 27, 2024 ) =
+* Tested: WooCommerce 9.2 compatibility checked.
+
+= 3.7.1 ( August 22, 2024 ) =
+* Fixed: Minor issue fixed.
+
+= 3.7.0 ( August 19, 2024 ) =
+* Improved: Invoice number increment logic.
+* Fixed: Initial invoice number issue.
+
+= 3.6.35 ( August 15, 2024 ) =
+* Fixed: GST Invoice Banner Issue fixed.
+
+= 3.6.34 ( August 12, 2024 ) =
+* Updated: Information updated on Premium Tab.
+
+= 3.6.33 ( August 06, 2024 ) =
+* Fixed: Minor issue fixed.
+
+= 3.6.32 ( August 01, 2024 ) =
+* Updated: Price updated on Premium Tab.
+
+= 3.6.31 ( July 29, 2024 ) =
+* Tested: WooCommerce 9.1 compatibility checked.
+
+= 3.6.30 ( July 24, 2024 ) =
+* Fixed: PHP Fatal error fixed on Bulk download option.
+
+= 3.6.29 ( July 18, 2024 ) =
+* Tested: WordPress 6.6 compatibility checked.
+
+= 3.6.28 ( July 15, 2024 ) =
+* Fixed: Minor issue fixed.
+
+= 3.6.27 ( July 11, 2024 ) =
+* Fixed: Invoice attaching issue on the email has been fixed.
+
+= 3.6.26 ( July 8, 2024 ) =
+* Fixed: Minor issue fixed.
+
+= 3.6.25 ( July 4, 2024 ) =
+* Fixed: The invoice number issue was fixed with HPOS Compatibility.
+
+= 3.6.24 ( July 2, 2024 ) =
+* Added: Helper function added for meta data.
+
+= 3.6.23 ( June 26, 2024 ) =
+* Updated: Readme file updated.
+
+= 3.6.22 ( June 24, 2024 ) =
+* Fixed: Minor issue fixed.
+
+= 3.6.21 ( June 21, 2024 ) =
+* Tested: WooCommerce 9.0 compatibility checked.
+
+= 3.6.20 ( June 13, 2024 ) =
+* Fixed: Minor issue fixed.
+
+= 3.6.19 ( June 10, 2024 ) =
+* Tested: WooCommerce 8.9.2 compatibility checked.
+
+= 3.6.18 ( June 06, 2024 ) =
+* Tested: WordPress 6.5.4 compatibility checked.
+
+= 3.6.17 ( June 03, 2024 ) =
+* Updated: Code refactored and updated.
+
+= 3.6.16 ( May 31, 2024 ) =
+* Fixed: HPOS Order Meta issue fixed on settings tab.
+
+= 3.6.15 ( May 28, 2024 ) =
+* Updated: Sidebar Banner updated.
+
+= 3.6.14 ( May 23, 2024 ) =
+* Fixed: Minor issue fixed.
+
+= 3.6.13 ( May 20, 2024 ) =
+* Fixed: PHP fatal error fixed in settings tab.
+
+= 3.6.12 ( May 16, 2024 ) =
+* Tested: WooCommerce 8.9 Compatibility.
+
+= 3.6.11 ( May 13, 2024 ) =
+* Added: Make 'WooCommerce' as a required plugin.
+
+= 3.6.10 ( May 09, 2024 ) =
+* Updated: Free vs Pro tab information.
+
+= 3.6.9 ( May 06, 2024 ) =
+* Fixed: Display options in Select Product Column after selecting all three available choices.
+
+= 3.6.8 ( May 02, 2024 ) =
+* Fixed: Minor issue fixed.
+* Updated: Plugin tags updated.
+
+= 3.6.7 ( Apr 29, 2024 ) =
+* Updated: Readme.txt file updated.
+
+= 3.6.6 ( Apr 25, 2024 ) =
+* Fixed: Invalid Input Characters issue fixed.
+
+= 3.6.5 ( Apr 22, 2024 ) =
+* Fixed: Minor issue fixed.
+
+= 3.6.4 ( Apr 19, 2024 ) =
+* Tested: WooCommerce 8.8.
+
+= 3.6.3 ( Apr 16, 2024 ) =
+* Updated: Free vs Pro tab information.
+
+= 3.6.2 ( Mar 27, 2024 ) =
+* Tested: WordPress 6.5.
+
+= 3.6.1 ( Mar 27, 2024 ) =
+* Tested: WooCommerce 8.7.
+
+= 3.6.0 ( Mar 21, 2024 ) =
+* Added: GST Invoice banner added for India.
+
+= 3.5.35 ( Mar 18, 2024 ) =
+* Updated: Free vs Pro tab information.
+
+= 3.5.34 ( Mar 14, 2024 ) =
+* Fixed: Minor issue fixed.
+
+= 3.5.33 ( Mar 11, 2024 ) =
+* Added: Filter added after order total in the invoice.
+
+= 3.5.32 ( Mar 08, 2024 ) =
+* Fixed: HPOS issue on Orders page Bulk Action.
+
+= 3.5.31 ( Mar 05, 2024 ) =
+* Fixed: Button style responsive issue fixed.
+
+= 3.5.30 ( Feb 29, 2024 ) =
+* Added: Download Invoice button css style added.
+
+= 3.5.29 ( Feb 19, 2024 ) =
+* Tested: WooCommerce 8.6 compatibility checked.
+
+= 3.5.28 ( Feb 15, 2024 ) =
+* Fixed: Minor Issue fixed.
+
+= 3.5.27 ( Feb 12, 2024 ) =
+* Fixed: Payment Method issue fixed on Bulk Download Tab.
+
+= 3.5.26 ( Feb 05, 2024 ) =
+* Fixed: Minor Issue fixed.
+
+= 3.5.25 ( Feb 01, 2024 ) =
+* Fixed: Product Meta and Order Item Meta icon issue fixed.
+
+= 3.5.24 ( Jan 29, 2024 ) =
+* Added: Invoice Preview from last order in Settings Tab.
+
+= 3.5.23 ( Jan 25, 2024 ) =
+* Fixed: WooCommerce HPOS Compatibility issue fixed on invoice preview.
+
+= 3.5.22 ( Jan 22, 2024 ) =
+* Tested: WooCommerce 8.5 compatibility checked.
+
+= 3.5.21 ( Jan 15, 2024 ) =
+* Fixed: Settings tab icon issue fixed.
+
+= 3.5.20 ( Jan 11, 2024 ) =
+* Fixed: Plugin loading issue fixed.
+
+= 3.5.19 ( Jan 8, 2024 ) =
+* Fixed: Minor issue fixed.
+* Improved: Print option code is updated.
+
+= 3.5.18 ( Jan 1, 2024 ) =
+* Fixed: Product Column CSS conflict issue fixed.
+
+= 3.5.17 ( Dec 26, 2023 ) =
+* Added: Print Option added in admin orders and single order page.
+
+= 3.5.16 ( Dec 21, 2023 ) =
+* Tested: WC tested 8.4
+
+= 3.5.15 ( Dec 18, 2023 ) =
+* Fixed: Font Issue for Non-Existing Product.
+
+= 3.5.14 ( Dec 14, 2023 ) =
+* Fixed: Meta Box issue on Admin Edit Order page.
+
+= 3.5.13 ( Dec 11, 2023 ) =
+* Fixed: Minor bug fixed.
+
+= 3.5.12 ( Dec 04, 2023 ) =
+* Fixed: Invoice Download Issue for Non-Existing Product.
+
+= 3.5.11 ( Nov 27, 2023 ) =
+* Tested: WC tested 8.3
+* Added: All product columns are now selectable.
+
+= 3.5.10 ( Nov 20, 2023 ) =
+* Fixed: Sidebar menu icon position fixed.
+
+= 3.5.9 ( Nov 16, 2023 ) =
+* Fixed: Banner fontsize issue fixed.
+
+= 3.5.8 ( Nov 13, 2023 ) =
+* Removed: Facebook Button Removed.
+
+= 3.5.7 ( Nov 07, 2023 ) =
+* Tested: WP tested 6.4.
+
+= 3.5.6 ( Nov 02, 2023 ) =
+* Fixed: Minor bug fixed.
+
+= 3.5.5 ( Oct 30, 2023 ) =
+* Fixed: State/County field issue.
+
+= 3.5.4 ( Oct 20, 2023 ) =
+* Added: WooCommerce HPOS Compatibility.
+
+= 3.5.3 ( Sep 18, 2023 ) =
+* Added: Pro feature banner added to dashboard.
+
+= 3.5.2 ( Sep 11, 2023 ) =
+* Added: Seller and Buyers logo remove button added.
+
+= 3.5.1 ( Sep 05, 2023 ) =
+* Added: 'woo_invoice_packing_total_weight' filter for Packing Slip Total Weight.
+* Improved: Changed from 'int' to 'float' in Product Total Weight calculation.
+* Fixed: Display issue with Packing Slip Total Weight 0.
+
+= 3.5.0 ( Aug 30, 2023 ) =
+* Tested: WC tested 8.0.3
+* Tested: WP tested 6.3.1
+* Added: Pro version banner added.
+* Support: PHP 8.0.0 compatible checked.
+
+= 3.4.9 ( 2023-04-03 ) =
+* Fixed: Security issue solved.
+* Tested: WC tested 7.5
+* Tested: WP tested 6.2
+
+= 3.4.8 ( 2023-03-07 ) =
+* Fixed: Invoice blank page issue solved.
+* Added: Display discount amount to order total.
+* Tested: WC tested 7.4
+
+= 3.4.7 ( 2022-12-06 ) =
+* Added: Halloween promotion banner removed.
+* Added: Display discount amount to order total.
+* Tested: WP tested 6.1.1
+* Tested: WC tested 7.1
+* PHPCS: PHPCS test.
+
+= 3.4.6 ( 2022-10-24 ) =
+* Added: Halloween promotion banner will be showen only plugin page.
+
+= 3.4.5 (2022-10-17) =
+* Added: Halloween promotion banner added.
+* Fix: Minor bug fixed.
+* Removed: challan-discount-banner.png file removed.
+* Removed: black-friday-banner-for-challan.png file removed.
+* PHPCS: PHPCS test.
+
+= 3.4.4 (2022-10-14) =
+* Fix:  Pdf font download url changed .
+* Fix: Documentation title cut off issue fixed.
+* Fix: Minor bug fixed.
+* Fix: woo-invoice-fonts.js file removed.
+* PHPCS: PHPCS test .
+* Updated: Font missing redirect url updated.
+
+
+= 3.4.3 (2022-09-27) =
+* Added: woo_invoice_default_css_file filter added to override default css.
+* Added: woo_invoice_template_css_file filter added to override template css.
+
+= 3.4.2 (2022-09-23) =
+* Added: Mpdf and default fonts download functionality added generating pdf invoice if these are missing.
+* Added: Plugin loading speed optimized.
+* Fixed: PHPCS error fixed.
+* Fixed: Mpdf and default missing error fixed if wp-content/uploads folder not writable.
+* Removed: Unnecessary file load and code removed.
+
+= 3.4.1 (2022-09-20) =
+* Added: Translation for Challan dashboard, invoice, packing slip added in German language.
+* Added: Plugin translation request notice added.
+* Fixed: PHPCS error fixed.
+
+= 3.4.0 (2022-09-15) =
+* Added: Translation for Challan dashboard, invoice, packing slip added in Arabic language.
+* Added: Translation for Challan dashboard, invoice, packing slip added in French language.
+* Added: Translation for Challan dashboard, invoice, packing slip added in Bangla language.
+* Added: Translation for Challan readme.txt file in wordpress.org for Bangla language.
+* WC Tested: 6.9.1
+
+= 3.3.33 (2022-09-12) =
+* Fixed: Mpdf downloading issue fixed.
+* Fixed: Constant conflict with challan pro version fixed.
+* WP Tested: 6.0.2
+* WC Tested: 6.8.2
+
+= 3.3.32 (2022-05-25) =
+* Added: Show YITH booking costs on invoice.
+* WP Tested: 6.0
+* WC Tested: 6.5.1
+
+= 3.3.31 (2022-04-28) =
+* Updated : Fixed the conflict with block content.
+* Updated : Fixed the variable product meta not showing issue.
+* WC Tested: 6.4.1
+
+= 3.3.30 (2022-04-14) =
+* Updated : Fixed the mPDF font config issue.
+* WP Tested: 5.9.3
+* WC Tested: 6.4.0
+
+= 3.3.29 (2022-03-23) =
+* Added : Show notice to install WooCommerce when WooCommerce is not available.
+* Updated : Fixed the errors when WooCommerce is not available.
+* WP Tested: 5.9.2
+
+= 3.3.28 (2022-03-09) =
+* Updated : Fixed font issue for MPDF lib.
+* WP Tested: 5.9.1
+
+= 3.3.27 (2022-02-15) =
+* Updated : Optimized plugin size.
+
+= 3.3.26 (2022-02-14) =
+* Updated : Add compatibility with YITH WooCommerce Delivery Date plugin.
+
+= 3.3.25 (2022-02-08) =
+* Updated : Remove Christmas offer.
+
+= 3.3.24 (2022-01-31) =
+* Updated : Filter updated to add HTML code in footer.
+
+= 3.3.23 (2022-01-24) =
+* Fixed : Font downloading link updated.
+
+= 3.3.22 (2021-12-28) =
+* Updated : Challan free vs pro tab updated.
+* Updated : Premium page updated.
+
+= 3.3.21 (2021-12-22) =
+* Fixed : Happy holiday coupon added, "HAPPYHOLIDAY".
+
+= 3.3.20 (2021-12-15) =
+* Fixed : Internal bug fixed.
+
+= 3.3.19 (2021-12-08) =
+* Added : Unnecessary banner removed.
+* Added : ZATCA implementation notice showing limited for Saudi Arabia.
+
+= 3.3.18 (2021-12-01) =
+* Added : ZATCA implementation notice added.
+
+= 3.3.17 (2021-11-26) =
+* Added : Vietnamese Language Translation added.
+* Added : Swedish Language Translation added.
+
+= 3.3.16 (2021-11-22) =
+* Fixed : Plugin optimization issue fixed.
+* Fixed : Internal bugfix.
+
+= 3.3.15 (2021-11-19) =
+* Added : Danish Language Translation added.
+* Added : Persian Language Translation added.
+* Added : Malay Language Translation added.
+
+= 3.3.14 (2021-11-18) =
+* Fixed : Internal bugfix.
+* Fixed : Bangla font issue fixed.
+* Fixed : Plugin optimization issue fixed.
+* Fixed : Order items filter based on SKU filter name 'woo_invoice_product_data'.
+
+
+= 3.3.13 (2021-11-11) =
+* Fixed : Internal bugfix.
+* Fixed : Review notice show error fixed.
+* Fixed : Translation issue fixed.
+* Added : Black friday banner added.
+* Added : Challan Pro version price update banner added.
+* WP Tested: 5.8.2
+
+= 3.3.12 (2021-11-08) =
+* Fixed: Internal bugfix.
+
+= 3.3.11 (2021-11-08) =
+* Fixed : Fixed: Internal bugfix.
+
+= 3.3.11 (2021-11-05) =
+* Added: Settings page options reordered.
+* Added: Settings page UI improved.
+* Fixed: Internal bugfix.
+
+= 3.3.10 (2021-10-29) =
+* Added: Display version Number.
+* Added: CSV file download UI added (Pro only).
+* Fixed: Notification error fixed.
+
+= 3.3.9 (2021-10-21) =
+* Added: Invoice custom css add option added.
+* Fixed: Select template modal issue fixed.
+
+= 3.3.8 (2021-10-20) =
+* Added: Order item meta data add option created.
+* Added: add product meta add option created.
+* Fixed: invoice_number font-weight issue fixed.
+
+= 3.3.7 (2021-10-15) =
+* Fixed: class-woo-invoice-fonts.php file issue fixed.
+* Added: Order meta data add option created.
+* Added: Bulk shipping label option created.
+* WC tested: 5.8.0
+
+= 3.3.6 (2021-10-14) =
+* Added: Order meta data add option created.
+* Added: Bulk shipping label option created.
+* WC tested: 5.8.0
+
+= 3.3.5 (2021-10-11) =
+* Updated: Challan Pro price updated,$29 instead $49.
+* Fixed: Fonts download error.
+* Fixed: Installation error fixed.
+* Added: Font download option added.
+* Added: On-hold order email attachment.
+
+
+= 3.3.4 (2021-10-01) =
+* Documentation screen shot changed.
+* Invoice and font Directory secured.
+* WP tested : 5.8.1
+
+
+= 3.3.3 (2021-09-24) =
+* Preview images logo changed from wooinvoice to challan.
+* WP tested : 5.8.1
+* WC tested : 5.7.1
+
+= 3.3.2 (2021-09-08) =
+* Pro Vs Free option added to settings page.
+
+= 3.3.1 (2021-08-13) =
+* Pro Vs Free option added to settings page.
+* Last order preview option added to settings page.
+
+= 3.3.0 (2021-08-06) =
+* Pro version return policy changed.
+
+= 3.2.21 (2021-07-30) =
+* Unexpected file deleted.
+
+== Changelog ==
+= 3.2.20 (2021-07-27) =
+* WP Version tested up to 5.8.
+* WC Tested up to 5.5.2.
+
+
+= 3.2.19 (2021-07-18) =
+* Fixed: Currency symbol font-size issue.
+* Rename : Shipping Label to Delivery Address.
+* WC Tested up to 5.5.1
+
+= 3.2.18 (2021-07-15) =
+* Fixed: Template preview selection in admin panel.
+* WC Tested up to 5.4.1.
+
+
+= 3.2.15 (2021-07-01) =
+* Fixed: Footer line issue fixed.
+* Fixed: After order data action fixed.
+* WC Tested up to 5.3
+* WP Tested up to 5.7.2
+
+= 3.2.14 (2021-06-13) =
+* Fixed: All placed orders generating same invoice number 1.
+
+= 3.2.13 (2021-06-03) =
+* Filter: wpifw_invoice_product_per_page
+
+= 3.2.12 (2021-05-31) =
+* Fixed: date issue and set default option.
+* Added: Indonesian and Tamil language translation added.
+
+= 3.2.11 (2021-05-19) =
+* Fixed: Dutch translation issue fixed.
+* Added: Woocommerce latest version(5.3.0) compatibility added.
+
+= 3.2.10 (2021-05-10) =
+* Fixed: Turkish translation issue fixed.
+* Fixed: Ukrainian translation issue fixed.
+* Fixed: Uzbek translation issue fixed.
+* Fixed: PHPCS issue fixed.
+
+= 3.2.9 (2021-05-06) =
+* Fixed: Download Invoice button translation issue fixed.
+
+= 3.2.8 (2021-04-29) =
+* Fixed: Default option ( Email attachment status, Download Attachment status ) added for new install.
+* Fixed: Payment method display for new install.
+* Fixed: Date issue fixed.
+
+= 3.2.7 (2021-04-22) =
+* Added: Telugu language added.
+* Added: PHP max input vars added in system status.
+
+= 3.2.6 (2021-04-18) =
+* Fixed: Plugin installation instruction fixed.
+* Added: Download icon added with Download Invoice button.
+
+= 3.2.5 (2021-04-14) =
+* Added: Woocommerce latest version(5.2.0) compatibility added.
+* Fixed: PHPCS coding standard fixed.
+
+= 3.2.4 (2021-04-08) =
+* Added: Invoice number compatibility for ebay order.
+
+= 3.2.3 (2021-04-01) =
+* Updated: Plugin name updated.
+
+= 3.2.2 (2021-03-25) =
+* Added: Default store logo width.
+* Added: Filter added to set default font name (woo_invoice_default_fonts_name).
+* Fixed: Bengali language compatibility checked and fixed.
+
+= 3.2.1 (2021-03-22) =
+* Added: Default payment method option enable.
+* Added: Default order note option enable.
+
+= 3.2.0 (2021-03-18) =
+* Added: New Translation string added.
+
+= 3.1.20 (2021-03-16) =
+* Updated: Readme.txt file
+
+= 3.1.19 (2021-03-11) =
+* Added : WordPress latest version(5.7) compatibility added.
+* Added : Woocommerce latest version(5.1.0) compatibility added.
+
+= 3.1.18 (2021-02-25) =
+* Added : System status tab added.
+* Fixed: Uploaded attachment file delete issue fixed.
+* Updated: Woo Invoice logo change to Challan.
+
+= 3.1.17 (2021-02-18) =
+* Fixed: Plugins naming issue fixed.
+
+= 3.1.16 (2021-02-18) =
+* Added: Option added to upload custom fonts.
+* Added : WooCommerce version 5.0.0 compatibility.
+
+= 3.1.15 (2021-02-04) =
+* Update: Change name Woo Invoice to Challan.
+
+= 3.1.14 (2021-02-04) =
+* Fixed : Updater Tracing Code Removed.
+* Fixed : Short URL removed.
+* Fixed : Images moved to local directory.
+
+= 3.1.13 (2021-02-03) =
+* Fixed : Input request issue fixed.
+* Fixed : Email attachment label fixed.
+
+= 3.1.11 (2021-01-31) =
+* Added : WooCommerce version 4.9.2 compatibility.
+* Fixed : Order number generate issue fix.
+
+= 3.1.10 (2021-01-18) =
+* Added : Filter to change all strings of Invoice. ( ‘woo_invoice_filter_template_label’ ).
+* Added : WooCommerce version 4.9.0 compatibility.
+* Fixed : Default date format.
+* Updated: Translation pot file updated.
+
+= 3.1.7 (2020-12-31) =
+* Fixed: Widget toggle issue fixed.
+* Fixed: Review banner issue fixed.
+
+= 3.1.6 (2020-12-23) =
+* Updated: Screenshot image updated.
+* Updated: Translation pot file updated.
+
+= 3.1.5 (2020-12-13) =
+* Tested up to 5.6
+
+= 3.1.4 (2020-12-7) =
+* Added: Template selection preview button added.
+* Added: Minify CSS added.
+
+= 3.1.3 (2020-12-3) =
+* Added: Filter added for background watermark ( woo_invoice_background_watermark ).
+* Added: Filter added for background watermark Opacity ( woo_invoice_background_watermark_opacity ).
+
+= 3.1.2 (2020-11-25) =
+* Fixed: Shipping label button added in order action list.
+
+= 3.1.1 (2020-11-23) =
+* Fixed: Shipping label issue fixed.
+* Added: Folder permission notice fixed.
+
+= 3.1.0 (2020-11-22) =
+* Added: Shipping label button added.
+* Added: Filter added to change invoice title (woo_invoice_invoice_title).
+* Added: Filter added to change packing slip title (woo_invoice_packing_slip_title).
+* Added: Filter added to change shipping label title (woo_invoice_delivery_address_title).
+
+= 3.0.21 (2020-11-19) =
+* Added: Admin Notice added if uploads folder not writable.
+
+= 3.0.20 (2020-11-19) =
+* Added: Language translation string updated.
+* Added: Filter issue fixed for save invoice file name.
+
+= 3.0.19 (2020-11-15) =
+* Added: Attach invoice with email based on status.
+* Added: Download invoice based on status.
+
+= 3.0.18 (2020-11-10) =
+* Fixed: Buyer and Seller shipping address spacing issue fixed.
+
+= 3.0.17 (2020-11-09) =
+* Fixed: Documentation spacing issue fixed.
+
+= 3.0.16 (2020-11-09) =
+* Added: Plugin documentation added.
+
+= 3.0.15 (2020-11-05) =
+* Added: Frequently ask question added.
+* Added: Features list updated.
+
+= 3.0.14 (2020-11-02) =
+* Fixed: Security check and sanitization issue fixed.
+
+= 3.0.13 (2020-10-28) =
+* Added: Paper size added for invoice and packing slip.
+* Fixed: Product weight count fixed.
+
+= 3.0.12 (2020-10-25) =
+* Added: Option added to write custom CSS.
+
+= 3.0.11 (2020-10-22) =
+* Fixed: Invoice number issue fixed
+* Added: Compressed CSS and JS.
+
+= 3.0.10 (2020-10-18) =
+* Fixed: Change api class name according to wordpress standard.
+* Added: Added nonce check for download invoice fonts.
+
+= 3.0.9 (2020-10-15) =
+* Fixed: Output escaping issue fixed.
+* Fixed: Variable name has been changed as snake_case.
+
+= 3.0.8 (2020-10-11) =
+* Added: Output type html added for packing slip.
+* Fixed: PHPCS issue fixed.
+
+= 3.0.7 (2020-10-8) =
+* Added: Order note before action added: woo_invoice_before_customer_notes.
+* Added: Order note after action added: woo_invoice_after_customer_notes.
+
+= 3.0.6 (2020-10-6) =
+* Fixed: woo_invoice_before_billing_address action fixed.
+* Fixed: parse_url url warning fixed.
+* Fixed: Bulk download count issue fixed.
+* Added: times icon added to product quantity
+
+= 3.0.5 (2020-10-4) =
+* Added: Default font FreeSans.ttf added.
+
+= 3.0.4 (2020-09-30) =
+* Added: Default invoice template style added after active plugin.
+
+= 3.0.3 (2020-09-29) =
+* Added: New invoice template design added.
+* Fixed: RTL option fixed from settings page.
+
+= 3.0.2 (2020-09-27) =
+* Added: (XB Riyaz.ttf) New font support added
+* Fixed: Font download issue fixed
+
+= 3.0.1 (2020-09-24) =
+* Added: Invoice fonts protected from public access
+
+= 3.0.0 (2020-09-23) =
+* Added: Cron job added to download font in background process.
+* Added: Mpdf library updated
+* Fixed: Currency symbol issue fixed
+
+= 2.3.5 (2020-09-17) =
+* Added: Option to download missing fonts.
+
+= 2.3.4 (2020-09-13) =
+* Fixed: Packing slip column space fixed.
+
+= 2.3.3 (2020-09-13) =
+* Added: Hebrew Language compatibility added.
+
+= 2.3.2 (2020-09-10) =
+* Fixed: Text domain updated according to plugin slug.
+
+= 2.3.1 (2020-09-9) =
+* Added: Pdf custom name filter added in email attachment : woo_invoice_file_name.
+
+= 2.3.0 (2020-09-8) =
+* Fixed: Disabled download invoice button from woocommerce order confirmation page for guest users.
+
+= 2.2.20 (2020-09-6) =
+* Fixed: Video button removed from settings page header.
+* Fixed: Documentation url updated.
+
+= 2.2.19 (2020-09-6) =
+* Added: Documentation button and video tutorial button added
+* Fixed: Packing Slip total border.
+
+= 2.2.18 (2020-09-3) =
+* Fixed: WordPress coding standard issue fixed
+
+= 2.2.17 (2020-09-2) =
+* Fixed: Packing slip total border fixed & css added
+* Added: Bulk download validation added
+
+= 2.2.16 (2020-09-1) =
+* Fixed: Download invoice button redirect to new tab fixed
+* Fixed: Text domain mismatch fixed
+
+= 2.2.15 (2020-08-31) =
+* Added: Packing total quantity
+* Added: Packing total weight
+* Added: Packing total Filter added : woo_invoice_packing_total
+
+= 2.2.14 (2020-08-25) =
+* Added: PDF name filter added : woo_invoice_file_name
+* Added: MPDF settings filter added : woo_invoice_mpdf_settings
+* Fixed: PDF Paper size Fixed
+
+= 2.2.13 (2020-08-25) =
+* Fixed: Items subtotal currency symbol fixed
+* Fixed: Invoice Template Dropdown changes to modal dropdown
+* Added: Option to enable or disable mPDF debug mode
+* Added: Email type filter added: woo_invoice_email_type
+* Added: PDF Paper size filter added: woo_invoice_paper_size
+
+= 2.2.12 (2020-08-24) =
+* Added: new filter added to change order number: woo_invoice_order_number
+* Added: new filter added to change order date: woo_invoice_order_date
+* Added: new filter added to change invoice number: woo_invoice_invoice_number
+
+= 2.2.11 (2020-08-23) =
+* Fix: Discount total issue fixed.
+
+= 2.2.10 (2020-08-22) =
+* Added: Action Hooks added to modify template.
+
+= 2.2.9 (2020-08-19) =
+* Fix: Mismatched domain & security output escaping fixed.
+
+= 2.2.8 (2020-08-17) =
+* Added: Pdf Invoice temporary directory protected from public access.
+
+= 2.2.7 (2020-08-16) =
+* Fix: Api Library Updated and Plugin Settings URL Fixed.
+
+= 2.2.6 (2020-08-16) =
+* Fix: Deactivation issue fixed.
+
+= 2.2.5 (2020-08-16) =
+* Fix: FreeSerif.ttf font file missing issue fixed.
+
+= 2.2.4 (2020-07-25) =
+* Tweak: shipping and tax row will be removed if value shipping is free and tax is 0 from order total.
+
+= 2.2.3 (2020-07-14) =
+* Add: new filter hooks added to modify template content.
+
+= 2.2.2 (2020-07-13) =
+* Tweak: WC 4.3 compatibility checked.
+
+= 2.2.1 (2020-07-09) =
+ * Fix: After shipping address action hook issue fixed
+
+= 2.2.0 (2020-07-08) =
+ * Fix: Shop Manager permission added to download invoice.
+
+= 2.1.9 (2020-06-26) =
+ * Fix: Bulk export issue at order list page.
+ * Fix: Custom font changing filter hook added.
+
+= 2.1.8 (2020-06-02) =
+ * Fix: Filter hook added for Footer 1 and 2.
+
+= 2.1.7 (2020-05-28) =
+ * Fix: admin review request notice issue fixed.
+
+= 2.1.6 (2020-05-22) =
+ * Fix: Visual Composer and Gutenberg conflict issue fixed.
+
+= 2.1.5 (2020-05-20) =
+ * Fix: CSS and JS file will only load on plugin page to prevent conflict with other plugin.
+ * Fix: Template change preview issue fixed.
+ * Tweak: enqueue script.
+
+= 2.1.4 (2020-05-15) =
+ * Fix: attached invoice file name now contain invoice number instead of order number.
+ * Fix: Items Total replaced with Items Subtotal.
+ * Tweak: Translation file updated.
+ * Tweak: Anyone with manage_woocommerce capability now can print invoice and packing slip.
+ * Added: Show customer order note into invoice.
+ * Added: Show refunded & Net Total amount into invoice.
+
+= 2.1.3 (2020-05-04) =
+ * Fix: order number assigned as invoice number
+
+= 2.1.2 (2020-04-29) =
+ * Tweak: Invoice & Packing slip icon changed
+ * Tweak: settings page font changed
+
+= 2.1.1 (2020-04-27) =
+ * Tweak: Auto translation from language file
+ * Tweak: WordPress Code Standard
+
+= 2.1.0 (2020-04-23) =
+ * Fixed: Invoice file attachment failed issue fixed
+ * Tweak: WordPress Code Standard
+
+= 2.0.2 (2020-04-18) =
+ * Fixed: Invalid server error at checkout page fixed
+
+= 2.0.1 (2020-04-18) =
+ * Fixed: Empty invoice with order email attachment issue fixed
+
+= 2.0.0 (2020-04-18) =
+ * Added: Arabic RTL option added
+ * Added: Thai language support
+
+= 1.3.10 (2020-40-07) =
+ * Fixed: Arabic & Chines language loading issue fixed
+
+= 1.3.9 (2020-03-27) =
+ * Tweak: Invoice footer message structure changed
+
+= 1.3.8 (2020-03-08) =
+ * Tweak: Block title label renamed
+ * Added: Plugin recommendation code added
+
+= 1.3.7 (2020-03-02) =
+ * Tweak: Menu slug changed for security purpose
+
+= 1.3.6 (2020-02-26) =
+ * Fixed: Empty line from buyer address fixed
+ * Tweak: Invoice file name translation added
+
+= 1.3.5 (2020-02-25) =
+ * Fixed: Invoice download security issue fixed
+ * Tweak: code improvement
+
+= 1.3.4 (2020-02-04) =
+ * Translation issue fixed
+ * French translation added
+
+= 1.3.3 (2020-02-04) =
+ * Translation issue fixed
+ * French translation added
+
+= 1.3.3 (2020-01-27) =
+ * Remove empty line from customer address
+ * Css issue fixed
+ * public js and css file removed from frontend
+ * price format issue fixed
+
+= 1.3.1 (2020-01-13) =
+ * savePDF error fix
+
+= 1.3.0 (2020-01-09) =
+ * Invoice theme customization hooks added
+
+= 1.2.1 (2019-10-30) =
+ * Billing State and Country label issue fixed
+
+= 1.2.0 (2019-10-30) =
+ * Product Price issue fixed
+
+= 1.1.38 (2019-10-06) =
+ * Variation title issue fixed
+ * Invoice template 2 design issue fixed
+
+= 1.1.37 (2019-09-24) =
+ * Adding TO & FROM section in packingslip.
+
+= 1.1.36 (2019-09-08) =
+ * Remove readonly attribute from next invoice no field.
+ * Remove reset button of next invoice no field.
+
+= 1.1.35 (2019-09-05) =
+ * Added: Close button in template selection modal added.
+
+= 1.1.34 (2019-08-26) =
+ * Added: Option for showing order note in invoice added.
+
+= 1.1.33 (2019-08-22) =
+ * Fixed: Minor CSS bug Fixed.
+
+= 1.1.32 (2019-08-22) =
+ * Fixed: Tax label renamed in Localization tab.
+ * Fixed: Line break problem in invoice billing address fixed.
+
+= 1.1.31 (2019-08-08) =
+ * Added: Reset button for Next Invoice No added.
+ * Make Next Invoice No field readonly.
+
+= 1.1.30 (2019-07-29) =
+ * Save Changes button in a convenient position.
+ * Fixed: Minor CSS bug Fixed.
+
+= 1.1.29 (2019-07-25) =
+ * Added: Invoice title in browser translation functionality added.
+
+= 1.1.28 (2019-07-21) =
+ * Added: Site logo as company logo if logo is not uploaded upon activation.
+ * Added: Site name as company name if cname is not set upon activation.
+ * Added: Woocommerce store address as company address if company details is not set upon activation.
+
+= 1.1.27 (2019-07-17) =
+ * Fixed: Minor CSS bug fixed.
+
+= 1.1.26 (2019-07-16) =
+ * Fixed: invoice & packingslip logo issue fixed.
+ * Removed: Remove tinymce from textarea field.
+ * update option if not exists upon activation
+
+= 1.1.25 (2019-07-15) =
+ * Added: Option added to limit product title length.
+
+= 1.1.24 (2019-07-14) =
+ * Fixed: invoice logo issue fixed.
+
+= 1.1.22 (2019-07-14) =
+ * Fixed: invoice template issue fixed.
+
+= 1.1.21 (2019-07-11) =
+ * Fixed: Template image preview issue fixed.
+
+= 1.1.20 (2019-07-11) =
+ * Loaded template image from Amazon S3.
+
+= 1.1.19 (2019-07-08) =
+ * Added: Template selection functionality added.
+
+= 1.1.18 (2019-07-07) =
+ * Added: Shipping total translation field added.
+ * Fixed: Email attachment issue fixed.
+
+= 1.1.17 (2019-06-18) =
+ * Bulk packing slip download issue fixed
+
+= 1.1.16 (2019-05-16) =
+ * number format issue for product price fixed
+
+= 1.1.14 (2019-05-09) =
+ * Tweak: Invoice date will not display until the order is paid
+
+= 1.1.13 (2019-04-25) =
+ * Fixed: Currency code right or left display issue fixed
+ * Fixed: Customer can not download invoice from my account until the order is paid
+ * Fixed: Invoice will not be attached with order email until the order is paid
+
+= 1.1.12 (2019-04-11) =
+ * Fixed: Footer content will appear at the last page of an Invoice
+
+= 1.1.11 (2019-04-10) =
+ * Invoice and Packing slip template font size reduced
+
+= 1.1.10 (2019-04-08) =
+ * Translation functions removed from localization input field labels
+
+= 1.1.9 (2019-04-03) =
+ * Settings info added by tooltip
+ * Free vs Pro version comparison added
+
+= 1.1.8 (2019-03-31) =
+ * Fixed: Invoice date will be the order completed date
+
+= 1.1.7 (2019-03-28) =
+ * Dutch & French Translation added
+
+= 1.1.6 (2019-03-26) =
+ * Minor bug fixing
+
+= 1.1.5 (2019-03-24) =
+ * Added: Pot file added
+ * Fixed: Tooltip class issue fixed
+
+= 1.1.4 (2019-03-15) =
+ * Fixed: When save the invoice from browser, the invoice file name will be set according to invoice no. setting.
+ * Add: Nonce verification added to settings form.
+
+= 1.1.3 (2019-03-10) =
+ * Setting link added to plugin action link
+
+= 1.1.2 (2019-03-07) =
+ * Review request notice will show after 15 days of installation
+
+= 1.1.1 (2019-03-05) =
+ * Minor bug fixed
+
+= 1.1.0 (2019-03-03) =
+ * Plugin UI bug fix
+ * new invoice page at the end bug fix
+
+= 1.0.13 (2019-02-28) =
+ * Added: Auto page break added if a order contain more than 6 products
+
+= 1.0.12 (2019-02-25) =
+ * Fixed: logo upload issue
+
+= 1.0.11 (2019-02-24) =
+ * Minor css issue fixed
+
+= 1.0.10 (2019-02-20) =
+ * Minor UI issue fixed and plugin icon added
+ * Support button added
+
+= 1.0.9 (2019-02-19) =
+ * New UI added
+ * Currency symbol issue fixed.
+
+= 1.0.7 (2019-01-30) =
+ * Invoice download link added to customer email.
+
+= 1.0.6 (2018-07-01) =
+ * The text "Invoice" added as a prefix of attached PDF invoice.
+
+= 1.0.5 (2018-03-31) =
+ * Added: Payment Method option added
+
+= 1.0.4 (2018-03-20) =
+ * Added: Option to resize logo
+ * Added: Footer Information Section Added
+
+= 1.0.3 (2018-02-20) =
+ * Fixed: Tab ui issue fixed
+
+= 1.0.2 =
+ * Added: Download link with order email
+ * Fixed: Invoice attachment issue
+ * Fixed: UI Improved
+
+= 1.0.1 =
+ * Invoice packing slip button created
+ * Template contents created for generating multiples template files
+ * Bulk packing slip made
+ * Added template Localization tab into Plugin setting page and process localization
+ * Bulk Pdf and Packing slip now can generate by selecting two dates
+
+
+== Upgrade Notice ==
+
+= 1.0 =
+Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.

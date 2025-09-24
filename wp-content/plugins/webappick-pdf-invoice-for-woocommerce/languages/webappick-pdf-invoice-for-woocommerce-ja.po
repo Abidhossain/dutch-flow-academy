@@ -1,0 +1,258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Invoice Pro\n"
+"POT-Creation-Date: 2021-01-12 12:58+0600\n"
+"PO-Revision-Date: 2021-03-17 16:51+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woo-invoice-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-woo-invoice-pro-template.php:715
+msgid "Billing"
+msgstr "請求処理"
+
+#: includes/class-woo-invoice-pro-template.php:716
+#: includes/class-woo-invoice-pro-template.php:1253
+msgid "Shipping"
+msgstr "配送"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1600
+#: admin/partials/woo-invoice-pro-admin-display.php:1903
+#: includes/class-woo-invoice-pro-template.php:759
+msgid "Order Number"
+msgstr "注文番号"
+
+#: includes/class-woo-invoice-pro-template.php:764
+msgid "Order Date"
+msgstr "注文日"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1872
+#: includes/class-woo-invoice-pro-template.php:742
+msgid "Invoice Number"
+msgstr "請求書番号"
+
+#: includes/class-woo-invoice-pro-template.php:1298
+msgid "Net Payment"
+msgstr "支払額 (正味)"
+
+#: includes/class-woo-invoice-pro-template.php:775
+msgid "Shipping Method"
+msgstr "配送方法"
+
+#: includes/class-woo-invoice-pro-template.php:769
+msgid "Payment Method"
+msgstr "支払い方法"
+
+#: includes/class-woo-invoice-pro-template.php:782
+msgid "Delivery Date"
+msgstr "配達日"
+
+#: includes/class-woo-invoice-pro-template.php:788
+msgid "Time Slot"
+msgstr "予約枠"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:178
+#: admin/partials/woo-invoice-pro-admin-display.php:4166
+#: includes/class-woo-invoice-pro-hooks.php:708
+msgid "Invoice"
+msgstr "請求書"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:186
+#: admin/partials/woo-invoice-pro-admin-display.php:4167
+#: includes/class-woo-invoice-pro-hooks.php:523
+#: includes/class-woo-invoice-pro-hooks.php:713
+#: includes/class-woo-invoice-pro-hooks.php:794
+msgid "Packing Slip"
+msgstr "納品書"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:226
+#: includes/class-woo-invoice-pro-hooks.php:719
+#: includes/class-woo-invoice-pro-hooks.php:804
+msgid "Delivery Address"
+msgstr "配送ラベル"
+
+#: includes/class-woo-invoice-pro-hooks.php:580
+#: includes/class-woo-invoice-pro-hooks.php:663
+#: includes/class-woo-invoice-pro-template.php:225
+msgid "Credit Note"
+msgstr "クレジットノート"
+
+#: includes/class-woo-invoice-pro-template.php:1082
+msgid "Cost"
+msgstr "金額"
+
+#: includes/class-woo-invoice-pro-template.php:1106
+msgid "Quantity"
+msgstr "数量"
+
+#: includes/class-woo-invoice-pro-template.php:1329
+msgid "Total Quantity"
+msgstr "総量"
+
+#: includes/class-woo-invoice-pro-template.php:1083
+msgid "Qty"
+msgstr "数量"
+
+#: includes/class-woo-invoice-pro-orders.php:454
+#: includes/class-woo-invoice-pro-template.php:1101
+msgid "Dimensions"
+msgstr "サイズ"
+
+#: includes/class-woo-invoice-pro-orders.php:457
+#: includes/class-woo-invoice-pro-template.php:1105
+msgid "Weight"
+msgstr "重さ"
+
+#: includes/class-woo-invoice-pro-template.php:1084
+msgid "Total"
+msgstr "合計"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2509
+#: includes/class-woo-invoice-pro-template.php:1247
+msgid "Fees"
+msgstr "手数料"
+
+#: includes/class-woo-invoice-pro-template.php:1088
+#: includes/class-woo-invoice-pro-template.php:1093
+msgid "Tax"
+msgstr "税"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2599
+msgid "Discount"
+msgstr "割引"
+
+#: includes/class-woo-invoice-pro-template.php:1263
+msgid "Order Total With Tax"
+msgstr "税抜きの注文合計"
+
+#: includes/class-woo-invoice-pro-template.php:1263
+msgid "Order Total Without Tax"
+msgstr "税抜きで合計注文"
+
+#: includes/class-woo-invoice-pro-template.php:1293
+msgid "Order Total"
+msgstr "ご注文合計"
+
+#: includes/class-woo-invoice-pro-template.php:1214
+#: includes/class-woo-invoice-pro-template.php:1297
+msgid "Refund"
+msgstr "返金"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:522
+#: admin/partials/woo-invoice-pro-admin-display.php:3527
+#: includes/class-woo-invoice-pro-template.php:1409
+msgid "Customer Note"
+msgstr "お客様メモ"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1477
+msgid "Signature"
+msgstr "署名"
+
+#: includes/class-woo-invoice-pro-template.php:1503
+msgid "Authorized Signature"
+msgstr "承認済みの署名"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2645
+msgid "Bank Accounts"
+msgstr "口座"
+
+#: includes/class-woo-invoice-pro-template.php:1464
+msgid "Account Name"
+msgstr "アカウント名"
+
+#: includes/class-woo-invoice-pro-template.php:1078
+msgid "Item"
+msgstr "項目"
+
+#: includes/class-woo-invoice-pro-template.php:1233
+msgid "Coupon(s)"
+msgstr "クーポン"
+
+#: includes/class-woo-invoice-pro-template.php:1463
+msgid "Bank Name"
+msgstr "銀行名"
+
+#: includes/class-woo-invoice-pro-template.php:1465
+msgid "Account No"
+msgstr "口座番号"
+
+#: includes/class-woo-invoice-pro-template.php:1466
+msgid "Sort Code"
+msgstr "ソートコード"
+
+#: includes/class-woo-invoice-pro-template.php:1467
+msgid "IBAN"
+msgstr "IBAN"
+
+#: includes/class-woo-invoice-pro-template.php:1468
+msgid "BIC/Swift"
+msgstr "BIC/Swift"
+
+#: includes/class-woo-invoice-pro-template.php:1336
+msgid "Total Weight"
+msgstr "総重量"
+
+#: includes/class-woo-invoice-pro-template.php:1352
+msgid "Refund Address"
+msgstr "返金先住所"
+
+#: includes/class-woo-invoice-pro-helper.php:187
+msgid "Phone"
+msgstr "電話番号"
+
+#: includes/class-woo-invoice-pro-helper.php:190
+msgid "Email"
+msgstr "メールアドレス"
+
+#: includes/class-woo-invoice-pro-helper.php:420
+msgid "VAT Number"
+msgstr "VAT 番号"
+
+#: includes/class-woo-invoice-pro-orders.php:475
+msgid "Category"
+msgstr "カテゴリー"
+
+#: includes/class-woo-invoice-pro-orders.php:397
+msgid "Description"
+msgstr "説明"
+
+#: includes/class-woo-invoice-pro-orders.php:616
+msgid "Duration"
+msgstr "期間"
+
+#: includes/class-woo-invoice-pro-orders.php:619
+msgid "From"
+msgstr "から"
+
+#: includes/class-woo-invoice-pro-orders.php:622
+msgid "To"
+msgstr "まで"
+
+#: includes/class-woo-invoice-pro-template.php:1217
+msgid "Items Subtotal"
+msgstr "商品小計"
+
+#: includes/class-woo-invoice-pro-orders.php:316
+msgid "ID"
+msgstr "予約"
+
+#: includes/class-woo-invoice-pro-orders.php:319
+msgid "SKU"
+msgstr "SKU"
+
+msgid "Download Invoice"
+msgstr "請求書をダウンロード"

@@ -1,0 +1,26 @@
+Copyright (c) 2014-2021 Marco Cox <mail@marcocox.com>
+Copyright (c) 2022-2025 Productive Code BV <info@productivecode.nl>
+
+Permission is hereby granted to any person or legal entity obtaining a
+"License key" from the copyright holder of this software and associated
+documentation files (the "Software"), to install and use the Software on
+one (1) domain, unless explicitly stated otherwise by the copyright holder.
+The right to use the Software includes the right to modify it.
+It is not allowed to redistribute, sub-license, and/or (re)sell copies of the
+Software. A License key is a string of digits and/or letters that uniquely
+identifies the license granted to a person or legal entity, and can only be
+obtained from https://extensiontree.com or from the copyright holder directly.
+The above rights are subject to the following conditions:
+
+
+The above copyright notice and this permissions/restrictions notice shall be
+included in all copies or substantial portions of the Software.
+
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

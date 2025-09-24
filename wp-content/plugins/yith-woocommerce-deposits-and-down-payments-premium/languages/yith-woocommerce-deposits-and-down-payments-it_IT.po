@@ -1,0 +1,1781 @@
+# Translation of YITH WooCommerce Deposits / Down Payments in Italian
+# This file is distributed under the same license as the YITH WooCommerce Deposits / Down Payments package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Deposits / Down Payments\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-woocommerce-"
+"deposits-and-down-payments\n"
+"POT-Creation-Date: 2024-12-05T13:52:42+00:00\n"
+"PO-Revision-Date: 2024-09-17 10:34:59+0000\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+
+#. Description of the plugin
+msgid ""
+"<code><strong>YITH WooCommerce Deposits / Down Payments</strong></code> "
+"allows your customers to make a deposit for the products they want to "
+"purchase and pay the balance at a later time, either online or in your shop. "
+"Giving your customers the possibility to book a room or confirm a service on "
+"demand, like a party venue or the reservation for a tour, has never been so "
+"easy. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins "
+"for your e-commerce on <strong>YITH</strong></a>."
+msgstr ""
+"<code><strong>YITH WooCommerce Deposits / Down Payments</strong></code> "
+"permette ai tuoi clienti di depositare un acconto per i prodotti che "
+"vogliono acquistare e pagare il saldo in un secondo momento, sia online che "
+"nel tuo negozio. Dare la possibilità di prenotare una camera o confermare un "
+"servizio su richiesta, come una stanza per le feste o la prenotazione di un "
+"tour, non è mai stato così semplice. <a href=\"https://yithemes.com/\" "
+"target=\"_blank\">Scopri altri plugin per il tuo e-commerce su <strong>YITH</"
+"strong></a>"
+
+#. translators: 1. HTML formatted price.
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:156
+msgid "Fixed amount of %1$s"
+msgstr "Importo fisso di %1$s"
+
+#. translators: 1. Formatted percentage rage.
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:159
+msgid "%1$s%% of product price"
+msgstr "%1$s%% del prezzo del prodotto"
+
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:173
+msgctxt "[ADMIN] Deposit rule table"
+msgid "Edit"
+msgstr "Modifica"
+
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:179
+msgctxt "[ADMIN] Deposit rule table"
+msgid "Delete"
+msgstr "Elimina "
+
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:215
+msgctxt "[ADMIN] Deposit rule table"
+msgid "Rule type"
+msgstr "Tipo regola"
+
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:216
+msgctxt "[ADMIN] Deposit rule table"
+msgid "Applied on"
+msgstr "Applicata a"
+
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:217
+msgctxt "[ADMIN] Deposit rule table"
+msgid "Deposit type"
+msgstr "Tipo acconto"
+
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:267
+msgctxt "[ADMIN] Deposit rule empty state"
+msgid "You have no deposit rule yet."
+msgstr "Non hai ancora regole di acconto."
+
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:270
+msgctxt "[ADMIN] Deposit rule empty state"
+msgid "Create rule"
+msgstr "Crea regola"
+
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:342
+msgctxt "[ADMIN] Add new deposit rule button, in Deposits Rules tab"
+msgid "Add rule"
+msgstr "Aggiungi regola"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:216
+msgctxt "Admin: column heading in \"Orders\" table"
+msgid "Balances"
+msgstr "Saldi"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:252
+msgid "Preview"
+msgstr "Anteprima"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:306
+msgctxt "Admin: Single order page. Suborder details box"
+msgid "Balance orders"
+msgstr "Ordini del saldo"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:306
+msgid ""
+"Note: from this box you can monitor the status of suborders concerning full "
+"payments."
+msgstr ""
+"Nota: da questa sezione puoi controllare lo stato dei sottordini relativi ai "
+"pagamenti del saldo."
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:320
+msgctxt "Admin: Single order page. Info box with parent order details"
+msgid "Deposit order"
+msgstr "Ordine di acconto"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:452
+msgid "Send notification email"
+msgstr "Invia email di notifica"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:459
+msgctxt "Admin: single order page. Link to parent order"
+msgid "Back to main order"
+msgstr "Torna all'ordine principale"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:565
+msgid "Full payment order"
+msgstr "Ordine pagamento a saldo"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:646
+#: includes/admin/class-yith-wcdp-admin-orders.php:676
+msgid "Deposit to refund"
+msgstr "Acconto da rimborsare "
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:691
+msgid "Remind about deposit expiring"
+msgstr "Invia promemoria scadenza dell'acconto"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:805
+msgid "Notification email sent"
+msgstr "Email di notifica inviata"
+
+#. translators: 1. Number of days before expiration.
+#: includes/admin/class-yith-wcdp-admin-orders.php:849
+msgid ""
+"This item should be manually refunded by admin since the %d days available "
+"to complete payment have passed and the deposit has expired"
+msgstr ""
+"Questo articolo deve essere rimborsato manualmente dall'amministratore "
+"poiché l'acconto è scaduto essendo trascorsi i %d giorni a disposizione per "
+"completare il pagamento "
+
+#. translators: 1. Expiration date.
+#: includes/admin/class-yith-wcdp-admin-orders.php:851
+msgid ""
+"This item should be manually refunded by admin since the deposit has expired "
+"on %s"
+msgstr ""
+"Questo articolo deve essere rimborsato manualmente dall'amministratore "
+"poiché l'acconto è scaduto il %s"
+
+#. translators: 1. Expiration date.
+#: includes/admin/class-yith-wcdp-admin-orders.php:851
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:886
+msgid "Create refund"
+msgstr "Crea rimborso"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:888
+msgid "Hide this notice"
+msgstr "Nascondi questa notifica"
+
+#. translators: 1. Refund id.
+#: includes/admin/class-yith-wcdp-admin-orders.php:901
+msgid "This item has been refunded due to deposit expiration (refund #%d)"
+msgstr ""
+"Questo articolo è stato rimborsato a causa della scadenza dell'acconto "
+"(rimborso #%d)"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:959
+msgid "Item refunded manually for deposit expiration"
+msgstr "Prodotto rimborsato manualmente per scadenza acconto"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:92
+#: views/add-deposit-rule-modal.php:110
+msgid "% of product price"
+msgstr "% del prezzo del prodotto"
+
+#. translators: 1. Currency symbol.
+#: includes/admin/class-yith-wcdp-admin-panel.php:94
+#: views/add-deposit-rule-modal.php:115
+msgid "%s - Fixed amount"
+msgstr "%s - Importo fisso"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:165
+msgctxt "[ADMIN] Time intervals for duration fields"
+msgid "Days"
+msgstr "Giorni"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:166
+msgctxt "[ADMIN] Time intervals for duration fields"
+msgid "Weeks"
+msgstr "Settimane"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:167
+msgctxt "[ADMIN] Time intervals for duration fields"
+msgid "Months"
+msgstr "Mesi"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:197
+msgctxt "[ADMIN] Expiration fallback field"
+msgid "if the balance is still not paid"
+msgstr "giorni, se non ancora pagato,"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:199
+msgid "Cancel balance order"
+msgstr "Annulla ordine del saldo"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:200
+msgid "Cancel balance order and refund deposit"
+msgstr "Annulla ordine del saldo e rimborsa l'acconto"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:201
+msgid "Send reminder"
+msgstr "Invia promemoria"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:313
+msgid "Couldn't create deposit rule: wrong type."
+msgstr "Impossibile creare la regola di acconto: tipo di regola errato."
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:317
+msgid "Couldn't create deposit rule: missing amount or rate."
+msgstr ""
+"Impossibile creare la regola di acconto: importo o percentuale mancante."
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:321
+msgid "Couldn't create deposit rule: missing rules."
+msgstr "Impossibile creare la regola di acconto: regole mancanti."
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:347
+msgid "Couldn't delete deposit rule: couldn't find rule to delete."
+msgstr "Impossibile eliminare la regola di acconto: regola non trovata."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:294
+msgid "Override deposit options"
+msgstr "Sovrascrivi opzioni acconto"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:295
+msgid "Enable to override the global deposit options for this product."
+msgstr ""
+"Abilita per sovrascrivere le opzioni globali dell'acconto per questo "
+"prodotto."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:300
+msgid "Enable deposit for this product"
+msgstr "Abilita acconto per questo prodotto"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:301
+msgid "Enable to offer deposit option for this product"
+msgstr "Abilita per offrire l'opzione di acconto per questo prodotto"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:307
+#: plugin-options/settings/deposits-options.php:33
+msgid "Set the deposit payment as:"
+msgstr "Imposta pagamento acconto"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:308
+msgid "Choose how to manage the deposit option for this product."
+msgstr "Scegli come gestire l'opzione di acconto per questo prodotto."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:311
+msgid ""
+"Optional: users can choose between paying the full amount or just a deposit"
+msgstr ""
+"Opzionale: lascia scegliere gli utenti se pagare l'intero importo o solo un "
+"acconto"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:312
+#: plugin-options/settings/deposits-options.php:40
+msgid "Forced: users can only pay the deposit amount"
+msgstr "Forzato: gli utenti possono pagare solo l'importo dell'acconto"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:318
+msgid "Show Deposit option selected by default"
+msgstr "Mostra l'opzione acconto già selezionata"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:319
+#: plugin-options/settings/deposits-options.php:52
+msgid "Enable to show the deposit option selected by default."
+msgstr "Abilita per mostrare l'opzione di acconto già selezionata."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:325
+msgid "Show custom notice"
+msgstr "Mostra notifica personalizzata"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:326
+msgid ""
+"Enable to show a custom notice about the deposit option in this product."
+msgstr ""
+"Abilita per mostrare una notifica personalizzata per l'opzione di acconto su "
+"questo prodotto."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:333
+msgid "Notice to show"
+msgstr "Notifica da mostrare"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:334
+msgid "Enter the notice you want to show on the product page."
+msgstr "Inserisci la notifica da mostrare nella pagina prodotto."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:340
+msgid "Override balance options"
+msgstr "Sovrascrivi opzioni saldo"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:341
+msgid "Enable to override the global balance options in this product."
+msgstr ""
+"Abilita per sovrascrivere le opzioni globali del saldo per questo prodotto."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:346
+msgid "Balance order creation for this product"
+msgstr "Creazione ordine del saldo per il prodotto"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:347
+msgid "Choose how to manage the balance for this product."
+msgstr "Scegli come gestire il saldo per questo prodotto."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:350
+#: plugin-options/balances-options.php:30
+#: views/product-deposit-bulk-edit.php:86
+msgid ""
+"Create balance orders with \"Pending payment\" status, and users will pay "
+"the balance online"
+msgstr ""
+"Crea ordini del saldo con lo stato \"In attesa di pagamento\" per permettere "
+"agli utenti di pagare online"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:351
+#: plugin-options/balances-options.php:31
+#: views/product-deposit-bulk-edit.php:89
+msgid ""
+"Create balance orders with \"On hold\" status, and manage payments manually "
+"(e.g.: users pay cash in your shop)"
+msgstr ""
+"Crea ordini del saldo con lo stato \"In sospeso\" e gestisci i pagamenti "
+"manualmente (es: pagamento in contanti nel tuo negozio)"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:352
+#: plugin-options/balances-options.php:32
+#: views/product-deposit-bulk-edit.php:92
+msgid "Do not create balance orders"
+msgstr "Non creare ordini del saldo"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:359
+#: plugin-options/balances-options.php:53
+msgid "Require balance payment to customers"
+msgstr "Richiedi pagamento del saldo"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:360
+#: plugin-options/balances-options.php:56
+msgid "Enable to choose when and how to require the balance payment."
+msgstr "Abilita per decidere come e quando richiedere il pagamento del saldo."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:366
+#: plugin-options/balances-options.php:64
+msgid "The balance payment will be required"
+msgstr "Quando richiedere il pagamento del saldo"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:372
+#: plugin-options/balances-options.php:74
+msgid "On a specific date"
+msgstr "In una data specifica"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:373
+#: plugin-options/balances-options.php:75
+msgid "After a specific range of days from the deposit"
+msgstr "Dopo un intervallo specifico di giorni dall'acconto"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:380
+#: plugin-options/balances-options.php:97
+msgid "Require balance payment on"
+msgstr "Richiedi pagamento del saldo il"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:389
+#: plugin-options/balances-options.php:84
+msgid "Require balance payment"
+msgstr "Richiedi pagamento del saldo"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:390
+msgid "days from the deposit"
+msgstr "giorni dall'acconto"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:401
+#: plugin-options/balances-options.php:139
+msgid "When balance is required on a specific date, and is overdue"
+msgstr "Per saldo richiesto in una data specifica e scaduto"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:405
+#: plugin-options/balances-options.php:147
+msgid "Do nothing"
+msgstr "Non fare nulla"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:406
+#: plugin-options/balances-options.php:148
+msgid "Disable deposit for the product"
+msgstr "Disabilita acconto per il prodotto"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:407
+#: plugin-options/balances-options.php:149
+msgid "Make product no longer purchasable"
+msgstr "Rendi l'articolo non acquistabile "
+
+#: includes/admin/class-yith-wcdp-admin-products.php:408
+#: plugin-options/balances-options.php:150
+msgid "Hide product from catalog"
+msgstr "Nascondi prodotto dal catalogo"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:414
+msgid "Notify balance payment to customer"
+msgstr "Notifica pagamento saldo (cliente)"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:415
+msgid ""
+"Enable to automatically send an email to the customer about the balance "
+"payment.<br/>\n"
+"\t\t\t\t\t\t\t\t<b>Note:</b> if the user has to pay manually, he/she will "
+"get an email that redirects him/her to pay.<br/>\n"
+"\t\t\t\t\t\t\t\tIf the Stripe option is enabled and the balance is "
+"automatically charged, the user will get an email that notifies the "
+"automatic charge of the balance on his/her credit card. "
+msgstr ""
+"Abilita per inviare ai clienti un'email automatica per il pagamento del "
+"saldo.<br/>\n"
+"\t\t\t\t\t\t\t\t<b>N.B.:</b> per i pagamenti manuali, i clienti riceveranno "
+"un'email che li reindirizzerà al pagamento.<br/>\n"
+"\t\t\t\t\t\t\t\tSe l'opzione Stripe è abilitata e il saldo è addebitato "
+"automaticamente, i clienti riceveranno un'email di notifica dell'addebito "
+"del saldo sulla propria carta di credito. "
+
+#: includes/admin/class-yith-wcdp-admin-products.php:426
+#: plugin-options/balances-options.php:112
+msgid "Send the email about the balance payment"
+msgstr "Invia email per pagamento del saldo"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:429
+#: plugin-options/balances-options.php:117
+msgid "before the payment due date."
+msgstr "prima della data del dovuto pagamento."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:496
+msgid "Deposit & Balance"
+msgstr "Acconto & saldo"
+
+#: includes/class-yith-wcdp-admin.php:194
+msgid "Deposit options"
+msgstr "Opzioni acconto "
+
+#: includes/class-yith-wcdp-admin.php:196
+msgctxt "[ADMIN] Deposits table description"
+msgid ""
+"Deposit rules allow overriding the default deposit amount (defined in "
+"General Options) for specific user roles, product categories, or products."
+msgstr ""
+"Le regole di acconto permettono di sovrascrivere l'importo dell'acconto "
+"predefinito (definito nelle Opzioni generali) per ruoli utente, categorie e "
+"prodotti specifici."
+
+#: includes/class-yith-wcdp-admin.php:199
+msgid "Balance options"
+msgstr "Opzioni saldo"
+
+#: includes/class-yith-wcdp-admin.php:201
+msgid "Set up balance options for the products in your shop."
+msgstr "Imposta le opzioni di saldo per i prodotti del tuo shop."
+
+#: includes/class-yith-wcdp-admin.php:204
+msgid "Customization"
+msgstr "Personalizzazione"
+
+#: includes/class-yith-wcdp-admin.php:206
+msgid "Customize texts and labels related to deposit options."
+msgstr "Personalizza i testi e le etichette relativi alle opzioni di acconto."
+
+#: includes/class-yith-wcdp-admin.php:209
+msgid "Email settings"
+msgstr "Impostazioni email"
+
+#: includes/class-yith-wcdp-admin.php:244
+msgid ""
+"Optional: <mark>get our Stripe plugin</mark> to unlock advanced features"
+msgstr ""
+"Opzionale: <mark>usa il nostro plugin Stripe</mark> per sbloccare le "
+"funzionalità avanzate"
+
+#: includes/class-yith-wcdp-admin.php:245
+msgid ""
+"Use Stripe to automatically charge the orders' balance to your customers' "
+"credit cards"
+msgstr ""
+"Usa Stripe per addebitare automaticamente il pagamento del saldo sulla carta "
+"di credito dei tuoi clienti"
+
+#: includes/class-yith-wcdp-admin.php:249
+msgid "Are you ready? Start by <mark>configuring your deposit options</mark>"
+msgstr "Sei pronto? Inizia <mark>configurando le tue opzioni di acconto</mark>"
+
+#: includes/class-yith-wcdp-admin.php:250
+msgid "... and start the adventure!"
+msgstr "...e inizia l'avventura!"
+
+#: includes/class-yith-wcdp-admin.php:261
+msgid "Welcome our \"Deposit Rules\" concept"
+msgstr "Dai il benvenuto alla nostra concezione di \"Regole di acconto\""
+
+#: includes/class-yith-wcdp-admin.php:262
+msgid ""
+"Override the global amount by creating advanced rules and setting different "
+"values for specific user roles, products, or categories."
+msgstr ""
+"Sovrascrivi l'importo globale crdeando regole avanzate ed impostando valori "
+"diversi per determinati ruoli utente, prodotti o categorie."
+
+#: includes/class-yith-wcdp-admin.php:266
+msgid "New integration: YITH Booking and Appointment for WooCommerce"
+msgstr "Nuova integrazione: YITH Booking and Appointment for WooCommerce"
+
+#: includes/class-yith-wcdp-admin.php:267
+msgid ""
+"Allow your customers to pay a deposit to book products or services, and ask "
+"them to pay for the balance on the booking start date or XX days before that "
+"date."
+msgstr ""
+"Permetti ai tuoi clienti di pagare un acconto per prenotare prodotti o "
+"servizi e richiedi il pagamento del saldo alla data di inizio della "
+"prenotazione o XX giorni prima."
+
+#: includes/class-yith-wcdp-admin.php:268
+msgid "Discover our YITH Booking and Appointment for WooCommerce plugin &gt;"
+msgstr ""
+"Scopri il nostro plugin YITH Booking and Appointment for WooCommerce &gt;"
+
+#: includes/class-yith-wcdp-admin.php:272
+msgid "New integration: YITH WooCommerce Stripe"
+msgstr "Nuova integrazione: YITH WooCommerce Stripe"
+
+#: includes/class-yith-wcdp-admin.php:273
+msgid ""
+"Automatically charge the balance amount to the same credit card used by the "
+"customer to pay for the deposit. This feature allows you to lower the number "
+"of unpaid orders and simplify the purchase process."
+msgstr ""
+"Addebita il saldo automaticamente sulla stessa carta di credito usata dal "
+"cliente per pagare l'acconto. In questo modo il numero di ordini non pagati "
+"diminuirà e il processo di acquisto sarà più semplice."
+
+#: includes/class-yith-wcdp-admin.php:274
+msgid "Discover our YITH WooCommerce Stripe plugin &gt;"
+msgstr "Scopri il nostro plugin YITH WooCommerce Stripe &gt;"
+
+#: includes/class-yith-wcdp-admin.php:345
+msgctxt "[HELP TAB] Video title"
+msgid ""
+"Check this video to learn how to <b>allow your customers to pay a deposit to "
+"book products or services and pay the balance at a later time:</b>"
+msgstr ""
+"Guarda questo video per scoprire come <b>permettere ai clienti di lasciare "
+"un acconto per prenotare prodotti o servizi e di pagare il saldo in un "
+"secondo momento:</b>"
+
+#: includes/class-yith-wcdp-admin.php:372
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Wishlist"
+msgid ""
+"Allow your customers to create lists of products they want and share them "
+"with family and friends."
+msgstr ""
+"Permetti ai tuoi clienti di creare liste di prodotti a cui sono interessati "
+"e condividerle con parenti ed amici."
+
+#: includes/class-yith-wcdp-admin.php:384
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Gift Cards"
+msgid ""
+"Sell gift cards in your shop to increase your earnings and attract new "
+"customers."
+msgstr ""
+"Vendi buoni regalo nel tuo shop per aumentare i guadagni e attirare nuovi "
+"clienti."
+
+#: includes/class-yith-wcdp-admin.php:396
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Ajax Product "
+"Filter"
+msgid ""
+"Help your customers to easily find the products they are looking for and "
+"improve the user experience of your shop."
+msgstr ""
+"Aiuta i tuoi clienti a trovare facilmente i prodotti che stanno cercando e "
+"migliora la user experience del tuo shop."
+
+#: includes/class-yith-wcdp-admin.php:408
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Product Add-"
+"Ons"
+msgid ""
+"Add paid or free advanced options to your product pages using fields like "
+"radio buttons, checkboxes, drop-downs, custom text inputs, and more."
+msgstr ""
+"Aggiungi opzioni avanzate gratuite o a pagamento alle tue pagine prodotto "
+"usando campi come radio button, checkbox, select, input di testo "
+"personalizzati, ecc."
+
+#: includes/class-yith-wcdp-admin.php:420
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Dynamic "
+"Pricing and Discounts"
+msgid ""
+"Increase conversions through dynamic discounts and price rules, and build "
+"powerful and targeted offers."
+msgstr ""
+"Aumenta le conversioni con le regole di prezzo e sconto dinamiche e crea "
+"offerte potenti e mirate."
+
+#: includes/class-yith-wcdp-admin.php:432
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Customize My "
+"Account"
+msgid ""
+"Customize the My Account page of your customers by creating custom sections "
+"with promotions and ad-hoc content based on your needs."
+msgstr ""
+"Personalizza la pagina Il Mio Account dei tuoi clienti creando sezioni "
+"dedicate con promozioni e contenuti ad hoc in base alle loro esigenze."
+
+#: includes/class-yith-wcdp-admin.php:444
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Points and "
+"Rewards"
+msgid ""
+"Loyalize your customers with an effective points-based loyalty program and "
+"instant rewards."
+msgstr ""
+"Fidelizza i tuoi clienti con un efficace programma fedeltà a punti e delle "
+"ricompense immediate."
+
+#: includes/class-yith-wcdp-admin.php:455
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Ajax Search"
+msgid ""
+"Add an instant search form to your e-commerce shop and help your customers "
+"quickly find the products they want to buy."
+msgstr ""
+"Aggiungi un form di ricerca istantanea al tuo e-commerce e aiuta i tuoi "
+"clienti a trovare rapidamente i prodotti che desiderano acquistare."
+
+#: includes/class-yith-wcdp-admin.php:487
+msgid "Add rule"
+msgstr "Aggiungi regola"
+
+#: includes/class-yith-wcdp-admin.php:488
+msgid "Edit rule"
+msgstr "Modifica regola"
+
+#: includes/class-yith-wcdp-cart.php:495
+#: includes/class-yith-wcdp-my-account.php:97
+msgid "of"
+msgstr "di"
+
+#. translators: 1. Formatted expiration date for the deposit.
+#: includes/class-yith-wcdp-cart.php:583
+#: includes/class-yith-wcdp-frontend.php:400
+#: templates/deposits-expirations-modal.php:43
+msgid "Balance payment will be required on %s"
+msgstr "Il pagamento del saldo è richiesto il %s"
+
+#. translators: 1. Item id 2. Product title.
+#: includes/class-yith-wcdp-checkout.php:701
+msgid "There was an error while processing suborder for item #%$1d (%$2s)."
+msgstr ""
+"Si è verificato un errore durante l'elaborazione del sottordine per "
+"l'articolo #%$1d (%$2s)."
+
+#: includes/class-yith-wcdp-checkout.php:752
+msgid "There was an error while processing suborder."
+msgstr "Si è verificato un errore durante l'elaborazione del sottordine."
+
+#: includes/class-yith-wcdp-checkout.php:802
+msgid "This order has been created to allow payment of the balance"
+msgstr "Questo ordine è stato creato per permettere il pagamento del saldo"
+
+#: includes/class-yith-wcdp-checkout.php:826
+msgid "There was an error while updating item meta."
+msgstr ""
+"Si è verificato un errore durante l'aggiornamento del meta dell'articolo."
+
+#: includes/class-yith-wcdp-crons.php:144
+#: includes/class-yith-wcdp-crons.php:270
+msgid "Expiring deposit notification sent"
+msgstr "Notifica di acconto in scadenza inviata "
+
+#. translators: 1. NUmber of days before deposit expiration.
+#: includes/class-yith-wcdp-crons.php:178
+msgid ""
+"The %d days granted to complete this order have passed. For this reason, it "
+"has been switched to canceled, and it cannot be completed anymore."
+msgstr ""
+"I %d giorni concessi per completare questo ordine sono trascorsi. Per questo "
+"motivo l'ordine è stato annullato e non può essere più completato."
+
+#. translators: 1. Suborder id.
+#: includes/class-yith-wcdp-crons.php:274
+msgid "Expiring deposit notification sent (#%d)"
+msgstr "Notifica di acconto in scadenza inviata (#%d)"
+
+#: includes/class-yith-wcdp-deposit-rule.php:519
+msgctxt "[ADMIN] Deposit rule type"
+msgid "Product"
+msgstr "Prodotto "
+
+#: includes/class-yith-wcdp-deposit-rule.php:520
+msgctxt "[ADMIN] Deposit rule type"
+msgid "Product categories"
+msgstr "Categorie prodotto"
+
+#: includes/class-yith-wcdp-deposit-rule.php:521
+msgctxt "[ADMIN] Deposit rule type"
+msgid "User roles"
+msgstr "Ruoli utente"
+
+#: includes/class-yith-wcdp-emails.php:166
+msgid "Resend new deposit notification"
+msgstr "Invia di nuovo notifica nuovo acconto "
+
+#: includes/class-yith-wcdp-emails.php:167
+msgid "Resend balances payment notification"
+msgstr "Invia di nuovo notifica pagamento saldi"
+
+#: includes/class-yith-wcdp-frontend.php:718
+msgid "Details of balance payments"
+msgstr "Dettagli dei pagamenti del saldo"
+
+#: includes/class-yith-wcdp-labels.php:28
+#: plugin-options/customizations-options.php:98
+msgid "Deposit"
+msgstr "Acconto"
+
+#: includes/class-yith-wcdp-labels.php:49
+#: plugin-options/customizations-options.php:130
+msgid "Full price"
+msgstr "Prezzo di listino"
+
+#: includes/class-yith-wcdp-labels.php:70
+#: plugin-options/customizations-options.php:137
+msgid "Balance"
+msgstr "Saldo"
+
+#: includes/class-yith-wcdp-labels.php:91
+msgid "Full payment"
+msgstr "Pagamento a saldo"
+
+#: includes/class-yith-wcdp-labels.php:111
+#: plugin-options/customizations-options.php:105
+#: plugin-options/customizations-options.php:109
+msgid "Pay deposit"
+msgstr "Paga acconto"
+
+#: includes/class-yith-wcdp-labels.php:123
+#: plugin-options/customizations-options.php:112
+#: plugin-options/customizations-options.php:116
+msgid "Pay full amount"
+msgstr "Paga l'importo totale"
+
+#: includes/class-yith-wcdp-labels.php:135
+#: plugin-options/customizations-options.php:119
+#: plugin-options/customizations-options.php:123
+msgid "Partially paid"
+msgstr "Pagato parzialmente "
+
+#. translators: 1. Balance label.
+#: includes/class-yith-wcdp-my-account.php:128
+msgid "View %s"
+msgstr "Visualizza %s"
+
+#: includes/class-yith-wcdp-my-account.php:286
+msgid "Pay order"
+msgstr "Paga l'ordine"
+
+#: includes/class-yith-wcdp-my-account.php:293
+msgid "Cancel order"
+msgstr "Annulla ordine"
+
+#: includes/class-yith-wcdp-my-account.php:299
+msgid "View order"
+msgstr "Visualizza ordine"
+
+#. translators: 1. Link to balance order(s).
+#: includes/class-yith-wcdp-my-account.php:375
+msgid ""
+"This order contains an expired deposit; full amount order %s was "
+"consequently switched to canceled and it cannot be completed anymore."
+msgid_plural ""
+"This order contains an expired deposit; full amount orders %s were "
+"consequently switched to canceled and they cannot be completed anymore."
+msgstr[0] ""
+"Questo ordine contiene un acconto scaduto; di conseguenza, l'ordine di "
+"pagamento a saldo %s è stato annullato e non può più essere completato."
+msgstr[1] ""
+"Questo ordine contiene acconti scaduti; di conseguenza, gli ordini di "
+"pagamento a saldo %s sono stati annullati e non possono più essere completati"
+
+#: includes/class-yith-wcdp-my-account.php:398
+msgid "Payment options"
+msgstr "Opzioni di pagamento"
+
+#: includes/class-yith-wcdp-suborders.php:139
+msgid "Suborder status changed to reflect parent order status change:"
+msgstr ""
+"Lo stato del sottordine è cambiato in conseguenza al cambiamento di stato "
+"dell'ordine genitore:"
+
+#: includes/class-yith-wcdp-suborders.php:224
+msgid "Item refunded automatically for deposit expiration"
+msgstr "Prodotto rimborsato automaticamente per scadenza acconto"
+
+#. translators: 1. Product id. 2. Number of days before deposit expiration.
+#: includes/class-yith-wcdp-suborders.php:259
+msgid ""
+"Item %1$s has been automatically refunded because the %2$d days allowed to "
+"complete payment have passed"
+msgid_plural ""
+"Items %1$s have been automatically refunded because the %2$d days allowed to "
+"complete payment have passed"
+msgstr[0] ""
+"Il prodotto %1$s è stato automaticamente rimborsato in quanto sono trascorsi "
+"%2$d giorni previsti per completare il pagamento"
+msgstr[1] ""
+"I prodotti %1$s sono stati automaticamente rimborsati in quanto sono "
+"trascorsi %2$d giorni previsti per completare il pagamento"
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:175
+msgctxt "[ADMIN] Affiliate dashboard settings page"
+msgid "Stripe Options"
+msgstr "Opzioni Stripe"
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:182
+msgid "Automatically charge balance on customer's credit card"
+msgstr "Addebito automatico del saldo sulla carta di credito del cliente"
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:185
+msgid ""
+"Enable to automatically charge the balance amount on your customer's credit "
+"card."
+msgstr ""
+"Abilita per addebitare automaticamente l'importo del saldo sulla carta di "
+"credito dei tuoi clienti."
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:193
+msgid "Charge balance on credit card"
+msgstr "Addebito saldo sulla carta di credito"
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:196
+msgid ""
+"Choose how to manage the automatic charge of the balance, either charge it "
+"only to customers who paid deposits with a credit card, or to all customers, "
+"no matter which deposit payment method they used."
+msgstr ""
+"Scegli come gestire l'addebito automatico del saldo: solo ai clienti che "
+"hanno pagato l'acconto con carta di credito o a tutti i clienti, "
+"indipendentemente dal metodo di pagamento usato per l'acconto."
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:199
+msgid "Only if the customers paid the deposit with a credit card"
+msgstr "Solo ai clienti che hanno pagato l'acconto con carta di credito"
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:200
+msgid "Forced for all customers, regardless of deposit's payment method"
+msgstr ""
+"Forzato per tutti i clienti, qualunque sia il metodo di pagamento usato per "
+"l'acconto"
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:209
+msgid ""
+"Notice of automatic charge to show in \"Payment Method\" section and at "
+"checkout"
+msgstr ""
+"Notifica dell'addebito automatico da mostrare nella sezione \"Metodi di "
+"pagamento\" e al checkout"
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:212
+msgid ""
+"Enter a text to alert your customers that their credit cards will be used to "
+"automatically pay for the balances on the due date."
+msgstr ""
+"Inserisci un testo per informare i clienti riguardo l'addebito automatico "
+"della carta di credito per il pagamento del saldo alla scadenza. "
+
+#. translators: 1. Balance due date.
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:255
+msgid "Balance will be automatically charged on %s"
+msgstr "Il saldo sarà addebitato automaticamente il %s"
+
+#. translators: 1. Blog name. 2. Order number.
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:329
+msgid "%1$s - Order %2$s"
+msgstr "%1$s - Ordine %2$s"
+
+#. translators: 1. Stripe charge id.
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:398
+msgid "Stripe payment approved (ID: %s)"
+msgstr "Pagamento Stripe approvato (ID: %s)"
+
+#: includes/compatibilities/stripe/emails/class-yith-wcdp-customer-deposit-automatic-payment-email.php:41
+msgid "YITH WooCommerce Deposits / Down Payments - Balance automatic payment"
+msgstr ""
+"YITH WooCommerce Deposits / Down Payments - Pagamento automatico del saldo"
+
+#: includes/compatibilities/stripe/emails/class-yith-wcdp-customer-deposit-automatic-payment-email.php:42
+msgid ""
+"This email is sent to customers when the balance automatic payment date is "
+"approaching."
+msgstr ""
+"Questa email viene inviata ai clienti all'approssimarsi della data del "
+"pagamento automatico del saldo."
+
+#: includes/compatibilities/stripe/emails/class-yith-wcdp-customer-deposit-automatic-payment-email.php:43
+msgid "The pending balance will be charged to your credit card soon"
+msgstr "Il saldo verrà addebitato presto sulla tua carta di credito"
+
+#: includes/compatibilities/stripe/emails/class-yith-wcdp-customer-deposit-automatic-payment-email.php:44
+msgid "The balance will be automatically paid soon"
+msgstr "Il saldo verrà presto pagato automaticamente"
+
+#: includes/compatibilities/stripe/emails/class-yith-wcdp-customer-deposit-automatic-payment-email.php:144
+msgid ""
+"<p>Hi {customer_name},</p>\n"
+"\t\t\t\t\t<p>We remind you that the pending balances listed below will be "
+"automatically charged to your credit card (<b>{card_type}</b> ending in "
+"<b>{card_last4}</b>) in {days_left}.</p>\n"
+"\t\t\t\t\t{deposit_list}\n"
+"\t\t\t\t\t<p>Please, be sure to double-check the saved payment method, to "
+"correctly complete the payment.</p>\n"
+"\t\t\t\t\t<p>Best regards,</p>\n"
+"\t\t\t\t\t<p>{site_title} staff</p>"
+msgstr ""
+"<p>Ciao {customer_name},</p>↵\n"
+"→ → → → → <p>Stai ricevendo questa email come promemoria dell'addebito "
+"automatico tra  in {days_left} dei saldi di seguito elencati sulla tua carta "
+"di credito (<b>{card_type}</b> che termina in <b>{card_last4}</b>).</p>↵\n"
+"→ → → → → {deposit_list}↵\n"
+"→ → → → → <p>Ti invitiamo a verificare il metodo di pagamento salvato per "
+"poter completare i pagamenti del saldo correttamente.</p>↵\n"
+"→ → → → → <p>Saluti,</p>↵\n"
+"→ → → → → <p>Staff {site_title}</p>"
+
+#: includes/compatibilities/stripe/emails/class-yith-wcdp-customer-deposit-automatic-payment-email.php:155
+msgid ""
+"Hi {customer_name},\n"
+"\n"
+"\t\t\t\t\tWe remind you that the pending balances listed below will be "
+"automatically charged to your credit card ({card_type} ending in "
+"{card_last4}) in {days_left}.\n"
+"\n"
+"\t\t\t\t\t{deposit_list}\n"
+"\n"
+"\t\t\t\t\tPlease, be sure to double-check the saved payment method, to "
+"correctly complete your balance payments.\n"
+"\n"
+"\t\t\t\t\tBest regards,\n"
+"\n"
+"\t\t\t\t\t{site_title} staff"
+msgstr ""
+"Ciao {customer_name},↵\n"
+"↵\n"
+"→ → → → → Stai ricevendo questa email come promemoria dell'addebito "
+"automatico tra  in {days_left} dei saldi di seguito elencati sulla tua carta "
+"di credito ({card_type} che termina in {card_last4}).↵\n"
+"↵\n"
+"→ → → → → {deposit_list}↵\n"
+"↵\n"
+"→ → → → → Ti invitiamo a verificare il metodo di pagamento salvato per poter "
+"completare i pagamenti del saldo correttamente.↵\n"
+"↵\n"
+"→ → → → → Saluti,↵\n"
+"↵\n"
+"→ → → → → Staff {site_title}"
+
+#: includes/data-stores/class-yith-wcdp-deposit-rule-data-store.php:110
+msgctxt ""
+"[DEV] Debug message triggered when unable to create deposit rule record."
+msgid "Unable to register rule. Missing required params."
+msgstr "Impossibile registrare la regola. Parametri necessari mancanti."
+
+#: includes/data-stores/class-yith-wcdp-deposit-rule-data-store.php:163
+msgctxt "[DEV] Debug message triggered when unable to find rate rule record."
+msgid "Invalid deposit rule."
+msgstr "Regola acconto non valida."
+
+#: includes/data-stores/class-yith-wcdp-deposit-rule-data-store.php:184
+msgctxt "[DEV] Debug message triggered when unable to find click record."
+msgid "Invalid rate rule."
+msgstr "Regola percentuale non valida."
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:35
+msgid "YITH WooCommerce Deposits / Down Payments - New deposit for admin"
+msgstr "YITH WooCommerce Deposits / Down Payments - Nuovo acconto (admin)"
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:36
+msgid ""
+"This email is sent to admins when a customer creates an order in which a "
+"deposit for one or more products has been paid."
+msgstr ""
+"Questa email viene inviata agli amministratori quando un cliente crea un "
+"ordine in cui è stato pagato un acconto per uno o più prodotti."
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:38
+msgid "New customer deposit"
+msgstr "Nuovo acconto cliente"
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:39
+msgid "[{site_title}] New customer deposit ({order_number}) - {order_date}"
+msgstr "[{site_title}] Nuovo acconto cliente ({order_number}) - {order_date}"
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:101
+msgid "Recipient(s)"
+msgstr "Destinatari"
+
+#. translators: 1. Default receiver.
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:105
+msgid ""
+"Enter recipients (comma-separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+"Inserisci i destinatari (separati dalla virgola) di questa email. "
+"Predefinito: <code>%s</code>. "
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:110
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:139
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:208
+msgid "Subject"
+msgstr "Oggetto"
+
+#. translators: 1. Default subject.
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:114
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:143
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:212
+msgid ""
+"This controls the email subject line. Leave it blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Questo controlla l'oggetto dell'email. Lascia vuoto per utilizzare l'oggetto "
+"predefinito: <code>%s</code>."
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:119
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:148
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:217
+msgid "Email heading"
+msgstr "Intestazione email"
+
+#. translators: 1. Default heading.
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:123
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:152
+msgid ""
+"This controls the main heading in the notification email. Leave it blank to "
+"use the default heading: <code>%s</code>."
+msgstr ""
+"Questo controlla l'intestazione principale dell'email di notifica. Lascia "
+"vuoto per utilizzare l'intestazione predefinita: <code>%s</code>."
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:128
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:157
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:226
+msgid "Email type"
+msgstr "Tipo email"
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:131
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:160
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:229
+msgid "Choose the email format."
+msgstr "Scegli il formato email."
+
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:35
+msgid "YITH WooCommerce Deposits / Down Payments - New deposit for customer"
+msgstr "YITH WooCommerce Deposits / Down Payments - Nuovo acconto (cliente)"
+
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:36
+msgid ""
+"This email is sent to customers when they create an order with one or more "
+"deposits."
+msgstr ""
+"Questa email viene inviata ai clienti quando creano un ordine con uno o più "
+"acconti."
+
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:38
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:39
+msgid "Pay your order's balance now"
+msgstr "Paga ora il saldo del tuo ordine"
+
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:43
+msgid ""
+"<p>Hi {customer_name},</p>\n"
+"\t\t\t\t\t<p>Your order #{order_number} is currently being processed, and "
+"its actual status is {order_status}.</p>\n"
+"\t\t\t\t\t<p>You can now pay the balances of the following product(s):</p>\n"
+"\t\t\t\t\t{deposit_list}\n"
+"\t\t\t\t\t<p>Best regards,</p>\n"
+"\t\t\t\t\t<p>{site_title} staff</p>"
+msgstr ""
+"<p>Ciao {customer_name},</p>↵\n"
+"→ → → → → <p>Il tuo ordine #{order_number} è in elaborazione ed il suo stato "
+"attuale è {order_status}.</p>↵\n"
+"→ → → → → <p>Ora puoi pagare il saldo dei seguenti prodotti:</p>↵\n"
+"→ → → → → {deposit_list}↵\n"
+"→ → → → → <p>Saluti,</p>↵\n"
+"→ → → → → <p>{site_title} staff</p>"
+
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:167
+msgid "Email Content"
+msgstr "Contenuto email"
+
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:171
+msgid ""
+"This field lets you modify the main content of the email. You can use the "
+"following placeholders: <code>{order_id}</code> <code>{order_date}</code> "
+"<code>{order_state}</code> <code>{customer_name}</code> "
+"<code>{customer_login}</code> <code>{customer_email}</code> "
+"<code>{suborder_list}</code> <code>{suborder_table}</code>"
+msgstr ""
+"Questo campo ti permette di modificare il contenuto principale dell'email. "
+"Puoi utilizzare i seguenti segnaposto: <code>{order_id}</code> "
+"<code>{order_date}</code> <code>{order_state}</code> <code>{customer_name}</"
+"code> <code>{customer_login}</code> <code>{customer_email}</code> "
+"<code>{suborder_list}</code> <code>{suborder_table}</code>"
+
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:172
+msgid ""
+"<p>Hi {customer_name},</p>\n"
+"\t\t\t\t\t\t<p>Your order #{order_number} is currently being processed, and "
+"its actual status is {order_status}.</p>\n"
+"\t\t\t\t\t\t<p>You can now pay the balances of the following product(s):</"
+"p>\n"
+"\t\t\t\t\t\t{deposit_list}"
+msgstr ""
+"<p>Ciao {customer_name},</p>\n"
+"\t\t\t\t\t\t<p>Il tuo ordine #{order_number} è in elaborazione ed il suo "
+"stato attuale è {order_status}.</p>\n"
+"\t\t\t\t\t\t<p>Ora puoi pagare il saldo dei seguenti prodotti:</p>\n"
+"\t\t\t\t\t\t{deposit_list}"
+
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:35
+msgid "YITH WooCommerce Deposits / Down Payments - Balance expiration reminder"
+msgstr "YITH WooCommerce Deposits / Down Payments - Promemoria scadenza saldo"
+
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:36
+msgid ""
+"This email is sent to customers when the balance due date is approaching."
+msgstr ""
+"Questa email viene inviata ai clienti all'approssimarsi della data di "
+"scadenza del saldo."
+
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:37
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:38
+msgid "Don't forget to pay for your products"
+msgstr "Non dimenticarti di pagare i tuoi prodotti"
+
+#. translators: 1. Days left before suborder expiration.
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:149
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d giorno"
+msgstr[1] "%d giorni"
+
+#. translators: 1. Default heading.
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:221
+msgid ""
+"This controls the main heading contained in the notification email. Leave it "
+"blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Questo controlla l'intestazione principale dell'email. Lascia vuoto per "
+"utilizzare l'intestazione predefinita: <code>%s</code>."
+
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:235
+msgid "Email HTML Content"
+msgstr "Contenuto HTML email"
+
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:239
+msgid ""
+"This field lets you modify the main content of the email. You can use the "
+"following placeholders: <code>{order_id}</code> <code>{order_date}</code> "
+"<code>{order_state}</code> <code>{customer_name}</code> "
+"<code>{customer_login}</code> <code>{customer_email}</code> "
+"<code>{suborder_list}</code> <code>{suborder_table}</code> "
+"<code>{expiration_date}</code> <code>{days_before_expiration}</code>"
+msgstr ""
+"Questo campo ti permette di modificare il contenuto principale dell'email. "
+"Puoi utilizzare i seguenti segnaposto: <code>{order_id}</code> "
+"<code>{order_date}</code> <code>{order_state}</code> <code>{customer_name}</"
+"code> <code>{customer_login}</code> <code>{customer_email}</code> "
+"<code>{suborder_list}</code> <code>{suborder_table}</code> "
+"<code>{expiration_date}</code> <code>{days_before_expiration}</code>"
+
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:252
+msgid ""
+"<p>Hi {customer_name},</p>\n"
+"\t\t\t\t\t<p>We noticed that you still have balance payments that have to be "
+"paid in our shop.</p>\n"
+"\t\t\t\t\t<p>Hurry up, you only have <strong>{days_left}</strong> left!</p>\n"
+"\t\t\t\t\t{deposit_list}\n"
+"\t\t\t\t\t<p>Best regards,</p>\n"
+"\t\t\t\t\t<p>{site_title} staff</p>"
+msgstr ""
+"<p>Ciao {customer_name},</p>↵\n"
+"→ → → → → <p>Abbiamo notato che hai ancora dei pagamenti del saldo non "
+"completati nel nostro shop.</p>↵\n"
+"→ → → → → <p>Affrettati! Restano solo <strong>{days_left}</strong>!</p>↵\n"
+"→ → → → → {deposit_list}↵\n"
+"→ → → → → <p>Saluti,</p>↵\n"
+"→ → → → → <p>{site_title} staff</p>"
+
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:263
+msgid ""
+"Hi {customer_name},\n"
+"\n"
+"\t\t\t\t\tWe noticed that you still have balance payments that have to be "
+"paid in our shop.\n"
+"\n"
+"\t\t\t\t\tHurry up, you only have {days_left} left!\n"
+"\n"
+"\n"
+"\t\t\t\t\t{deposit_list}\n"
+"\n"
+"\t\t\t\t\tBest regards,\n"
+"\n"
+"\t\t\t\t\t{site_title} staff"
+msgstr ""
+"Ciao {customer_name},↵\n"
+"↵\n"
+"→ → → → → Abbiamo notato che hai ancora dei pagamenti del saldo non "
+"completati nel nostro shop.↵\n"
+"↵\n"
+"→ → → → → Affrettati! Restano solo {days_left}!↵\n"
+"↵\n"
+"↵\n"
+"→ → → → → {deposit_list}↵\n"
+"↵\n"
+"→ → → → → Saluti,↵\n"
+"↵\n"
+"→ → → → → {site_title} staff"
+
+#. translators: 1. Plugin name.
+#: init.php:115
+msgid ""
+"%s is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""
+"%s è attivo ma non operativo. Il suo funzionamento richiede WooCommerce."
+
+#. translators: 1. Plugin name.
+#: init.php:135
+msgid ""
+"You can't activate the free version of %s while you are using the premium "
+"one."
+msgstr ""
+"Non puoi attivare la versione gratuita di %s se stai già utilizzando quella "
+"premium."
+
+#: plugin-options/balances-options.php:19
+msgid "Balance Options"
+msgstr "Opzioni saldo"
+
+#: plugin-options/balances-options.php:25
+msgid "Balance order creation"
+msgstr "Creazione ordine del saldo"
+
+#: plugin-options/balances-options.php:28
+msgid ""
+"Choose how to manage the balance orders. This option can be overridden for "
+"specific products."
+msgstr ""
+"Scegli come gestire gli ordini del saldo. Puoi sovrascrivere questa opzione "
+"su prodotti specifici."
+
+#: plugin-options/balances-options.php:38
+msgid "If an order includes multiple deposits, for the balance"
+msgstr "Saldo per ordini che includono più acconti"
+
+#: plugin-options/balances-options.php:42
+msgid "Create a single balance order that includes all products"
+msgstr "Crea un unico ordine del saldo per tutti i prodotti"
+
+#: plugin-options/balances-options.php:43
+msgid "Create a specific balance order for each product"
+msgstr "Crea un ordine del saldo per ciascun prodotto"
+
+#: plugin-options/balances-options.php:45
+msgid ""
+"Choose how to manage the balance orders for orders that include multiple "
+"deposits."
+msgstr ""
+"Scegli come gestire gli ordini del saldo quando un ordine include diversi "
+"acconti."
+
+#: plugin-options/balances-options.php:89
+msgid "days from the deposit."
+msgstr "giorno dall'acconto."
+
+#: plugin-options/balances-options.php:100
+msgid "This option can be overridden for specific products."
+msgstr "Puoi sovrascrivere questa opzione su prodotti specifici."
+
+#: plugin-options/balances-options.php:118
+msgid ""
+"Choose when to send the email to notify the balance payment to customers."
+msgstr ""
+"Scegli quando mandare l'email di notifica del pagamento del saldo ai clienti."
+
+#: plugin-options/balances-options.php:127
+msgid "If balance is not paid"
+msgstr "In caso di mancato pagamento del saldo"
+
+#: plugin-options/balances-options.php:130
+msgid "Choose the action to execute when a balance is not paid."
+msgstr "Scegli quale azione eseguire al mancato pagamento del saldo."
+
+#: plugin-options/customizations-options.php:19
+msgid "Customization Options"
+msgstr "Opzioni personalizzazione"
+
+#: plugin-options/customizations-options.php:25
+msgid "Hide \"Pay deposit\" button on shop pages"
+msgstr "Nascondi pulsante \"Paga acconto\" nelle pagine shop"
+
+#: plugin-options/customizations-options.php:28
+msgid "Enable to hide the \"Pay Deposit\" button on shop pages."
+msgstr "Abilita per nascondere il pulsante \"Paga acconto\" nelle pagine shop."
+
+#: plugin-options/customizations-options.php:33
+msgid "Show custom notices on product page"
+msgstr "Mostra notifiche personalizzate nella pagina prodotto"
+
+#: plugin-options/customizations-options.php:36
+msgid ""
+"Enable to show a custom notice about the deposit option in all products."
+msgstr ""
+"Abilita per mostrare una notifica personalizzata per l'opzione di acconto su "
+"tutti i prodotti."
+
+#: plugin-options/customizations-options.php:41
+msgid "Notice to show on products with balance payment required online"
+msgstr ""
+"Notifica da mostrare sui prodotti con richiesta di pagamento del saldo online"
+
+#: plugin-options/customizations-options.php:53
+msgid "Notice to show on products with balance payment not managed online"
+msgstr ""
+"Notifica da mostrare sui prodotti con pagamento del saldo non gestito online"
+
+#: plugin-options/customizations-options.php:65
+msgid "Notice position on product page"
+msgstr "Posizione notifica nella pagina prodotto"
+
+#: plugin-options/customizations-options.php:66
+msgid "Choose the position of the notice on the product page."
+msgstr "Scegli la posizione della notifica nella pagina prodotto."
+
+#: plugin-options/customizations-options.php:71
+msgid "Do not show any note on product"
+msgstr "Non mostrare nessuna nota sul prodotto"
+
+#: plugin-options/customizations-options.php:72
+msgid "Below product title"
+msgstr "Sotto il nome del prodotto"
+
+#: plugin-options/customizations-options.php:73
+msgid "Below product price"
+msgstr "Sotto il prezzo del prodotto"
+
+#: plugin-options/customizations-options.php:74
+msgid "Below product excerpt"
+msgstr "Sotto l'excerpt del prodotto"
+
+#: plugin-options/customizations-options.php:75
+msgid "Below single Add to Cart"
+msgstr "Sotto il pulsante \"Aggiungi al carrello\""
+
+#: plugin-options/customizations-options.php:76
+msgid "Below product meta"
+msgstr "Sotto i meta del prodotto"
+
+#: plugin-options/customizations-options.php:77
+msgid "Below product share"
+msgstr "Sotto i pulsanti di condivisione del prodotto"
+
+#: plugin-options/customizations-options.php:92
+msgid "Labels & Messages"
+msgstr "Etichette & messaggi"
+
+#: plugin-options/customizations-options.php:126
+msgid "Full price label"
+msgstr "Etichetta prezzo di listino"
+
+#: plugin-options/customizations-options.php:133
+msgid "Balance label"
+msgstr "Etichetta saldo"
+
+#: plugin-options/email-options.php:17
+msgid "Emails"
+msgstr "Email"
+
+#: plugin-options/email-options.php:18
+msgid "Manage and customize the emails sent by the plugin."
+msgstr "Gestisci e personalizza le email inviate dal plugin."
+
+#: plugin-options/settings-options.php:23
+msgid "General settings"
+msgstr "Impostazioni generali"
+
+#: plugin-options/settings-options.php:24
+msgid "Set up deposit options for the products in your shop."
+msgstr "Imposta le opzioni di acconto per i prodotti del tuo shop."
+
+#: plugin-options/settings-options.php:27
+msgid "Deposit rules"
+msgstr "Regole acconto"
+
+#: plugin-options/settings-options.php:28
+msgid "Create advanced deposit rules for your products. "
+msgstr "Crea regole di acconto avanzate per i tuoi prodotti."
+
+#: plugin-options/settings-options.php:28
+msgid ""
+"The rules will override the default deposit amount (defined in General "
+"Options) for specific user roles, product categories, or products. "
+msgstr ""
+"Le regole sovrascrivono l'importo predefinito dell'acconto (definito in "
+"Opzioni generali) per ruoli utente, prodotti o categorie di prodotto."
+
+#: plugin-options/settings/deposits-options.php:19
+msgid "General Options"
+msgstr "Opzioni generali"
+
+#: plugin-options/settings/deposits-options.php:25
+msgid "Enable deposit on all products"
+msgstr "Abilita acconto su tutti i prodotti"
+
+#: plugin-options/settings/deposits-options.php:28
+msgid ""
+"Enable to activate the deposit option for all products. This option can be "
+"overridden for specific products."
+msgstr ""
+"Abilita per attivare la possibilità di acconto su tutti i prodotti. Puoi "
+"sovrascrivere questa opzione su prodotti specifici. "
+
+#: plugin-options/settings/deposits-options.php:36
+msgid ""
+"Choose how to manage the deposit payment for all products. This option can "
+"be overridden for specific products."
+msgstr ""
+"Scegli come gestire il pagamento dell'acconto per tutti i prodotti. Puoi "
+"sovrascrivere questa opzione su prodotti specifici.  "
+
+#: plugin-options/settings/deposits-options.php:39
+msgid "Optional: users can choose whether to pay full amount or just a deposit"
+msgstr ""
+"Opzionale: lascia scegliere gli utenti se pagare l'intero importo o solo un "
+"acconto"
+
+#: plugin-options/settings/deposits-options.php:49
+msgid "Show deposit option selected by default"
+msgstr "Mostra l'opzione acconto già selezionata"
+
+#: plugin-options/settings/deposits-options.php:61
+msgid "Default deposit"
+msgstr "Acconto predefinito"
+
+#: plugin-options/settings/deposits-options.php:72
+msgid "Shipping costs (if any) will be:"
+msgstr "Applica costi di spedizione (se presenti):"
+
+#: plugin-options/settings/deposits-options.php:76
+msgid "Applied to the deposit order"
+msgstr "Agli ordini di acconto"
+
+#: plugin-options/settings/deposits-options.php:77
+msgid "Applied to the balance order"
+msgstr "Agli ordini del saldo"
+
+#: plugin-options/settings/deposits-options.php:79
+msgid ""
+"Choose how to manage shipping costs on products with the deposit option."
+msgstr "Scegli come gestire i costi di spedizione per i prodotti con acconto."
+
+#: plugin-options/settings/deposits-options.php:84
+msgid "Load deposit data dynamically"
+msgstr "Caricamento AJAX dati acconto"
+
+#: plugin-options/settings/deposits-options.php:87
+msgid ""
+"Enable this option to load via AJAX deposit preferences for product "
+"variations; this will speed up single product page loading."
+msgstr ""
+"Abilita per caricare le impostazioni dell'acconto per le variazioni di "
+"prodotto via AJAX e rendere più veloce il caricamento della pagina prodotto."
+
+#: templates/admin/email-settings-tab.php:17
+msgid "Email"
+msgstr "Email"
+
+#: templates/admin/email-settings-tab.php:18
+msgctxt "[ADMIN] Column name table emails"
+msgid "Active"
+msgstr "Attiva"
+
+#: templates/admin/email-settings-tab.php:47
+msgid "Edit"
+msgstr "Modifica"
+
+#: templates/deposits-expirations-modal.php:18
+#: templates/emails/deposit-list.php:75
+msgid "View details"
+msgstr "Visualizza dettagli"
+
+#: templates/deposits-expirations-modal.php:52
+msgid "Pay balance when you're ready to complete your purchase"
+msgstr "Paga il saldo quando sei pronto a completare l'acquisto"
+
+#. translators: 1. Order number.
+#: templates/emails/admin-deposit-created-email.php:21
+msgid "Order #%s"
+msgstr "Ordine #%s"
+
+#. translators: 1. Customer full name.
+#. translators: 1. Formatted customer name.
+#: templates/emails/admin-deposit-created-email.php:27
+#: templates/emails/plain/admin-deposit-created-email.php:17
+msgid ""
+"You have received an order with deposits from %s. Here you find the details "
+"of the full amount payments:"
+msgstr ""
+"Hai ricevuto un ordine con acconto da %s. Qui trovi i dettagli dei pagamenti "
+"dell'intero importo:"
+
+#: templates/emails/deposit-list.php:71
+msgid "Pay now"
+msgstr "Paga ora"
+
+#: templates/emails/deposit-table.php:24
+msgid "Suborder"
+msgstr "Sottordine"
+
+#: templates/emails/deposit-table.php:25 templates/my-deposits.php:43
+#: templates/my-deposits.php:56
+msgid "Product"
+msgstr "Prodotto"
+
+#: templates/emails/deposit-table.php:26 templates/my-deposits.php:45
+#: templates/my-deposits.php:98
+msgid "Status"
+msgstr "Stato"
+
+#: templates/emails/deposit-table.php:27
+msgid "Total"
+msgstr "Totale"
+
+#: templates/emails/deposit-table.php:82
+msgid "Total paid:"
+msgstr "Totale pagato:"
+
+#: templates/emails/deposit-table.php:86
+msgid "Total to be paid:"
+msgstr "Totale da pagare:"
+
+#: templates/emails/plain/admin-deposit-created-email.php:25
+msgid "Deposits:"
+msgstr "Acconti:"
+
+#. Translators: 1. Action url.
+#: templates/emails/plain/deposit-list.php:45
+msgid "Pay now (%s)"
+msgstr "Paga ora (%s)"
+
+#. Translators: 1. Action url.
+#: templates/emails/plain/deposit-list.php:48
+msgid "View (%s)"
+msgstr "Visualizza (%s)"
+
+#: templates/emails/plain/deposit-table.php:38 templates/my-deposits.php:42
+#: templates/my-deposits.php:53
+msgid "Order"
+msgstr "Ordine"
+
+#: templates/emails/plain/deposit-table.php:48
+msgid "Total paid"
+msgstr "Totale pagato"
+
+#: templates/emails/plain/deposit-table.php:49
+msgid "Total to pay"
+msgstr "Totale da pagare"
+
+#. translators: 1. Deposit label.
+#: templates/my-deposits.php:29
+msgid "%s details"
+msgstr "Dettagli %s"
+
+#. translators: 1. Deposit label.
+#: templates/my-deposits.php:35
+msgid ""
+"Some products in this order have been bought with %s. In order to complete "
+"the transaction and ship the products, all remaining amounts have to be "
+"paid. Below is the list of items with pending balance:"
+msgstr ""
+"Alcuni prodotti in questo ordine sono stati acquistati con %s. Per poter "
+"completare la transazione e spedire i prodotti, deve essere completato il "
+"pagamento degli importi rimanenti. Di seguito i dettagli degli articoli in "
+"attesa del saldo:"
+
+#: templates/my-deposits.php:44 templates/my-deposits.php:77
+msgid "Totals"
+msgstr "Totali"
+
+#: templates/my-deposits.php:81
+msgid "Subtotal: "
+msgstr "Subtotale: "
+
+#: templates/my-deposits.php:85
+msgid "Discount: "
+msgstr "Sconto:"
+
+#: templates/my-deposits.php:89
+msgid "Shipping: "
+msgstr "Spedizione: "
+
+#: templates/my-deposits.php:93
+msgid "Taxes: "
+msgstr "Tasse: "
+
+#: templates/my-deposits.php:107
+msgid "Actions"
+msgstr "Azioni"
+
+#: templates/single-add-deposit-to-cart.php:57
+msgid "Pay a deposit"
+msgstr "Paga acconto "
+
+#: views/add-deposit-rule-modal.php:26
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Rule type"
+msgstr "Tipo regola"
+
+#: views/add-deposit-rule-modal.php:36
+msgctxt "[ADMIN] Add Affiliate modal"
+msgid "Search products"
+msgstr "Cerca prodotti"
+
+#: views/add-deposit-rule-modal.php:45
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Search products"
+msgstr "Cerca prodotti"
+
+#: views/add-deposit-rule-modal.php:51
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Search product categories"
+msgstr "Cerca categorie prodotto"
+
+#: views/add-deposit-rule-modal.php:60
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Search categories"
+msgstr "Cerca categorie"
+
+#: views/add-deposit-rule-modal.php:77
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Search user roles"
+msgstr "Cerca ruoli utente"
+
+#: views/add-deposit-rule-modal.php:86
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Search roles"
+msgstr "Cerca ruoli"
+
+#: views/add-deposit-rule-modal.php:94
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Deposit type"
+msgstr "Tipo acconto"
+
+#: views/add-deposit-rule-modal.php:123
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Save rule"
+msgstr "Salva regola"
+
+#: views/add-deposit-rule-modal.php:125
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Add rule"
+msgstr "Aggiungi regola"
+
+#: views/fields/expiration-fallback.php:58
+msgctxt "[ADMIN] Expiration fallback field"
+msgid "and"
+msgstr "e dopo"
+
+#. translators: 1. Condition that could lead to another attempt (EG: if the balance is still not paid).
+#: views/fields/expiration-fallback.php:76
+msgctxt "[ADMIN] Expiration fallback field"
+msgid "day(s) after, %s, then"
+msgstr "e dopo %s giorni, se non ancora pagato,"
+
+#: views/product-deposit-bulk-edit.php:27
+msgid "Deposit?"
+msgstr "Acconto?"
+
+#: views/product-deposit-bulk-edit.php:31
+#: views/product-deposit-bulk-edit.php:48
+#: views/product-deposit-bulk-edit.php:65
+#: views/product-deposit-bulk-edit.php:83
+msgid "Default"
+msgstr "Predefinito"
+
+#: views/product-deposit-bulk-edit.php:34
+#: views/product-deposit-bulk-edit.php:51
+msgid "Yes"
+msgstr "Sì"
+
+#: views/product-deposit-bulk-edit.php:38
+#: views/product-deposit-bulk-edit.php:55
+msgid "No"
+msgstr "No"
+
+#: views/product-deposit-bulk-edit.php:44
+msgid "Default?"
+msgstr "Predefinito?"
+
+#: views/product-deposit-bulk-edit.php:61
+msgid "Force?"
+msgstr "Forzare?"
+
+#: views/product-deposit-bulk-edit.php:68
+msgid "Force deposit"
+msgstr "Forza acconto"
+
+#: views/product-deposit-bulk-edit.php:72
+msgid "Allow deposit"
+msgstr "Permetti acconto"
+
+#: views/product-deposit-bulk-edit.php:79
+msgid "How to pay balance orders?"
+msgstr "Come pagare gli ordini di saldo?"
+
+#: views/product-deposit-bulk-edit.php:97
+msgid "Notes"
+msgstr "Note"
+
+#: views/product-deposit-tab.php:30
+msgid "Deposit & balance options"
+msgstr "Opzioni acconto & saldo"
+
+#: assets/js/blocks/yith-wcdp-grand-total-frontend.bundle.js:210
+#: assets/js/blocks/yith-wcdp-grand-total.bundle.js:214
+#: assets/js/blocks/yith-wcdp-grand-total-frontend.bundle.js:180
+#: assets/js/blocks/yith-wcdp-grand-total.bundle.js:182
+msgctxt "[FRONTEND] Grand total block"
+msgid "Deposit due today"
+msgstr "Acconto da pagare oggi"
+
+#: assets/js/blocks/yith-wcdp-grand-total-frontend.bundle.js:211
+#: assets/js/blocks/yith-wcdp-grand-total.bundle.js:215
+#: assets/js/blocks/yith-wcdp-grand-total-frontend.bundle.js:188
+#: assets/js/blocks/yith-wcdp-grand-total.bundle.js:190
+msgctxt "[FRONTEND] Grand total block"
+msgid "Balance subtotal"
+msgstr "Subtotale saldo"
+
+#: assets/js/blocks/yith-wcdp-grand-total-frontend.bundle.js:212
+#: assets/js/blocks/yith-wcdp-grand-total.bundle.js:216
+#: assets/js/blocks/yith-wcdp-grand-total-frontend.bundle.js:196
+#: assets/js/blocks/yith-wcdp-grand-total.bundle.js:198
+msgctxt "[FRONTEND] Grand total block"
+msgid "Balance shipping"
+msgstr "Spedizione a saldo"
+
+#: assets/js/blocks/yith-wcdp-grand-total-frontend.bundle.js:213
+#: assets/js/blocks/yith-wcdp-grand-total.bundle.js:217
+#: assets/js/blocks/yith-wcdp-grand-total-frontend.bundle.js:204
+#: assets/js/blocks/yith-wcdp-grand-total.bundle.js:206
+msgctxt "[FRONTEND] Grand total block"
+msgid "Grand total"
+msgstr "Totale complessivo"

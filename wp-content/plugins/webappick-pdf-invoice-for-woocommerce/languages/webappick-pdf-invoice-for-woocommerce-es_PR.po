@@ -1,0 +1,258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Invoice Pro\n"
+"POT-Creation-Date: 2021-01-12 12:58+0600\n"
+"PO-Revision-Date: 2021-11-10 15:58+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_PR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woo-invoice-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-woo-invoice-pro-template.php:715
+msgid "Billing"
+msgstr "Facturación"
+
+#: includes/class-woo-invoice-pro-template.php:716
+#: includes/class-woo-invoice-pro-template.php:1253
+msgid "Shipping"
+msgstr "Envío"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1600
+#: admin/partials/woo-invoice-pro-admin-display.php:1903
+#: includes/class-woo-invoice-pro-template.php:759
+msgid "Order Number"
+msgstr "Número de pedido"
+
+#: includes/class-woo-invoice-pro-template.php:764
+msgid "Order Date"
+msgstr "Fecha del pedido"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1872
+#: includes/class-woo-invoice-pro-template.php:742
+msgid "Invoice Number"
+msgstr "Número de factura"
+
+#: includes/class-woo-invoice-pro-template.php:1298
+msgid "Net Payment"
+msgstr "Pago neto"
+
+#: includes/class-woo-invoice-pro-template.php:775
+msgid "Shipping Method"
+msgstr "Método de envío"
+
+#: includes/class-woo-invoice-pro-template.php:769
+msgid "Payment Method"
+msgstr "Método de Pago"
+
+#: includes/class-woo-invoice-pro-template.php:782
+msgid "Delivery Date"
+msgstr "Fecha de Entrega"
+
+#: includes/class-woo-invoice-pro-template.php:788
+msgid "Time Slot"
+msgstr "Espacio de Tiempo"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:178
+#: admin/partials/woo-invoice-pro-admin-display.php:4166
+#: includes/class-woo-invoice-pro-hooks.php:708
+msgid "Invoice"
+msgstr "Factura"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:186
+#: admin/partials/woo-invoice-pro-admin-display.php:4167
+#: includes/class-woo-invoice-pro-hooks.php:523
+#: includes/class-woo-invoice-pro-hooks.php:713
+#: includes/class-woo-invoice-pro-hooks.php:794
+msgid "Packing Slip"
+msgstr "Detalle de la entrega"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:226
+#: includes/class-woo-invoice-pro-hooks.php:719
+#: includes/class-woo-invoice-pro-hooks.php:804
+msgid "Delivery Address"
+msgstr "Etiqueta de envío"
+
+#: includes/class-woo-invoice-pro-hooks.php:580
+#: includes/class-woo-invoice-pro-hooks.php:663
+#: includes/class-woo-invoice-pro-template.php:225
+msgid "Credit Note"
+msgstr "Nota de Crédito"
+
+#: includes/class-woo-invoice-pro-template.php:1082
+msgid "Cost"
+msgstr "Costo"
+
+#: includes/class-woo-invoice-pro-template.php:1106
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: includes/class-woo-invoice-pro-template.php:1329
+msgid "Total Quantity"
+msgstr "Cantidad total"
+
+#: includes/class-woo-invoice-pro-template.php:1083
+msgid "Qty"
+msgstr "Cantidad"
+
+#: includes/class-woo-invoice-pro-orders.php:454
+#: includes/class-woo-invoice-pro-template.php:1101
+msgid "Dimensions"
+msgstr "Dimensiones"
+
+#: includes/class-woo-invoice-pro-orders.php:457
+#: includes/class-woo-invoice-pro-template.php:1105
+msgid "Weight"
+msgstr "Peso"
+
+#: includes/class-woo-invoice-pro-template.php:1084
+msgid "Total"
+msgstr "Total"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2509
+#: includes/class-woo-invoice-pro-template.php:1247
+msgid "Fees"
+msgstr "Comisiones"
+
+#: includes/class-woo-invoice-pro-template.php:1088
+#: includes/class-woo-invoice-pro-template.php:1093
+msgid "Tax"
+msgstr "Impuestos"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2599
+msgid "Discount"
+msgstr "Descuento"
+
+#: includes/class-woo-invoice-pro-template.php:1263
+msgid "Order Total With Tax"
+msgstr "Pedido total sin impuestos"
+
+#: includes/class-woo-invoice-pro-template.php:1263
+msgid "Order Total Without Tax"
+msgstr "Total del pedido sin impuestos"
+
+#: includes/class-woo-invoice-pro-template.php:1293
+msgid "Order Total"
+msgstr "Total del pedido"
+
+#: includes/class-woo-invoice-pro-template.php:1214
+#: includes/class-woo-invoice-pro-template.php:1297
+msgid "Refund"
+msgstr "Reembolso"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:522
+#: admin/partials/woo-invoice-pro-admin-display.php:3527
+#: includes/class-woo-invoice-pro-template.php:1409
+msgid "Customer Note"
+msgstr "Nota de compra"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1477
+msgid "Signature"
+msgstr "Firma"
+
+#: includes/class-woo-invoice-pro-template.php:1503
+msgid "Authorized Signature"
+msgstr "Firma autorizada"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2645
+msgid "Bank Accounts"
+msgstr "Cuentas Bancarias"
+
+#: includes/class-woo-invoice-pro-template.php:1464
+msgid "Account Name"
+msgstr "Nombre de la cuenta"
+
+#: includes/class-woo-invoice-pro-template.php:1078
+msgid "Item"
+msgstr "Artículo"
+
+#: includes/class-woo-invoice-pro-template.php:1233
+msgid "Coupon(s)"
+msgstr "Cupón(es)"
+
+#: includes/class-woo-invoice-pro-template.php:1463
+msgid "Bank Name"
+msgstr "Nombre del banco"
+
+#: includes/class-woo-invoice-pro-template.php:1465
+msgid "Account No"
+msgstr "Cuenta No"
+
+#: includes/class-woo-invoice-pro-template.php:1466
+msgid "Sort Code"
+msgstr "Código de clasificación"
+
+#: includes/class-woo-invoice-pro-template.php:1467
+msgid "IBAN"
+msgstr "IBAN"
+
+#: includes/class-woo-invoice-pro-template.php:1468
+msgid "BIC/Swift"
+msgstr "BIC/SWIFT"
+
+#: includes/class-woo-invoice-pro-template.php:1336
+msgid "Total Weight"
+msgstr "Peso total"
+
+#: includes/class-woo-invoice-pro-template.php:1352
+msgid "Refund Address"
+msgstr "Dirección de reembolso"
+
+#: includes/class-woo-invoice-pro-helper.php:187
+msgid "Phone"
+msgstr "Teléfono"
+
+#: includes/class-woo-invoice-pro-helper.php:190
+msgid "Email"
+msgstr "Email"
+
+#: includes/class-woo-invoice-pro-helper.php:420
+msgid "VAT Number"
+msgstr "Número de IVA"
+
+#: includes/class-woo-invoice-pro-orders.php:475
+msgid "Category"
+msgstr "Categoría"
+
+#: includes/class-woo-invoice-pro-orders.php:397
+msgid "Description"
+msgstr "Descripción"
+
+#: includes/class-woo-invoice-pro-orders.php:616
+msgid "Duration"
+msgstr "Duración"
+
+#: includes/class-woo-invoice-pro-orders.php:619
+msgid "From"
+msgstr "Desde"
+
+#: includes/class-woo-invoice-pro-orders.php:622
+msgid "To"
+msgstr "Hasta"
+
+#: includes/class-woo-invoice-pro-template.php:1217
+msgid "Items Subtotal"
+msgstr "Subtotal de artículos"
+
+#: includes/class-woo-invoice-pro-orders.php:316
+msgid "ID"
+msgstr "ID"
+
+#: includes/class-woo-invoice-pro-orders.php:319
+msgid "SKU"
+msgstr "Código"
+
+msgid "Download Invoice"
+msgstr "Descargar factura"

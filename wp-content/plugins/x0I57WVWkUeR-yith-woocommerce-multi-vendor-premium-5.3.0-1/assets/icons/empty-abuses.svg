@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="32px" viewBox="0 0 42 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Risorsa 1</title>
+    <g id="tabs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Risorsa-1" transform="translate(1.000000, 1.000000)" stroke="#333333" stroke-width="1.44">
+            <polygon id="Path" points="8.69207003 23.4433566 8.69207003 29 14.2533471 23.4433566 40 23.4433566 40 0 0 0 0 23.4433566"></polygon>
+            <line x1="6" y1="6" x2="34" y2="6" id="Path"></line>
+            <line x1="6" y1="11.5" x2="34" y2="11.5" id="Path"></line>
+            <line x1="6" y1="17" x2="34" y2="17" id="Path"></line>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,297 @@
+[
+  {
+    "id": "abb1cfd",
+    "elType": "container",
+    "settings": {
+      "flex_direction": "column"
+    },
+    "elements": [
+      {
+        "id": "18be3ed",
+        "elType": "widget",
+        "settings": {
+          "shortcode": "[cuw_ppu_order_details]"
+        },
+        "elements": [],
+        "widgetType": "shortcode"
+      },
+      {
+        "id": "2e7ebd3",
+        "elType": "widget",
+        "settings": {
+          "title": "[cuw_ppu_offer_title]",
+          "title_color": "#111111",
+          "__dynamic__": {
+            "title": "[elementor-tag id=\"67d8573\" name=\"shortcode\" settings=\"%7B%22shortcode%22%3A%22%5Bcuw_ppu_offer_title%5D%22%7D\"]"
+          },
+          "align": "center",
+          "_margin": {
+            "unit": "px",
+            "top": "10",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          }
+        },
+        "elements": [],
+        "widgetType": "heading"
+      },
+      {
+        "id": "406c0ce",
+        "elType": "widget",
+        "settings": {
+          "shortcode": "[cuw_ppu_offer_timer]"
+        },
+        "elements": [],
+        "widgetType": "shortcode"
+      },
+      {
+        "id": "f5c6f53",
+        "elType": "container",
+        "settings": {
+          "flex_direction": "row",
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+          }
+        },
+        "elements": [
+          {
+            "id": "edc796b",
+            "elType": "container",
+            "settings": {
+              "flex_gap": {
+                "column": "",
+                "row": "",
+                "isLinked": true,
+                "unit": "px",
+                "size": null
+              },
+              "padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": true
+              }
+            },
+            "elements": [
+              {
+                "id": "0660743",
+                "elType": "widget",
+                "settings": {
+                  "shortcode": "[cuw_ppu_product_image]",
+                  "_flex_grow": 0
+                },
+                "elements": [],
+                "widgetType": "shortcode"
+              }
+            ],
+            "isInner": true
+          },
+          {
+            "id": "e7a7445",
+            "elType": "container",
+            "settings": [],
+            "elements": [
+              {
+                "id": "8e55454",
+                "elType": "widget",
+                "settings": {
+                  "title": "",
+                  "header_size": "h3",
+                  "title_color": "#111111",
+                  "__dynamic__": {
+                    "title": "[elementor-tag id=\"ccb0278\" name=\"shortcode\" settings=\"%7B%22shortcode%22%3A%22%5Bcuw_ppu_product_name%5D%22%7D\"]"
+                  }
+                },
+                "elements": [],
+                "widgetType": "heading"
+              },
+              {
+                "id": "48a2ee4",
+                "elType": "widget",
+                "settings": {
+                  "title": "",
+                  "header_size": "h4",
+                  "__dynamic__": {
+                    "title": "[elementor-tag id=\"ccb0278\" name=\"shortcode\" settings=\"%7B%22shortcode%22%3A%22%5Bcuw_ppu_product_price%5D%20%22%7D\"]"
+                  }
+                },
+                "elements": [],
+                "widgetType": "heading"
+              },
+              {
+                "id": "cf0d204",
+                "elType": "widget",
+                "settings": {
+                  "shortcode": "[cuw_ppu_offer_description]"
+                },
+                "elements": [],
+                "widgetType": "shortcode"
+              },
+              {
+                "id": "b26848a",
+                "elType": "widget",
+                "settings": {
+                  "shortcode": "[cuw_ppu_product_variants]"
+                },
+                "elements": [],
+                "widgetType": "shortcode"
+              },
+              {
+                "id": "9d2ba2b",
+                "elType": "container",
+                "settings": {
+                  "flex_direction": "row",
+                  "flex_align_items": "center",
+                  "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                  }
+                },
+                "elements": [
+                  {
+                    "id": "813566a",
+                    "elType": "container",
+                    "settings": {
+                      "content_width": "full",
+                      "width": {
+                        "unit": "%",
+                        "size": 33.33,
+                        "sizes": []
+                      },
+                      "boxed_width": {
+                        "unit": "%",
+                        "size": 33,
+                        "sizes": []
+                      },
+                      "boxed_width_tablet": {
+                        "unit": "%",
+                        "size": "",
+                        "sizes": []
+                      },
+                      "boxed_width_mobile": {
+                        "unit": "%",
+                        "size": "",
+                        "sizes": []
+                      },
+                      "padding": {
+                        "unit": "px",
+                        "top": "0",
+                        "right": "0",
+                        "bottom": "0",
+                        "left": "0",
+                        "isLinked": true
+                      }
+                    },
+                    "elements": [
+                      {
+                        "id": "643600f",
+                        "elType": "widget",
+                        "settings": {
+                          "shortcode": "[cuw_ppu_product_quantity]"
+                        },
+                        "elements": [],
+                        "widgetType": "shortcode"
+                      }
+                    ],
+                    "isInner": true
+                  },
+                  {
+                    "id": "800f2ec",
+                    "elType": "container",
+                    "settings": {
+                      "content_width": "full",
+                      "width": {
+                        "unit": "%",
+                        "size": 66.66,
+                        "sizes": []
+                      },
+                      "padding": {
+                        "unit": "px",
+                        "top": "0",
+                        "right": "0",
+                        "bottom": "0",
+                        "left": "0",
+                        "isLinked": true
+                      }
+                    },
+                    "elements": [
+                      {
+                        "id": "e28c8dd",
+                        "elType": "widget",
+                        "settings": {
+                          "shortcode": "[cuw_ppu_accept_offer_button]"
+                        },
+                        "elements": [],
+                        "widgetType": "shortcode"
+                      }
+                    ],
+                    "isInner": true
+                  }
+                ],
+                "isInner": true
+              },
+              {
+                "id": "676486a",
+                "elType": "widget",
+                "settings": {
+                  "shortcode": "[cuw_ppu_order_totals]"
+                },
+                "elements": [],
+                "widgetType": "shortcode"
+              },
+              {
+                "id": "6a027f7",
+                "elType": "container",
+                "settings": {
+                  "flex_gap": {
+                    "column": "10",
+                    "row": "10",
+                    "isLinked": true,
+                    "unit": "px",
+                    "size": 10
+                  },
+                  "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                  }
+                },
+                "elements": [
+                  {
+                    "id": "5ec9f9a",
+                    "elType": "widget",
+                    "settings": {
+                      "shortcode": "[cuw_ppu_decline_offer_link]"
+                    },
+                    "elements": [],
+                    "widgetType": "shortcode"
+                  }
+                ],
+                "isInner": true
+              }
+            ],
+            "isInner": true
+          }
+        ],
+        "isInner": true
+      }
+    ],
+    "isInner": false
+  }
+]

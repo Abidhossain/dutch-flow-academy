@@ -1,0 +1,17 @@
+<?php
+/**
+ * Product quantity
+ *
+ * This template can be overridden by copying it to yourtheme/checkout-upsell-woocommerce/page/product-quantity.php.
+ *
+ * HOWEVER, on occasion we will need to update template files and you (the theme developer) will need to copy the new files
+ * to your theme to maintain compatibility. We try to do this as little as possible, but it does happen.
+ */
+
+defined('ABSPATH') || exit;
+if (!isset($offer)) return;
+?>
+
+<div class="cuw-page-product-quantity">
+    <?php echo apply_filters('cuw_offer_template_product_quantity', '', $offer); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+</div>

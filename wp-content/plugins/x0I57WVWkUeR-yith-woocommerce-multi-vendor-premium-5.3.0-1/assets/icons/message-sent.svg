@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="26px" viewBox="0 0 34 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>basic / done</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="52" height="52"></rect>
+    </defs>
+    <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-TV-Copy-2" transform="translate(-1124.000000, -141.000000)">
+            <g id="basic-/-done" transform="translate(1115.000000, 128.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="basic-/-done-(Background/Mask)"></g>
+                <path d="M23.7020338,35.1924001 L20.6379052,38.2565287 L9.91345215,27.5320756 L12.9775815,24.4679461 L23.7020338,35.1924001 Z M39.0226734,13.7434692 L42.086802,16.8075993 L23.7020338,35.1924001 L20.6378969,32.1282447 L39.0226734,13.7434692 Z" fill="#BAB72D" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

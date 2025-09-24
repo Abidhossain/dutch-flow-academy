@@ -1,0 +1,180 @@
+/*      COMMON STYLE          */
+@page {
+    margin: 30px;
+}
+
+.pageBreak {
+    page: teacher;
+    page-break-after: always;
+}
+
+.paid-stamp {
+    width: 40%;
+}
+
+.site-logo {
+    vertical-align: top;
+}
+
+.signature {
+    width: 150px;
+    border-bottom: 1px solid #ccc;
+}
+
+table.header-table {
+    vertical-align: top;
+}
+
+td.seller {
+    padding-left: 5px;
+    width: 40%;
+}
+
+.order-table {
+    vertical-align: top;
+}
+
+.order-table tr td {
+    padding-right: 5px;
+}
+
+.order-data-td {
+    width: 40%;
+    vertical-align: top;
+}
+
+table.product-table {
+    border-collapse: collapse;
+}
+
+table.product-table tr th {
+    height: 30px;
+}
+
+.wpifw-pro-header{
+    color: red;
+}
+
+.product-img {
+    width: 8%;
+    padding: 5px;
+}
+
+.product {
+    padding: 5px;
+    text-align: left;
+}
+
+.price, .discount {
+    text-align: center;
+    width: 15%;
+}
+
+.quantity {
+    text-align: center;
+}
+
+.total-column {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.total {
+    text-align: right;
+    padding-right: 5px;
+    width: 15%;
+}
+
+.tax-column {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.tax {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.dimension {
+    text-align: center;
+}
+
+.weight {
+    text-align: center;
+}
+
+.product-meta {
+    font-size: small;
+}
+
+.order-total tr {
+    height: 30px;
+}
+
+.order-total-label {
+    text-align: right;
+    font-weight: bold;
+    height: 20px;
+}
+
+.order-total-value {
+    text-align: right;
+    width: 20%;
+    padding-right: 5px;
+}
+
+.order-note-table {
+    margin-bottom: 0px;
+}
+
+.order-note-table {
+    margin: 0px 10px 10px 10px;
+}
+
+.bank-accounts-table {
+    border: 1px solid #c2c7ce;
+    margin: 0px 10px 10px 10px;
+}
+
+.bank-account-list td {
+    text-align: center;
+}
+
+.invoice-footer-hr {
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.invoice-footer-table {
+    margin: 5px 10px 0 10px;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+table.invoice-footer-table tr td p {
+    padding: 5px;
+}
+
+body {
+    min-height: 100%;
+    font-family: 'grota';
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.refund {
+    color: #DA251E;
+}
+table.product-table tr th{
+    height:30px;
+}
+.order-total-value {
+    text-align: right;
+}
+.order-invoice-number td{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

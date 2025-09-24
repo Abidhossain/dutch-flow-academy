@@ -1,0 +1,310 @@
+html.yith_ywgc_opened,
+body.yith_ywgc_opened {
+    overflow: hidden;
+}
+
+@media ( min-width: 480px) {
+    #yith-ywgc .yith-ywgc-popup {
+        min-width: 320px;
+    }
+}
+
+#yith-ywgc{
+    z-index: 10001;
+}
+
+.yith-ywgc-overlay {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.yith_ywgc_opened .yith-ywgc-popup-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 50%;
+    min-height: 50%;
+    max-width: 50%;
+    max-height: 70%;
+    background: rgba(255, 255, 255, 1);
+    z-index: 120;
+    padding-right: 15px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    margin: 1% 0;
+    border-radius: 18px;
+}
+
+.yith-ywgc-gift-this-product-modal-opened.yith_ywgc_opened .yith-ywgc-popup-wrapper{
+    min-width: 50%;
+    min-height: 90%;
+    max-width: 70%;
+    max-height: 90%;
+    opacity: 0.9;
+}
+
+
+#yith-ywgc .yith-ywgc-popup-close {
+    position: fixed;
+    right: 22px;
+    top: 13px;
+    width: 12px;
+    height: 12px;
+    line-height: 15px;
+    cursor: pointer;
+    display: none;
+    text-align: center;
+    z-index: 10002;
+}
+
+#yith-ywgc .yith-ywgc-popup-close:after {
+    content: '×';
+    display: block;
+    color: inherit;
+    font-size: 1.5rem;
+    line-height: 12px;
+    opacity: 0.5;
+    transition: all ease 0.2s;
+}
+
+#yith-ywgc .yith-ywgc-popup-close:hover:after {
+    opacity: 1;
+}
+
+.yith-ywgc-popup-content-wrapper {
+    margin-top: -25px;
+}
+
+.yith-ywgc-popup-wrapper-region {
+    height: 100%;
+    width: 100%;
+}
+
+.yith-ywgc-popup-wrapper-region::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+    border-radius: 10px;
+    background-color: #ebebeb;
+}
+
+.yith-ywgc-popup-wrapper-region::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+}
+
+.yith-ywgc-popup-wrapper-region::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #555;
+}
+
+.ywgc-custom-design-modal-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+/*
+Upload field style
+ */
+
+.yith-ywgc-popup-wrapper .yith-plugin-fw-file {
+    position        : relative;
+    width           : 100%;
+    border          : 1px dashed #cbd5e1;
+    background      : rgba(203, 213, 225, .25);
+    padding         : 30px;
+    cursor          : pointer;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    box-sizing      : border-box;
+    height          : 20em;
+}
+
+.yith-plugin-fw-file__field {
+    cursor   : pointer;
+    position : absolute;
+    opacity  : 0;
+    top      : 0;
+    right    : 0;
+    bottom   : 0;
+    left     : 0;
+    z-index  : 10;
+}
+
+.yith-plugin-fw-file__preview {
+    width           : 100%;
+    background      : #fff;
+    padding         : 16px;
+    height: 17em;
+    display: block;
+    z-index: 10;
+}
+
+.yith-ywgc-preview-image img{
+    width: 200px;
+    height: 150px;
+}
+
+.yith-plugin-fw-file__preview__icon {
+    flex         : 0 0 24px;
+    margin-right : 8px;
+}
+
+.yith-plugin-fw-file.yith-plugin-fw--is-dragging {
+    border-color : var(--yith-primary);
+}
+
+.yith-plugin-fw-file.yith-plugin-fw--is-dragging:before {
+    content                 : '';
+    position                : absolute;
+    top                     : 0;
+    left                    : 0;
+    width                   : 100%;
+    height                  : 100%;
+    background              : rgba(0, 121, 176, .4);
+    z-index                 : 1;
+    backdrop-filter         : blur(3px);
+    -webkit-backdrop-filter : blur(3px);
+    animation               : yith-plugin-fw-fade-in .3s forwards;
+}
+
+.yith-plugin-fw-file:not(.yith-plugin-fw--filled) .yith-plugin-fw-file__preview {
+    display : none;
+}
+
+.yith-plugin-fw-file.yith-plugin-fw--filled .yith-plugin-fw-file__message {
+    display : none;
+}
+
+#ywgc-upload-picture-modal{
+    position: absolute;
+    width: 100%;
+}
+
+.yith-ywgc-drag-drop-icon-modal{
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    /*left: 45%;*/
+}
+
+.ywgc-custom-design-modal-wrapper .yith-plugin-fw-file__message {
+    margin-top: 20%;
+}
+
+.ywgc-custom-design-modal-wrapper .yith-plugin-fw-file__message .yith-plugin-fw-file__suggested_size {
+    display: block;
+    font-size: 12px;
+}
+
+button#decline-image{
+    border: none;
+    background-color: #7b7b7b;
+    padding: 7px 24px;
+    font-size: 12px;
+}
+
+button#decline-image:hover{
+    border: none;
+    background-color: #a00;
+}
+
+button#accept-image{
+    border: none;
+    padding: 7px 24px;
+    font-size: 12px;
+}
+
+button#accept-image:hover{
+    border: none;
+    background-color: #00afa5;
+}
+
+
+/* Responsive */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .yith_ywgc_opened .yith-ywgc-popup-wrapper {
+        min-width: 95%;
+        min-height: 80%;
+        max-width: 95%;
+        max-height: 70%;
+        padding: 20px 5px;
+        overflow-y: scroll;
+    }
+
+    .ywgc-design-list-modal {
+        height: 60% !important;
+        overflow-y: auto !important;
+    }
+
+    .ywgc-custom-upload-container-modal {
+        width: 100%;
+        padding: 10px;
+    }
+
+    ul.ywgc-template-categories {
+        padding-top: 5px;
+    }
+    ul.ywgc-template-categories li.ywgc-template-item,
+    ul.ywgc-template-categories li.ywgc-upload-section-modal p {
+        margin-top: 5px;
+    }
+    .ywgc-design-categories-title {
+        margin: 15px 0 0;
+    }
+    .ywgc-upload-section-modal {
+        margin-top: 15px;
+    }
+
+    #yith-ywgc .yith-ywgc-popup-close {
+        right: 15px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+
+    .yith_ywgc_opened .yith-ywgc-popup-wrapper {
+        min-width: 70%;
+        min-height: 50%;
+        max-width: 70%;
+        max-height: 60%;
+        overflow: scroll;
+    }
+
+    #yith-ywgc .yith-ywgc-popup-close {
+        right: 15px;
+    }
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 992px) {
+    .yith-ywgc-drag-drop-icon-modal {
+        top: 10% !important;
+    }
+
+    .yith-ywgc-popup-wrapper .yith-plugin-fw-file {
+        padding: 0;
+        height: 15em;
+    }
+
+    .ywgc-custom-design-modal-wrapper .yith-plugin-fw-file__message {
+        margin-top: 20%;
+        margin-bottom: 1em;
+    }
+}
+

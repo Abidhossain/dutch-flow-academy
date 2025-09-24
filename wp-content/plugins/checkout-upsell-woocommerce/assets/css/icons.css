@@ -1,0 +1,458 @@
+@font-face {
+  font-family: 'cuw-icons';
+  src:  url('fonts/cuw-icons.eot?47zy2o');
+  src:  url('fonts/cuw-icons.eot?47zy2o#iefix') format('embedded-opentype'),
+    url('fonts/cuw-icons.ttf?47zy2o') format('truetype'),
+    url('fonts/cuw-icons.woff?47zy2o') format('woff'),
+    url('fonts/cuw-icons.svg?47zy2o#cuw-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cuw-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cuw-icon-beta:before {
+  content: "\e979";
+}
+.cuw-icon-pro:before {
+  content: "\e97a";
+}
+.cuw-icon-deprecated:before {
+  content: "\e97b";
+}
+.cuw-icon-smallcaps:before {
+  content: "\e974";
+}
+.cuw-icon-row-vertical:before {
+  content: "\e975";
+}
+.cuw-icon-note-text:before {
+  content: "\e977";
+}
+.cuw-icon-message-text:before {
+  content: "\e978";
+}
+.cuw-icon-books:before {
+  content: "\e900";
+}
+.cuw-icon-tick-filled-circle:before {
+  content: "\e976";
+}
+.cuw-icon-addons:before {
+  content: "\e973";
+}
+.cuw-icon-info-circle:before {
+  content: "\e970";
+}
+.cuw-icon-rotate-left:before {
+  content: "\e971";
+}
+.cuw-icon-rotate-right:before {
+  content: "\e972";
+}
+.cuw-icon-youtube:before {
+  content: "\e954";
+  color: #fa5252;
+}
+.cuw-icon-reset:before {
+  content: "\e932";
+}
+.cuw-icon-lock:before {
+  content: "\e96f";
+  color: #1c274c;
+}
+.cuw-icon-analytics:before {
+  content: "\e96e";
+}
+.cuw-icon-information:before {
+  content: "\e96d";
+}
+.cuw-icon-product:before {
+  content: "\e936";
+}
+.cuw-icon-options:before {
+  content: "\e93e";
+}
+.cuw-icon-sorting:before {
+  content: "\e940";
+}
+.cuw-icon-usage-limit:before {
+  content: "\e941";
+}
+.cuw-icon-external-link:before {
+  content: "\e967";
+}
+.cuw-icon-options-2:before {
+  content: "\e968";
+}
+.cuw-icon-offers-created:before {
+  content: "\e964";
+  color: #0a5cff;
+}
+.cuw-icon-campaigns-created:before {
+  content: "\e965";
+  color: #0a5cff;
+}
+.cuw-icon-total-revenue:before {
+  content: "\e966";
+  color: #0a5cff;
+}
+.cuw-icon-up:before {
+  content: "\e963";
+}
+.cuw-icon-chevron-left:before {
+  content: "\e901";
+}
+.cuw-icon-chevron-right:before {
+  content: "\e902";
+}
+.cuw-icon-accordion-open:before {
+  content: "\e95f";
+}
+.cuw-icon-accordion-close:before {
+  content: "\e960";
+}
+.cuw-icon-box:before {
+  content: "\e957";
+}
+.cuw-icon-product-addon:before {
+  content: "\e959";
+}
+.cuw-icon-filter:before {
+  content: "\e95a";
+}
+.cuw-icon-engines:before {
+  content: "\e95b";
+}
+.cuw-icon-edit-note:before {
+  content: "\e95c";
+}
+.cuw-icon-cart-addon:before {
+  content: "\e95d";
+}
+.cuw-icon-analytics1:before {
+  content: "\e95e";
+}
+.cuw-icon-edit-simple:before {
+  content: "\e956";
+}
+.cuw-icon-offers:before {
+  content: "\e958";
+}
+.cuw-icon-upsell-popups-dual .path1:before {
+  content: "\e903";
+  color: rgb(10, 92, 255);
+}
+.cuw-icon-upsell-popups-dual .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(24, 28, 37);
+}
+.cuw-icon-upsell-popups-dual .path3:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(24, 28, 37);
+}
+.cuw-icon-thankyou-upsells-dual .path1:before {
+  content: "\e906";
+  color: rgb(24, 28, 37);
+}
+.cuw-icon-thankyou-upsells-dual .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(24, 28, 37);
+}
+.cuw-icon-thankyou-upsells-dual .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(10, 92, 255);
+}
+.cuw-icon-thankyou-upsells-dual .path4:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(10, 92, 255);
+}
+.cuw-icon-post-purchase-dual .path1:before {
+  content: "\e90a";
+  color: rgb(24, 28, 37);
+}
+.cuw-icon-post-purchase-dual .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(24, 28, 37);
+}
+.cuw-icon-post-purchase-dual .path3:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(10, 92, 255);
+}
+.cuw-icon-post-purchase-dual .path4:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(10, 92, 255);
+}
+.cuw-icon-nextorder-coupon-dual .path1:before {
+  content: "\e90e";
+  color: rgb(24, 28, 37);
+}
+.cuw-icon-nextorder-coupon-dual .path2:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(24, 28, 37);
+}
+.cuw-icon-nextorder-coupon-dual .path3:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(10, 92, 255);
+}
+.cuw-icon-nextorder-coupon-dual .path4:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(10, 92, 255);
+}
+.cuw-icon-fbt-dual .path1:before {
+  content: "\e912";
+  color: rgb(10, 92, 255);
+}
+.cuw-icon-fbt-dual .path2:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(10, 92, 255);
+}
+.cuw-icon-fbt-dual .path3:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(24, 28, 37);
+}
+.cuw-icon-double-order-dual .path1:before {
+  content: "\e915";
+  color: rgb(24, 28, 37);
+}
+.cuw-icon-double-order-dual .path2:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(10, 92, 255);
+}
+.cuw-icon-double-order-dual .path3:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(24, 28, 37);
+}
+.cuw-icon-checkout-upsells-dual .path1:before {
+  content: "\e918";
+  color: rgb(10, 92, 255);
+}
+.cuw-icon-checkout-upsells-dual .path2:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(10, 92, 255);
+}
+.cuw-icon-checkout-upsells-dual .path3:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(24, 28, 37);
+}
+.cuw-icon-cart-upsells-dual .path1:before {
+  content: "\e91b";
+  color: rgb(24, 28, 37);
+}
+.cuw-icon-cart-upsells-dual .path2:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(10, 92, 255);
+}
+.cuw-icon-cart-upsells-dual .path3:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(10, 92, 255);
+}
+.cuw-icon-upsell-popups:before {
+  content: "\e91e";
+}
+.cuw-icon-thankyou-upsells:before {
+  content: "\e91f";
+}
+.cuw-icon-post-purchase:before {
+  content: "\e920";
+}
+.cuw-icon-next-order-coupon:before {
+  content: "\e921";
+}
+.cuw-icon-fbt:before {
+  content: "\e922";
+}
+.cuw-icon-double-order:before {
+  content: "\e923";
+}
+.cuw-icon-revenue:before {
+  content: "\e924";
+}
+.cuw-icon-cart-upsells:before {
+  content: "\e925";
+}
+.cuw-icon-upsell-revenue:before {
+  content: "\e926";
+}
+.cuw-icon-asc .path1:before {
+  content: "\e927";
+  color: rgb(0, 0, 0);
+}
+.cuw-icon-asc .path2:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.3;
+}
+.cuw-icon-desc .path1:before {
+  content: "\e929";
+  color: rgb(0, 0, 0);
+  opacity: 0.3;
+}
+.cuw-icon-desc .path2:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.cuw-icon-unfold:before {
+  content: "\e92b";
+}
+.cuw-icon-tick-circle:before {
+  content: "\e92c";
+}
+.cuw-icon-star:before {
+  content: "\e92d";
+}
+.cuw-icon-settings:before {
+  content: "\e92e";
+}
+.cuw-icon-search:before {
+  content: "\e92f";
+}
+.cuw-icon-save:before {
+  content: "\e930";
+}
+.cuw-icon-rules:before {
+  content: "\e931";
+}
+.cuw-icon-reports:before {
+  content: "\e933";
+}
+.cuw-icon-radio-unchecked:before {
+  content: "\e934";
+}
+.cuw-icon-radio-checked:before {
+  content: "\e935";
+}
+.cuw-icon-purchased:before {
+  content: "\e937";
+}
+.cuw-icon-product1:before {
+  content: "\e938";
+}
+.cuw-icon-notification:before {
+  content: "\e939";
+}
+.cuw-icon-more:before {
+  content: "\e93a";
+}
+.cuw-icon-money:before {
+  content: "\e93b";
+}
+.cuw-icon-mobile:before {
+  content: "\e93c";
+}
+.cuw-icon-campaigns:before {
+  content: "\e93d";
+}
+.cuw-icon-image:before {
+  content: "\e93f";
+}
+.cuw-icon-help:before {
+  content: "\e942";
+}
+.cuw-icon-filter-fills:before {
+  content: "\e943";
+}
+.cuw-icon-eye:before {
+  content: "\e944";
+}
+.cuw-icon-edit-simple-fill:before {
+  content: "\e945";
+}
+.cuw-icon-edit-note-fills:before {
+  content: "\e946";
+}
+.cuw-icon-down:before {
+  content: "\e947";
+}
+.cuw-icon-discount:before {
+  content: "\e948";
+}
+.cuw-icon-desktop:before {
+  content: "\e949";
+}
+.cuw-icon-delete:before {
+  content: "\e94a";
+}
+.cuw-icon-dashboard:before {
+  content: "\e94b";
+}
+.cuw-icon-currency:before {
+  content: "\e94c";
+}
+.cuw-icon-copy:before {
+  content: "\e94d";
+}
+.cuw-icon-conversion:before {
+  content: "\e94e";
+}
+.cuw-icon-close-circle:before {
+  content: "\e94f";
+}
+.cuw-icon-close:before {
+  content: "\e950";
+}
+.cuw-icon-clock:before {
+  content: "\e951";
+}
+.cuw-icon-chev-down:before {
+  content: "\e952";
+}
+.cuw-icon-checkbox-unchecked:before {
+  content: "\e953";
+}
+.cuw-icon-checkbox-checked:before {
+  content: "\e955";
+}
+.cuw-icon-calendar:before {
+  content: "\e961";
+}
+.cuw-icon-arrow-up:before {
+  content: "\e962";
+}
+.cuw-icon-arrow-left:before {
+  content: "\e969";
+}
+.cuw-icon-arrow-down:before {
+  content: "\e96a";
+}
+.cuw-icon-analytics-fills:before {
+  content: "\e96b";
+}
+.cuw-icon-add-circle:before {
+  content: "\e96c";
+}

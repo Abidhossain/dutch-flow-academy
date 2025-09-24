@@ -1,0 +1,1575 @@
+# Copyright (C) 2022 package_name
+# This file is distributed under the same license as the package_name package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Challan\n"
+"Project-Id-Version: package_name\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Content-Transfer-Econdig: 8bit\n"
+"X-Domain: text-domain\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.4.3\n"
+"Last-Translator: \n"
+"Language: ar\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-woo-invoice-admin.php:168
+#: admin/partials/woo-invoice-settings.php:43
+#: includes/class-woo-invoice-fonts.php:196
+#: includes/notices/admin-notice-for-review.php:42
+#: includes/notices/admin-notice-for-review.php:130
+#: includes/notices/admin-notice-for-review.php:182
+#: includes/notices/admin-notice-for-review.php:236
+msgid "Challan"
+msgstr "Challan"
+
+#: admin/class-woo-invoice-admin.php:169
+#: admin/partials/woo-invoice-settings.php:110 woo-invoice.php:537
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: admin/class-woo-invoice-admin.php:170
+msgid "Docs"
+msgstr "مستندات"
+
+#: admin/class-woo-invoice-admin.php:171
+msgid "Premium"
+msgstr "علاوة"
+
+#: admin/partials/pdf-translation-strings.php:3
+msgid "Billing"
+msgstr "الفوترة"
+
+#: admin/partials/pdf-translation-strings.php:4
+msgid "Shipping"
+msgstr "الشحن"
+
+#: admin/partials/pdf-translation-strings.php:5
+msgid "Order Number"
+msgstr "رقم الطلب"
+
+#: admin/partials/pdf-translation-strings.php:6
+msgid "Order Date"
+msgstr "تاريخ الطلب"
+
+#: admin/partials/pdf-translation-strings.php:7
+msgid "Invoice Number"
+msgstr "رقم الفاتورة"
+
+#: admin/partials/pdf-translation-strings.php:8
+msgid "Net Payment"
+msgstr "صافي الدفع"
+
+#: admin/partials/pdf-translation-strings.php:9
+msgid "Shipping Method"
+msgstr "طريقة الشحن"
+
+#: admin/partials/pdf-translation-strings.php:10
+msgid "Payment Method"
+msgstr "طريقة الدفع"
+
+#: admin/partials/pdf-translation-strings.php:11
+msgid "Delivery Date"
+msgstr "تاريخ التسليم"
+
+#: admin/partials/pdf-translation-strings.php:12
+msgid "Time Slot"
+msgstr "مدة زمنية"
+
+#: admin/partials/pdf-translation-strings.php:13
+msgid "Credit Note"
+msgstr "اشعار دائن"
+
+#: admin/partials/pdf-translation-strings.php:14
+msgid "Cost"
+msgstr "التكلفة"
+
+#: admin/partials/pdf-translation-strings.php:15
+msgid "Quantity"
+msgstr "الكمية"
+
+#: admin/partials/pdf-translation-strings.php:16
+msgid "Qty"
+msgstr "الكمية"
+
+#: admin/partials/pdf-translation-strings.php:17
+msgid "Dimensions"
+msgstr "الأبعاد"
+
+#: admin/partials/pdf-translation-strings.php:18
+msgid "Weight"
+msgstr "الوزن"
+
+#: admin/partials/pdf-translation-strings.php:19
+msgid "Total"
+msgstr "المجموع"
+
+#: admin/partials/pdf-translation-strings.php:20
+msgid "Fees"
+msgstr "الرسوم"
+
+#: admin/partials/pdf-translation-strings.php:21
+msgid "Tax"
+msgstr "ضريبة"
+
+#: admin/partials/pdf-translation-strings.php:22
+msgid "Discount"
+msgstr "الخصم"
+
+#: admin/partials/pdf-translation-strings.php:23
+msgid "Total Quantity"
+msgstr "الكمية الإجمالية"
+
+#: admin/partials/pdf-translation-strings.php:24
+msgid "Order Total With Tax"
+msgstr "إجمالي الطلب مع الضريبة"
+
+#: admin/partials/pdf-translation-strings.php:25
+msgid "Order Total Without Tax"
+msgstr "إجمالي الطلب بدون ضريبة"
+
+#: admin/partials/pdf-translation-strings.php:26
+msgid "Order Total"
+msgstr "إجمالي الطلب"
+
+#: admin/partials/pdf-translation-strings.php:27
+msgid "Refund"
+msgstr "إعادة المبلغ"
+
+#: admin/partials/pdf-translation-strings.php:28
+msgid "Customer Note"
+msgstr "ملاحظة العملاء"
+
+#: admin/partials/pdf-translation-strings.php:29
+msgid "Signature"
+msgstr "التوقيع"
+
+#: admin/partials/pdf-translation-strings.php:30
+msgid "Bank Accounts"
+msgstr "حساب البنك"
+
+#: admin/partials/pdf-translation-strings.php:31
+msgid "Account Name"
+msgstr "أسم الحساب"
+
+#: admin/partials/pdf-translation-strings.php:32
+msgid "Item"
+msgstr "عنصر"
+
+#: admin/partials/pdf-translation-strings.php:33
+msgid "Coupon(s)"
+msgstr "قسيمة (قسائم)"
+
+#: admin/partials/pdf-translation-strings.php:34
+msgid "Bank Name"
+msgstr "اسم البنك"
+
+#: admin/partials/pdf-translation-strings.php:35
+msgid "Account No"
+msgstr "رقم الحساب"
+
+#: admin/partials/pdf-translation-strings.php:36
+msgid "Sort Code"
+msgstr "ترتيب الكود"
+
+#: admin/partials/pdf-translation-strings.php:37
+msgid "IBAN"
+msgstr "رقم الحساب المصرفي الدولي - IBAN"
+
+#: admin/partials/pdf-translation-strings.php:38
+msgid "BIC/Swift"
+msgstr "بيك / سويفت"
+
+#: admin/partials/pdf-translation-strings.php:39
+msgid "Total Weight"
+msgstr "إجمالى الوزن"
+
+#: admin/partials/pdf-translation-strings.php:40
+msgid "Refund Address"
+msgstr "عنوان الاسترداد"
+
+#: admin/partials/pdf-translation-strings.php:41
+msgid "Phone"
+msgstr "الهاتف"
+
+#: admin/partials/pdf-translation-strings.php:42
+msgid "VAT Number"
+msgstr "ظريبه الشراء"
+
+#: admin/partials/pdf-translation-strings.php:43
+msgid "Category"
+msgstr "التصنيف"
+
+#: admin/partials/pdf-translation-strings.php:44
+msgid "Description"
+msgstr "الوصف"
+
+#: admin/partials/pdf-translation-strings.php:45
+msgid "Duration"
+msgstr "المدة"
+
+#: admin/partials/pdf-translation-strings.php:46
+msgid "From"
+msgstr "من"
+
+#: admin/partials/pdf-translation-strings.php:47
+msgid "To"
+msgstr "إلى"
+
+#: admin/partials/pdf-translation-strings.php:48
+msgid "Items Subtotal"
+msgstr "مجموع المنتجات"
+
+#: admin/partials/tabs/bulk-download-tab.php:11
+msgid "Bulk Type"
+msgstr "النوع السائب"
+
+#: admin/partials/tabs/bulk-download-tab.php:14
+#: includes/class-woo-invoice-hooks.php:288
+msgid "Invoice"
+msgstr "فاتورة"
+
+#: admin/partials/tabs/bulk-download-tab.php:15
+#: admin/partials/tabs/free-vs-pro-tab.php:76
+#: admin/partials/woo-invoice-pro-vs-free.php:161
+#: includes/class-woo-invoice-hooks.php:292
+#: includes/class-woo-invoice-hooks.php:372
+msgid "Packing Slip"
+msgstr "قسيمة الشحن"
+
+#: admin/partials/tabs/bulk-download-tab.php:16
+msgid "Shipping Label"
+msgstr "ملصق الشحن"
+
+#: admin/partials/tabs/bulk-download-tab.php:17
+msgid "CSV File"
+msgstr "ملف CSV"
+
+#: admin/partials/tabs/bulk-download-tab.php:23
+#: admin/partials/tabs/bulk-download-tab.php:26
+msgid "Date From"
+msgstr "التاريخ من"
+
+#: admin/partials/tabs/bulk-download-tab.php:33
+#: admin/partials/tabs/bulk-download-tab.php:36
+msgid "Date To"
+msgstr "التاريخ الى"
+
+#: admin/partials/tabs/bulk-download-tab.php:43
+msgid "Order Status"
+msgstr "حالة الطلب"
+
+#: admin/partials/tabs/bulk-download-tab.php:47
+#: admin/partials/tabs/bulk-download-tab.php:232
+msgid "All"
+msgstr "الكل"
+
+#: admin/partials/tabs/bulk-download-tab.php:62
+msgid "Add Fields"
+msgstr "اضافة حقل"
+
+#: admin/partials/tabs/bulk-download-tab.php:210
+msgid "Order Email"
+msgstr "ايميل الطلب"
+
+#: admin/partials/tabs/bulk-download-tab.php:219
+msgid "Order User ID"
+msgstr "طلب معرف المستخدم"
+
+#: admin/partials/tabs/bulk-download-tab.php:228
+msgid "Order Payment Method"
+msgstr "طريقة دفع الطلب"
+
+#: admin/partials/tabs/bulk-download-tab.php:255
+msgid "Download"
+msgstr "تحميل"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:16
+#: admin/partials/woo-invoice-pro-vs-free.php:265
+msgid "Bar Code"
+msgstr "الباركود"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:20
+#: admin/partials/woo-invoice-pro-vs-free.php:269
+msgid "QR Code"
+msgstr "كود QR"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:24
+#: admin/partials/woo-invoice-pro-vs-free.php:285
+msgid "ZATCA QR code"
+msgstr "رمز الاستجابة السريعة ZATCA"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:28
+#: admin/partials/woo-invoice-pro-vs-free.php:261
+msgid "Invoice Backup To Dropbox"
+msgstr "النسخ الاحتياطي للفاتورة إلى دروببوإكس"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:32
+#: admin/partials/woo-invoice-pro-vs-free.php:185
+msgid "Write Custom CSS"
+msgstr "كتابة CSS مخصص"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:36
+#: admin/partials/woo-invoice-pro-vs-free.php:213
+msgid "Custom Invoice Numbering Options"
+msgstr "خيارات ترقيم الفواتير المخصصة"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:40
+#: admin/partials/woo-invoice-pro-vs-free.php:237
+msgid "WPML Compatibility"
+msgstr "توافق WPML"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:44
+msgid "Polylang Compatibility"
+msgstr "توافق البوليلانغ"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:48
+#: admin/partials/woo-invoice-pro-vs-free.php:133
+msgid "Automatic Invoicing"
+msgstr "الفواتير التلقائية"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:52
+#: admin/partials/woo-invoice-pro-vs-free.php:137
+msgid "Attach to Order Email"
+msgstr "إرفاق بالبريد الإلكتروني للطلب"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:56
+#: admin/partials/woo-invoice-pro-vs-free.php:141
+msgid "Invoice Download From My Account"
+msgstr "تنزيل الفاتورة من حسابي"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:60
+#: admin/partials/woo-invoice-pro-vs-free.php:145
+msgid "Custom Date Format"
+msgstr "تنسيق التاريخ المخصص"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:64
+#: admin/partials/tabs/settings-tab.php:660
+#: admin/partials/woo-invoice-pro-vs-free.php:149
+msgid "Display ID/SKU"
+msgstr "معرف العرض/رمز SKU"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:68
+#: admin/partials/tabs/settings-tab.php:281
+#: admin/partials/woo-invoice-pro-vs-free.php:153
+msgid "Display Currency Code"
+msgstr "عرض رمز العملة"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:72
+#: admin/partials/tabs/settings-tab.php:506
+#: admin/partials/woo-invoice-pro-vs-free.php:157
+msgid "Display Payment Method"
+msgstr "عرض طريقة الدفع"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:80
+#: admin/partials/woo-invoice-pro-vs-free.php:165
+msgid "Footer Info Section"
+msgstr "قسم معلومات التذييل"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:84
+#: admin/partials/woo-invoice-pro-vs-free.php:169
+msgid "Bulk Invoice/Packing Slip Download"
+msgstr "تحميل الفاتورة السائبة / قسيمة التعبئة"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:88
+#: admin/partials/woo-invoice-pro-vs-free.php:173
+msgid "Invoice Template Translation"
+msgstr "ترجمة قالب الفاتورة"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:92
+#: admin/partials/woo-invoice-pro-vs-free.php:177
+msgid "Display Shipping Cost With Tax / Without Tax"
+msgstr "عرض تكلفة الشحن مع الضريبة / بدون ضريبة"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:96
+#: admin/partials/woo-invoice-pro-vs-free.php:181
+msgid "Total Tax"
+msgstr "مجموع الضرائب"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:101
+#: admin/partials/woo-invoice-pro-vs-free.php:189
+msgid "Individual Product Tax & Tax %"
+msgstr "ضريبة المنتجات الفردية والضرائب ٪"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:105
+#: admin/partials/woo-invoice-pro-vs-free.php:193
+msgid "Total Without Tax"
+msgstr "المجموع بدون الضرائب"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:109
+#: admin/partials/woo-invoice-pro-vs-free.php:197
+msgid "Paid Stamp"
+msgstr "الطوابع المدفوعة"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:113
+#: admin/partials/woo-invoice-pro-vs-free.php:201
+msgid "Authorized Signature"
+msgstr "التوقيع المعتمد"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:117
+#: admin/partials/woo-invoice-pro-vs-free.php:205
+msgid "Custom Background"
+msgstr "تخصيص لون الخلفية"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:121
+#: admin/partials/woo-invoice-pro-vs-free.php:217
+msgid "Display Product Image"
+msgstr "عرض صورة المنتج"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:125
+#: admin/partials/woo-invoice-pro-vs-free.php:221
+msgid "Display Product Category"
+msgstr "عرض فئة المنتج"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:129
+#: admin/partials/woo-invoice-pro-vs-free.php:225
+msgid "Display Product Short Description"
+msgstr "عرض وصف المنتج المختصر"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:133
+#: admin/partials/woo-invoice-pro-vs-free.php:229
+msgid "Display Discounted Price"
+msgstr "عرض السعر المخفض"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:137
+#: admin/partials/woo-invoice-pro-vs-free.php:233
+msgid "Proforma Invoice"
+msgstr "الفاتورة الأولية"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:142
+#: admin/partials/woo-invoice-pro-vs-free.php:241
+msgid "WooCommerce Subscription Compatibility"
+msgstr "كتب مريم الدخيل لاكاديمية الثراء توافق الاشتراك"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:146
+#: admin/partials/woo-invoice-pro-vs-free.php:245
+msgid "Order Delivery Address Print"
+msgstr "طباعة عنوان تسليم الطلب"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:150
+#: admin/partials/woo-invoice-pro-vs-free.php:249
+msgid "Download Bulk Delivery Address Print"
+msgstr "تنزيل طباعة عنوان التسليم المجمع"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:154
+#: admin/partials/woo-invoice-pro-vs-free.php:253
+msgid "Custom Paper Size"
+msgstr "حجم الورق المخصص"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:158
+#: admin/partials/woo-invoice-pro-vs-free.php:257
+msgid "Pagination Style"
+msgstr "شكل"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:162
+#: admin/partials/woo-invoice-pro-vs-free.php:273
+msgid "Display refund details"
+msgstr "عرض تفاصيل استرداد الأموال"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:166
+#: admin/partials/woo-invoice-pro-vs-free.php:277
+msgid "Display fee details"
+msgstr "عرض تفاصيل الرسوم"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:170
+#: admin/partials/woo-invoice-pro-vs-free.php:281
+msgid "Generate credit note template"
+msgstr "إنشاء قالب مذكرة ائتمان"
+
+#: admin/partials/tabs/free-vs-pro-tab.php:181
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: admin/partials/tabs/localization-tab.php:9
+msgid "Invoice block"
+msgstr "حظر الفواتير"
+
+#: admin/partials/tabs/localization-tab.php:142
+msgid "Packing Slip block"
+msgstr "التعبئة كتلة الانزلاق"
+
+#: admin/partials/tabs/localization-tab.php:199
+#: admin/partials/tabs/seller-buyer-tab.php:126
+#: admin/partials/tabs/settings-tab.php:937
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: admin/partials/tabs/seller-buyer-tab.php:10
+msgid "Seller Block"
+msgstr "كتلة البائع"
+
+#: admin/partials/tabs/seller-buyer-tab.php:13
+msgid "Logo Image"
+msgstr "صورة الشعار"
+
+#: admin/partials/tabs/seller-buyer-tab.php:18
+msgid "Upload Logo"
+msgstr "ارفع صورة شعار"
+
+#: admin/partials/tabs/seller-buyer-tab.php:28
+msgid "Logo Size"
+msgstr "حجم الشعار"
+
+#: admin/partials/tabs/seller-buyer-tab.php:37
+msgid "Seller Title"
+msgstr "عنوان البائع"
+
+#: admin/partials/tabs/seller-buyer-tab.php:45
+msgid "Company Name"
+msgstr "اسم الشركة"
+
+#: admin/partials/tabs/seller-buyer-tab.php:53
+msgid "Company Details"
+msgstr "تفاصيل الشركة"
+
+#: admin/partials/tabs/seller-buyer-tab.php:64
+msgid "Footer 1"
+msgstr "التذييل 1"
+
+#: admin/partials/tabs/seller-buyer-tab.php:75
+msgid "Footer 2"
+msgstr "التذييل 2"
+
+#: admin/partials/tabs/seller-buyer-tab.php:84
+msgid "Buyer Block"
+msgstr "كتلة المشتري"
+
+#: admin/partials/tabs/seller-buyer-tab.php:90
+msgid "Disable Phone Number"
+msgstr "تعطيل رقم الهاتف"
+
+#: admin/partials/tabs/seller-buyer-tab.php:109
+msgid "Disable Email Address"
+msgstr "تعطيل عنوان البريد الإلكتروني"
+
+#: admin/partials/tabs/seller-buyer-tab.php:138
+msgid "Logo Preview"
+msgstr "معاينة الشعار"
+
+#: admin/partials/tabs/settings-tab.php:20
+msgid "Enable Invoicing"
+msgstr "تمكين الفواتير"
+
+#: admin/partials/tabs/settings-tab.php:37
+msgid "Allow My Account To Download Invoice"
+msgstr "السماح لحسابي بتنزيل الفاتورة"
+
+#: admin/partials/tabs/settings-tab.php:78
+#: admin/partials/tabs/settings-tab.php:224
+msgid "Processing Order"
+msgstr "طلبات قيد المراجعة"
+
+#: admin/partials/tabs/settings-tab.php:91
+#: admin/partials/tabs/settings-tab.php:210
+msgid "On Hold Order"
+msgstr "الطلب المُعلّق"
+
+#: admin/partials/tabs/settings-tab.php:105
+msgid "Complete Order"
+msgstr "مكتملة"
+
+#: admin/partials/tabs/settings-tab.php:118
+msgid "After Payment Complete"
+msgstr "بعد اكتمال الدفع"
+
+#: admin/partials/tabs/settings-tab.php:132
+msgid "Always Allow"
+msgstr "السماح دائما"
+
+#: admin/partials/tabs/settings-tab.php:140
+msgid "Invoice Attach to Email"
+msgstr "إرفاق الفاتورة بالبريد الإلكتروني"
+
+#: admin/partials/tabs/settings-tab.php:180
+msgid "New Order"
+msgstr "طلب جديد"
+
+#: admin/partials/tabs/settings-tab.php:195
+msgid "Completed Order"
+msgstr "تم إكمال الطلب"
+
+#: admin/partials/tabs/settings-tab.php:238
+msgid "Refunded Order"
+msgstr "طلب مسترجع"
+
+#: admin/partials/tabs/settings-tab.php:252
+msgid "Customer Invoice"
+msgstr "فواتير العملاء"
+
+#: admin/partials/tabs/settings-tab.php:262
+msgid "Document Output Type HTML"
+msgstr "نوع إخراج المستند HTML"
+
+#: admin/partials/tabs/settings-tab.php:297
+msgid "Invoice Template"
+msgstr "قالب الفاتورة"
+
+#: admin/partials/tabs/settings-tab.php:300
+msgid "Select Template"
+msgstr "أختار القالب"
+
+#: admin/partials/tabs/settings-tab.php:415
+msgid "Paper Size"
+msgstr "حجم الورق"
+
+#: admin/partials/tabs/settings-tab.php:418
+msgid "A4"
+msgstr "A4"
+
+#: admin/partials/tabs/settings-tab.php:419
+msgid "A5"
+msgstr "A5"
+
+#: admin/partials/tabs/settings-tab.php:420
+msgid "Letter"
+msgstr "خطاب"
+
+#: admin/partials/tabs/settings-tab.php:425
+msgid "Order Settings"
+msgstr "إعدادات النظام"
+
+#: admin/partials/tabs/settings-tab.php:430
+msgid "Next Invoice No."
+msgstr "رقم الفاتورة التالية"
+
+#: admin/partials/tabs/settings-tab.php:438
+msgid "Invoice No. Prefix"
+msgstr "رقم الفاتورة بادئه"
+
+#: admin/partials/tabs/settings-tab.php:446
+msgid "Invoice No. Suffix"
+msgstr "رقم الفاتورة لاحقه"
+
+#: admin/partials/tabs/settings-tab.php:453
+msgid "Invoice Download as"
+msgstr "تنزيل الفاتورة باسم"
+
+#: admin/partials/tabs/settings-tab.php:467
+msgid "Date Format"
+msgstr "صيغة التاريخ"
+
+#: admin/partials/tabs/settings-tab.php:524
+#: admin/partials/tabs/settings-tab.php:529
+msgid "Add Order Meta"
+msgstr "إضافة طلب ميتا"
+
+#: admin/partials/tabs/settings-tab.php:557
+#: admin/partials/tabs/settings-tab.php:606
+msgid "Select Order Meta"
+msgstr "حدد طلب ميتا"
+
+#: admin/partials/tabs/settings-tab.php:572
+#: admin/partials/tabs/settings-tab.php:621
+msgid "Whare to show ?"
+msgstr "وير لإظهار؟"
+
+#: admin/partials/tabs/settings-tab.php:648
+msgid "Product Settings"
+msgstr "اعدادات المنتج"
+
+#: admin/partials/tabs/settings-tab.php:652
+msgid "Product Title limit"
+msgstr "حد عنوان المنتج"
+
+#: admin/partials/tabs/settings-tab.php:663
+msgid "SKU"
+msgstr "SKU"
+
+#: admin/partials/tabs/settings-tab.php:664
+msgid "ID"
+msgstr "المعرف"
+
+#: admin/partials/tabs/settings-tab.php:665
+msgid "None"
+msgstr "لا شيء"
+
+#: admin/partials/tabs/settings-tab.php:674
+#: admin/partials/tabs/settings-tab.php:678
+msgid "Add Product Meta"
+msgstr "إضافة Meta المنتج"
+
+#: admin/partials/tabs/settings-tab.php:703
+#: admin/partials/tabs/settings-tab.php:733
+msgid "Select Post Meta"
+msgstr "حدد آخر ميتا"
+
+#: admin/partials/tabs/settings-tab.php:764
+#: admin/partials/tabs/settings-tab.php:768
+msgid "Add Order Item Meta"
+msgstr "إضافة بند الطلب ميتا"
+
+#: admin/partials/tabs/settings-tab.php:793
+#: admin/partials/tabs/settings-tab.php:823
+msgid "Select Order Item Meta"
+msgstr "حدد طلب العنصر ميتا"
+
+#: admin/partials/tabs/settings-tab.php:854
+msgid "Order Total Settings"
+msgstr "ترتيب الإعدادات الإجمالية"
+
+#: admin/partials/tabs/settings-tab.php:862
+msgid "Display Shipping Total"
+msgstr "عرض الشحن الإجمالي"
+
+#: admin/partials/tabs/settings-tab.php:866
+msgid "With Tax"
+msgstr "با مالیات"
+
+#: admin/partials/tabs/settings-tab.php:867
+msgid "Without Tax"
+msgstr "بدون مالیات"
+
+#: admin/partials/tabs/settings-tab.php:880
+msgid "Display Order Note"
+msgstr "عرض ملاحظة الطلب"
+
+#: admin/partials/tabs/settings-tab.php:900
+msgid "Invoice Template CSS"
+msgstr "قالب الفاتورة CSS"
+
+#: admin/partials/tabs/settings-tab.php:903
+msgid "Write Invoice Template CSS"
+msgstr "كتابة قالب الفاتورة CSS"
+
+#: admin/partials/tabs/settings-tab.php:917
+msgid "Enable Debug Mode"
+msgstr "تفعيل وضع التصحيح (Debug Mode)"
+
+#: admin/partials/tabs/settings-tab.php:920
+msgid "Enable debug mode to show errors."
+msgstr "تمكين وضع التصحيح لإظهار الأخطاء."
+
+#: admin/partials/tabs/settings-tab.php:959
+msgid "TEST QR CODE"
+msgstr "اختبار رمز الاستجابة السريعة"
+
+#: admin/partials/tabs/settings-tab.php:967
+msgid "SELECTED TEMPLATE"
+msgstr "قالب محدد"
+
+#: admin/partials/tabs/settings-tab.php:991
+msgid "PREVIEW LAST ORDER"
+msgstr "معاينة آخر طلب"
+
+#: admin/partials/tabs/settings-tab.php:995
+msgid "PREVIEW"
+msgstr "معاينة"
+
+#: admin/partials/tabs/settings-tab.php:1007
+msgid "Free VS Pro"
+msgstr "مجانا VS برو"
+
+#: admin/partials/tabs/system-status-tab.php:152
+msgid "PHP Version"
+msgstr "نسخة الـPHP"
+
+#: admin/partials/tabs/system-status-tab.php:153
+msgid "Current Version:  "
+msgstr "النسخة الحالية:  "
+
+#: admin/partials/tabs/system-status-tab.php:155
+#: admin/partials/tabs/system-status-tab.php:163
+#: admin/partials/tabs/system-status-tab.php:171
+#: admin/partials/tabs/system-status-tab.php:179
+#: admin/partials/tabs/system-status-tab.php:187
+msgid "- ok"
+msgstr "- موافق"
+
+#: admin/partials/tabs/system-status-tab.php:156
+msgid "Required Version: "
+msgstr "النسخة المطلوبة: "
+
+#: admin/partials/tabs/system-status-tab.php:160
+msgid "WordPress Version"
+msgstr "إصدار ووردبريس"
+
+#: admin/partials/tabs/system-status-tab.php:164
+#: admin/partials/tabs/system-status-tab.php:172
+msgid "Required: "
+msgstr "مطلوب:"
+
+#: admin/partials/tabs/system-status-tab.php:168
+msgid "Woocommerce Version"
+msgstr "نسخة كتب مريم الدخيل لاكاديمية الثراء"
+
+#: admin/partials/tabs/system-status-tab.php:176
+msgid "WordPress Upload Limit"
+msgstr "ووردبريس حد التحميل"
+
+#: admin/partials/tabs/system-status-tab.php:180
+#: admin/partials/tabs/system-status-tab.php:188
+#: admin/partials/tabs/system-status-tab.php:196
+msgid "Required:"
+msgstr "مطلوب:"
+
+#: admin/partials/tabs/system-status-tab.php:184
+msgid "WordPress Upload Limit Set By Hosting Provider"
+msgstr "وورد حد التحميل الذي تم تعيينه بواسطة مزود الاستضافة"
+
+#: admin/partials/tabs/system-status-tab.php:192
+msgid "PHP Limit Time"
+msgstr "PHP الحد الزمني"
+
+#: admin/partials/tabs/system-status-tab.php:193
+msgid "Current Limit Time: "
+msgstr "الوقت المحدد الحالي: "
+
+#: admin/partials/tabs/system-status-tab.php:195
+#: admin/partials/tabs/system-status-tab.php:203
+msgid "- Ok"
+msgstr "- موافق"
+
+#: admin/partials/tabs/system-status-tab.php:200
+msgid "PHP Max Input Vars"
+msgstr "PHP القيمة الاقصي للمتغير"
+
+#: admin/partials/tabs/system-status-tab.php:201
+msgid "Current PHP Max Input Vars: "
+msgstr "PHP ماكس فارس الإدخال الحالي: "
+
+#: admin/partials/tabs/system-status-tab.php:204
+msgid "Recommend: "
+msgstr "يوصي: "
+
+#: admin/partials/tabs/system-status-tab.php:209
+msgid "WordPress Upload Directory Writable Permission"
+msgstr "وورد تحميل دليل إذن قابل للكتابة"
+
+#: admin/partials/tabs/system-status-tab.php:212
+msgid "Writable - Ok"
+msgstr "قابل للكتابة - موافق"
+
+#: admin/partials/tabs/system-status-tab.php:213
+msgid "Upload folder not writable permission"
+msgstr "تحميل مجلد غير قابل للكتابة إذن"
+
+#: admin/partials/tabs/system-status-tab.php:217
+msgid "WordPress Debug Mode"
+msgstr "وضع تصحيح أخطاء ووردبريس"
+
+#: admin/partials/tabs/system-status-tab.php:220
+msgid "WordPress Debug Mode is On"
+msgstr "وضع تصحيح أخطاء WordPress قيد التشغيل"
+
+#: admin/partials/tabs/system-status-tab.php:221
+msgid ""
+"<b>WP_DEBUG_LOG</b> is false. Plugin can not write error logs if "
+"WP_DEBUG_LOG is set to false. You can learn more about debugging in "
+"WordPress from <a target=\"_blank\" href=\"https://wordpress.org/support/"
+"article/debugging-in-wordpress/\">here</a>"
+msgstr ""
+"<b>WP_DEBUG_LOG</b> غير صحيح. لا يمكن للمكون الإضافي كتابة سجلات الأخطاء إذا "
+"تم تعيين WP_DEBUG_LOG إلى false. يمكنك معرفة المزيد حول تصحيح الأخطاء في "
+"WordPress من <a target=\"_blank\" href=\"https://wordpress.org/support/"
+"article/debugging-in-wordpress/\">هنا</a>"
+
+#: admin/partials/tabs/system-status-tab.php:225
+msgid "zipArchive Extension"
+msgstr "zipArchive تمديد"
+
+#: admin/partials/tabs/system-status-tab.php:228
+#: admin/partials/tabs/system-status-tab.php:236
+#: admin/partials/tabs/system-status-tab.php:244
+msgid "Enable"
+msgstr "تفعيل"
+
+#: admin/partials/tabs/system-status-tab.php:229
+msgid "Please enable zip extension from hosting."
+msgstr "يرجى تمكين امتداد الرمز البريدي من الاستضافة."
+
+#: admin/partials/tabs/system-status-tab.php:233
+msgid "MBString extension"
+msgstr "MBString التمديد"
+
+#: admin/partials/tabs/system-status-tab.php:237
+msgid "Please enable MBString extension from hosting."
+msgstr "يرجى تمكين ملحق MBString من الاستضافة."
+
+#: admin/partials/tabs/system-status-tab.php:241
+msgid "Dom extension"
+msgstr "تمديد دوم"
+
+#: admin/partials/tabs/system-status-tab.php:245
+msgid "Dom extension is not enable from hosting."
+msgstr "لا يتم تمكين ملحق Dom من الاستضافة."
+
+#: admin/partials/tabs/system-status-tab.php:250
+msgid "Title"
+msgstr "العنوان"
+
+#: admin/partials/tabs/system-status-tab.php:251
+#: admin/partials/woo-invoice-settings.php:151
+msgid "Status"
+msgstr "الحالة"
+
+#: admin/partials/tabs/system-status-tab.php:252
+#: libs/WebAppick/AppServices/Insights.php:996
+msgid "Message"
+msgstr "الرسالة"
+
+#: admin/partials/tabs/upload-fonts-tab.php:12
+#: admin/partials/woo-invoice-settings.php:141
+msgid "Upload Fonts"
+msgstr "تحميل الخطوط"
+
+#: admin/partials/tabs/upload-fonts-tab.php:28
+msgid "Upload"
+msgstr "رفع"
+
+#: admin/partials/tabs/upload-fonts-tab.php:31
+msgid "Uploading"
+msgstr "جارٍ الرفع"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:66
+msgid "Unlimited Orders"
+msgstr "طلبات غير محدودة"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:67
+msgid "Support for 1 Year"
+msgstr "دعم لمدة 1 سنة"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:68
+msgid "Updates for 1 Year"
+msgstr "تحديثات لمدة 1 سنة"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:69
+msgid "Automated Invoicing"
+msgstr "الفواتير الآلية"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:70
+msgid "Easy Setup"
+msgstr "سهولة الإعداد"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:71
+msgid "Multiple Tax Classes"
+msgstr "فئات ضريبية متعددة"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:72
+msgid "Attach Signature"
+msgstr "إرفاق التوقيع"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:73
+msgid "Invoice Backup to Dropbox"
+msgstr "النسخ الاحتياطي للفاتورة إلى دروببوإكس"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:74
+msgid "Include Paid Stamp"
+msgstr "تضمين الطابع المدفوع"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:75
+msgid "Generate Packing Slip"
+msgstr "إنشاء إيصال التعبئة"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:76
+msgid "Bulk Download Support"
+msgstr "دعم التنزيل المجمع"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:77
+msgid "WPML Compatible"
+msgstr "WPML متوافق"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:78
+msgid "3<sup>rd</sup> Party Plugin Supports"
+msgstr "3<sup>الثالث</sup> حزب البرنامج المساعد يدعم"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:82
+msgid "Personal"
+msgstr "شخصي"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:85
+#: admin/partials/woo-invoice-pro-vs-free.php:94
+#: admin/partials/woo-invoice-pro-vs-free.php:103
+msgid " Yearly"
+msgstr "سنوي"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:87
+msgid "Popular"
+msgstr "الأشهر"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:91
+msgid "Plus"
+msgstr "زائد"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:100
+msgid "Expert"
+msgstr "خبير"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:209
+msgid "Product per Page"
+msgstr "المنتج لكل صفحة"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:289
+msgid "Header and Address section ordering"
+msgstr "ترتيب قسم الرأس والعنوان"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:337
+msgid "Upgrade to Wooinvoice Pro to unlock more powerful features."
+msgstr "قم بالترقية إلى Wooinvoice Pro لفتح ميزات أكثر قوة."
+
+#: admin/partials/woo-invoice-pro-vs-free.php:344
+msgid "Why Upgrade"
+msgstr "لماذا الترقية"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:345
+msgid "Super charge your Store with awesome features"
+msgstr "اشحن متجرك بشكل رائع بميزات رائعة"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:367
+msgid "Free"
+msgstr "مجاني"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:367
+msgid "vs"
+msgstr "ضد"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:367
+msgid "Pro"
+msgstr "إحترافي"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:368
+msgid "Find the plan that suits best for you business"
+msgstr "ابحث عن الخطة التي تناسب عملك بشكل أفضل"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:373
+msgid "Woowoo-invoice Lite"
+msgstr "و الفاتورة لايت"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:381
+msgid "Woowoo-invoice Pro"
+msgstr "و فاتورة برو"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:392
+msgid "Take Your Products To The Next Level"
+msgstr "ارتق بمنتجاتك إلى المستوى التالي"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:393
+msgid "Choose your subscription plan and get started"
+msgstr "اختر خطة اشتراكك وابدأ"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:419
+msgctxt "Free Package Price Display"
+msgid "Free"
+msgstr "مجاني"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:448
+msgid "Buy Now"
+msgstr "اشتري الآن"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:465
+#: admin/partials/woo-invoice-pro-vs-free.php:468
+msgid "30 Days Money Back Guarantee"
+msgstr "30 أيام ضمان استعادة الاموال"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:469
+msgid "After successful purchase, you will be eligible for conditional refund"
+msgstr "بعد الشراء الناجح ، ستكون مؤهلا لاسترداد المبلغ المشروط"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:470
+msgid "Refund Policy"
+msgstr "سياسة الاسترداد"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:474
+msgid "Payment Options:"
+msgstr "خيارات الدفع:"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:476
+msgid "Credit Cards (Stripe)"
+msgstr "بطاقات الائتمان (شريط)"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:478
+msgid "Visa"
+msgstr "فيزا"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:479
+msgid "American Express"
+msgstr "بطاقة اميريكان اكسبرس"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:480
+msgid "Mastercard"
+msgstr "بطاقة ماستركارد"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:481
+msgid "Discover"
+msgstr "ديسكفر"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:482
+msgid "JCB"
+msgstr "جي سي بي"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:483
+msgid "Diners"
+msgstr "داينرز"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:491
+msgid "Our Happy Customer"
+msgstr "عملائنا السعداء"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:492
+msgid "Join the squad today!"
+msgstr "انضم إلى الفريق اليوم!"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:526
+msgid "Still need help?"
+msgstr "هل ما زلت بحاجة إلى المساعدة؟"
+
+#: admin/partials/woo-invoice-pro-vs-free.php:527
+msgid ""
+"Have we not answered your question? Don't worry, you can contact us for more "
+"information..."
+msgstr ""
+"ألم نجيب على سؤالك؟ لا تقلق، يمكنك الاتصال بنا للحصول على مزيد من "
+"المعلومات..."
+
+#: admin/partials/woo-invoice-pro-vs-free.php:530
+#: includes/class-woo-invoice-webappick-api.php:207
+msgid "Get Support"
+msgstr "الحصول على الدعم"
+
+#: admin/partials/woo-invoice-settings.php:77
+msgid "Join Facebook Group"
+msgstr "انضم إلى مجموعة فيسبوك"
+
+#: admin/partials/woo-invoice-settings.php:80
+msgid "Get free support"
+msgstr "احصل على دعم مجاني"
+
+#: admin/partials/woo-invoice-settings.php:82
+#: includes/class-woo-invoice-webappick-api.php:187 woo-invoice.php:539
+msgid "Documentation"
+msgstr "الوثائق"
+
+#: admin/partials/woo-invoice-settings.php:123
+msgid "Seller & Buyer"
+msgstr "البائع والمشتري"
+
+#: admin/partials/woo-invoice-settings.php:132
+msgid "Bulk download"
+msgstr "تحميل مجمع"
+
+#: admin/partials/woo-invoice-settings.php:161
+msgid "Free vs Premium"
+msgstr "مجاني مقابل بريميوم"
+
+#: includes/class-woo-invoice-fonts.php:156
+msgid "Fonts downloaded."
+msgstr "الخطوط التي تم تنزيلها."
+
+#: includes/class-woo-invoice-fonts.php:162
+#: includes/notices/admin-notice-for-review.php:311
+#: includes/notices/admin-notice-for-review.php:341 woo-invoice.php:625
+msgid "Invalid Request."
+msgstr "طلب غير صالح."
+
+#: includes/class-woo-invoice-fonts.php:204
+msgid ""
+"To generate invoice you need to download fonts. Please click here to "
+"download.  <button class=\"button button-primary\" id=\"download_button\" "
+">Download</button>"
+msgstr ""
+"لإنشاء فاتورة ، تحتاج إلى تنزيل الخطوط. يرجى النقر هنا للتحميل.  <button "
+"class=\"button button-primary\" id=\"download_button\" >تحميل</button>"
+
+#: includes/class-woo-invoice-helper.php:345
+#: includes/class-woo-invoice-helper.php:348
+msgid "VAT ID"
+msgstr "رقم التسجيل الضريبى"
+
+#: includes/class-woo-invoice-helper.php:359
+#: includes/class-woo-invoice-helper.php:362
+msgid "SSN"
+msgstr "SSN"
+
+#: includes/class-woo-invoice-hooks.php:217
+#: includes/class-woo-invoice-hooks.php:262
+#: includes/class-woo-invoice-hooks.php:585
+msgid "Download Invoice"
+msgstr "تحميل الفاتورة"
+
+#: includes/class-woo-invoice-hooks.php:272
+msgid "Challan Invoice"
+msgstr "فاتورة شلان"
+
+#: includes/class-woo-invoice-hooks.php:297
+#: includes/class-woo-invoice-hooks.php:380
+msgid "Delivery Address"
+msgstr "عنوان التوصيل"
+
+#: includes/class-woo-invoice-hooks.php:336
+msgid "Make PDF Invoice"
+msgstr "جعل فاتورة PDF"
+
+#: includes/class-woo-invoice-hooks.php:347
+msgid "Make Packing Slip"
+msgstr "جعل التعبئة زلة"
+
+#: includes/class-woo-invoice-hooks.php:364
+msgid "PDF Invoice"
+msgstr "فاتورة PDF"
+
+#: includes/class-woo-invoice-pdf.php:227
+msgid " Please read the doc to download your missing fonts."
+msgstr " يرجى قراءة المستند لتنزيل الخطوط المفقودة."
+
+#: includes/class-woo-invoice-webappick-api.php:111
+msgid "Cloning is forbidden."
+msgstr "الاستنساخ ممنوع."
+
+#: includes/class-woo-invoice-webappick-api.php:181
+#: libs/WebAppick/AppServices/Insights.php:914
+msgid "Thank you -- Support Ticket Submitted."
+msgstr "شكرا لك -- تذكرة الدعم المقدمة."
+
+#: includes/class-woo-invoice-webappick-api.php:182
+msgid "Your ticket has been successfully submitted."
+msgstr "تم تقديم تذكرتك بنجاح."
+
+#: includes/class-woo-invoice-webappick-api.php:183
+msgid "24 hours"
+msgstr "24 ساعه"
+
+#: includes/class-woo-invoice-webappick-api.php:185
+msgid ""
+"Please Follow the email and WebAppick Support Team will get back with you "
+"shortly."
+msgstr ""
+"يرجى اتباع البريد الإلكتروني وسيقوم فريق دعم WebAppick بالرد عليك قريبا."
+
+#: includes/class-woo-invoice-webappick-api.php:188
+msgid "Video Tutorials"
+msgstr "شرح الفيديوهات"
+
+#: includes/class-woo-invoice-webappick-api.php:191
+msgid "Terms & Conditions"
+msgstr "الشروط والاحكام"
+
+#: includes/class-woo-invoice-webappick-api.php:192
+msgid "Privacy Policy"
+msgstr "سياسة الخصوصية"
+
+#: includes/class-woo-invoice-webappick-api.php:206
+msgid ""
+"Something Went Wrong. Please Try The Support Ticket Form On Our Website."
+msgstr "حدث خطأ ما. يرجى تجربة نموذج تذكرة الدعم على موقعنا."
+
+#: includes/class-woo-invoice-webappick-api.php:208
+msgid "Support Ticket form will open in new tab in 5 seconds."
+msgstr "سيتم فتح نموذج تذكرة الدعم في علامة تبويب جديدة في غضون 5 ثوان."
+
+#: includes/class-woo-invoice-webappick-api.php:223
+msgid "Number of products in your site."
+msgstr "عدد المنتجات في موقعك."
+
+#: includes/class-woo-invoice-webappick-api.php:224
+msgid "Number of Orders in your site."
+msgstr "عدد الطلبات في موقعك."
+
+#: includes/class-woo-invoice-webappick-api.php:225
+msgid "Site name, language and url."
+msgstr "اسم الموقع واللغة وعنوان URL."
+
+#: includes/class-woo-invoice-webappick-api.php:226
+msgid "Number of active and inactive plugins."
+msgstr "عدد الإضافات النشطة وغير النشطة."
+
+#: includes/class-woo-invoice-webappick-api.php:227
+msgid "Your name and email address."
+msgstr "اسمك وعنوان بريدك الإلكتروني."
+
+#: includes/notices/admin-notice-downloading-font-background-process-in-progress-info.php:31
+msgid ""
+"From Challan plugin, background process for downloading the fonts in "
+"progress for PDF invoice, Packing Slip, and delivery address."
+msgstr ""
+"من المكون الإضافي Challan ، عملية الخلفية لتنزيل الخطوط قيد التقدم لفاتورة "
+"PDF وقسيمة التعبئة وعنوان التسليم."
+
+#: includes/notices/admin-notice-for-review.php:78
+msgid "Review Now"
+msgstr "مراجعة الان"
+
+#: includes/notices/admin-notice-for-review.php:79
+msgid "Remind Me Later"
+msgstr "ذكرني لاحقًا"
+
+#: includes/notices/admin-notice-for-review.php:80
+msgid "Already Done!"
+msgstr "تم بالفعل!"
+
+#: includes/notices/admin-notice-for-review.php:81
+msgid "Never Ask Again"
+msgstr "لا تسأل أبدا مرة أخرى"
+
+#: includes/notices/admin-notice-for-review.php:139
+#: includes/notices/admin-notice-for-review.php:190
+#: includes/notices/admin-notice-for-review.php:244
+msgid ""
+"<a class=\"woo_invoice_price_update\" href=\"https://webappick.com/plugin/"
+"woocommerce-pdf-invoice-packing-slips/?"
+"utm_source=customer_site&utm_medium=free_vs_pro&utm_campaign=woo_invoice_free"
+"\" target=\"_blank\">\n"
+"<img  src=\""
+msgstr ""
+"<a class=\"woo_invoice_price_update\" href=\"https://webappick.com/plugin/"
+"woocommerce-pdf-invoice-packing-slips/?"
+"utm_source=customer_site&utm_medium=free_vs_pro&utm_campaign=woo_invoice_free"
+"\" target=\"_blank\">\n"
+"<img  src=\"</a>"
+
+#: includes/notices/admin-notice-for-review.php:335
+msgid "Request Successful."
+msgstr "تم الطلب بنجاح."
+
+#: includes/notices/admin-notice-for-review.php:337 woo-invoice.php:622
+msgid "Something is wrong."
+msgstr "هناك خطأ ما."
+
+#: includes/notices/admin-notice-invoice-dir-is-not-writeable-error.php:26
+msgid "An error has occurred the directory of <strong style=\"color: red;\">"
+msgstr "حدث خطأ في دليل <strong style=\"color: red;\">"
+
+#: includes/notices/admin-notice-wp-content-dir-is-not-writeable-error.php:28
+msgid ""
+"An error has occurred, the directory of <strong style=\"color: red;\">wp-"
+"content/uploads/</strong> is not writeable. The WordPress system wont't work "
+"well without write permission. More details about "
+msgstr ""
+"حدث خطأ ، دليل <strong style=\"color: red;\">wp-content / uploads /</strong> "
+"غير قابل للكتابة. لن يعمل نظام WordPress بشكل جيد دون إذن كتابة. مزيد من "
+"التفاصيل حول "
+
+#: includes/settings.php:24
+msgid ""
+"<h1>Challan</h1>  <b>Your uploads folder is not writable. Please make <code "
+"style=\"color: #ff0000;\">wp-content/uploads</code> folder writable to "
+"generate and save invoices.</b>"
+msgstr ""
+"<h1>شلان</h1>  <b>مجلد التحميلات غير قابل للكتابة. يرجى جعل <code style="
+"\"color: #ff0000;\">wp-content/uploads</code> المجلد قابلا للكتابة لإنشاء "
+"الفواتير وحفظها.</b>"
+
+#: includes/widget.php:21
+msgid "Latest News from WebAppick Blog"
+msgstr "آخر الأخبار من مدونة WebAppick"
+
+#: includes/widget.php:52
+msgid "WEBAPPICK.COM"
+msgstr "WEBAPPICK.COM"
+
+#: includes/widget.php:67
+msgid "Get more woocommerce tips & news on our blog..."
+msgstr ""
+"احصل على المزيد من نصائح وأخبار كتب مريم الدخيل لاكاديمية الثراء على "
+"مدونتنا ..."
+
+#: libs/WebAppick/AppServices/Insights.php:321
+msgid "Server environment details (php, mysql, server, WordPress versions)."
+msgstr "تفاصيل بيئة الخادم (php ، mysql ، الخادم ، إصدارات WordPress)."
+
+#: libs/WebAppick/AppServices/Insights.php:450
+msgid "what we collect"
+msgstr "المعلومات التى نقوم بجمعها"
+
+#: libs/WebAppick/AppServices/Insights.php:457
+msgid "No sensitive data is tracked."
+msgstr "لا يتم تتبع أي بيانات حساسة."
+
+#: libs/WebAppick/AppServices/Insights.php:464
+msgid "Allow"
+msgstr "السماح"
+
+#: libs/WebAppick/AppServices/Insights.php:468
+msgid "No thanks"
+msgstr "لا شكرا"
+
+#: libs/WebAppick/AppServices/Insights.php:679
+msgid "Once Weekly"
+msgstr "مرة واحدة أسبوعيا"
+
+#: libs/WebAppick/AppServices/Insights.php:748
+msgid "I couldn't understand how to make it work"
+msgstr "لم أستطيع فهم طريقة عمله"
+
+#: libs/WebAppick/AppServices/Insights.php:750
+msgid "Would you like us to assist you?"
+msgstr "هل تريد منا مساعدتك؟"
+
+#: libs/WebAppick/AppServices/Insights.php:754
+msgid "I found a better plugin"
+msgstr "لقد وجدت أضافة افضل"
+
+#: libs/WebAppick/AppServices/Insights.php:756
+msgid "Which plugin?"
+msgstr "أية اضافة ؟"
+
+#: libs/WebAppick/AppServices/Insights.php:761
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "المكون الإضافي رائع ، لكنني بحاجة إلى ميزة محددة لا تدعمها"
+
+#: libs/WebAppick/AppServices/Insights.php:765
+msgid "Could you tell us more about that feature?"
+msgstr "هل يمكن أن تخبرنا المزيد عن هذه الميزة؟"
+
+#: libs/WebAppick/AppServices/Insights.php:769
+msgid "The plugin is not working"
+msgstr "البرنامج المساعد لا يعمل"
+
+#: libs/WebAppick/AppServices/Insights.php:771
+msgid "Could you tell us a bit more whats not working?"
+msgstr "هل يمكن أن تخبرنا أكثر قليلا ما الذي لا يعمل؟"
+
+#: libs/WebAppick/AppServices/Insights.php:775
+msgid "It's not what I was looking for"
+msgstr "هذا ليس ما كنت أبحث عنه"
+
+#: libs/WebAppick/AppServices/Insights.php:781
+msgid "The plugin didn't work as expected"
+msgstr "لم يعمل المكون الإضافي كما هو متوقع"
+
+#: libs/WebAppick/AppServices/Insights.php:783
+msgid "What did you expect?"
+msgstr "ماذا كنت تتوقع؟"
+
+#: libs/WebAppick/AppServices/Insights.php:787
+msgid "Temporary deactivation for debugging"
+msgstr "التعطيل المؤقت لتصحيح الأخطاء"
+
+#: libs/WebAppick/AppServices/Insights.php:793
+msgid "Other"
+msgstr "أخرى"
+
+#: libs/WebAppick/AppServices/Insights.php:795
+msgid "Could you tell us a bit more?"
+msgstr "هل يمكن أن تخبرنا أكثر من ذلك بقليل؟"
+
+#: libs/WebAppick/AppServices/Insights.php:861
+msgid "Something Went Wrong."
+msgstr "حدث خطأ ما."
+
+#: libs/WebAppick/AppServices/Insights.php:861
+msgid "Please try again after sometime."
+msgstr "يرجى المحاولة مرة أخرى بعد مرور بعض الوقت."
+
+#: libs/WebAppick/AppServices/Insights.php:930
+msgid "Something Went Wrong. Please Try Again After Sometime."
+msgstr "حدث خطأ ما. يرجى المحاولة مرة أخرى بعد مرور بعض الوقت."
+
+#: libs/WebAppick/AppServices/Insights.php:936
+msgid "Missing Required Fields."
+msgstr "الحقول المطلوبة المفقودة."
+
+#: libs/WebAppick/AppServices/Insights.php:960
+msgid "Submit Support Ticket."
+msgstr "إرسال تذكرة الدعم."
+
+#: libs/WebAppick/AppServices/Insights.php:961
+#: libs/WebAppick/AppServices/Insights.php:1014
+msgid "Close"
+msgstr "إغلاق"
+
+#: libs/WebAppick/AppServices/Insights.php:970
+msgid "Name"
+msgstr "الاسم"
+
+#: libs/WebAppick/AppServices/Insights.php:976
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: libs/WebAppick/AppServices/Insights.php:983
+msgid "Subject"
+msgstr "الموضوع"
+
+#: libs/WebAppick/AppServices/Insights.php:989
+msgid "Website"
+msgstr "الموقع الالكتروني"
+
+#: libs/WebAppick/AppServices/Insights.php:1006
+msgid "Send Message"
+msgstr "إرسال رسالة"
+
+#: libs/WebAppick/AppServices/Insights.php:1007
+#: libs/WebAppick/AppServices/Insights.php:1044
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: libs/WebAppick/AppServices/Insights.php:1013
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "إذا لديك لحظة، اسمح لنا بأن نعرف لماذا تريد إلغاء التنشيط:"
+
+#: libs/WebAppick/AppServices/Insights.php:1032
+msgid "In trouble? Please submit a support request."
+msgstr "في ورطة؟ يرجى تقديم طلب دعم."
+
+#: libs/WebAppick/AppServices/Insights.php:1034
+msgid "Not Interested"
+msgstr "غير مهتم"
+
+#: libs/WebAppick/AppServices/Insights.php:1035
+msgid "Open Support Ticket"
+msgstr "فتح تذكرة الدعم"
+
+#: libs/WebAppick/AppServices/Insights.php:1042
+msgid "I rather wouldn't say"
+msgstr "افضل عدم القول"
+
+#: libs/WebAppick/AppServices/Insights.php:1043
+msgid "Submit & Deactivate"
+msgstr "الإرسال وإلغاء التفعيل"
+
+#: libs/WebAppick/AppServices/Insights.php:1140
+msgid "Processing..."
+msgstr "معالجة..."
+
+#: libs/WebAppick/AppServices/Promotions.php:131
+msgid "Promotion Source URL Not Set. see Promotions::set_source( $URL )"
+msgstr ""
+"لم يتم تعيين عنوان URL لمصدر الترويج. انظر الترقيات::set_source( $URL )"
+
+#: libs/WebAppick/AppServices/Promotions.php:384
+msgid "Promo hidden"
+msgstr "العرض الترويجي المخفي"
+
+#: libs/WebAppick/AppServices/Promotions.php:386
+msgid "Invalid Request"
+msgstr "طلب غير صالح"
+
+#: libs/WebAppick/AppServices/Promotions.php:397
+msgid "Method must be invoked inside admin_init action"
+msgstr "يجب استدعاء الطريقة داخل admin_init الإجراء"
+
+#: woo-invoice.php:225
+#, php-format
+msgid "Toggle panel: %s"
+msgstr "لوحة التبديل و الإظهار: %s"
+
+#: woo-invoice.php:480
+msgid "No order found with your given date range."
+msgstr "لم يتم العثور على أي طلب مع النطاق الزمني المحدد الخاص بك."
+
+#: woo-invoice.php:538
+msgid "<b>Get Pro</b>"
+msgstr "<b>احصل على المحترفين</b>"
+
+#: woo-invoice.php:636
+msgid ""
+"<h1>Challan</h1>  <b>Your uploads folder is not writable. Please make <code "
+"style=\"color: red;\">wp-content/uploads</code> folder writable to generate "
+"and save invoices.</b>"
+msgstr ""
+"<h1>شلان</h1>  <b>مجلد التحميلات غير قابل للكتابة. يرجى جعل <code style="
+"\"color: red;\">wp-content/uploads</code> المجلد قابلا للكتابة لإنشاء "
+"الفواتير وحفظها.</b>"

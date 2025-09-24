@@ -1,0 +1,182 @@
+#yith_wpv_panel_extra-cost .yith-plugin-fw-field-wrapper input[type=text] {
+  max-width: none;
+  width: 80px;
+}
+#yith_wpv_panel_extra-cost .yith-plugin-fw-field-wrapper .select2-container {
+  min-width: 250px !important;
+  width: auto !important;
+}
+
+#yith-wcmv-shipping-zones-wrapper .boxed-style {
+  background: var(--yith-content-bg);
+  box-shadow: 0 0 0 1px var(--yith-light-border-color), 0 3px 11px 6px var(--yith-light-shadow);
+  transition: background-color 0.2s ease-in-out;
+}
+#yith-wcmv-shipping-zones-wrapper .boxed-style:hover {
+  background: var(--yith-table-row-highlight);
+}
+#yith-wcmv-shipping-zones-wrapper .yith-plugin-fw__action-button {
+  margin-bottom: 0;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-postcodes-toggle {
+  margin: 20px 0;
+  display: inline-block;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-settings {
+  padding: 30px;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-settings label, #yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-settings .label {
+  font-weight: 600;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-settings .yith-wcmv-shipping-zone-settings__field-wrapper {
+  margin-bottom: 35px;
+  display: flex;
+  align-items: flex-start;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-settings .yith-wcmv-shipping-zone-settings__field-wrapper label {
+  flex: 0 0 15%;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-settings .yith-wcmv-shipping-zone-settings__field-wrapper .yith-wcmv-shipping-zone-settings__field {
+  flex: 1 1 auto;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-settings .yith-wcmv-shipping-zone-settings__methods ul {
+  list-style: none;
+  margin: 20px 0;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-settings .yith-wcmv-shipping-zone-settings__methods .yith-wcmv-shipping-zone-settings__method {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zones-empty {
+  margin: 100px auto;
+  width: 400px;
+  text-align: center;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zones-empty p {
+  margin-top: 15px;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zones-add-button {
+  margin-bottom: 20px;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zones {
+  list-style: none;
+  padding: 0;
+  margin: 40px 0;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zones.sortable-disabled .drag-zone {
+  display: none;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone,
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-new {
+  max-width: 1000px;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-new:hover {
+  background: none;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone {
+  margin-bottom: 15px;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone.editing .yith-wcmv-shipping-zone-title h4 {
+  visibility: hidden;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone.editing:hover {
+  background: none;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone .yith-wcmv-shipping-zone-settings {
+  padding-top: 0;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone .drag-zone a {
+  pointer-events: none;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone h4 {
+  margin: 0;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-title,
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-settings__method {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-title .yith-wcmv-shipping-zone__actions,
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-title .yith-wcmv-shipping-zone-settings__method-actions,
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-settings__method .yith-wcmv-shipping-zone__actions,
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-settings__method .yith-wcmv-shipping-zone-settings__method-actions {
+  opacity: 0;
+  visibility: hidden;
+}
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-title:hover .yith-wcmv-shipping-zone__actions,
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-title:hover .yith-wcmv-shipping-zone-settings__method-actions,
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-settings__method:hover .yith-wcmv-shipping-zone__actions,
+#yith-wcmv-shipping-zones-wrapper .yith-wcmv-shipping-zone-settings__method:hover .yith-wcmv-shipping-zone-settings__method-actions {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s ease;
+  -webkit-transition: opacity 1s ease;
+}
+
+.yith-wcmv-shipping-method-modal table.form-table {
+  border: none !important;
+}
+.yith-wcmv-shipping-method-modal table.form-table th {
+  width: 100px;
+  padding-right: 0;
+}
+.yith-wcmv-shipping-method-modal table.form-table td h3 {
+  font-size: 13px;
+}
+.yith-wcmv-shipping-method-modal table.form-table span.description {
+  font-size: 12px;
+  display: block;
+}
+.yith-wcmv-shipping-method-modal table.form-table span.description code {
+  font-size: 12px;
+}
+.yith-wcmv-shipping-method-modal .submit-wrap {
+  text-align: right;
+}
+
+.yith-plugin-fw-banner {
+  display: none !important;
+}
+
+.yith-wcmv-announcement {
+  background-color: #ffe8c6;
+  border: 1px solid #ffd391;
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #b54f00;
+  margin: 20px 15px 0 0;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+.yith-wcmv-announcement .svg-data {
+  flex: 0 0 auto;
+  padding-right: 15px;
+}
+.yith-wcmv-announcement .announcement-text {
+  flex: 1 1 100%;
+}
+.yith-wcmv-announcement .announcement-dismiss {
+  flex: 0 0 auto;
+  align-self: flex-start;
+  background: none;
+  border: none;
+  padding: 5px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+.yith-wcmv-announcement .announcement-dismiss .yith-icon {
+  font-size: 14px;
+  font-weight: 600;
+  color: #b54f00;
+}
+
+.vendor-fields-container .vendor-image-upload {
+  margin-bottom: 25px;
+  min-height: 150px;
+}
+
+/*# sourceMappingURL=vendor-dashboard.css.map */

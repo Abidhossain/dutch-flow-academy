@@ -1,0 +1,73 @@
+/**
+ * Mixins
+ *
+ * @author  YITH <plugins@yithemes.com>
+ * @package YITH\Deposits\Styles
+ * @version 2.0.0
+ */
+
+@mixin button_with_submenu {
+	.button-with-submenu {
+		display: inline-block;
+		position: relative;
+
+		a.submenu-opener {
+			background-color: #fff;
+			border-radius: 50%;
+			box-shadow: 0 2px 7px rgb(170 198 222 / 50%);
+			color: inherit;
+			cursor: pointer;
+			display: inline-block;
+			height: 35px;
+			line-height: 35px;
+			text-align: center;
+			text-decoration: none;
+			width: 35px;
+
+			i {
+				vertical-align: middle;
+			}
+		}
+
+		ul.submenu {
+			background-color: #fff;
+			border-radius: 5px;
+			box-shadow: 0 2px 7px rgb(170 198 222 / 50%);
+			display: none;
+			list-style: none;
+			padding: 10px;
+			position: absolute;
+			margin: 0;
+			min-width: 200px;
+			right: 0;
+			top: calc(100% + 15px);
+
+			a {
+				color: inherit;
+				display: block;
+				padding: 3px 15px;
+				text-decoration: none;
+
+				&:hover {
+					color: var( --proteo-general_link_color );
+				}
+			}
+		}
+
+		&.opened ul.submenu {
+			display: block;
+		}
+	}
+}
+
+@mixin pretty-scrollbar {
+	&::-webkit-scrollbar {
+		-webkit-appearance: none;
+		width: 6px;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: var( --proteo-main_color_shade, #448a85 );
+		border-radius: 10px;
+	}
+}

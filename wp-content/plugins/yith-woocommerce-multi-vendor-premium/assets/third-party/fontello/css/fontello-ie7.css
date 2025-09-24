@@ -1,0 +1,34 @@
+[class^="yith-wcmv-icon__"], [class*=" yith-wcmv-icon__"] {
+  font-family: 'fontello';
+  font-style: normal;
+  font-weight: normal;
+
+  /* fix buttons height */
+  line-height: 1em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+}
+
+.yith-wcmv-icon__link { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;'); }
+.yith-wcmv-icon__chat { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;'); }
+.yith-wcmv-icon__star { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;'); }
+.yith-wcmv-icon__star-empty { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;&nbsp;'); }
+.yith-wcmv-icon__chart-bar { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe804;&nbsp;'); }
+.yith-wcmv-icon__hammer { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe805;&nbsp;'); }
+.yith-wcmv-icon__x { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe806;&nbsp;'); }
+.yith-wcmv-icon__phone { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe807;&nbsp;'); }
+.yith-wcmv-icon__mail { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe808;&nbsp;'); }
+.yith-wcmv-icon__twitter { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf099;&nbsp;'); }
+.yith-wcmv-icon__facebook { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf09a;&nbsp;'); }
+.yith-wcmv-icon__doc { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf0f6;&nbsp;'); }
+.yith-wcmv-icon__direction { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf124;&nbsp;'); }
+.yith-wcmv-icon__youtube-play { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16a;&nbsp;'); }
+.yith-wcmv-icon__instagram { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf16d;&nbsp;'); }
+.yith-wcmv-icon__pinterest { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf231;&nbsp;'); }
+.yith-wcmv-icon__tripadvisor { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf262;&nbsp;'); }
+.yith-wcmv-icon__flickr { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf303;&nbsp;'); }
+.yith-wcmv-icon__vimeo { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf306;&nbsp;'); }
+.yith-wcmv-icon__linkedin { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf318;&nbsp;'); }
+.yith-wcmv-icon__behance { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf34e;&nbsp;'); }
+.yith-wcmv-icon__location { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf3c5;&nbsp;'); }

@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('lodash', 'wc-blocks-checkout', 'wc-blocks-data-store', 'wp-block-editor', 'wp-blocks', 'wp-compose', 'wp-data', 'wp-hooks', 'wp-i18n', 'wp-url'), 'version' => '9c2d93179f9ad8454822');

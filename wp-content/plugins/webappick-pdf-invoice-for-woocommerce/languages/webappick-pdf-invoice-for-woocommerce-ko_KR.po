@@ -1,0 +1,258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Invoice Pro\n"
+"POT-Creation-Date: 2021-01-12 12:58+0600\n"
+"PO-Revision-Date: 2021-11-17 14:27+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woo-invoice-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-woo-invoice-pro-template.php:715
+msgid "Billing"
+msgstr "청구"
+
+#: includes/class-woo-invoice-pro-template.php:716
+#: includes/class-woo-invoice-pro-template.php:1253
+msgid "Shipping"
+msgstr "배송"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1600
+#: admin/partials/woo-invoice-pro-admin-display.php:1903
+#: includes/class-woo-invoice-pro-template.php:759
+msgid "Order Number"
+msgstr "주문번호"
+
+#: includes/class-woo-invoice-pro-template.php:764
+msgid "Order Date"
+msgstr "주문 날짜"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1872
+#: includes/class-woo-invoice-pro-template.php:742
+msgid "Invoice Number"
+msgstr "송장 번호"
+
+#: includes/class-woo-invoice-pro-template.php:1298
+msgid "Net Payment"
+msgstr "결제"
+
+#: includes/class-woo-invoice-pro-template.php:775
+msgid "Shipping Method"
+msgstr "배송방법"
+
+#: includes/class-woo-invoice-pro-template.php:769
+msgid "Payment Method"
+msgstr "결제 방법"
+
+#: includes/class-woo-invoice-pro-template.php:782
+msgid "Delivery Date"
+msgstr "배송 날짜"
+
+#: includes/class-woo-invoice-pro-template.php:788
+msgid "Time Slot"
+msgstr "시간 슬롯"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:178
+#: admin/partials/woo-invoice-pro-admin-display.php:4166
+#: includes/class-woo-invoice-pro-hooks.php:708
+msgid "Invoice"
+msgstr "송장"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:186
+#: admin/partials/woo-invoice-pro-admin-display.php:4167
+#: includes/class-woo-invoice-pro-hooks.php:523
+#: includes/class-woo-invoice-pro-hooks.php:713
+#: includes/class-woo-invoice-pro-hooks.php:794
+msgid "Packing Slip"
+msgstr "포장 전표"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:226
+#: includes/class-woo-invoice-pro-hooks.php:719
+#: includes/class-woo-invoice-pro-hooks.php:804
+msgid "Shipping Label"
+msgstr "배송 라벨"
+
+#: includes/class-woo-invoice-pro-hooks.php:580
+#: includes/class-woo-invoice-pro-hooks.php:663
+#: includes/class-woo-invoice-pro-template.php:225
+msgid "Credit Note"
+msgstr "신용 노트"
+
+#: includes/class-woo-invoice-pro-template.php:1082
+msgid "Cost"
+msgstr "비용"
+
+#: includes/class-woo-invoice-pro-template.php:1106
+msgid "Quantity"
+msgstr "수량"
+
+#: includes/class-woo-invoice-pro-template.php:1329
+msgid "Total Quantity"
+msgstr "총 수량"
+
+#: includes/class-woo-invoice-pro-template.php:1083
+msgid "Qty"
+msgstr "수량"
+
+#: includes/class-woo-invoice-pro-orders.php:454
+#: includes/class-woo-invoice-pro-template.php:1101
+msgid "Dimensions"
+msgstr "크기"
+
+#: includes/class-woo-invoice-pro-orders.php:457
+#: includes/class-woo-invoice-pro-template.php:1105
+msgid "Weight"
+msgstr "무게"
+
+#: includes/class-woo-invoice-pro-template.php:1084
+msgid "Total"
+msgstr "합계"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2509
+#: includes/class-woo-invoice-pro-template.php:1247
+msgid "Fees"
+msgstr "수수료"
+
+#: includes/class-woo-invoice-pro-template.php:1088
+#: includes/class-woo-invoice-pro-template.php:1093
+msgid "Tax"
+msgstr "세금"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2599
+msgid "Discount"
+msgstr "할인"
+
+#: includes/class-woo-invoice-pro-template.php:1263
+msgid "Order Total With Tax"
+msgstr "세금 포함 주문 합계"
+
+#: includes/class-woo-invoice-pro-template.php:1263
+msgid "Order Total Without Tax"
+msgstr "세금 제외 주문 합계"
+
+#: includes/class-woo-invoice-pro-template.php:1293
+msgid "Order Total"
+msgstr "주문 총계"
+
+#: includes/class-woo-invoice-pro-template.php:1214
+#: includes/class-woo-invoice-pro-template.php:1297
+msgid "Refund"
+msgstr "환불"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:522
+#: admin/partials/woo-invoice-pro-admin-display.php:3527
+#: includes/class-woo-invoice-pro-template.php:1409
+msgid "Customer Note"
+msgstr "고객 메모"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:1477
+msgid "Signature"
+msgstr "서명"
+
+#: includes/class-woo-invoice-pro-template.php:1503
+msgid "Authorized Signature"
+msgstr "공인 서명"
+
+#: admin/partials/woo-invoice-pro-admin-display.php:2645
+msgid "Bank Accounts"
+msgstr "은행 계좌"
+
+#: includes/class-woo-invoice-pro-template.php:1464
+msgid "Account Name"
+msgstr "예금주"
+
+#: includes/class-woo-invoice-pro-template.php:1078
+msgid "Item"
+msgstr "항목"
+
+#: includes/class-woo-invoice-pro-template.php:1233
+msgid "Coupon(s)"
+msgstr "쿠폰"
+
+#: includes/class-woo-invoice-pro-template.php:1463
+msgid "Bank Name"
+msgstr "은행명"
+
+#: includes/class-woo-invoice-pro-template.php:1465
+msgid "Account No"
+msgstr "계좌 번호"
+
+#: includes/class-woo-invoice-pro-template.php:1466
+msgid "Sort Code"
+msgstr "소트(sort) 코드"
+
+#: includes/class-woo-invoice-pro-template.php:1467
+msgid "IBAN"
+msgstr "IBAN"
+
+#: includes/class-woo-invoice-pro-template.php:1468
+msgid "BIC/Swift"
+msgstr "BIC / Swift"
+
+#: includes/class-woo-invoice-pro-template.php:1336
+msgid "Total Weight"
+msgstr "전체무게"
+
+#: includes/class-woo-invoice-pro-template.php:1352
+msgid "Refund Address"
+msgstr "환불 주소"
+
+#: includes/class-woo-invoice-pro-helper.php:187
+msgid "Phone"
+msgstr "전화"
+
+#: includes/class-woo-invoice-pro-helper.php:190
+msgid "Email"
+msgstr "이메일"
+
+#: includes/class-woo-invoice-pro-helper.php:420
+msgid "VAT Number"
+msgstr "VAT 번호"
+
+#: includes/class-woo-invoice-pro-orders.php:475
+msgid "Category"
+msgstr "카테고리"
+
+#: includes/class-woo-invoice-pro-orders.php:397
+msgid "Description"
+msgstr "설명"
+
+#: includes/class-woo-invoice-pro-orders.php:616
+msgid "Duration"
+msgstr "기간"
+
+#: includes/class-woo-invoice-pro-orders.php:619
+msgid "From"
+msgstr "발신자"
+
+#: includes/class-woo-invoice-pro-orders.php:622
+msgid "To"
+msgstr "수신"
+
+#: includes/class-woo-invoice-pro-template.php:1217
+msgid "Items Subtotal"
+msgstr "항목 소계"
+
+#: includes/class-woo-invoice-pro-orders.php:316
+msgid "ID"
+msgstr "ID"
+
+#: includes/class-woo-invoice-pro-orders.php:319
+msgid "SKU"
+msgstr "상품번호"
+
+msgid "Download Invoice"
+msgstr "인보이스 다운로드"

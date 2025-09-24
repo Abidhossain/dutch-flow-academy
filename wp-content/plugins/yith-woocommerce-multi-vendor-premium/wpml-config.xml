@@ -1,0 +1,44 @@
+<wpml-config>
+    <admin-texts>
+        <key name="widget_yith-vendor-quick-info">
+            <key name="*">
+                <key name="title"/>
+                <key name="description"/>
+                <key name="hide_from_guests"/>
+                <key name="show_in_vendor_store"/>
+                <key name="show_in_single"/>
+                <key name="submit_label"/>
+            </key>
+        </key>
+        <key name="widget_yith-vendor-store-location">
+            <key name="*">
+                <key name="title"/>
+            </key>
+        </key>
+        <key name="widget_yith-vendors-list">
+            <key name="*">
+                <key name="title"/>
+            </key>
+        </key>
+        <key name="yith_wpv_vendor_tab_text_text"/>
+        <key name="yith_wpv_shipping_tab_text_text"/>
+        <key name="yith_wpv_report_abuse_link_text"/>
+        <key name="yith_vat_label"/>
+        <key name="yith_wcmv_vendor_registration_form_fields" />
+        <key name="woocommerce_new_order_to_vendor_settings">
+            <key name="heading"/>
+            <key name="subject"/>
+        </key>
+    </admin-texts>
+    <taxonomies>
+        <taxonomy translate="1">yith_shop_vendor</taxonomy>
+    </taxonomies>
+    <custom-term-fields>
+        <custom-term-field action="copy">owner</custom-term-field>
+        <custom-term-field action="copy">admins</custom-term-field>
+        <custom-term-field action="copy">enable_selling</custom-term-field>
+        <custom-term-field action="copy">pending</custom-term-field>
+        <custom-term-field action="translate" style="textarea" label="Shipping Policy">shipping_policy</custom-term-field>
+        <custom-term-field action="translate" style="textarea" label="Refund Policy">shipping_refund_policy</custom-term-field>
+    </custom-term-fields>
+</wpml-config>

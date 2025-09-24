@@ -1,0 +1,1078 @@
+p.form-field._gift_card_amount_field span.variation-amount span.amount {
+    font-size: 13px;
+    color: #838383;
+}
+
+.yith-plugin-ui--gift_card-post_type #post #yith-plugin-fw__back-to-wp-list__wrapper{
+    display: none;
+}
+
+a.remove-amount {
+    color: #a0a5aa;
+    text-decoration: none;
+}
+
+a.remove-amount span {
+    margin-top: -5px;
+    margin-left: -13px;
+    font-size: 15px;
+}
+
+a.remove-amount span::before {
+    border-radius: 180px;
+}
+
+#gift_card-amount {
+    width: 7em;
+    margin-left: -8px;
+    padding-left: 25px;
+}
+
+.variation-amount-list .variation-amount input.gift_card-amount {
+    width: 7em;
+}
+
+a.add-new-amount {
+    text-decoration: none;
+    border: 1px solid var(--yith-primary);
+    border-radius: 8px;
+    padding: 6px 12px 0px 12px;
+    margin-left: 9px;
+    color: white;
+    background-color: var(--yith-primary);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+span.add-new-amount-section {
+    display: inline-flex;
+    position: absolute;
+    margin-left: 8px;
+}
+
+span.ywgc-delivery-status.scheduled {
+    color: #FFA700;
+}
+
+span.ywgc-delivery-status.sent {
+    color: #40C771;
+}
+
+span.ywgc-delivery-status.failed {
+    color: #EA1306;
+}
+
+span.ywgc-delivery-status.not-sent {
+    color: #0000ff;
+}
+
+a.ywgc-delivery-status.retry-sending {
+    display: inline-block;
+    border: 1px solid #D4CECE;
+    border-radius: 5px;
+    padding: 3px 5px;
+    background-color: #4BB939;
+    color: white;
+}
+
+a.ywgc-delivery-status.retry-sending:hover {
+    color: #1E6F11;
+}
+
+
+/*td.column-gift_card_actions, td.column-gift_card_enable_disable, td.column-gift_card_link {*/
+
+
+/*  vertical-align: middle;*/
+
+
+/*}*/
+
+td.column-gift_card_actions a,
+td.column-gift_card_enable_disable a {
+    display: inline-block;
+    border: 1px solid #D4CECE;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 5px;
+}
+
+a.ywgc-actions.send-now {
+    border-radius: 3px;
+    border: 0;
+    background-color: #375f6b;
+    vertical-align: middle;
+    display: inline-block;
+    height: 30px;
+    padding: 3px;
+    height: 30px;
+    width: 25px;
+    padding: 5px;
+}
+
+a.ywgc-actions.download_pdf {
+    border-radius: 3px;
+    border: 0;
+    background-color: lightgrey;
+    vertical-align: middle;
+    display: inline-block;
+    height: 30px;
+    width: 25px;
+    padding: 5px;
+}
+
+.the-metabox #_ywgc_delivery_date-container {
+    display: none;
+}
+
+.the-metabox #_ywgc_expiration-container {
+    display: none;
+}
+
+.ywgc-form-field__description {
+    display: block;
+    padding: 0;
+    font-size: 12px;
+    font-style: italic;
+    clear: both;
+    line-height: 1.4em;
+    margin-top: 5px;
+    color: #777;
+}
+
+th#title {
+    width: 15em;
+}
+
+th#taxonomy-giftcard-category {
+    width: 15%;
+}
+
+.variation-amount-list {
+    display: inline-block;
+    max-width: 43em;
+}
+
+.variation-amount-list .variation-amount {
+    margin-right: 9px;
+    display: inherit;
+    position: relative;
+}
+
+.variation-amount-list a.remove-amount {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: auto;
+    left: auto;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    transform: translate(105%, 0%);
+    opacity: 0;
+    transition: .2s, color .1s;
+}
+
+.variation-amount-list a.remove-amount:hover {
+    color: #a10000;
+}
+
+.variation-amount-list .variation-amount:hover a.remove-amount {
+    opacity: 1;
+}
+
+.ywgc-hidden {
+    display: none;
+}
+
+#ywgc-minimal-amount {
+    width: 9em;
+}
+
+#ywgc-maximum-amount {
+    width: 9em;
+}
+
+#gift_card-sale-discount {
+    width: 9em;
+}
+
+#gift_card-sale-discount-text {
+    width: 18em;
+}
+
+#gift-card-expiration-date {
+    width: 9em;
+}
+
+.ywgc-currency-symbol-enter-amount {
+    position: absolute;
+    font-size: 16px;
+    margin: 8px 0 0 3px;
+    color: grey;
+}
+
+.ywgc-currency-symbol-amounts {
+    position: absolute;
+    font-size: 16px;
+    margin: 7px 0 0 -5.5em;
+}
+
+input.ywgc-expiration-date-picker.hasDatepicker {
+    background-image: url(../images/calendar.svg);
+    background-position: calc(100% - 7px) 50%;
+    background-repeat: no-repeat;
+    background-size: 15px;
+}
+
+label.ywgc-form-field__label {
+    max-width: 15ch;
+}
+
+.minimal-amount-field label {
+    max-width: 15ch;
+}
+
+.maximum-amount-field label {
+    max-width: 15ch;
+}
+
+tr.type-gift_card td {
+    vertical-align: middle;
+}
+
+#plugin-fw-wc .ywbc-export-button-tr .forminp a.ywbc-export-button {
+    padding-top: 3px;
+}
+
+.yith-wcmcs-currency-gift-card-price {
+    display: flex;
+    width: 70em;
+}
+
+.yith-wcmcs-multi-currency-gift-cards .yith-wcmcs-multi-currency-enabled .yith-plugin-fw-onoff {
+    margin-left: 4px;
+}
+
+.yith-wcmcs-multi-currency-gift-cards .ywgc-amounts-list {
+    margin-left: 2px;
+}
+
+.yith-wcmcs-multi-currency-gift-cards .ywgc-amounts-list .variation-amount {
+    margin-right: 9px;
+}
+
+.woocommerce_options_panel .ywgc-product-edit-page-after-amount-options {
+    margin-bottom: 15px;
+}
+
+.ywgc-product-edit-page-multi-currency-options .yith-wcmcs-multi-currency {
+    display: inline-block;
+    padding: 0;
+}
+
+.ywgc-product-edit-page-options .form-field {
+    padding: 10px;
+}
+
+.yith-wcmcs-multi-currency-gift-cards .yith-wcmcs-multi-currency-enabled {
+    padding: 13px;
+}
+
+.yith-wcmcs-multi-currency-gift-cards .yith-wcmcs-multi-currency-enabled--label {
+    margin-left: -1px;
+}
+
+.ywgc-product-edit-page-amount-options .ywgc-amounts-list label {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.ywgc-product-edit-page-multi-currency-options {
+    margin-top: 15px;
+}
+
+.ywgc-product-edit-page-amount-options .variation-amount {
+    margin-bottom: 5px;
+}
+
+.ywgc-wrong-amount-alert {
+    color: var( --yith-delete) !important;
+}
+
+.ywgc-wrong-amount-alert-border {
+    border: 1px solid var( --yith-delete) !important;
+}
+
+.ywgc-tooltip-container {
+    background-color: var( --yith-delete);
+    width: 130px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    position: absolute;
+    top: 55px;
+    left: -27px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.ywgc-tooltip-container {
+    color: white;
+}
+
+.ywgc-tooltip-container:after,
+.ywgc-tooltip-container:before {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.ywgc-tooltip-container:after {
+    border-bottom-color: var( --yith-delete);
+    border-width: 8px;
+    margin-left: -8px;
+}
+
+.add-new-amount-section wc_error_tip{
+  z-index: 9999;
+}
+
+.post-php.post-type-gift_card .yith-plugin-fw-wp-page-wrapper .wrap a.page-title-action {
+    display: none;
+}
+
+.post-php.post-type-gift_card .yith-plugin-fw-wp-page-wrapper .wrap a.page-title-action {
+    display: none;
+}
+
+.post-type-gift_card #yith-wcgc-post-type__float-save {
+    display: none;
+    align-items: center;
+    position: fixed;
+    bottom: 30px;
+    right: 70px;
+    z-index: 9999;
+    border-radius: 100px;
+    box-shadow: 0 0 6px 3px rgba(0, 121, 159, 0.2);
+}
+.post-type-gift_card #yith-wcgc-post-type__float-save i {
+    font-size: 1.1em;
+    margin: 0 9px 0 -3px;
+}
+.post-type-gift_card #yith-wcgc-post-type__float-save.visible {
+    display: flex;
+}
+
+.ywgc-excluded-categories-field-content .yith-plugin-fw-select-field-wrapper{
+    display: inline-block;
+    width: 40% !important;
+}
+
+.ywgc-excluded-categories-field-content .yith-plugin-fw-select-field-wrapper span.select2-container{
+    width: 100% !important;
+    margin-bottom: 7px;
+}
+
+.ywgc-excluded-categories-field-content .yith-plugin-fw-select-field-wrapper .yith-plugin-fw-buttons-field-wrapper {
+    display: contents;
+}
+
+.ywgc-excluded-categories-field-content .yith-plugin-fw-select-field-wrapper .yith-plugin-fw-buttons-field-wrapper input {
+    margin-left: inherit;
+}
+
+#yith-wcgc-post-type__float-save{
+    text-transform: uppercase;
+}
+
+#yith_woocommerce_gift_cards_panel_recipient_delivery #-description p{
+    background-color: unset;
+    display: block;
+    padding: 0;
+    font-size: 12px;
+    clear: both;
+    line-height: 1.4em;
+    margin-top: 7px;
+    margin-bottom: 25px;
+    font-weight: unset;
+}
+
+#yith_woocommerce_gift_cards_panel_recipient_delivery #-description p::before{
+    content: unset;
+}
+
+#gift-card-generator-radio-modal div.yith-plugin-fw-radio__row{
+    padding: 15px;
+    background-color: #F4F8FA;
+    border: 1px solid #f6f7f7;
+    border-radius: 5px;
+}
+
+#ywgc-gift-card-generator-container{
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 36px;
+}
+
+#gift-card-generator-radio-modal div.yith-plugin-fw-radio__row:first-child{
+    margin-bottom: 15px;
+}
+
+#gift-card-generator-radio-modal{
+    margin-top: 3em;
+}
+
+#yith-gift-card-generator-modal-button{
+    float: right;
+}
+
+#ywgc-gift-card-generator-quantity, #ywgc-gift-card-generator-amount{
+    width: 90px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.yith-plugin-ui--gift_card-post_type #yith-ywgc-gift-card-options-metabox .postbox-header{
+    display: none;
+}
+
+.yith-plugin-ui--gift_card-post_type #yith-ywgc-gift-card-options-metabox{
+    border: 0;
+}
+
+.yith-plugin-ui--gift_card-post_type #yith-ywgc-gift-card-options-metabox .media.no-label{
+    margin-left: 242px;
+}
+
+/***********************************************
+	IMPORTER
+***********************************************/
+
+#ywgc-gift-card-export-import-container .import-configuration, #ywgc-gift-card-export-import-container .export-configuration, #step-upload .yith-plugin-fw-radio-field-wrapper {
+    padding: 15px;
+}
+
+#ywgc_import_gift_cards, .ywgc-export-button{
+    float: right;
+}
+#ywgc-gift-card-export-import-container ul.steps li {
+    display: inline-block;
+    border-color: #0e87b8;
+    color: #aaa;
+    margin-right: 30px;
+    padding-bottom: 5px;
+}
+
+#ywgc-gift-card-export-import-container .steps li.active {
+    font-weight: 700;
+    border-bottom: 4px solid #0e87b8;
+    color: #0073aa;
+}
+
+#ywgc-gift-card-export-import-container .steps-content h2 {
+    border: none !important;
+    padding-left: 0 !important;
+    padding: 5px 0;
+}
+
+#ywgc-gift-card-export-import-container .steps-content table {
+    border: none!important;
+}
+
+#ywgc-gift-card-export-import-container .single-step {
+    display: none;
+}
+
+#ywgc-gift-card-export-import-container .single-step.active {
+    display: block;
+}
+
+.yith-sl-content-wrapper-modal .single-step label {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#ywgc-gift-card-export-import-container .wrap-buttons{
+    margin-top: 20px;
+}
+
+#ywgc-gift-card-export-import-container .alert-notice {
+    margin-left: 15px;
+    color: #ff0000;
+    display: none;
+}
+
+#ywgc-gift-card-export-import-container .field-description{
+    font-size: 13px;
+}
+
+
+#step-completed.completed ul.steps {
+    display: none;
+}
+
+#step-completed.completed .yith-plugin-fw__modal__title {
+    display: none;
+}
+
+#step-completed.completed .steps-content {
+    border: none;
+}
+
+#step-completed.completed {
+    text-align: center;
+}
+
+#step-completed.completed {
+    width: auto!important;
+    padding: 40px 100px;
+}
+
+#step-completed.completed img {
+    width: 50px;
+}
+
+#step-completed.completed p {
+    color: #000;
+    font-size: 17px;
+    margin: 15px 0 30px 0;
+}
+
+button#close-modal {
+    padding: 0 40px;
+}
+
+button.try-again{
+    background: var(--yith-outline-bg);
+    border: 1px solid var(--yith-outline-border);
+    color: var(--yith-outline-text);
+}
+
+#ywgc-gift-card-export-import-container footer{
+    margin-top: 3em;
+}
+
+#ywgc-gift-card-export-import-container .single-step.configuration input {
+    margin: 8px 0;
+}
+
+#ywgc-gift-card-export-import-container label.ywgc_csv_delimiter input#ywgc_csv_delimiter{
+    width: 90px;
+}
+
+#ywgc-gift-card-export-import-container label.ywgc_csv_delimiter{
+    display: inline-flex;
+    width: 100%;
+}
+
+#ywgc-gift-card-export-import-container label.ywgc_csv_delimiter span{
+    margin: 3% 3% 0 0;
+}
+
+.ywgc-date-from-to-date-selectors input{
+    width: 40%;
+}
+
+.export-configuration-settings-group{
+    min-height: 17em;
+}
+
+#step-configuration-data .export-configuration-settings-group label div.yith-plugin-fw-checkbox-field-wrapper{
+    float: left;
+    width: 10%;
+}
+
+#step-configuration-data .export-configuration-settings-group label{
+    margin-bottom: 6px;
+}
+
+
+.export-configuration-settings-group label.left{
+    float: left;
+    width: 50%;
+}
+
+.export-configuration-settings-group label.right{
+    float: right;
+    width: 50%;
+}
+
+#ywgc-gift-card-export-import-container .single-step .import-configuration .field-label {
+    flex: 0 0 25%;
+}
+
+#ywgc-gift-card-export-import-container .single-step .import-configuration .field-description {
+    margin-left: 10em;
+}
+
+#ywgc-gift-card-export-import-container .single-step .import-configuration .yith-plugin-fw-field-wrapper {
+    width: 72%;
+    float: right;
+    margin-right: 3%;
+    margin-bottom: 10px;
+}
+
+.ywbc-date-from-to-date-selectors .to_datepicker{
+    margin-left: 10px;
+}
+
+.yith-plugin-ui.yith-plugin-fw-wp-page-wrapper.yith-plugin-ui--gift_card-post_type .page-title-action.export-import-custom-button{
+    background: var(--yith-primary-text);
+    color: var(--yith-primary);
+}
+
+.yith-plugin-ui--gift_card-post_type div#titlediv{
+    width: 52em;
+}
+
+.yith-plugin-ui--gift_card-post_type .yith-plugin-ui.metaboxes-tab .the-metabox{
+    margin-left: 242px;
+}
+
+.yith-plugin-ui--gift_card-post_type .yith-plugin-fw span.description {
+    font-style: normal;
+}
+
+/**
+ * Admin Modules
+ */
+.yith-ywgc-modules {
+    max-width: 1152px;
+}
+
+.yith-ywgc-modules .modules {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 24px;
+}
+
+.yith-ywgc-modules .modules .module {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    background: #fff;
+}
+
+.yith-ywgc-modules .modules .module header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.yith-ywgc-modules .modules .module header h3 {
+    flex: 1;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0f172a;
+}
+
+.yith-ywgc-modules .modules .module .module__description {
+    margin: 10px 0;
+    flex: 1;
+}
+
+.yith-ywgc-modules .modules .module .module__activation {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid #cbd5e1;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yith-ywgc-modules .modules .module .module__activation .module__activation__label {
+    font-weight: 500;
+    color: #0f172a;
+}
+
+@media (max-width: 1800px) {
+    .yith-ywgc-modules .modules {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1400px) {
+    .yith-ywgc-modules .modules {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1000px) {
+    .yith-ywgc-modules .modules {
+        grid-template-columns: 1fr;
+    }
+}
+
+.yith-ywgc-modules .premium-modules {
+    background: #fafafa;
+    margin: 60px -20px -20px;
+    padding: 60px 20px 20px;
+}
+
+.yith-ywgc-modules .premium-modules .premium-modules__header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.yith-ywgc-modules .premium-modules .premium-modules__title {
+    color: #c33c1d;
+    font-size: 1.3em;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+.yith-ywgc-modules .premium-modules .premium-modules__description {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.yith-ywgc-modules .premium-modules .modules {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1000px) {
+    .yith-ywgc-modules .premium-modules .modules {
+        grid-template-columns: 1fr;
+    }
+}
+
+.yith-ywgc-modules .premium-modules .modules .module {
+    border-color: #eeeeee;
+    box-shadow: none;
+}
+
+.yith-ywgc-modules .premium-modules .modules .module i {
+    color: #0087c4;
+}
+
+/**
+ * Admin Integrations
+ */
+.yith-ywgc-integrations {
+    max-width: 1152px;
+}
+
+.yith-ywgc-integrations .integrations {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 24px;
+}
+
+.yith-ywgc-integrations .integrations .integration {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    background: #fff;
+}
+
+.yith-ywgc-integrations .integrations .integration:not(.integration--enabled) header img {
+    filter: grayscale(100%);
+}
+
+.yith-ywgc-integrations .integrations .integration header {
+    position: relative;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    overflow: hidden;
+    margin: -24px -24px 8px;
+}
+
+.yith-ywgc-integrations .integrations .integration header img {
+    display: block;
+    height: auto;
+    width: 50px;
+    margin: 24px 24px 16px;
+}
+
+.yith-ywgc-integrations .integrations .integration .integration__badges {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+.yith-ywgc-integrations .integrations .integration .integration__badge {
+    padding: 4px 8px;
+    line-height: 1em;
+    font-size: 11px;
+    border-radius: 40px;
+    background: #fcb900;
+    color: #000;
+}
+
+.yith-ywgc-integrations .integrations .integration h3 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0f172a;
+}
+
+.yith-ywgc-integrations .integrations .integration .integration__description {
+    margin: 8px 0 auto;
+}
+
+.yith-ywgc-integrations .integrations .integration .integration__needs {
+    font-size: .85em;
+    margin: 16px 0 8px;
+}
+
+.yith-ywgc-integrations .integrations .integration a.integration__learn-more__link {
+    color: var(--yith-primary);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.yith-ywgc-integrations .integrations .integration a.integration__learn-more__link svg {
+    width: 16px;
+    margin-left: 4px;
+}
+
+.yith-ywgc-integrations .integrations .integration .integration__activation {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid #cbd5e1;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yith-ywgc-integrations .integrations .integration .integration__activation .integration__activation__label {
+    font-weight: 500;
+    color: #0f172a;
+}
+
+@media (max-width: 1800px) {
+    .yith-ywgc-integrations .integrations {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1400px) {
+    .yith-ywgc-integrations .integrations {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1000px) {
+    .yith-ywgc-integrations .integrations {
+        grid-template-columns: 1fr;
+    }
+}
+
+/**
+Product layout radio
+ */
+
+#ywgc_page_layout_version {
+    display: block;
+}
+
+#ywgc_page_layout_version:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+#ywgc_page_layout_version label {
+    border: 1px solid #d8d8d8;
+    display: inline-block;
+    float: left;
+    padding: 8px 30px;
+}
+
+#ywgc_page_layout_version input:checked + label {
+    background-color: #1b7c9e;
+    color: #fff;
+}
+
+#ywgc_page_layout_version label:before,
+#ywgc_page_layout_version label:after {
+    display: none;
+}
+
+label[for=ywgc_page_layout_version-v1] {
+    border-right: none!important;
+    border-radius: 20px 0 0 20px;
+}
+
+label[for=ywgc_page_layout_version-v2] {
+    border-left: none!important;
+    border-radius: 0 20px 20px 0;
+}
+
+
+/* Email options */
+
+#yith-ywgc-emails-wrapper table{
+    padding: 0 40px;
+}
+
+#yith-ywgc-emails-wrapper h2{
+    padding-bottom: 15px;
+}
+
+#yith-ywgc-emails-wrapper .description{
+    margin: 15px 0 40px 0;
+    font-size: 13px;
+}
+
+#yith-ywgc-emails-wrapper h2,
+#yith-ywgc-emails-wrapper table{
+    border: none;
+}
+
+#yith-ywgc-table-emails .heading-table,
+#yith-ywgc-table-emails .yith-ywgc-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#yith-ywgc-table-emails .yith-ywgc-column:nth-child(1) {
+    flex-basis: 80%;
+}
+
+#yith-ywgc-table-emails .yith-ywgc-column:nth-child(2) {
+    flex-basis: 10%;
+    text-align: right;
+}
+
+#yith-ywgc-table-emails .yith-ywgc-column:nth-child(3) {
+    flex-basis: 10%;
+}
+
+#yith-ywgc-table-emails .yith-ywgc-column.status {
+    text-align: right;
+    box-sizing: border-box;
+}
+
+#yith-ywgc-table-emails .heading-table .yith-ywgc-column.status{
+    padding-right: 40px;
+}
+
+#yith-ywgc-table-emails .content-table .yith-ywgc-column.status{
+    padding-right: 30px;
+    padding-top: 5px;
+}
+
+#yith-ywgc-table-emails .heading-table {
+    margin-bottom: 20px;
+}
+
+#yith-ywgc-table-emails .yith-ywgc-column.email {
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+
+#yith-ywgc-table-emails .heading-table .yith-ywgc-column {
+    font-size: 14px;
+    color: #2c3338;
+    font-weight: 600;
+}
+
+
+#yith-ywgc-table-emails .content-table .yith-ywgc-row {
+    background: var(--yith-content-bg);
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px var(--yith-light-border-color), 0 3px 11px 6px var(--yith-light-shadow);
+    transition: background-color .2s ease-in-out;
+    margin-bottom: 30px;
+    padding: 20px 0;
+}
+
+#yith-ywgc-table-emails .content-table .yith-ywgc-column {
+    line-height: 30px;
+    box-sizing: border-box;
+}
+
+#yith-ywgc-table-emails .content-table .yith-ywgc-row:hover{
+    background: var(--yith-table-row-highlight);
+}
+
+#yith-ywgc-table-emails .content-table .yith-ywgc-column.action{
+    opacity: 0;
+    pointer-events: none;
+    position: relative;
+}
+
+#yith-ywgc-table-emails .content-table .yith-ywgc-row:hover .yith-ywgc-column.action{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#yith-ywgc-table-emails .email-settings{
+    flex-basis: 100%;
+    display: none;
+    margin-top: 15px;
+}
+
+#yith-ywgc-table-emails .email-settings #template{
+    display: none;
+}
+
+#yith-ywgc-table-emails .email-settings form{
+    background: #ffffff;
+    margin-bottom: 0;
+}
+
+#yith-ywgc-table-emails .email-settings .yit-admin-panel-container{
+    margin-right: 0;
+}
+
+#yith-ywgc-table-emails  .email-settings h2,
+#yith-ywgc-table-emails  .email-settings h2 + p{
+    display: none;
+}
+
+
+#yith-ywgc-table-emails  .email-settings table {
+    border: none!important;
+}
+
+#yith-ywgc-table-emails .content-table .yith-ywgc-row.active{
+    background: var(--yith-table-row-highlight);
+    padding-bottom: 0;
+}
+
+#yith-ywgc-table-emails .email-settings form tr:first-child {
+    display: none;
+}
+
+#yith-ywgc-table-emails .email-settings .submit{
+    text-align: right;
+    margin-right: 20px;
+}
+
+#ywgc-gift-card-export-import-container .single-step.configuration .import-configuration-delimiter-field input#ywgc_csv_delimiter{
+    margin-left: -15px;
+}

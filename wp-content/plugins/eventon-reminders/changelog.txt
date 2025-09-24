@@ -1,0 +1,59 @@
+Reminders (RM) addon for EventON Plugin
+====================================
+v 0.12 (2025-2-21)
+ADDED: Reminder email preview in event edit page
+FIXED: reminder emails are not going through
+
+v 0.11 (2025-2-3) 
+ADDED: preview reminder email from settings
+FIXED: email message body not showing the content correctly 
+FIXED: undefined addons variable
+
+v 0.10 (2024-11-15) 
+ADDED: Option to set for each reminder in setting to email only opted attendees for rsvp
+FIXED: send_email() not getting settings values correctly
+FIXED: settings values properly loaded
+
+v 0.9 (2024-11-14)
+FIXED: tickets cron jobs not creating
+
+v 0.8 (2024-11-12)
+FIXED: PHP 8.2 issues
+FIXED: issue with saving data log
+FIXED: ticket reminders not showing in events
+
+v 0.7 (2024-2-21)
+FIXED: email message html content not saving
+
+v 0.6 (2023-10-30)
+FIXED: email message html content stripped off
+FIXED: PHP 8.2 compatibility
+
+v 0.5 (2022-3-21)
+FIXED: get_reminder_prop() method array error
+FIXED: unexpected code error on class-admin.php file
+FIXED: PHP new version compatibility
+FIXED: meta box display styles
+UPDATED: Reminders emailing notice in settings
+
+v 0.4 (2018-5-14)
+FIXED: Reminders are not saving for correct times
+FIXED: field naming error in settings
+
+v 0.3 (2018-3-30)
+FIXED: reminders on tickets addon causing save error
+
+v 0.2 (2018-3-13)
+ADDED: Ability to include HTML content inside message 
+ADDED: reminder notice to event edit meta box
+ADDED: Separate event meta box for all reminders in one place
+ADDED: cronjobs status of reminders for event
+FIXED: unschedule cron jobs not recording correct
+FIXED: skip reminders that are not set during event save
+FIXED: resaving event with changes time creating new cron jobs instead of deleting old
+FIXED: changing event time not deleting already created cron reminders
+UPDATED: Consolidate reminder types 
+
+v 0.1 (2018-2-8)
+Initial release
+

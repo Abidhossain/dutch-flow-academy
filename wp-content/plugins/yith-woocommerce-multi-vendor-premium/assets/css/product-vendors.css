@@ -1,0 +1,537 @@
+.by-vendor-name, .vendor-name-wrapper {
+  display: block;
+  margin-bottom: 10px;
+}
+.by-vendor-name a, .vendor-name-wrapper a {
+  display: inline;
+  color: var(--ywcmv-name-color, #bc360a);
+}
+.by-vendor-name a:hover, .vendor-name-wrapper a:hover {
+  color: var(--ywcmv-name-color-hover, #ea9629);
+}
+
+.vendor-name-wrapper {
+  margin-bottom: 20px;
+}
+.vendor-name-wrapper .vendor-item-sales:before {
+  content: "|";
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+ul.products li.product .by-vendor-name a, ul.products li.product .vendor-name-wrapper a,
+.wc-block-grid ul.wc-block-grid__products li.wc-block-grid__product .by-vendor-name a,
+.wc-block-grid ul.wc-block-grid__products li.wc-block-grid__product .vendor-name-wrapper a {
+  display: inline;
+}
+
+#yith-vendor-registration:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Related Product */
+.related.products ul.products li .by-vendor-name, .related.products ul.products li .vendor-name-wrapper {
+  display: block;
+}
+
+.woocommerce .vacation.woocommerce-info i {
+  padding-right: 5px;
+  font-size: 1.5em;
+}
+
+/* Vendor Sidebar */
+.vendor-sidebar ul.widget-area {
+  padding: 0;
+  list-style: none;
+}
+
+/* Vendor Registration */
+#customer_login label.inline.vendor-register-label {
+  cursor: pointer;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-left: 0;
+}
+
+.yith-wpv-quick-info-wrapper {
+  margin-bottom: 20px;
+}
+
+.editor-block-list__block ul.shortcodes.vendors-list {
+  list-style: none;
+  margin: 0;
+}
+
+ul.products li .by-vendor-name-link:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* Become a vendor */
+.block-editor #yith-become-a-vendor form.register p.form-row label {
+  display: inline-block;
+}
+
+.block-editor #yith-become-a-vendor form.register p.form-row input.input-text {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  outline: 0;
+  line-height: normal;
+}
+
+.block-editor #yith-become-a-vendor form.register p.form-row #yith-become-a-vendor-submit {
+  border: 1px solid #000000;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  background: #000000;
+  text-transform: uppercase;
+}
+
+.become-a-vendor.multi-vendor-style #customer_login > div:first-of-type,
+.become-a-vendor.multi-vendor-style #customer_login .login,
+.become-a-vendor.multi-vendor-style #customer_login h2 {
+  display: none;
+}
+
+.become-a-vendor.multi-vendor-style #customer_login > div:last-of-type {
+  width: 100%;
+  float: none;
+}
+
+/* Single product page */
+.yith_wcmv_shipping_tab_title {
+  display: inline-block;
+  border-bottom: 1px solid #d3ced2;
+  padding-bottom: 10px;
+}
+
+.yith_wcmv_sold_by_wrapper {
+  display: block;
+}
+
+/* RTL */
+.rtl.woocommerce-checkout .yith_wcmv_sold_by_wrapper {
+  display: inline-block;
+}
+
+/* Storefront Theme */
+.theme-storefront .store-socials .socials-container a.vendor-social-uri:hover {
+  color: #3d9cd2;
+}
+
+/* Terms of Service */
+#yith_mv_privacy_content {
+  margin-top: 20px;
+}
+
+.yith_mv_content {
+  max-height: 250px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.yith_mv_acceptance {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.yith_mv_accept_info {
+  font-style: italic;
+  margin-right: 10px;
+}
+
+.yith_mv_accept_info .yith_mv_accept_data {
+  font-weight: bold;
+}
+
+#yith-vendor-dashboard {
+  background-color: #f3f8fa;
+  border-radius: 10px;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+}
+#yith-vendor-dashboard.status-pending {
+  background-color: #e6e6e6;
+}
+#yith-vendor-dashboard.status-pending-fee {
+  background-color: #fdf8ed;
+}
+#yith-vendor-dashboard .yith-vendor-dashboard-icon {
+  margin-bottom: 25px;
+}
+#yith-vendor-dashboard .yith-vendor-dashboard-title,
+#yith-vendor-dashboard .yith-vendor-dashboard-message {
+  margin: 0;
+  text-align: center;
+}
+#yith-vendor-dashboard .yith-vendor-dashboard-cta {
+  display: inline-block;
+  min-width: 250px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: 1px solid #337cac;
+  color: #337cac;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+#yith-vendor-dashboard .yith-vendor-dashboard-cta:hover, #yith-vendor-dashboard .yith-vendor-dashboard-cta:focus {
+  filter: brightness(0.85);
+  transition: all 0.3s ease;
+}
+#yith-vendor-dashboard.status-pending-fee .yith-vendor-dashboard-cta {
+  color: #c78f38;
+  border-color: #c78f38;
+}
+
+#yith-wpv-abuse {
+  color: var(--ywcmv-report-abuse-color, #af2323);
+}
+#yith-wpv-abuse:hover {
+  color: var(--ywcmv-report-abuse-color-hover, #af2323);
+}
+
+#yith-wpv-abuse-report-modal {
+  z-index: 1000;
+  display: none;
+  padding-top: 15vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#yith-wpv-abuse-report {
+  background: #ffffff;
+  padding: 35px 25px;
+  width: 90vw;
+  max-width: 500px;
+  margin: 0 auto;
+  display: none;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  border-radius: 10px;
+}
+#yith-wpv-abuse-report .yith-wpv-abuse-report-modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-image: url("../icons/close.svg");
+  opacity: 0.3;
+  transition: opacity 0.3s ease;
+}
+#yith-wpv-abuse-report .yith-wpv-abuse-report-modal-close:hover {
+  opacity: 1;
+}
+#yith-wpv-abuse-report .yith-wpv-abuse-report-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 40px;
+  text-align: center;
+}
+#yith-wpv-abuse-report .yith-wpv-abuse-report-subtitle {
+  display: block;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 2;
+}
+#yith-wpv-abuse-report .input-text, #yith-wpv-abuse-report textarea {
+  width: 100%;
+  margin-bottom: 15px;
+}
+#yith-wpv-abuse-report form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: end;
+}
+#yith-wpv-abuse-report form label {
+  flex: 0 1 48%;
+  margin-bottom: 25px;
+}
+#yith-wpv-abuse-report form label > span {
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+#yith-wpv-abuse-report form label .input-text, #yith-wpv-abuse-report form label textarea {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+#yith-wpv-abuse-report form input[type=submit] {
+  margin: 0;
+}
+#yith-wpv-abuse-report form .wide-field, #yith-wpv-abuse-report form input[type=submit] {
+  flex: 0 1 100%;
+}
+#yith-wpv-abuse-report .yith-wpv-abuse-report-sent {
+  text-align: center;
+  padding: 30px 0;
+}
+#yith-wpv-abuse-report .yith-wpv-abuse-report-sent img {
+  margin-bottom: 20px;
+}
+#yith-wpv-abuse-report .yith-wpv-abuse-report-sent .yith-wpv-abuse-report-sent-message {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 2;
+}
+#yith-wpv-abuse-report .yith-wpv-abuse-report-sent .yith-wpv-abuse-report-sent-message span {
+  font-weight: initial;
+  font-size: 16px;
+  display: block;
+}
+#yith-wpv-abuse-report .yith-wpv-abuse-report-modal-error {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #ffc6c2;
+}
+
+/* Vendor Store Page */
+/* Define variables */
+.store-header-wrapper {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: var(--ywcmv-header-text-color, #000000);
+}
+.store-header-wrapper .store-name {
+  font-size: 20px;
+  font-weight: 700;
+}
+.store-header-wrapper .avatar img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.store-header-wrapper .store-info-wrapper {
+  align-self: stretch;
+  padding: 30px 20px;
+  text-align: left;
+}
+.store-header-wrapper .store-info-wrapper .store-info > span {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: flex-start;
+}
+.store-header-wrapper .store-info-wrapper .store-info > span:last-child {
+  margin-bottom: 0;
+}
+.store-header-wrapper .store-info-wrapper .store-info > span i {
+  margin-right: 10px;
+  flex: 0 0 15px;
+}
+.store-header-wrapper .store-socials {
+  align-self: flex-end;
+  color: var(--ywcmv-header-text-color, #000000);
+  padding: 15px 20px;
+}
+.store-header-wrapper .store-socials .vendor-social-uri {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 5px;
+}
+.store-header-wrapper.small-box {
+  padding: 15px;
+}
+.store-header-wrapper.small-box .store-info-wrapper {
+  position: relative;
+  background-color: var(--ywcmv-header-background-color, rgba(255, 255, 255, 0.8));
+}
+.store-header-wrapper.small-box .store-info-wrapper .store-avatar-name {
+  margin-bottom: 30px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.store-header-wrapper.small-box .store-info-wrapper .store-avatar-name > span {
+  flex: 0 0 100%;
+}
+.store-header-wrapper.small-box .store-socials {
+  background-color: var(--ywcmv-header-background-color, rgba(255, 255, 255, 0.8));
+  padding: 10px 15px;
+}
+.store-header-wrapper.double-box {
+  background-color: var(--ywcmv-header-background-color, rgba(255, 255, 255, 0.8));
+}
+.store-header-wrapper.double-box .store-header-image {
+  flex: 0 0 100%;
+}
+.store-header-wrapper.double-box .store-header-image img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+.store-header-wrapper.double-box .store-info-wrapper .store-avatar-name {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.store-header-wrapper.double-box .store-info-wrapper .store-avatar-name .avatar {
+  margin-right: 20px;
+}
+.store-header-wrapper.avatar-box {
+  margin-bottom: 60px;
+}
+.store-header-wrapper.avatar-box .store-avatar-wrapper {
+  flex: 0 0 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.store-header-wrapper.avatar-box .store-avatar-wrapper .avatar {
+  display: inline-block;
+  padding: 20px;
+}
+.store-header-wrapper.avatar-box .store-name-wrapper {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  background-color: #e6f2f0;
+}
+.store-header-wrapper.avatar-box .store-name-wrapper .store-socials {
+  padding: 0;
+  align-self: auto;
+}
+.store-header-wrapper.avatar-box .store-info-wrapper {
+  flex: 1 1 40%;
+  background-color: var(--ywcmv-header-background-color, rgba(255, 255, 255, 0.8));
+}
+.store-header-wrapper.avatar-box .store-description-wrapper {
+  flex: 1 1 60%;
+  padding: 30px 15px;
+  margin-bottom: 0;
+  background-color: var(--ywcmv-header-background-color, rgba(255, 255, 255, 0.8));
+  color: var(--ywcmv-header-text-color, #000000);
+}
+.store-header-wrapper.avatar-box .store-description-wrapper p {
+  margin: 0;
+}
+
+.store-description-wrapper {
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.store-product-list-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.store-vacation {
+  padding: 25px;
+  text-align: left;
+  margin-bottom: 30px;
+  background-color: #fff4d4;
+}
+
+.store-header-wrapper + .store-vacation {
+  margin-bottom: 60px;
+  margin-top: -30px;
+}
+
+.shortcodes.vendors-list {
+  padding: 0;
+  list-style: none;
+}
+.shortcodes.vendors-list li.vendor-item {
+  margin-bottom: 25px;
+}
+.shortcodes.vendors-list .vendor-info-wrapper:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.shortcodes.vendors-list .vendor-info-wrapper > .store-image {
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+}
+.shortcodes.vendors-list .vendor-info-wrapper > .vendor-info {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.shortcodes.vendors-list .vendor-info-wrapper > .vendor-info.has-description {
+  max-width: 75%;
+}
+.shortcodes.vendors-list .vendor-info-wrapper > .vendor-info .store-socials {
+  margin: 10px 0;
+}
+.shortcodes.vendors-list .vendor-info-wrapper > .vendor-info .store-socials .vendor-social-uri {
+  font-size: 20px;
+  box-shadow: none;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  margin-right: 5px;
+}
+.shortcodes.vendors-list .vendor-info-wrapper > .vendor-info .store-socials .vendor-social-uri i {
+  font-style: normal;
+}
+.shortcodes.vendors-list li:not(.store-socials) > i {
+  margin-right: 10px;
+  font-style: normal;
+}
+
+.shortcodes.woocommerce form .form-row .woocommerce-validated {
+  border: 2px solid #69bf29;
+  font-weight: normal;
+}
+.shortcodes.woocommerce form .form-row .woocommerce-invalid {
+  border: 2px solid #a00;
+  font-weight: normal;
+}
+.shortcodes.woocommerce form .form-row.submit-wrapper {
+  clear: both;
+}
+
+.yith-wpv-quick-info textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  resize: none;
+  padding: 10px;
+}
+.yith-wpv-quick-info .input-text {
+  width: 100%;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  outline: 0;
+  line-height: 1;
+}
+.yith-wpv-quick-info .information.success,
+.yith-wpv-quick-info .information.error {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=product-vendors.css.map */

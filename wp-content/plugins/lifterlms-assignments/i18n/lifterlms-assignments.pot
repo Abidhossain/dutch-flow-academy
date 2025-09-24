@@ -1,0 +1,787 @@
+# Copyright (C) 2018-2025 LifterLMS
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: LifterLMS Assignments 2.3.3\n"
+"Report-Msgid-Bugs-To: https://lifterlms.com/my-account/my-tickets\n"
+"Last-Translator: Team LifterLMS <team@lifterlms.com>\n"
+"Language-Team: Team LifterLMS <team@lifterlms.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-07-28T17:59:13+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: llms/dev 0.2.1\n"
+"X-Domain: lifterlms-assignments\n"
+
+#. Plugin Name of the plugin
+#: lifterlms-assignments.php
+msgid "LifterLMS Assignments"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: lifterlms-assignments.php
+msgid "https://lifterlms.com/product/lifterlms-assignments/"
+msgstr ""
+
+#. Description of the plugin
+#: lifterlms-assignments.php
+msgid "Get your learners taking action with tasks to be completed, uploads to submit, and more."
+msgstr ""
+
+#. Author of the plugin
+#: lifterlms-assignments.php
+msgid "LifterLMS"
+msgstr ""
+
+#. Author URI of the plugin
+#: lifterlms-assignments.php
+msgid "https://lifterlms.com/"
+msgstr ""
+
+#. Translators: %s = Assignment ID.
+#: includes/admin/class-llms-assignments-builder.php:205
+msgid "Unable to update assignment \"%s\". Invalid assignment ID."
+msgstr ""
+
+#. Translators: %s = Task ID.
+#: includes/admin/class-llms-assignments-builder.php:263
+msgid "Unable to update task \"%s\". Invalid task ID."
+msgstr ""
+
+#: includes/admin/class-llms-assignments-metaboxes.php:45
+#: includes/admin/class-llms-assignments-reporting.php:94
+#: includes/class-llms-assignments-posts.php:524
+#: includes/class-llms-assignments-student-dashboard.php:51
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:143
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:143
+msgid "Assignment"
+msgstr ""
+
+#: includes/admin/class-llms-assignments-permalinks.php:75
+msgid "Assignment Post Type"
+msgstr ""
+
+#: includes/admin/class-llms-assignments-reporting.php:168
+msgid "You do not have permission to access this content."
+msgstr ""
+
+#: includes/admin/class-llms-assignments-reporting.php:174
+msgid "Overview"
+msgstr ""
+
+#: includes/admin/class-llms-assignments-reporting.php:175
+msgid "Submissions"
+msgstr ""
+
+#. Translators: %1$d = submission id.
+#: includes/admin/class-llms-assignments-reporting.php:229
+msgid "Could not find any submission with id %1$d for this assignment"
+msgstr ""
+
+#: includes/admin/class-llms-assignments-reporting.php:281
+#: includes/admin/class-llms-table-assignments-submissions.php:99
+#: includes/models/class-llms-assignment-submission.php:350
+msgid "[Deleted]"
+msgstr ""
+
+#. Translators: %1$s = student name; %2$s = assignment grade.
+#: includes/admin/class-llms-assignments-reporting.php:289
+msgid "%1$s passed the assignment with a %2$d%%"
+msgstr ""
+
+#. Translators: %1$s = student name; %2$s = assignment grade.
+#: includes/admin/class-llms-assignments-reporting.php:295
+msgid "%1$s failed the assignment with a %2$d%%"
+msgstr ""
+
+#. Translators: %s = student name.
+#: includes/admin/class-llms-assignments-reporting.php:301
+msgid "%s started the assignment"
+msgstr ""
+
+#. Translators: %s = student name.
+#: includes/admin/class-llms-assignments-reporting.php:308
+msgid "%s's assignment is awaiting review"
+msgstr ""
+
+#: includes/admin/class-llms-assignments-reporting.php:337
+#: includes/admin/class-llms-table-assignments.php:193
+#: includes/admin/views/reporting/single.php:21
+#: includes/class-llms-assignments-posts.php:523
+msgid "Assignments"
+msgstr ""
+
+#: includes/admin/class-llms-table-assignments-submissions.php:163
+#: includes/class-llms-assignments-privacy.php:107
+msgid "Assignment Submissions"
+msgstr ""
+
+#: includes/admin/class-llms-table-assignments-submissions.php:261
+#: includes/admin/class-llms-table-assignments.php:316
+msgid "ID"
+msgstr ""
+
+#: includes/admin/class-llms-table-assignments-submissions.php:266
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:142
+msgid "Student"
+msgstr ""
+
+#: includes/admin/class-llms-table-assignments-submissions.php:272
+#: includes/admin/views/reporting/single-submission.php:38
+#: includes/admin/views/reporting/single-submission.php:118
+#: includes/class-llms-assignments-privacy.php:183
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:146
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:204
+msgid "Grade"
+msgstr ""
+
+#: includes/admin/class-llms-table-assignments-submissions.php:277
+#: includes/admin/views/reporting/single-submission.php:75
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:208
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:204
+msgid "Start Date"
+msgstr ""
+
+#: includes/admin/class-llms-table-assignments-submissions.php:282
+msgid "Last Updated"
+msgstr ""
+
+#: includes/admin/class-llms-table-assignments.php:275
+msgid "Search assignments..."
+msgstr ""
+
+#: includes/admin/class-llms-table-assignments.php:321
+#: includes/admin/views/settings.php:16
+msgid "Title"
+msgstr ""
+
+#: includes/admin/class-llms-table-assignments.php:326
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:145
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:145
+msgid "Course"
+msgstr ""
+
+#: includes/admin/class-llms-table-assignments.php:331
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:144
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:144
+msgid "Lesson"
+msgstr ""
+
+#: includes/admin/class-llms-table-assignments.php:336
+msgid "Awaiting Review"
+msgstr ""
+
+#: includes/admin/class-llms-table-assignments.php:341
+msgid "Total Attempts"
+msgstr ""
+
+#: includes/admin/class-llms-table-assignments.php:346
+msgid "Average Grade"
+msgstr ""
+
+#: includes/admin/views/reporting/single-overview.php:34
+msgid "Assignment Overview"
+msgstr ""
+
+#: includes/admin/views/reporting/single-overview.php:47
+msgid "Course:"
+msgstr ""
+
+#. Translators: %s = Lesson title.
+#: includes/admin/views/reporting/single-overview.php:56
+msgid "Lesson: %s"
+msgstr ""
+
+#. Translators: %s = text describing the current period.
+#: includes/admin/views/reporting/single-overview.php:72
+msgid "Submissions %s"
+msgstr ""
+
+#. Translators: %s = text describing the current period.
+#: includes/admin/views/reporting/single-overview.php:88
+msgid "Average grade %s"
+msgstr ""
+
+#. Translators: %s = text describing the current period.
+#: includes/admin/views/reporting/single-overview.php:102
+msgid "Passed attempts %s"
+msgstr ""
+
+#. Translators: %s = text describing the current period.
+#: includes/admin/views/reporting/single-overview.php:116
+msgid "Failed attempts %s"
+msgstr ""
+
+#: includes/admin/views/reporting/single-overview.php:130
+msgid "Recent events"
+msgstr ""
+
+#: includes/admin/views/reporting/single-submission.php:64
+#: includes/class-llms-assignments-privacy.php:177
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:147
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:209
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:146
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:205
+msgid "Status"
+msgstr ""
+
+#: includes/admin/views/reporting/single-submission.php:88
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:203
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:201
+msgid "End Date"
+msgstr ""
+
+#: includes/admin/views/reporting/single-submission.php:106
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:330
+msgid "Submission"
+msgstr ""
+
+#: includes/admin/views/reporting/single-submission.php:113
+#: includes/class-llms-assignments-privacy.php:189
+msgid "Remarks"
+msgstr ""
+
+#: includes/admin/views/reporting/single-submission.php:131
+msgid "Start a Review"
+msgstr ""
+
+#: includes/admin/views/reporting/single-submission.php:135
+msgid "Save Review"
+msgstr ""
+
+#: includes/admin/views/reporting/single-submission.php:141
+msgid "Cancel Review"
+msgstr ""
+
+#: includes/admin/views/reporting/single-submission.php:146
+msgid "Mark Incomplete"
+msgstr ""
+
+#: includes/admin/views/reporting/single-submission.php:151
+msgid "Delete submission"
+msgstr ""
+
+#: includes/admin/views/settings.php:20
+msgid "Published"
+msgstr ""
+
+#: includes/admin/views/settings.php:28
+#: includes/admin/views/settings.php:30
+msgid "Detach Assignment"
+msgstr ""
+
+#: includes/admin/views/settings.php:34
+#: includes/admin/views/settings.php:36
+msgid "Delete Assignment"
+msgstr ""
+
+#: includes/admin/views/settings.php:51
+#: includes/class-llms-assignments-l10n.php:55
+msgid "Task List"
+msgstr ""
+
+#: includes/admin/views/settings.php:54
+msgid "Add Task"
+msgstr ""
+
+#: includes/admin/views/task.php:20
+msgid "Enter a task..."
+msgstr ""
+
+#: includes/admin/views/task.php:25
+#: includes/admin/views/task.php:27
+msgid "Delete Task"
+msgstr ""
+
+#. Translators: %s = variable name.
+#: includes/class-llms-assignments-ajax.php:62
+msgid "Missing required paramater: \"%s\""
+msgstr ""
+
+#. Translators: %s = variable name.
+#: includes/class-llms-assignments-ajax.php:68
+msgid "Invalid value submitted for parameter \"%s\""
+msgstr ""
+
+#: includes/class-llms-assignments-ajax.php:103
+msgid "Unable to submit assignment."
+msgstr ""
+
+#: includes/class-llms-assignments-ajax.php:134
+msgid "Unable to update essay."
+msgstr ""
+
+#: includes/class-llms-assignments-ajax.php:167
+msgid "Unable to update task."
+msgstr ""
+
+#: includes/class-llms-assignments-ajax.php:194
+#: includes/class-llms-assignments-ajax.php:273
+msgid "Invalid user."
+msgstr ""
+
+#: includes/class-llms-assignments-ajax.php:200
+#: includes/class-llms-assignments-ajax.php:279
+msgid "Invalid assignment."
+msgstr ""
+
+#: includes/class-llms-assignments-ajax.php:205
+msgid "File already uploaded."
+msgstr ""
+
+#: includes/class-llms-assignments-ajax.php:219
+msgid "Invalid filetype."
+msgstr ""
+
+#. Translators: %1$s = Assignment title; %2$s = Student name.
+#: includes/class-llms-assignments-ajax.php:227
+#: includes/models/class-llms-assignment-submission.php:552
+msgid "%1$s assignment by %2$s"
+msgstr ""
+
+#: includes/class-llms-assignments-ajax.php:250
+#: includes/class-llms-assignments-ajax.php:293
+msgid "Success"
+msgstr ""
+
+#: includes/class-llms-assignments-ajax.php:284
+#: includes/class-llms-assignments-ajax.php:288
+msgid "Upload could not be deleted."
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:50
+msgid "General Settings"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:51
+msgid "Video Embed URL"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:52
+msgid "Audio Embed URL"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:53
+msgid "Description"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:54
+msgid "Assignment Type"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:56
+msgid "Essay"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:57
+msgid "Upload"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:58
+msgid "Passing Percentage"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:59
+msgid "Minimum grade required to pass the assignment."
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:60
+msgid "Assignment Weight"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:61
+msgid "POINTS"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:62
+msgid "Determines the weight of the assignment when calculating the grade of the lesson."
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:63
+msgid "Minimum Word Count"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:64
+msgid "Maximum Word Count"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:65
+msgid "Restrict File Types"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:66
+#: includes/class-llms-assignments-posts.php:530
+msgid "New Assignment"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:67
+msgid "assignments"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:68
+msgid "assignment"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:69
+msgid "tasks"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:70
+msgid "task"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:71
+msgid "Click \"Add Task\" to get started"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:72
+msgid "Quiz Weight"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:73
+msgid "Determines the weight of the quiz when calculating the grade of the lesson."
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:81
+msgid "word"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:82
+msgid "words"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:83
+msgid "Minimum"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:84
+msgid "Maximum"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:85
+msgid "Error Removing Upload"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:86
+msgid "Error submitting assignment, please try again."
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:87
+msgid "Error saving assignment, please try again."
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:88
+msgid "Error updating task, please try again."
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:89
+msgid "Error Uploading File"
+msgstr ""
+
+#: includes/class-llms-assignments-l10n.php:90
+msgid "Invalid filetype selected."
+msgstr ""
+
+#: includes/class-llms-assignments-posts.php:293
+msgid "Error creating assignment"
+msgstr ""
+
+#: includes/class-llms-assignments-posts.php:525
+msgctxt "Admin menu name"
+msgid "Assignments"
+msgstr ""
+
+#: includes/class-llms-assignments-posts.php:526
+msgid "Add Assignment"
+msgstr ""
+
+#: includes/class-llms-assignments-posts.php:527
+msgid "Add New Assignment"
+msgstr ""
+
+#: includes/class-llms-assignments-posts.php:528
+msgid "Edit"
+msgstr ""
+
+#: includes/class-llms-assignments-posts.php:529
+msgid "Edit Assignment"
+msgstr ""
+
+#: includes/class-llms-assignments-posts.php:531
+#: includes/class-llms-assignments-posts.php:532
+msgid "View Assignment"
+msgstr ""
+
+#: includes/class-llms-assignments-posts.php:533
+msgid "Search Assignments"
+msgstr ""
+
+#: includes/class-llms-assignments-posts.php:534
+msgid "No Assignments found"
+msgstr ""
+
+#: includes/class-llms-assignments-posts.php:535
+msgid "No Assignments found in trash"
+msgstr ""
+
+#: includes/class-llms-assignments-posts.php:536
+msgid "Parent Assignment"
+msgstr ""
+
+#: includes/class-llms-assignments-posts.php:538
+msgid "This is where you can add new assignments."
+msgstr ""
+
+#: includes/class-llms-assignments-privacy.php:25
+msgid "LifterLMS Social Learning"
+msgstr ""
+
+#: includes/class-llms-assignments-privacy.php:27
+msgid "Assignment Data"
+msgstr ""
+
+#: includes/class-llms-assignments-privacy.php:29
+msgid "Story Data"
+msgstr ""
+
+#. Translators: %d assignment submission id.
+#: includes/class-llms-assignments-privacy.php:63
+msgid "Assignment submission #%d removed."
+msgstr ""
+
+#. Translators: %d assignment submission id.
+#: includes/class-llms-assignments-privacy.php:71
+msgid "Assignment submission #%d retained."
+msgstr ""
+
+#: includes/class-llms-assignments-privacy.php:139
+msgid "Submission ID"
+msgstr ""
+
+#: includes/class-llms-assignments-privacy.php:147
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:201
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:199
+msgid "Assignment Title"
+msgstr ""
+
+#: includes/class-llms-assignments-privacy.php:157
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:202
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:200
+msgid "Course Title"
+msgstr ""
+
+#: includes/class-llms-assignments-privacy.php:163
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:205
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:202
+msgid "Lesson Title"
+msgstr ""
+
+#: includes/class-llms-assignments-privacy.php:172
+msgid "Submitted Date"
+msgstr ""
+
+#: includes/class-llms-assignments-student-dashboard.php:92
+msgid "View"
+msgstr ""
+
+#: includes/class-llms-assignments-student-dashboard.php:98
+msgid "Start"
+msgstr ""
+
+#: includes/functions-llms-assignments-i18n.php:45
+msgctxt "assignment url slug"
+msgid "assignment"
+msgstr ""
+
+#: includes/functions-llms-assignments-templates.php:326
+msgid "Completed on"
+msgstr ""
+
+#: includes/functions-llms-assignments.php:36
+msgid "Fail"
+msgstr ""
+
+#: includes/functions-llms-assignments.php:37
+msgid "Incomplete"
+msgstr ""
+
+#: includes/functions-llms-assignments.php:38
+msgid "Pass"
+msgstr ""
+
+#: includes/functions-llms-assignments.php:39
+msgid "Pending"
+msgstr ""
+
+#. Translators: %s = The name of the student.
+#: includes/models/class-llms-assignment-submission.php:352
+msgid "%s's Assignment Submission"
+msgstr ""
+
+#: includes/models/class-llms-assignment-submission.php:420
+msgid "No assignment found."
+msgstr ""
+
+#: includes/models/class-llms-assignment-submission.php:425
+msgid "Uploads not permitted."
+msgstr ""
+
+#: includes/models/class-llms-assignment-submission.php:431
+msgid "No student found."
+msgstr ""
+
+#: includes/models/class-llms-assignment-submission.php:499
+msgid "Missing upload file."
+msgstr ""
+
+#: includes/models/class-llms-assignment-submission.php:516
+msgid "Invalid upload."
+msgstr ""
+
+#. Translators: %1$s = Assignment Title; %2$s = Student Name; %3$s = Assignment Status.
+#: includes/notifications/class-llms-assignments-notification-controller-assignment-graded.php:117
+#: includes/notifications/class-llms-assignments-notification-controller-assignment-submitted.php:123
+msgid "\"%1$s\" by %2$s (%3$s)"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-controller-assignment-graded.php:131
+#: includes/notifications/class-llms-assignments-notification-controller-assignment-submitted.php:137
+msgid "Select a submission"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-controller-assignment-graded.php:135
+#: includes/notifications/class-llms-assignments-notification-controller-assignment-submitted.php:141
+msgid "Send yourself a test notification using information from the selected submission."
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-controller-assignment-graded.php:137
+#: includes/notifications/class-llms-assignments-notification-controller-assignment-submitted.php:143
+msgid "Send a Test"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-controller-assignment-graded.php:178
+#: includes/notifications/class-llms-assignments-notification-controller-assignment-submitted.php:184
+msgid "Email"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-controller-assignment-graded.php:191
+msgid "Assignments: Assignment Graded"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-controller-assignment-submitted.php:197
+msgid "Assignments: Assignment Submitted"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:148
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:147
+msgid "Started"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:149
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:148
+msgid "Completed"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:163
+msgid "Review your submission"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:164
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:163
+msgid "Trouble clicking? Copy and paste this URL into your browser:"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:206
+msgid "Instructor Remarks"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:207
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:203
+msgid "Review URL"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:210
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:206
+msgid "Student Name"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:259
+msgid "Your instructor did not leave any remarks."
+msgstr ""
+
+#. Translators: %1$s = The assignment's title.
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:297
+msgid "Your assignment \"%1$s\" has been reviewed"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-view-assignment-graded.php:308
+msgid "Assignment Review Details"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:162
+msgid "View the whole submission and leave remarks"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:207
+msgid "Submission Summary"
+msgstr ""
+
+#. Translators: %1$s = Student Name, %2$s = Assignment Title.
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:283
+msgid "%1$s submitted the assignment \"%2$s\""
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:294
+msgid "Assignment Submission Details"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:314
+msgid "Tasks Summary"
+msgstr ""
+
+#: includes/notifications/class-llms-assignments-notification-view-assignment-submitted.php:327
+msgid "Essay Excerpt"
+msgstr ""
+
+#: templates/assignment/content-tasklist.php:22
+msgid "Assignment Tasks"
+msgstr ""
+
+#: templates/assignment/content-upload.php:28
+msgid "Select or drop a file..."
+msgstr ""
+
+#. Translators: %s = commas-separated list of allowed file types.
+#: templates/assignment/content-upload.php:31
+msgid "Allowed filetypes: %s"
+msgstr ""
+
+#: templates/assignment/content-upload.php:42
+msgid "Remove file"
+msgstr ""
+
+#: templates/assignment/footer.php:36
+msgid "Take Quiz"
+msgstr ""
+
+#: templates/assignment/footer.php:41
+msgid "Next Lesson"
+msgstr ""
+
+#: templates/assignment/footer.php:48
+msgid "Submit Assignment"
+msgstr ""
+
+#: templates/assignment/results.php:33
+msgid "Grade & Instructor Remarks"
+msgstr ""
+
+#: templates/assignment/return-to-lesson-link.php:19
+msgid "Return to Lesson"
+msgstr ""
+
+#: templates/lesson/take-assignment-button.php:21
+#: assets/js/llms-assignments-blocks.js:1
+msgid "Start Assignment"
+msgstr ""

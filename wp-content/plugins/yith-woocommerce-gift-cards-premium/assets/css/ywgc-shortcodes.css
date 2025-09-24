@@ -1,0 +1,49 @@
+/*
+Shortcodes styles
+*/
+
+
+.ywgc-shortcode-form {
+    text-align: center;
+    max-width: 500px;
+    background-color: #f2f2f2;
+    padding: 50px 30px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ywgc-shortcode-form-title{
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.ywgc-shortcode-form-label{
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.ywgc-shortcode-text-input{
+    margin: 10px 0;
+    width: 80%;
+}
+
+.ywgc-shortcode-submit-button{
+    height: 43px;
+    padding: 10px 20px;
+    margin: 0;
+    width: 80%;
+}
+
+.ywgc-shortcode-message{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

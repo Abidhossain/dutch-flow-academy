@@ -1,0 +1,183 @@
+/**
+ * Main CSS
+ *
+ * @author  YITH <plugins@yithemes.com>
+ * @package YITH\Deposits\Assets
+ * @version 2.0.0
+ */
+
+/**
+ * IMPORTS
+ */
+@import 'elements/modals';
+@import 'elements/mixins';
+@import 'elements/blocks';
+
+/**
+ * ADD TO CART FORM
+ */
+#yith-wcdp-add-deposit-to-cart {
+	.yith-wcdp-single-add-to-cart-fields,
+	.yith-wcdp-deposit-mandatory {
+		max-width: 400px;
+
+		label {
+			border: 1px solid #DEDEDE;
+			cursor: pointer;
+			display: block;
+			padding: 20px 25px;
+
+			&:first-child {
+				border-bottom: none;
+			}
+
+			.radiobutton,
+			input[type="radio"] {
+				float: left;
+				margin-top: 10px;
+
+				& + .label {
+					padding-left: 40px;
+				}
+			}
+		}
+
+		.label {
+			display: block;
+
+			.price-label {
+				display: block;
+				font-weight: 700;
+			}
+		}
+	}
+
+	.yith-wcdp-single-add-to-cart-fields {
+		margin: 40px 0;
+	}
+
+	.yith-wcdp-deposit-mandatory {
+		margin: 40px 0;
+	}
+
+	&.deposit-disabled {
+		display: none;
+	}
+}
+
+/**
+ * DEPOSIT DETAILS TABLE
+ */
+#yith_wcdp_deposits_details {
+	tr {
+		td.product-name {
+			ul {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+			}
+
+			li {
+				margin-bottom: 10px;
+
+				&:last-child {
+					margin: 0;
+				}
+
+				img {
+					width: 50px;
+					display: inline-block;
+					vertical-align: middle;
+					margin-right: 5px;
+				}
+			}
+		}
+
+		td.order-status {
+			small {
+				display: block;
+			}
+		}
+
+		td.order-actions {
+			@include button_with_submenu;
+
+			.button-with-submenu {
+				visibility: hidden;
+			}
+		}
+
+		&:hover {
+			td.order-actions .button-with-submenu {
+				visibility: visible;
+			}
+		}
+	}
+}
+
+/**
+ * DEPOSIT EXPIRATION MODAL @ CHECKOUT
+ */
+.deposit-expiration-label,
+.deposit-expiration-modal-opener {
+	cursor: pointer;
+	display: block;
+	font-weight: 400!important;
+	font-size: .8em!important;
+}
+
+.deposit-expiration-label {
+	color: #434343;
+	cursor: initial;
+}
+
+#deposit_expiration_modal {
+	display: none;
+
+	ul.balances-details {
+		list-style: none;
+		margin: 30px 0;
+		padding: 0;
+
+		li {
+			margin-bottom: 35px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			&:after {
+				content: '';
+				display: block;
+				clear: both;
+			}
+
+			img {
+				float: left;
+				max-width: 100px;
+			}
+
+			.balance-details {
+				padding-left: 120px;
+
+				h3 {
+					display: inline-block;
+					margin: 0 0 10px;
+
+					a {
+						text-decoration: none;
+					}
+				}
+
+				.balance-expiration {
+					font-weight: 700;
+
+					small {
+						display: block;
+						font-weight: 400;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+msgid "Google Rating"
+msgstr "Google recensioner"
+
+msgid "See All Reviews"
+msgstr "Se alla recensioner"
+
+msgid "Google User"
+msgstr "Google användare"
+
+msgid "read more"
+msgstr "läs mer"
+
+msgid "More reviews"
+msgstr "Fler recensioner"
+
+msgid "review us on Google"
+msgstr "Recensera oss på Google"
+
+msgid "Based on %s reviews"
+msgstr "Baserat på %s recensioner"
+
+msgid "Ready to review?"
+msgstr "Lämna ett omdöme"
+
+msgid "Response from the owner"
+msgstr "Svar från ägaren"
+
+msgid "%s place profile"
+msgstr "%s platsprofil"
+
+msgid "All reviews"
+msgstr "Alla recensioner"
+
+msgid "%s user profile"
+msgstr "%s användarprofil"
+
+msgid "opens in a new window"
+msgstr "öppnas i ett nytt fönster"
+
+msgid "Rating: %s out of 5"
+msgstr "Betyg: %s av 5"

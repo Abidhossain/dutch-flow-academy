@@ -1,0 +1,31 @@
+{
+  "name": "flycartinc/checkout-upsell-woocommerce",
+  "description": "UpsellWP WordPress plugin",
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Anantharaj B",
+      "email": "anantharaj@flycart.org"
+    }
+  ],
+  "license": "GPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "CUW\\": "",
+      "CUW\\App\\": "app/"
+    }
+  },
+  "scripts": {
+    "cs": "phpcs --standard=phpcs.xml .",
+    "cbf": "phpcbf --standard=phpcs.xml ."
+  },
+  "require": {
+    "php": "7.0.*",
+    "ext-json": "*",
+    "vlucas/valitron": "^1.4",
+    "yahnis-elsts/plugin-update-checker": "^5.6"
+  }
+}

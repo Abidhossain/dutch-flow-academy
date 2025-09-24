@@ -1,0 +1,67 @@
+body {
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+p, li {
+	font-size: 12px;
+	line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	line-height: 1;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h1 { font-size:  24px; }
+h2 { font-size:  20px; }
+h3 { font-size:  18px; }
+h4 { font-size:  16px; }
+h5 { font-size:  14px; }
+h6 { font-size:  12px; }
+
+table {
+	border: 1px solid #4a4a4a;
+	width: 100%;
+}
+
+table tr, table th, table td {
+	font-size:  12px;
+	line-height: 2;
+}
+
+table thead tr th,
+table thead tr td {
+	background-color: #dadada;
+	border-bottom: 1px solid #4a4a4a;
+}
+
+table tbody tr:nth-child(odd) td,
+table tbody tr:nth-child(odd) th {
+	background-color: #eaeaea;
+}
+
+table tbody tr:nth-child(even) td,
+table tbody tr:nth-child(even) th {
+	background-color: #fff;
+}
+
+.orders-table tbody th,
+.info-table tbody th {
+	width: 25%;
+}
+
+.orders-table tbody th + td,
+.info-table tbody th + td {
+	width: 75%;
+}
+
+
+.llms-single-course-grades tbody tr:first-child th {
+	background-color: #dadada;
+	border-top: 1px solid #4a4a4a;
+	border-bottom: 1px solid #4a4a4a;
+}

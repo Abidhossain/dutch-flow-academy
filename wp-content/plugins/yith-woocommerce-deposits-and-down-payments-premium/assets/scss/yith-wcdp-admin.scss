@@ -1,0 +1,517 @@
+/**
+ * Admin CSS
+ *
+ * @author  YITH <plugins@yithemes.com>
+ * @package YITH\Deposits\Assets
+ * @version 2.0.0
+ */
+
+/* === MIXINS === */
+
+@mixin suborder_details {
+    ul.suborders-details {
+        margin: 0;
+
+        .suborder-details {
+            clear: both;
+            margin-bottom: 20px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            &:after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+        }
+    }
+}
+
+@mixin invalid_field {
+    .form-row.woocommerce-invalid {
+        label,
+        input,
+        select,
+        .description,
+        .select2.select2-container.select2-container--default {
+            color: #BA3E3E;
+            border-color: #BA3E3E !important;
+        }
+    }
+}
+
+@mixin panel_fields {
+    @include invalid_field;
+
+    .form-row.deposit-type-field {
+        input[type="number"] {
+            max-width: 80px;
+            min-width: auto;
+            margin-right: 10px;
+        }
+
+        select,
+        .select2-container{
+            width: calc(100% - 95px)!important;
+        }
+    }
+
+    .yith-plugin-fw-inline-fields-field-wrapper {
+        display: inline-block;
+
+        & + .inline-desc {
+            display: inline-block;
+        }
+    }
+
+    .duration-field {
+        select,
+        .select2 {
+            min-width: 200px!important;
+            max-width: 200px!important;
+        }
+    }
+}
+
+/* === ORDERS TABLE === */
+
+.post-type-shop_order .wp-list-table,
+.woocommerce_page_wc-orders .wp-list-table  {
+    .column-balance {
+        width: calc( 12ch + 35px );
+
+        @include suborder_details;
+    }
+
+    .column-order_status {
+        position: relative;
+
+        span.pending-count{
+            position: absolute;
+            display: block;
+            top: auto;
+            right: 10px;
+            color: #fff;
+            font-size: 9px;
+            line-height: 15px;
+            font-weight: 600;
+            background-color: #d54e21;
+            padding: 0 5px;
+            border-radius: 10px;
+        }
+    }
+}
+
+/* === ORDER META BOX === */
+
+#yith-wcdp-woocommerce-suborders {
+    @include suborder_details;
+
+    ul.suborders-details {
+        margin: 20px 0;
+
+        mark.order-status{
+            float: left;
+            margin-right: 10px;
+
+            span {
+                min-width: 20px;
+                text-align: center;
+            }
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.yith-wcdp-to-refund-notice{
+    display: block;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-left-width: 4px;
+    margin: 15px 0;
+    padding: 1px 12px;
+
+    p {
+        margin: .5em 0;
+        padding: 2px;
+    }
+
+    &.error-notice{
+        border-left-color: #dd3d36;
+    }
+
+    &.info-notice{
+        border-color: #ffba00;
+    }
+}
+
+/* === PRODUCTS (VIEW / EDIT) === */
+
+#woocommerce-product-data {
+    ul.wc-tabs {
+        li.deposit_options a::before {
+            content: '\f18e';
+
+        }
+    }
+
+    .deposit-options {
+        @include panel_fields;
+
+        h3 {
+            padding: 0 10px;
+            margin-bottom: 30px;
+        }
+
+        .form-row {
+            padding: 5px 20px 5px 170px;
+            margin: 15px 0;
+            max-width: 600px;
+
+            &:after {
+                content: ".";
+                display: block;
+                height: 0;
+                clear: both;
+                visibility: hidden;
+            }
+
+            label {
+                margin-left: -160px;
+                margin-top: 2px;
+            }
+
+            input,
+            select,
+            .select2 {
+                min-width: 200px;
+                max-width: 250px;
+            }
+
+            input[type="number"] {
+                max-width: 75px;
+                min-width: 50px;
+            }
+
+            p.description {
+                display: inline-block;
+                line-height: 18px;
+                margin: 10px 0 0;
+            }
+
+            .yith-plugin-fw-radio__row label {
+                float: none;
+                margin: 0;
+                width: auto;
+            }
+
+            .yith-plugin-fw-number-field-wrapper + p.description {
+                margin-left: 10px;
+            }
+
+            .deposit_expiration_date {
+                max-width: 200px;
+            }
+        }
+    }
+
+    .woocommerce_variations .deposit-options {
+        float: none;
+        margin: 0 -10px;
+    }
+}
+
+/* === DEPOSIT SETTINGS === */
+
+#yith_wcdp_panel_settings-rules,
+#yith_wcdp_panel_balances,
+#yith_wcdp_panel_customizations {
+    @include panel_fields;
+
+    .next-attempt {
+        margin: 5px 0 ;
+
+        .yith-plugin-fw-field-wrapper {
+            display: inline-block;
+            margin: 0 10px;
+        }
+    }
+}
+
+/* === DEPOSIT PANEL === */
+
+#yith_wcdp_panel_settings-rules {
+    .empty-state{
+        background-image: url('../../assets/images/deposit-empty-state.svg');
+        background-position: center 30px;
+        background-repeat: no-repeat;
+        background-size: 80px auto;
+        padding-top: 140px;
+        text-align: center;
+
+        p.no-item-message {
+            margin-bottom: 25px;
+        }
+    }
+
+    .yith-plugin-fw__panel__content__page__heading {
+        display: flex;
+        flex-wrap: wrap;
+
+        .yith-wcdp-add-rule-button {
+            margin-left: 15px;
+        }
+
+        .yith-plugin-fw__panel__content__page__description {
+            flex: 100%;
+            min-width: 100%;
+        }
+    }
+
+    .yith-plugin-fw__panel__option.yith-plugin-fw__panel__option--list-table {
+        max-width: unset;
+
+        .list-table-title {
+            display: none;
+        }
+
+        .tablenav.top .tablenav-pages input[type=text] {
+            width: initial;
+        }
+    }
+
+    #plugin-fw-wc-reset,
+    p.submit {
+        display: none;
+    }
+}
+
+/* === ADMIN MODALS === */
+
+.yith-wcdp-modal {
+    @include panel_fields;
+
+    .form-row {
+        margin-bottom: 40px;
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            font-size: 11px;
+            line-height: 1.5;
+            margin-top: 10px;
+        }
+
+        &.submit {
+            margin-bottom: 0;
+            padding: 0;
+
+            button {
+                width: 100%;
+                padding: 5px 15px;
+            }
+        }
+    }
+}
+
+/* === ADMIN TABLES === */
+
+.yith-plugins_page_yith_wcdp_panel .yith-plugin-ui #plugin-fw-wc table.wp-list-table.widefat {
+    thead {
+        th,
+        td {
+            padding: 15px;
+        }
+    }
+
+    tbody {
+        th {
+            padding: 15px;
+        }
+
+        td.column-rules {
+            .product_item {
+                margin-bottom: 10px;
+
+                img {
+                    border-radius: 4px;
+                    vertical-align: middle;
+                }
+
+                a {
+                    margin-left: 10px;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        td.column-actions {
+            .delete i {
+                color: #BA3E3E;
+            }
+        }
+    }
+}
+
+#yith_wcdp_deposit_expiration_fallback {
+    .next-attempt {
+        .yith-plugin-fw-select-field-wrapper {
+            margin-left: 0;
+        }
+
+        .yith-plugin-fw-number-field-wrapper {
+            margin: 10px 0;
+        }
+    }
+}
+
+/* === EMAIL OPTIONS === */
+
+#yith-wcdp-emails-wrapper {
+    table{
+        padding: 0 40px;
+        border: none;
+    }
+
+    h2 {
+        padding-bottom: 15px;
+        border: none;
+    }
+
+    .description {
+        margin: 15px 0 40px 0;
+        font-size: 13px;
+    }
+
+    #yith-wcdp-table-emails {
+        .heading-table {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+
+            .yith-wcdp-column {
+                font-size: 14px;
+                color: #2c3338;
+                font-weight: 600;
+
+                &.status {
+                    padding-right: 40px;
+                    text-align: right;
+                    box-sizing: border-box;
+                }
+            }
+        }
+
+        .content-table {
+            .yith-wcdp-row {
+                background: var(--yith-content-bg);
+                border-radius: 5px;
+                box-shadow: 0 0 0 1px var(--yith-light-border-color), 0 3px 11px 6px var(--yith-light-shadow);
+                transition: background-color .2s ease-in-out;
+                margin-bottom: 30px;
+                padding: 20px 0;
+
+                .yith-wcdp-column {
+                    line-height: 30px;
+                    box-sizing: border-box;
+
+                    &.status {
+                        padding-right: 30px;
+                        padding-top: 5px;
+                        text-align: right;
+                        box-sizing: border-box;
+                    }
+
+                    &.action {
+                        opacity: 0;
+                        pointer-events: none;
+                        position: relative;
+                    }
+                }
+
+                &.active {
+                    background: var(--yith-table-row-highlight);
+                    padding-bottom: 0;
+                }
+
+                &:hover {
+                    background: var(--yith-table-row-highlight);
+
+                    .yith-wcdp-column.action {
+                        opacity: 1;
+                        pointer-events: auto;
+                    }
+                }
+            }
+        }
+
+        .yith-wcdp-row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .yith-wcdp-column {
+                &:nth-child(1) {
+                    flex-basis: 87%;
+                }
+
+                &:nth-child(2) {
+                    flex-basis: 5%;
+                    text-align: right;
+                }
+
+                &:nth-child(3) {
+                    flex-basis: 5%;
+                }
+
+                &.email {
+                    padding-left: 20px;
+                    box-sizing: border-box;
+                }
+            }
+
+            .email-settings {
+                flex-basis: 100%;
+                display: none;
+                margin-top: 15px;
+
+                form {
+                    background: #ffffff;
+                    margin-bottom: 0;
+
+                    h2,
+                    h2 + p {
+                        display: none;
+                    }
+
+                    table {
+                        border: none!important;
+
+                        tr:first-child {
+                            display: none;
+                        }
+                    }
+
+                    #template{
+                        display: none;
+                    }
+
+                    .submit {
+                        text-align: right;
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

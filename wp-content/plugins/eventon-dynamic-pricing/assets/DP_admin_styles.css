@@ -1,0 +1,106 @@
+/* 
+ * event edit post styles 
+ * @version 1.0.1
+ */
+
+.evodp_block_item.button_evo {
+    background-color: #007cba;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+}
+.evodp_item_block_container p b.event_times{
+    border-radius: 5px;
+    background-color: #ececec;
+    padding: 2px 8px; font-size: 14px;
+}
+#evodp_pricing p.yesno_leg_line {
+    padding: 10px 0;
+}
+.evodp_editor ul.evodp_blocks_list{
+	list-style-type: none;
+    border-radius: 10px;
+    overflow: hidden;
+    border:1px solid var(--evo_color_1);
+    margin: 0 0 20px 0;
+}
+.evodp_editor .evodp_blocks_list li{
+	border-bottom: 1px solid #929292;
+    margin: 0;
+    padding: 7px 8px;
+    position: relative; font-size: 14px;
+        display: flex;
+    justify-content: space-between;
+}
+.evodp_editor .evodp_blocks_list li:hover{background-color: #e7f8fd}
+.evodp_editor .evodp_blocks_list li:last-child{border:none;}
+.evodp_editor .evodp_blocks_list li dd{
+	display: inline-block;
+    margin: 0px;
+    text-transform: uppercase;
+    background-color: #f9d29f;
+    padding: 1px 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.evodp_editor .evodp_blocks_list li p{padding: 0; margin: 0; opacity: 0.5}
+.evodp_editor .evodp_blocks_list li .evodp_actions{
+    display: flex; align-items: center;
+}
+.evodp_editor .evodp_blocks_list li .evodp_actions em{
+    background-color: var(--evo_color_1); color:#fff;
+}
+.evodp_editor .evodp_blocks_list li span.e{padding-left: 10px; width: 30px;}
+.evodp_editor .evodp_blocks_list li span.reg_price{padding-left: 10px;}
+
+.evodp_block_item{
+    cursor: pointer;
+    color: var(--evo_color_1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    border-radius: 40px;
+    font-size: 14px;
+}
+.evodp_block_item:hover{
+    background-color: var(--evo_color_1);
+    color: #fff;
+}
+.evodp_item_block_container p.message{margin: 0 -30px -30px;}
+.evodp_item_block_container span.evodp_lb_times{
+    width: 100%; display: flex; justify-content:space-around;
+}
+body .ui-timepicker-wrapper{z-index: 900001;}
+
+/* time selection */
+    .evodp_item_block_container .evodp_dt_pic span{margin-bottom: 10px;display: flex;}
+    .evodp_item_block_container .evodp_dt_pic span span{margin:0;}
+    p.evodp_dt_pic span{width: auto;}
+    .evodp_add_una_block span.evo_date_time_select {
+        display: flex;width: 100%;
+        background-color: #f3c991;
+        padding: 5px 8px;
+        border-radius: 35px;
+        box-sizing: border-box;
+    }
+    .ajde_popup .ajde_popup_text .evodp_add_una_block .evo_date_edit {
+        flex: 1;margin: 0;display: flex;
+    }
+    .ajde_popup .ajde_popup_text .evodp_add_una_block input.evo_dpicker {
+        border-radius: 20px;
+        width: 100%;
+    }
+    .evodp_item_block_container span.evo_time_edit{
+        display: flex; align-items: center;
+    }
+
+/* no member pricing */
+#evodp_pricing td.nomp .evodp_blocks_list i.mem_price,
+#evodp_pricing td.nomp .evodp_item_block_container .mprice
+{
+	display: none;
+}

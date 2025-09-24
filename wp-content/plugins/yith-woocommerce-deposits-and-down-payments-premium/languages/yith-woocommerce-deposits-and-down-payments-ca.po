@@ -1,0 +1,1751 @@
+# Translation of YITH WooCommerce Deposits / Down Payments in Catalan
+# This file is distributed under the same license as the YITH WooCommerce Deposits / Down Payments package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Deposits / Down Payments\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-woocommerce-"
+"deposits-and-down-payments\n"
+"POT-Creation-Date: 2024-12-05T13:52:42+00:00\n"
+"PO-Revision-Date: 2023-01-10 15:02:41+0000\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+
+#. Description of the plugin
+msgid ""
+"<code><strong>YITH WooCommerce Deposits / Down Payments</strong></code> "
+"allows your customers to make a deposit for the products they want to "
+"purchase and pay the balance at a later time, either online or in your shop. "
+"Giving your customers the possibility to book a room or confirm a service on "
+"demand, like a party venue or the reservation for a tour, has never been so "
+"easy. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins "
+"for your e-commerce on <strong>YITH</strong></a>."
+msgstr ""
+"<code><strong>YITH WooCommerce Deposits / Down Payments</strong></code> "
+"permet als vostres clients fer un ingrés pels productes que volen comprar i "
+"pagar el saldo més endavant, ja sigui en línia o a la vostra botiga. Oferir "
+"als teus clients la possibilitat de reservar una habitació o confirmar un "
+"servei sota demanda, com ara un lloc de festa o la reserva d'un tour, mai ha "
+"estat tan fàcil. <a href=\"https://yithemes.com/\" target=\"_blank\">Obteniu "
+"més connectors per al vostre comerç electrònic a <strong>YITH</strong></a>."
+
+#. translators: 1. HTML formatted price.
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:156
+msgid "Fixed amount of %1$s"
+msgstr "Import fix de %1$s"
+
+#. translators: 1. Formatted percentage rage.
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:159
+msgid "%1$s%% of product price"
+msgstr "%1$s%% del preu del producte"
+
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:173
+msgctxt "[ADMIN] Deposit rule table"
+msgid "Edit"
+msgstr "Editar"
+
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:179
+msgctxt "[ADMIN] Deposit rule table"
+msgid "Delete"
+msgstr "Suprimir"
+
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:215
+msgctxt "[ADMIN] Deposit rule table"
+msgid "Rule type"
+msgstr "Tipus de regla"
+
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:216
+msgctxt "[ADMIN] Deposit rule table"
+msgid "Applied on"
+msgstr "Aplicat a"
+
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:217
+msgctxt "[ADMIN] Deposit rule table"
+msgid "Deposit type"
+msgstr "Tipus de bestreta"
+
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:267
+msgctxt "[ADMIN] Deposit rule empty state"
+msgid "You have no deposit rule yet."
+msgstr "Encara no teniu cap regla de bestreta."
+
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:270
+msgctxt "[ADMIN] Deposit rule empty state"
+msgid "Create rule"
+msgstr "Crear Regla"
+
+#: includes/admin/admin-tables/class-yith-wcdp-deposit-rules-admin-table.php:342
+msgctxt "[ADMIN] Add new deposit rule button, in Deposits Rules tab"
+msgid "Add rule"
+msgstr "Afegeix una regla"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:216
+msgctxt "Admin: column heading in \"Orders\" table"
+msgid "Balances"
+msgstr "Pagaments"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:252
+msgid "Preview"
+msgstr "Vista prèvia"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:306
+msgctxt "Admin: Single order page. Suborder details box"
+msgid "Balance orders"
+msgstr "Ordres de pagament"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:306
+msgid ""
+"Note: from this box you can monitor the status of suborders concerning full "
+"payments."
+msgstr ""
+"Nota: des d'aquest quadre podeu controlar l'estat de les subordres pel que "
+"fa als pagaments complets."
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:320
+msgctxt "Admin: Single order page. Info box with parent order details"
+msgid "Deposit order"
+msgstr "Bestreta de la comanda"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:452
+msgid "Send notification email"
+msgstr "Envia un correu electrònic de notificació"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:459
+msgctxt "Admin: single order page. Link to parent order"
+msgid "Back to main order"
+msgstr "Torna a l'ordre principal"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:565
+msgid "Full payment order"
+msgstr "Ordre de pagament total"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:646
+#: includes/admin/class-yith-wcdp-admin-orders.php:676
+msgid "Deposit to refund"
+msgstr "Dipòsit a reemborsament"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:691
+msgid "Remind about deposit expiring"
+msgstr "Recordeu que la bestreta caduca"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:805
+msgid "Notification email sent"
+msgstr "S'ha enviat un correu electrònic de notificació"
+
+#. translators: 1. Number of days before expiration.
+#: includes/admin/class-yith-wcdp-admin-orders.php:849
+msgid ""
+"This item should be manually refunded by admin since the %d days available "
+"to complete payment have passed and the deposit has expired"
+msgstr ""
+"L'administrador hauria de reemborsar aquest article manualment, ja que han "
+"passat els %d dies disponibles per completar el pagament i la bestreta ha "
+"caducat."
+
+#. translators: 1. Expiration date.
+#: includes/admin/class-yith-wcdp-admin-orders.php:851
+msgid ""
+"This item should be manually refunded by admin since the deposit has expired "
+"on %s"
+msgstr ""
+"Aquest article hauria de ser reemborsat manualment per l'administrador ja "
+"que la bestreta ha caducat el %s"
+
+#. translators: 1. Expiration date.
+#: includes/admin/class-yith-wcdp-admin-orders.php:851
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:886
+msgid "Create refund"
+msgstr "Crea un reemborsament"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:888
+msgid "Hide this notice"
+msgstr "Amaga aquest avís"
+
+#. translators: 1. Refund id.
+#: includes/admin/class-yith-wcdp-admin-orders.php:901
+msgid "This item has been refunded due to deposit expiration (refund #%d)"
+msgstr ""
+"Aquest article s'ha reemborsat a causa de la caducitat del dipòsit "
+"(devolució #%d)"
+
+#: includes/admin/class-yith-wcdp-admin-orders.php:959
+msgid "Item refunded manually for deposit expiration"
+msgstr "Article reemborsat manualment per caducitat del bestreta"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:92
+#: views/add-deposit-rule-modal.php:110
+msgid "% of product price"
+msgstr ""
+
+#. translators: 1. Currency symbol.
+#: includes/admin/class-yith-wcdp-admin-panel.php:94
+#: views/add-deposit-rule-modal.php:115
+msgid "%s - Fixed amount"
+msgstr "%s - Import fix"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:165
+msgctxt "[ADMIN] Time intervals for duration fields"
+msgid "Days"
+msgstr "Dies"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:166
+msgctxt "[ADMIN] Time intervals for duration fields"
+msgid "Weeks"
+msgstr "Setmanes"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:167
+msgctxt "[ADMIN] Time intervals for duration fields"
+msgid "Months"
+msgstr "Mesos"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:197
+msgctxt "[ADMIN] Expiration fallback field"
+msgid "if the balance is still not paid"
+msgstr "si encara no s'ha pagat el saldo"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:199
+msgid "Cancel balance order"
+msgstr "Cancel·la la comanda de saldo"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:200
+msgid "Cancel balance order and refund deposit"
+msgstr "Cancel·la la comanda de saldo i reemborsa el dipòsit"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:201
+msgid "Send reminder"
+msgstr "Envia un recordatori"
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:313
+msgid "Couldn't create deposit rule: wrong type."
+msgstr "No s'ha pogut crear la regla de dipòsit: tipus incorrecte."
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:317
+msgid "Couldn't create deposit rule: missing amount or rate."
+msgstr "No s'ha pogut crear la regla d'ingrés: falta l'import o la taxa."
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:321
+msgid "Couldn't create deposit rule: missing rules."
+msgstr "No s'ha pogut crear la regla de dipòsit: falten regles."
+
+#: includes/admin/class-yith-wcdp-admin-panel.php:347
+msgid "Couldn't delete deposit rule: couldn't find rule to delete."
+msgstr ""
+"No s'ha pogut suprimir la regla de dipòsit: no s'ha pogut trobar la regla "
+"per suprimir."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:294
+msgid "Override deposit options"
+msgstr "Anul·la les opcions de dipòsit"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:295
+msgid "Enable to override the global deposit options for this product."
+msgstr "Activa per anul·lar les opcions de dipòsit global d'aquest producte."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:300
+msgid "Enable deposit for this product"
+msgstr "Activa el dipòsit per a aquest producte"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:301
+msgid "Enable to offer deposit option for this product"
+msgstr "Activa per oferir l'opció de dipòsit per a aquest producte"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:307
+#: plugin-options/settings/deposits-options.php:33
+msgid "Set the deposit payment as:"
+msgstr "Establiu el pagament del dipòsit com:"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:308
+msgid "Choose how to manage the deposit option for this product."
+msgstr "Trieu com gestionar l'opció de dipòsit d'aquest producte."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:311
+msgid ""
+"Optional: users can choose between paying the full amount or just a deposit"
+msgstr ""
+"Opcional: els usuaris poden triar entre pagar l'import total o només un "
+"dipòsit"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:312
+#: plugin-options/settings/deposits-options.php:40
+msgid "Forced: users can only pay the deposit amount"
+msgstr "Forçat: els usuaris només poden pagar l'import del dipòsit"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:318
+msgid "Show Deposit option selected by default"
+msgstr "Mostra l'opció de dipòsit seleccionada per defecte"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:319
+#: plugin-options/settings/deposits-options.php:52
+msgid "Enable to show the deposit option selected by default."
+msgstr "Activa per mostrar l'opció de dipòsit seleccionada per defecte."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:325
+msgid "Show custom notice"
+msgstr "Mostra un avís personalitzat"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:326
+msgid ""
+"Enable to show a custom notice about the deposit option in this product."
+msgstr ""
+"Activa per mostrar un avís personalitzat sobre l'opció de dipòsit d'aquest "
+"producte."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:333
+msgid "Notice to show"
+msgstr "Avís per mostrar"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:334
+msgid "Enter the notice you want to show on the product page."
+msgstr "Introduïu l'avís que voleu mostrar a la pàgina del producte."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:340
+msgid "Override balance options"
+msgstr "Anul·lar opcions de saldo"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:341
+msgid "Enable to override the global balance options in this product."
+msgstr "Activa per anul·lar les opcions de saldo global d'aquest producte."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:346
+msgid "Balance order creation for this product"
+msgstr "Creació de comandes de saldo per a aquest producte"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:347
+msgid "Choose how to manage the balance for this product."
+msgstr "Trieu com gestionar el saldo d'aquest producte."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:350
+#: plugin-options/balances-options.php:30
+#: views/product-deposit-bulk-edit.php:86
+msgid ""
+"Create balance orders with \"Pending payment\" status, and users will pay "
+"the balance online"
+msgstr ""
+"Creeu comandes de saldo amb l'estat \"Pagament pendent\" i els usuaris "
+"pagaran el saldo online"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:351
+#: plugin-options/balances-options.php:31
+#: views/product-deposit-bulk-edit.php:89
+msgid ""
+"Create balance orders with \"On hold\" status, and manage payments manually "
+"(e.g.: users pay cash in your shop)"
+msgstr ""
+"Creeu comandes de saldo amb l'estat \"En espera\" i gestioneu els pagaments "
+"manualment (p. ex.: els usuaris paguen en efectiu a la vostra botiga)"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:352
+#: plugin-options/balances-options.php:32
+#: views/product-deposit-bulk-edit.php:92
+msgid "Do not create balance orders"
+msgstr "No creeu comandes de saldo"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:359
+#: plugin-options/balances-options.php:53
+msgid "Require balance payment to customers"
+msgstr "Exigir el pagament del saldo als clients"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:360
+#: plugin-options/balances-options.php:56
+msgid "Enable to choose when and how to require the balance payment."
+msgstr "Habilita per triar quan i com demanar el pagament del saldo."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:366
+#: plugin-options/balances-options.php:64
+msgid "The balance payment will be required"
+msgstr "Es requerirà el pagament del saldo"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:372
+#: plugin-options/balances-options.php:74
+msgid "On a specific date"
+msgstr "En una data específica"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:373
+#: plugin-options/balances-options.php:75
+msgid "After a specific range of days from the deposit"
+msgstr "Després d'un interval específic de dies des del dipòsit"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:380
+#: plugin-options/balances-options.php:97
+msgid "Require balance payment on"
+msgstr "Requereix el pagament del saldo el"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:389
+#: plugin-options/balances-options.php:84
+msgid "Require balance payment"
+msgstr "Requereix el pagament del saldo"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:390
+msgid "days from the deposit"
+msgstr "dies des del dipòsit"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:401
+#: plugin-options/balances-options.php:139
+msgid "When balance is required on a specific date, and is overdue"
+msgstr "Quan el saldo es requereix en una data específica i està vençut"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:405
+#: plugin-options/balances-options.php:147
+msgid "Do nothing"
+msgstr "No facis res"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:406
+#: plugin-options/balances-options.php:148
+msgid "Disable deposit for the product"
+msgstr "Desactiva el dipòsit del producte"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:407
+#: plugin-options/balances-options.php:149
+msgid "Make product no longer purchasable"
+msgstr "Feu que el producte ja no es pugui comprar"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:408
+#: plugin-options/balances-options.php:150
+msgid "Hide product from catalog"
+msgstr "Amaga el producte del catàleg"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:414
+msgid "Notify balance payment to customer"
+msgstr "Notificar el pagament del saldo al client"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:415
+msgid ""
+"Enable to automatically send an email to the customer about the balance "
+"payment.<br/>\n"
+"\t\t\t\t\t\t\t\t<b>Note:</b> if the user has to pay manually, he/she will "
+"get an email that redirects him/her to pay.<br/>\n"
+"\t\t\t\t\t\t\t\tIf the Stripe option is enabled and the balance is "
+"automatically charged, the user will get an email that notifies the "
+"automatic charge of the balance on his/her credit card. "
+msgstr ""
+"Activa per enviar automàticament un correu electrònic al client sobre el "
+"pagament del saldo.<br/>↵\n"
+"→ → → → → → → → <b>Nota:</b> si l'usuari ha de pagar manualment, rebrà un "
+"correu electrònic que el redirigeix perquè pagui.<br/>↵\n"
+"→ → → → → → → → Si l'opció Stripe està habilitada i el saldo es carrega "
+"automàticament, l'usuari rebrà un correu electrònic que notifica el càrrec "
+"automàtic del saldo a la seva targeta de crèdit."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:426
+#: plugin-options/balances-options.php:112
+msgid "Send the email about the balance payment"
+msgstr "Envieu el correu electrònic sobre el pagament del saldo"
+
+#: includes/admin/class-yith-wcdp-admin-products.php:429
+#: plugin-options/balances-options.php:117
+msgid "before the payment due date."
+msgstr "abans de la data de venciment del pagament."
+
+#: includes/admin/class-yith-wcdp-admin-products.php:496
+msgid "Deposit & Balance"
+msgstr "Dipòsit & Saldo"
+
+#: includes/class-yith-wcdp-admin.php:194
+msgid "Deposit options"
+msgstr ""
+
+#: includes/class-yith-wcdp-admin.php:196
+msgctxt "[ADMIN] Deposits table description"
+msgid ""
+"Deposit rules allow overriding the default deposit amount (defined in "
+"General Options) for specific user roles, product categories, or products."
+msgstr ""
+"Les regles d'ingrés permeten anul·lar l'import de l'ingrés predeterminat "
+"(definit a Opcions generals) per a funcions d'usuari, categories de "
+"productes o productes específics."
+
+#: includes/class-yith-wcdp-admin.php:199
+msgid "Balance options"
+msgstr ""
+
+#: includes/class-yith-wcdp-admin.php:201
+msgid "Set up balance options for the products in your shop."
+msgstr ""
+
+#: includes/class-yith-wcdp-admin.php:204
+msgid "Customization"
+msgstr "Personalització"
+
+#: includes/class-yith-wcdp-admin.php:206
+msgid "Customize texts and labels related to deposit options."
+msgstr ""
+
+#: includes/class-yith-wcdp-admin.php:209
+msgid "Email settings"
+msgstr ""
+
+#: includes/class-yith-wcdp-admin.php:244
+msgid ""
+"Optional: <mark>get our Stripe plugin</mark> to unlock advanced features"
+msgstr ""
+"Opcional: <mark>obté el nostre connector Stripe</mark> per desbloquejar "
+"funcions avançades"
+
+#: includes/class-yith-wcdp-admin.php:245
+msgid ""
+"Use Stripe to automatically charge the orders' balance to your customers' "
+"credit cards"
+msgstr ""
+"Utilitzeu Stripe per carregar automàticament el saldo de les comandes a les "
+"targetes de crèdit dels vostres clients"
+
+#: includes/class-yith-wcdp-admin.php:249
+msgid "Are you ready? Start by <mark>configuring your deposit options</mark>"
+msgstr ""
+"Estàs preparat? Comenceu per <mark>configurar les vostres opcions de "
+"bestreta</mark>"
+
+#: includes/class-yith-wcdp-admin.php:250
+msgid "... and start the adventure!"
+msgstr "... i comença l'aventura!"
+
+#: includes/class-yith-wcdp-admin.php:261
+msgid "Welcome our \"Deposit Rules\" concept"
+msgstr "Benvingut al nostre concepte \"Regles de dipòsit\""
+
+#: includes/class-yith-wcdp-admin.php:262
+msgid ""
+"Override the global amount by creating advanced rules and setting different "
+"values for specific user roles, products, or categories."
+msgstr ""
+"Substituïu l'import global creant regles avançades i establint diferents "
+"valors per a funcions, productes o categories d'usuari concrets."
+
+#: includes/class-yith-wcdp-admin.php:266
+msgid "New integration: YITH Booking and Appointment for WooCommerce"
+msgstr "Nova integració: YITH Booking and Appointment for WooCommerce"
+
+#: includes/class-yith-wcdp-admin.php:267
+msgid ""
+"Allow your customers to pay a deposit to book products or services, and ask "
+"them to pay for the balance on the booking start date or XX days before that "
+"date."
+msgstr ""
+"Permet als vostres clients pagar un dipòsit per reservar productes o serveis "
+"i demaneu-los que paguin el saldo a la data d'inici de la reserva o XX dies "
+"abans d'aquesta data."
+
+#: includes/class-yith-wcdp-admin.php:268
+msgid "Discover our YITH Booking and Appointment for WooCommerce plugin &gt;"
+msgstr ""
+"Descobriu el nostre plugin YITH Booking and Appointment for WooCommerce "
+"plugin &gt;"
+
+#: includes/class-yith-wcdp-admin.php:272
+msgid "New integration: YITH WooCommerce Stripe"
+msgstr "Nova integració: YITH WooCommerce Stripe"
+
+#: includes/class-yith-wcdp-admin.php:273
+msgid ""
+"Automatically charge the balance amount to the same credit card used by the "
+"customer to pay for the deposit. This feature allows you to lower the number "
+"of unpaid orders and simplify the purchase process."
+msgstr ""
+"Càrreu automàticament l'import del saldo a la mateixa targeta de crèdit "
+"utilitzada pel client per pagar el dipòsit. Aquesta funció us permet reduir "
+"el nombre de comandes no pagades i simplificar el procés de compra."
+
+#: includes/class-yith-wcdp-admin.php:274
+msgid "Discover our YITH WooCommerce Stripe plugin &gt;"
+msgstr "Descobriu el nostre plugin YITH WooCommerce Stripe &gt;"
+
+#: includes/class-yith-wcdp-admin.php:345
+msgctxt "[HELP TAB] Video title"
+msgid ""
+"Check this video to learn how to <b>allow your customers to pay a deposit to "
+"book products or services and pay the balance at a later time:</b>"
+msgstr ""
+
+#: includes/class-yith-wcdp-admin.php:372
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Wishlist"
+msgid ""
+"Allow your customers to create lists of products they want and share them "
+"with family and friends."
+msgstr ""
+
+#: includes/class-yith-wcdp-admin.php:384
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Gift Cards"
+msgid ""
+"Sell gift cards in your shop to increase your earnings and attract new "
+"customers."
+msgstr ""
+
+#: includes/class-yith-wcdp-admin.php:396
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Ajax Product "
+"Filter"
+msgid ""
+"Help your customers to easily find the products they are looking for and "
+"improve the user experience of your shop."
+msgstr ""
+
+#: includes/class-yith-wcdp-admin.php:408
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Product Add-"
+"Ons"
+msgid ""
+"Add paid or free advanced options to your product pages using fields like "
+"radio buttons, checkboxes, drop-downs, custom text inputs, and more."
+msgstr ""
+
+#: includes/class-yith-wcdp-admin.php:420
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Dynamic "
+"Pricing and Discounts"
+msgid ""
+"Increase conversions through dynamic discounts and price rules, and build "
+"powerful and targeted offers."
+msgstr ""
+
+#: includes/class-yith-wcdp-admin.php:432
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Customize My "
+"Account"
+msgid ""
+"Customize the My Account page of your customers by creating custom sections "
+"with promotions and ad-hoc content based on your needs."
+msgstr ""
+
+#: includes/class-yith-wcdp-admin.php:444
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Points and "
+"Rewards"
+msgid ""
+"Loyalize your customers with an effective points-based loyalty program and "
+"instant rewards."
+msgstr ""
+
+#: includes/class-yith-wcdp-admin.php:455
+msgctxt ""
+"[YOUR STORE TOOLS TAB] Description for plugin YITH WooCommerce Ajax Search"
+msgid ""
+"Add an instant search form to your e-commerce shop and help your customers "
+"quickly find the products they want to buy."
+msgstr ""
+
+#: includes/class-yith-wcdp-admin.php:487
+msgid "Add rule"
+msgstr "Afegeix una regla"
+
+#: includes/class-yith-wcdp-admin.php:488
+msgid "Edit rule"
+msgstr "Edita la regla"
+
+#: includes/class-yith-wcdp-cart.php:495
+#: includes/class-yith-wcdp-my-account.php:97
+msgid "of"
+msgstr "de"
+
+#. translators: 1. Formatted expiration date for the deposit.
+#: includes/class-yith-wcdp-cart.php:583
+#: includes/class-yith-wcdp-frontend.php:400
+#: templates/deposits-expirations-modal.php:43
+msgid "Balance payment will be required on %s"
+msgstr "El pagament del saldo serà necessari el %s"
+
+#. translators: 1. Item id 2. Product title.
+#: includes/class-yith-wcdp-checkout.php:701
+msgid "There was an error while processing suborder for item #%$1d (%$2s)."
+msgstr ""
+"S'ha produït un error en processar el subordre per a l'element #%$1d (%$2s)."
+
+#: includes/class-yith-wcdp-checkout.php:752
+msgid "There was an error while processing suborder."
+msgstr "S'ha produït un error en processar el subordre."
+
+#: includes/class-yith-wcdp-checkout.php:802
+msgid "This order has been created to allow payment of the balance"
+msgstr "Aquesta comanda s'ha creat per permetre el pagament del saldo"
+
+#: includes/class-yith-wcdp-checkout.php:826
+msgid "There was an error while updating item meta."
+msgstr "S'ha produït un error en actualitzar el meta de l'element."
+
+#: includes/class-yith-wcdp-crons.php:144
+#: includes/class-yith-wcdp-crons.php:270
+msgid "Expiring deposit notification sent"
+msgstr "S'ha enviat una notificació de bestreta que caduca"
+
+#. translators: 1. NUmber of days before deposit expiration.
+#: includes/class-yith-wcdp-crons.php:178
+msgid ""
+"The %d days granted to complete this order have passed. For this reason, it "
+"has been switched to canceled, and it cannot be completed anymore."
+msgstr ""
+"Han passat els %d dies concedits per completar aquesta comanda. Per aquest "
+"motiu, s'ha canviat a cancel·lat i ja no es pot completar."
+
+#. translators: 1. Suborder id.
+#: includes/class-yith-wcdp-crons.php:274
+msgid "Expiring deposit notification sent (#%d)"
+msgstr "S'ha enviat una notificació de dipòsit que caduca (#%d)"
+
+#: includes/class-yith-wcdp-deposit-rule.php:519
+msgctxt "[ADMIN] Deposit rule type"
+msgid "Product"
+msgstr "Producte"
+
+#: includes/class-yith-wcdp-deposit-rule.php:520
+msgctxt "[ADMIN] Deposit rule type"
+msgid "Product categories"
+msgstr "Categories de productes"
+
+#: includes/class-yith-wcdp-deposit-rule.php:521
+msgctxt "[ADMIN] Deposit rule type"
+msgid "User roles"
+msgstr "Rols d'usuari"
+
+#: includes/class-yith-wcdp-emails.php:166
+msgid "Resend new deposit notification"
+msgstr "Torna a enviar la notificació d'ingrés nou"
+
+#: includes/class-yith-wcdp-emails.php:167
+msgid "Resend balances payment notification"
+msgstr "Torna a enviar la notificació de pagament de saldos"
+
+#: includes/class-yith-wcdp-frontend.php:718
+msgid "Details of balance payments"
+msgstr "Detalls dels pagaments de saldos"
+
+#: includes/class-yith-wcdp-labels.php:28
+#: plugin-options/customizations-options.php:98
+msgid "Deposit"
+msgstr "Bestreta"
+
+#: includes/class-yith-wcdp-labels.php:49
+#: plugin-options/customizations-options.php:130
+msgid "Full price"
+msgstr "Preu total"
+
+#: includes/class-yith-wcdp-labels.php:70
+#: plugin-options/customizations-options.php:137
+msgid "Balance"
+msgstr "Pagament"
+
+#: includes/class-yith-wcdp-labels.php:91
+msgid "Full payment"
+msgstr "Pagament complet"
+
+#: includes/class-yith-wcdp-labels.php:111
+#: plugin-options/customizations-options.php:105
+#: plugin-options/customizations-options.php:109
+msgid "Pay deposit"
+msgstr "Paga la bestreta"
+
+#: includes/class-yith-wcdp-labels.php:123
+#: plugin-options/customizations-options.php:112
+#: plugin-options/customizations-options.php:116
+msgid "Pay full amount"
+msgstr "Paga l'import total"
+
+#: includes/class-yith-wcdp-labels.php:135
+#: plugin-options/customizations-options.php:119
+#: plugin-options/customizations-options.php:123
+msgid "Partially paid"
+msgstr "Pagat parcialment"
+
+#. translators: 1. Balance label.
+#: includes/class-yith-wcdp-my-account.php:128
+msgid "View %s"
+msgstr "Veure %s"
+
+#: includes/class-yith-wcdp-my-account.php:286
+msgid "Pay order"
+msgstr "Pagar comanda"
+
+#: includes/class-yith-wcdp-my-account.php:293
+msgid "Cancel order"
+msgstr "Cancel · lar la comanda"
+
+#: includes/class-yith-wcdp-my-account.php:299
+msgid "View order"
+msgstr "Veure comanda"
+
+#. translators: 1. Link to balance order(s).
+#: includes/class-yith-wcdp-my-account.php:375
+msgid ""
+"This order contains an expired deposit; full amount order %s was "
+"consequently switched to canceled and it cannot be completed anymore."
+msgid_plural ""
+"This order contains an expired deposit; full amount orders %s were "
+"consequently switched to canceled and they cannot be completed anymore."
+msgstr[0] ""
+"Aquesta reserva conté una bestrtea caducada; En conseqüència, la comanda "
+"d'import total %s es va canviar a cancel·lada i ja no es pot completar."
+msgstr[1] ""
+"Aquesta reserva conté un bestreta caducada; En conseqüència, la comanda "
+"d'import total %s es va canviar a cancel·lada i ja no es pot completar."
+
+#: includes/class-yith-wcdp-my-account.php:398
+msgid "Payment options"
+msgstr "Opcions de pagament"
+
+#: includes/class-yith-wcdp-suborders.php:139
+msgid "Suborder status changed to reflect parent order status change:"
+msgstr ""
+"L'estat del subordre ha canviat per reflectir el canvi d'estat de la comanda "
+"principal:"
+
+#: includes/class-yith-wcdp-suborders.php:224
+msgid "Item refunded automatically for deposit expiration"
+msgstr "Article reemborsat automàticament per caducitat del dipòsit"
+
+#. translators: 1. Product id. 2. Number of days before deposit expiration.
+#: includes/class-yith-wcdp-suborders.php:259
+msgid ""
+"Item %1$s has been automatically refunded because the %2$d days allowed to "
+"complete payment have passed"
+msgid_plural ""
+"Items %1$s have been automatically refunded because the %2$d days allowed to "
+"complete payment have passed"
+msgstr[0] ""
+"L'article %1$s s'ha reemborsat automàticament perquè han passat els %2$d "
+"dies permesos per completar el pagament"
+msgstr[1] ""
+"Els articles %1$s s'ha reemborsat automàticament perquè han passat els %2$d "
+"dies permesos per completar el pagament"
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:175
+msgctxt "[ADMIN] Affiliate dashboard settings page"
+msgid "Stripe Options"
+msgstr "Opcions de ratlles"
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:182
+msgid "Automatically charge balance on customer's credit card"
+msgstr "Carregar automàticament el saldo a la targeta de crèdit del client"
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:185
+msgid ""
+"Enable to automatically charge the balance amount on your customer's credit "
+"card."
+msgstr ""
+"Activa per carregar automàticament l'import del saldo a la targeta de crèdit "
+"del teu client."
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:193
+msgid "Charge balance on credit card"
+msgstr "Carregar el saldo a la targeta de crèdit"
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:196
+msgid ""
+"Choose how to manage the automatic charge of the balance, either charge it "
+"only to customers who paid deposits with a credit card, or to all customers, "
+"no matter which deposit payment method they used."
+msgstr ""
+"Trieu com gestionar el càrrec automàtic del saldo, o bé carregar-lo només "
+"als clients que han pagat bestreta amb una targeta de crèdit o a tots els "
+"clients, independentment del mètode de pagament de la bestreta que utilitzin."
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:199
+msgid "Only if the customers paid the deposit with a credit card"
+msgstr "Només si els clients han pagat la bestreta amb targeta de crèdit"
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:200
+msgid "Forced for all customers, regardless of deposit's payment method"
+msgstr ""
+"Forçat per a tots els clients, independentment de la forma de pagament del "
+"dipòsit"
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:209
+msgid ""
+"Notice of automatic charge to show in \"Payment Method\" section and at "
+"checkout"
+msgstr ""
+"Avís de càrrec automàtic per mostrar a la secció \"Payment Method\" i en el "
+"moment de pagar"
+
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:212
+msgid ""
+"Enter a text to alert your customers that their credit cards will be used to "
+"automatically pay for the balances on the due date."
+msgstr ""
+"Introduïu un text per avisar els vostres clients que les seves targetes de "
+"crèdit s'utilitzaran per pagar automàticament els saldos en la data de "
+"venciment."
+
+#. translators: 1. Balance due date.
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:255
+msgid "Balance will be automatically charged on %s"
+msgstr "El saldo es carregarà automàticament el %s"
+
+#. translators: 1. Blog name. 2. Order number.
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:329
+msgid "%1$s - Order %2$s"
+msgstr "%1$s - Comanda %2$s"
+
+#. translators: 1. Stripe charge id.
+#: includes/compatibilities/stripe/class-yith-wcdp-yith-stripe-compatibility.php:398
+msgid "Stripe payment approved (ID: %s)"
+msgstr "S'ha aprovat el pagament de Stripe (ID: %s)"
+
+#: includes/compatibilities/stripe/emails/class-yith-wcdp-customer-deposit-automatic-payment-email.php:41
+msgid "YITH WooCommerce Deposits / Down Payments - Balance automatic payment"
+msgstr ""
+"YITH WooCommerce Deposits / Down Payments - Pagament automàtic del saldo"
+
+#: includes/compatibilities/stripe/emails/class-yith-wcdp-customer-deposit-automatic-payment-email.php:42
+msgid ""
+"This email is sent to customers when the balance automatic payment date is "
+"approaching."
+msgstr ""
+"Aquest correu electrònic s'envia als clients quan s'acosta la data de "
+"pagament automàtic del saldo."
+
+#: includes/compatibilities/stripe/emails/class-yith-wcdp-customer-deposit-automatic-payment-email.php:43
+msgid "The pending balance will be charged to your credit card soon"
+msgstr "El saldo pendent es carregarà aviat a la vostra targeta de crèdit"
+
+#: includes/compatibilities/stripe/emails/class-yith-wcdp-customer-deposit-automatic-payment-email.php:44
+msgid "The balance will be automatically paid soon"
+msgstr "El saldo es pagarà automàticament aviat"
+
+#: includes/compatibilities/stripe/emails/class-yith-wcdp-customer-deposit-automatic-payment-email.php:144
+msgid ""
+"<p>Hi {customer_name},</p>\n"
+"\t\t\t\t\t<p>We remind you that the pending balances listed below will be "
+"automatically charged to your credit card (<b>{card_type}</b> ending in "
+"<b>{card_last4}</b>) in {days_left}.</p>\n"
+"\t\t\t\t\t{deposit_list}\n"
+"\t\t\t\t\t<p>Please, be sure to double-check the saved payment method, to "
+"correctly complete the payment.</p>\n"
+"\t\t\t\t\t<p>Best regards,</p>\n"
+"\t\t\t\t\t<p>{site_title} staff</p>"
+msgstr ""
+"<p>Hola {customer_name},</p>↵\n"
+"→ → → → → <p>Us recordem que els saldos pendents que s'indiquen a "
+"continuació es carregaran automàticament a la vostra targeta de crèdit "
+"(<b>{card_type}</b> acabat en <b>{card_last4}</b>) en {days_left}.</p>↵\n"
+"→ → → → → {deposit_list}↵\n"
+"→ → → → → <p>Si us plau, assegureu-vos de comprovar el mètode de pagament "
+"desat per completar el pagament correctament.</p>↵\n"
+"→ → → → → <p>Una salutació cordial,</p>↵\n"
+"→ → → → → <p>{site_title} staff</p>"
+
+#: includes/compatibilities/stripe/emails/class-yith-wcdp-customer-deposit-automatic-payment-email.php:155
+msgid ""
+"Hi {customer_name},\n"
+"\n"
+"\t\t\t\t\tWe remind you that the pending balances listed below will be "
+"automatically charged to your credit card ({card_type} ending in "
+"{card_last4}) in {days_left}.\n"
+"\n"
+"\t\t\t\t\t{deposit_list}\n"
+"\n"
+"\t\t\t\t\tPlease, be sure to double-check the saved payment method, to "
+"correctly complete your balance payments.\n"
+"\n"
+"\t\t\t\t\tBest regards,\n"
+"\n"
+"\t\t\t\t\t{site_title} staff"
+msgstr ""
+"Hola {customer_name},↵\n"
+"↵\n"
+"→ → → → → Us recordem que els saldos pendents que s'indiquen a continuació "
+"es carregaran automàticament a la vostra targeta de crèdit ({card_type} "
+"acabat en {card_last4}) d'aquí a {days_left}.↵\n"
+"↵\n"
+"→ → → → → {deposit_list}↵\n"
+"↵\n"
+"→ → → → → Si us plau, assegureu-vos de comprovar el mètode de pagament desat "
+"per completar correctament els pagaments del saldo.↵\n"
+"↵\n"
+"→ → → → → Salutacions cordials,↵\n"
+"↵\n"
+"→ → → → → {site_title} staff"
+
+#: includes/data-stores/class-yith-wcdp-deposit-rule-data-store.php:110
+msgctxt ""
+"[DEV] Debug message triggered when unable to create deposit rule record."
+msgid "Unable to register rule. Missing required params."
+msgstr "No es pot registrar la regla. Falten els paràmetres obligatoris."
+
+#: includes/data-stores/class-yith-wcdp-deposit-rule-data-store.php:163
+msgctxt "[DEV] Debug message triggered when unable to find rate rule record."
+msgid "Invalid deposit rule."
+msgstr "Regla de bestreta no vàlida"
+
+#: includes/data-stores/class-yith-wcdp-deposit-rule-data-store.php:184
+msgctxt "[DEV] Debug message triggered when unable to find click record."
+msgid "Invalid rate rule."
+msgstr "La regla de tarifa no és vàlida."
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:35
+msgid "YITH WooCommerce Deposits / Down Payments - New deposit for admin"
+msgstr ""
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:36
+msgid ""
+"This email is sent to admins when a customer creates an order in which a "
+"deposit for one or more products has been paid."
+msgstr ""
+"Aquest correu electrònic s'envia als administradors quan un client crea una "
+"comanda en la qual s'ha pagat un dipòsit d'un o més productes."
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:38
+msgid "New customer deposit"
+msgstr "Nou dipòsit de client"
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:39
+msgid "[{site_title}] New customer deposit ({order_number}) - {order_date}"
+msgstr "[{site_title}] Ingrés de client nou ({order_number}) - {order_date}"
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:101
+msgid "Recipient(s)"
+msgstr "Destinataris"
+
+#. translators: 1. Default receiver.
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:105
+msgid ""
+"Enter recipients (comma-separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+"Introduïu els destinataris (separats per comes) per a aquest correu "
+"electrònic. El valor per defecte és <code>%s</code>."
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:110
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:139
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:208
+msgid "Subject"
+msgstr "Assumpte"
+
+#. translators: 1. Default subject.
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:114
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:143
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:212
+msgid ""
+"This controls the email subject line. Leave it blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"Això controla la línia d'assumpte del correu electrònic. Deixeu-lo en blanc "
+"per utilitzar l'assumpte predeterminat: <code>%s</code>."
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:119
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:148
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:217
+msgid "Email heading"
+msgstr "Encapçalament Email"
+
+#. translators: 1. Default heading.
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:123
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:152
+msgid ""
+"This controls the main heading in the notification email. Leave it blank to "
+"use the default heading: <code>%s</code>."
+msgstr ""
+"Això controla l'encapçalament principal del correu electrònic de "
+"notificació. Deixeu-lo en blanc per utilitzar l'encapçalament predeterminat: "
+"<code>%s</code>."
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:128
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:157
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:226
+msgid "Email type"
+msgstr "Tipus Email"
+
+#: includes/emails/class-yith-wcdp-admin-deposit-created-email.php:131
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:160
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:229
+msgid "Choose the email format."
+msgstr "Trieu el format del correu electrònic."
+
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:35
+msgid "YITH WooCommerce Deposits / Down Payments - New deposit for customer"
+msgstr ""
+
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:36
+msgid ""
+"This email is sent to customers when they create an order with one or more "
+"deposits."
+msgstr ""
+"Aquest correu electrònic s'envia als clients quan creen una comanda amb un o "
+"més dipòsits."
+
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:38
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:39
+msgid "Pay your order's balance now"
+msgstr "Paga la teva comanda ara"
+
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:43
+msgid ""
+"<p>Hi {customer_name},</p>\n"
+"\t\t\t\t\t<p>Your order #{order_number} is currently being processed, and "
+"its actual status is {order_status}.</p>\n"
+"\t\t\t\t\t<p>You can now pay the balances of the following product(s):</p>\n"
+"\t\t\t\t\t{deposit_list}\n"
+"\t\t\t\t\t<p>Best regards,</p>\n"
+"\t\t\t\t\t<p>{site_title} staff</p>"
+msgstr ""
+"<p>Hola {customer_name},</p>\n"
+" <p>La vostra comanda #{order_number} s'està processant actualment i el seu "
+"estat és {order_status}.</p>\n"
+"<p>Ara podeu pagar els saldos dels productes següents:</p>\n"
+"{deposit_list}\n"
+"\n"
+"<p>Una salutació cordial,</p>\n"
+"<p>{site_title} staff</p>"
+
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:167
+msgid "Email Content"
+msgstr ""
+
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:171
+msgid ""
+"This field lets you modify the main content of the email. You can use the "
+"following placeholders: <code>{order_id}</code> <code>{order_date}</code> "
+"<code>{order_state}</code> <code>{customer_name}</code> "
+"<code>{customer_login}</code> <code>{customer_email}</code> "
+"<code>{suborder_list}</code> <code>{suborder_table}</code>"
+msgstr ""
+
+#: includes/emails/class-yith-wcdp-customer-deposit-created-email.php:172
+msgid ""
+"<p>Hi {customer_name},</p>\n"
+"\t\t\t\t\t\t<p>Your order #{order_number} is currently being processed, and "
+"its actual status is {order_status}.</p>\n"
+"\t\t\t\t\t\t<p>You can now pay the balances of the following product(s):</"
+"p>\n"
+"\t\t\t\t\t\t{deposit_list}"
+msgstr ""
+"<p>Hola {customer_name},</p>\n"
+"<p>La vostra comanda #{order_number} s'està processant actualment i el seu "
+"estat és {order_status}.</p>\n"
+"<p>Ara podeu pagar els saldos dels productes següents:</p>\n"
+" {deposit_list}"
+
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:35
+msgid "YITH WooCommerce Deposits / Down Payments - Balance expiration reminder"
+msgstr ""
+"YITH WooCommerce Deposits / Down Payments - recordatori de caducitat del "
+"saldo"
+
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:36
+msgid ""
+"This email is sent to customers when the balance due date is approaching."
+msgstr ""
+"Aquest correu electrònic s'envia als clients quan s'acosta la data de "
+"venciment del saldo."
+
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:37
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:38
+msgid "Don't forget to pay for your products"
+msgstr "No oblidis pagar els teus productes"
+
+#. translators: 1. Days left before suborder expiration.
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:149
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d dia"
+msgstr[1] "%d dies"
+
+#. translators: 1. Default heading.
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:221
+msgid ""
+"This controls the main heading contained in the notification email. Leave it "
+"blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Això controla l'encapçalament principal contingut al correu electrònic de "
+"notificació. Deixeu-lo en blanc per utilitzar l'encapçalament predeterminat: "
+"<code>%s</code>."
+
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:235
+msgid "Email HTML Content"
+msgstr "Contingut Email HTML"
+
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:239
+msgid ""
+"This field lets you modify the main content of the email. You can use the "
+"following placeholders: <code>{order_id}</code> <code>{order_date}</code> "
+"<code>{order_state}</code> <code>{customer_name}</code> "
+"<code>{customer_login}</code> <code>{customer_email}</code> "
+"<code>{suborder_list}</code> <code>{suborder_table}</code> "
+"<code>{expiration_date}</code> <code>{days_before_expiration}</code>"
+msgstr ""
+
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:252
+msgid ""
+"<p>Hi {customer_name},</p>\n"
+"\t\t\t\t\t<p>We noticed that you still have balance payments that have to be "
+"paid in our shop.</p>\n"
+"\t\t\t\t\t<p>Hurry up, you only have <strong>{days_left}</strong> left!</p>\n"
+"\t\t\t\t\t{deposit_list}\n"
+"\t\t\t\t\t<p>Best regards,</p>\n"
+"\t\t\t\t\t<p>{site_title} staff</p>"
+msgstr ""
+"<p>Hola {customer_name},</p>\n"
+"<p>Ens hem adonat que encara teniu pagaments pendents a la nostra botiga.</"
+"p>\n"
+" <p>Afanya't, només et queden <strong>{days_left}</strong>!</p>\n"
+" {deposit_list}\n"
+" <p>Una salutació cordial,</p>\n"
+" <p>{site_title} staff</p>"
+
+#: includes/emails/class-yith-wcdp-customer-deposit-expiring-email.php:263
+msgid ""
+"Hi {customer_name},\n"
+"\n"
+"\t\t\t\t\tWe noticed that you still have balance payments that have to be "
+"paid in our shop.\n"
+"\n"
+"\t\t\t\t\tHurry up, you only have {days_left} left!\n"
+"\n"
+"\n"
+"\t\t\t\t\t{deposit_list}\n"
+"\n"
+"\t\t\t\t\tBest regards,\n"
+"\n"
+"\t\t\t\t\t{site_title} staff"
+msgstr ""
+"Hola {customer_name},\n"
+" Hem observat que encara teniu pagaments pendents a la nostra botiga.\n"
+"\n"
+" Afanya't, només et queden {days_light}! {deposit_list}\n"
+"\n"
+" Salutacions cordials,\n"
+"\n"
+" {site_title} staff"
+
+#. translators: 1. Plugin name.
+#: init.php:115
+msgid ""
+"%s is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""
+"%s està habilitat però no és efectiu. Requereix WooCommerce per funcionar."
+
+#. translators: 1. Plugin name.
+#: init.php:135
+msgid ""
+"You can't activate the free version of %s while you are using the premium "
+"one."
+msgstr ""
+"No podeu activar la versió gratuïta de %s mentre feu servir la versió "
+"premium."
+
+#: plugin-options/balances-options.php:19
+msgid "Balance Options"
+msgstr "Opcions de pagament"
+
+#: plugin-options/balances-options.php:25
+msgid "Balance order creation"
+msgstr "Creació d'ordres de pagament"
+
+#: plugin-options/balances-options.php:28
+msgid ""
+"Choose how to manage the balance orders. This option can be overridden for "
+"specific products."
+msgstr ""
+"Trieu com gestionar les comandes de saldo. Aquesta opció es pot anul·lar per "
+"a productes específics."
+
+#: plugin-options/balances-options.php:38
+msgid "If an order includes multiple deposits, for the balance"
+msgstr "Si una comanda inclou diverses bestretes, pel saldo"
+
+#: plugin-options/balances-options.php:42
+msgid "Create a single balance order that includes all products"
+msgstr "Creeu una única comanda de saldo que inclogui tots els productes"
+
+#: plugin-options/balances-options.php:43
+msgid "Create a specific balance order for each product"
+msgstr "Creeu una comanda de saldo específica per a cada producte"
+
+#: plugin-options/balances-options.php:45
+msgid ""
+"Choose how to manage the balance orders for orders that include multiple "
+"deposits."
+msgstr ""
+"Trieu com gestionar les comandes de saldo per a comandes que inclouen "
+"diverses bestretes."
+
+#: plugin-options/balances-options.php:89
+msgid "days from the deposit."
+msgstr ""
+
+#: plugin-options/balances-options.php:100
+msgid "This option can be overridden for specific products."
+msgstr "Aquesta opció es pot anul·lar per a productes específics."
+
+#: plugin-options/balances-options.php:118
+msgid ""
+"Choose when to send the email to notify the balance payment to customers."
+msgstr ""
+"Trieu quan enviar el correu electrònic per notificar el pagament del saldo "
+"als clients."
+
+#: plugin-options/balances-options.php:127
+msgid "If balance is not paid"
+msgstr "Si no es paga el saldo"
+
+#: plugin-options/balances-options.php:130
+msgid "Choose the action to execute when a balance is not paid."
+msgstr "Trieu l'acció que voleu executar quan no es pagui un saldo."
+
+#: plugin-options/customizations-options.php:19
+msgid "Customization Options"
+msgstr "Opcions de personalització"
+
+#: plugin-options/customizations-options.php:25
+msgid "Hide \"Pay deposit\" button on shop pages"
+msgstr "Amaga el botó \"Paga la bestreta\" a les pàgines de la botiga."
+
+#: plugin-options/customizations-options.php:28
+msgid "Enable to hide the \"Pay Deposit\" button on shop pages."
+msgstr ""
+"Habiliteu per ocultar el botó \"Paga la bestreta\" a les pàgines de la botiga"
+
+#: plugin-options/customizations-options.php:33
+msgid "Show custom notices on product page"
+msgstr "Mostra avisos personalitzats a la pàgina del producte"
+
+#: plugin-options/customizations-options.php:36
+msgid ""
+"Enable to show a custom notice about the deposit option in all products."
+msgstr ""
+"Activa per mostrar un avís personalitzat sobre l'opció de bestreta en tots "
+"els productes"
+
+#: plugin-options/customizations-options.php:41
+msgid "Notice to show on products with balance payment required online"
+msgstr ""
+"Avís per mostrar als productes amb pagament del saldo necessari en línia"
+
+#: plugin-options/customizations-options.php:53
+msgid "Notice to show on products with balance payment not managed online"
+msgstr ""
+"Avís per mostrar als productes amb pagament de saldo no gestionat en línia"
+
+#: plugin-options/customizations-options.php:65
+msgid "Notice position on product page"
+msgstr "Aviseu de la posició a la pàgina del producte"
+
+#: plugin-options/customizations-options.php:66
+msgid "Choose the position of the notice on the product page."
+msgstr "Trieu la posició de l'avís a la pàgina del producte."
+
+#: plugin-options/customizations-options.php:71
+msgid "Do not show any note on product"
+msgstr "No mostris cap nota sobre el producte"
+
+#: plugin-options/customizations-options.php:72
+msgid "Below product title"
+msgstr "A continuació, títol del producte"
+
+#: plugin-options/customizations-options.php:73
+msgid "Below product price"
+msgstr "A continuació, preu del producte"
+
+#: plugin-options/customizations-options.php:74
+msgid "Below product excerpt"
+msgstr "A continuació, extracte del producte"
+
+#: plugin-options/customizations-options.php:75
+msgid "Below single Add to Cart"
+msgstr "A continuació, afegeix al carretó"
+
+#: plugin-options/customizations-options.php:76
+msgid "Below product meta"
+msgstr "A sota del meta del producte"
+
+#: plugin-options/customizations-options.php:77
+msgid "Below product share"
+msgstr "A continuació, comparteix el producte"
+
+#: plugin-options/customizations-options.php:92
+msgid "Labels & Messages"
+msgstr "Etiquetes & Missatges"
+
+#: plugin-options/customizations-options.php:126
+msgid "Full price label"
+msgstr "Etiqueta preu total"
+
+#: plugin-options/customizations-options.php:133
+msgid "Balance label"
+msgstr "Etiqueta de pagament"
+
+#: plugin-options/email-options.php:17
+msgid "Emails"
+msgstr ""
+
+#: plugin-options/email-options.php:18
+msgid "Manage and customize the emails sent by the plugin."
+msgstr ""
+
+#: plugin-options/settings-options.php:23
+msgid "General settings"
+msgstr ""
+
+#: plugin-options/settings-options.php:24
+msgid "Set up deposit options for the products in your shop."
+msgstr ""
+
+#: plugin-options/settings-options.php:27
+msgid "Deposit rules"
+msgstr ""
+
+#: plugin-options/settings-options.php:28
+msgid "Create advanced deposit rules for your products. "
+msgstr ""
+
+#: plugin-options/settings-options.php:28
+msgid ""
+"The rules will override the default deposit amount (defined in General "
+"Options) for specific user roles, product categories, or products. "
+msgstr ""
+
+#: plugin-options/settings/deposits-options.php:19
+msgid "General Options"
+msgstr "Opcions generals"
+
+#: plugin-options/settings/deposits-options.php:25
+msgid "Enable deposit on all products"
+msgstr "Activa la bestreta en tots els productes."
+
+#: plugin-options/settings/deposits-options.php:28
+msgid ""
+"Enable to activate the deposit option for all products. This option can be "
+"overridden for specific products."
+msgstr ""
+"Activa per activar l'opció de bestreta per a tots els productes. Aquesta "
+"opció es pot anul·lar per a productes específics."
+
+#: plugin-options/settings/deposits-options.php:36
+msgid ""
+"Choose how to manage the deposit payment for all products. This option can "
+"be overridden for specific products."
+msgstr ""
+"Trieu com gestionar  l'ingrés de l bestreta per a tots els productes. "
+"Aquesta opció es pot anul·lar per a productes específics."
+
+#: plugin-options/settings/deposits-options.php:39
+msgid "Optional: users can choose whether to pay full amount or just a deposit"
+msgstr ""
+"Opcional: els usuaris poden triar si pagar l'import total o només una "
+"bestreta"
+
+#: plugin-options/settings/deposits-options.php:49
+msgid "Show deposit option selected by default"
+msgstr "Mostra l'opció de bestreta seleccionada per defecte"
+
+#: plugin-options/settings/deposits-options.php:61
+msgid "Default deposit"
+msgstr "Bestreta per defecte"
+
+#: plugin-options/settings/deposits-options.php:72
+msgid "Shipping costs (if any) will be:"
+msgstr "Les despeses d'enviament (si n'hi ha) seran:"
+
+#: plugin-options/settings/deposits-options.php:76
+msgid "Applied to the deposit order"
+msgstr "Aplicat a l'ordre de dipòsit"
+
+#: plugin-options/settings/deposits-options.php:77
+msgid "Applied to the balance order"
+msgstr "S'aplica a l'ordre del saldo"
+
+#: plugin-options/settings/deposits-options.php:79
+msgid ""
+"Choose how to manage shipping costs on products with the deposit option."
+msgstr ""
+"Trieu com gestionar els costos d'enviament dels productes amb l'opció de "
+"bestreta."
+
+#: plugin-options/settings/deposits-options.php:84
+msgid "Load deposit data dynamically"
+msgstr "Carregueu les dades de la bestreta de manera dinàmica"
+
+#: plugin-options/settings/deposits-options.php:87
+msgid ""
+"Enable this option to load via AJAX deposit preferences for product "
+"variations; this will speed up single product page loading."
+msgstr ""
+"Activeu aquesta opció per carregar mitjançant les preferències de dipòsit "
+"AJAX per a les variacions del producte; això accelerarà la càrrega de la "
+"pàgina de producte únic."
+
+#: templates/admin/email-settings-tab.php:17
+msgid "Email"
+msgstr ""
+
+#: templates/admin/email-settings-tab.php:18
+msgctxt "[ADMIN] Column name table emails"
+msgid "Active"
+msgstr ""
+
+#: templates/admin/email-settings-tab.php:47
+msgid "Edit"
+msgstr ""
+
+#: templates/deposits-expirations-modal.php:18
+#: templates/emails/deposit-list.php:75
+msgid "View details"
+msgstr "Veure detalls"
+
+#: templates/deposits-expirations-modal.php:52
+msgid "Pay balance when you're ready to complete your purchase"
+msgstr "Paga el saldo quan estiguis a punt per completar la compra"
+
+#. translators: 1. Order number.
+#: templates/emails/admin-deposit-created-email.php:21
+msgid "Order #%s"
+msgstr "Comanda #%s"
+
+#. translators: 1. Customer full name.
+#. translators: 1. Formatted customer name.
+#: templates/emails/admin-deposit-created-email.php:27
+#: templates/emails/plain/admin-deposit-created-email.php:17
+msgid ""
+"You have received an order with deposits from %s. Here you find the details "
+"of the full amount payments:"
+msgstr ""
+"Heu rebut una comanda amb dipòsits de %s. Aquí trobareu els detalls dels "
+"pagaments de l'import total:"
+
+#: templates/emails/deposit-list.php:71
+msgid "Pay now"
+msgstr "Pagar ara"
+
+#: templates/emails/deposit-table.php:24
+msgid "Suborder"
+msgstr "Subordre"
+
+#: templates/emails/deposit-table.php:25 templates/my-deposits.php:43
+#: templates/my-deposits.php:56
+msgid "Product"
+msgstr "Producte"
+
+#: templates/emails/deposit-table.php:26 templates/my-deposits.php:45
+#: templates/my-deposits.php:98
+msgid "Status"
+msgstr "Estat"
+
+#: templates/emails/deposit-table.php:27
+msgid "Total"
+msgstr "Total"
+
+#: templates/emails/deposit-table.php:82
+msgid "Total paid:"
+msgstr "Total pagat: "
+
+#: templates/emails/deposit-table.php:86
+msgid "Total to be paid:"
+msgstr "Total a pagar:"
+
+#: templates/emails/plain/admin-deposit-created-email.php:25
+msgid "Deposits:"
+msgstr "Bestretes:"
+
+#. Translators: 1. Action url.
+#: templates/emails/plain/deposit-list.php:45
+msgid "Pay now (%s)"
+msgstr "Paga ara (%s)"
+
+#. Translators: 1. Action url.
+#: templates/emails/plain/deposit-list.php:48
+msgid "View (%s)"
+msgstr "Visualització (%s)"
+
+#: templates/emails/plain/deposit-table.php:38 templates/my-deposits.php:42
+#: templates/my-deposits.php:53
+msgid "Order"
+msgstr "comanda"
+
+#: templates/emails/plain/deposit-table.php:48
+msgid "Total paid"
+msgstr "Total pagat"
+
+#: templates/emails/plain/deposit-table.php:49
+msgid "Total to pay"
+msgstr "Total a pagar"
+
+#. translators: 1. Deposit label.
+#: templates/my-deposits.php:29
+msgid "%s details"
+msgstr "%s detalls"
+
+#. translators: 1. Deposit label.
+#: templates/my-deposits.php:35
+msgid ""
+"Some products in this order have been bought with %s. In order to complete "
+"the transaction and ship the products, all remaining amounts have to be "
+"paid. Below is the list of items with pending balance:"
+msgstr ""
+"Alguns productes d'aquesta comanda s'han comprat amb %s. Per completar la "
+"transacció i enviar els productes, s'han de pagar tots els imports restants. "
+"A continuació es mostra la llista d'elements amb saldo pendent:"
+
+#: templates/my-deposits.php:44 templates/my-deposits.php:77
+msgid "Totals"
+msgstr "Totals"
+
+#: templates/my-deposits.php:81
+msgid "Subtotal: "
+msgstr "Subtotal: "
+
+#: templates/my-deposits.php:85
+msgid "Discount: "
+msgstr "Descompte: "
+
+#: templates/my-deposits.php:89
+msgid "Shipping: "
+msgstr "Enviament: "
+
+#: templates/my-deposits.php:93
+msgid "Taxes: "
+msgstr "Impostos:"
+
+#: templates/my-deposits.php:107
+msgid "Actions"
+msgstr "Accions"
+
+#: templates/single-add-deposit-to-cart.php:57
+msgid "Pay a deposit"
+msgstr "Paga una bestreta."
+
+#: views/add-deposit-rule-modal.php:26
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Rule type"
+msgstr "Tipus de regla"
+
+#: views/add-deposit-rule-modal.php:36
+msgctxt "[ADMIN] Add Affiliate modal"
+msgid "Search products"
+msgstr "Cerca productes"
+
+#: views/add-deposit-rule-modal.php:45
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Search products"
+msgstr "Cerca productes"
+
+#: views/add-deposit-rule-modal.php:51
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Search product categories"
+msgstr "Cerca categories de productes"
+
+#: views/add-deposit-rule-modal.php:60
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Search categories"
+msgstr "Cerca categories"
+
+#: views/add-deposit-rule-modal.php:77
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Search user roles"
+msgstr "Cerca rols d'usuari"
+
+#: views/add-deposit-rule-modal.php:86
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Search roles"
+msgstr "Cerca rols"
+
+#: views/add-deposit-rule-modal.php:94
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Deposit type"
+msgstr "Tipus de bestreta"
+
+#: views/add-deposit-rule-modal.php:123
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Save rule"
+msgstr "Desar regla"
+
+#: views/add-deposit-rule-modal.php:125
+msgctxt "[ADMIN] Add deposit rule modal"
+msgid "Add rule"
+msgstr "Afegeix regla"
+
+#: views/fields/expiration-fallback.php:58
+msgctxt "[ADMIN] Expiration fallback field"
+msgid "and"
+msgstr "i"
+
+#. translators: 1. Condition that could lead to another attempt (EG: if the balance is still not paid).
+#: views/fields/expiration-fallback.php:76
+msgctxt "[ADMIN] Expiration fallback field"
+msgid "day(s) after, %s, then"
+msgstr "dia(s) després, %s, aleshores"
+
+#: views/product-deposit-bulk-edit.php:27
+msgid "Deposit?"
+msgstr "Dipòsit?"
+
+#: views/product-deposit-bulk-edit.php:31
+#: views/product-deposit-bulk-edit.php:48
+#: views/product-deposit-bulk-edit.php:65
+#: views/product-deposit-bulk-edit.php:83
+msgid "Default"
+msgstr "Per defecte"
+
+#: views/product-deposit-bulk-edit.php:34
+#: views/product-deposit-bulk-edit.php:51
+msgid "Yes"
+msgstr "Sí"
+
+#: views/product-deposit-bulk-edit.php:38
+#: views/product-deposit-bulk-edit.php:55
+msgid "No"
+msgstr "No"
+
+#: views/product-deposit-bulk-edit.php:44
+msgid "Default?"
+msgstr "Per defecte?"
+
+#: views/product-deposit-bulk-edit.php:61
+msgid "Force?"
+msgstr "Forçar?"
+
+#: views/product-deposit-bulk-edit.php:68
+msgid "Force deposit"
+msgstr "Forçar dipòsti"
+
+#: views/product-deposit-bulk-edit.php:72
+msgid "Allow deposit"
+msgstr "Permet dipòsit"
+
+#: views/product-deposit-bulk-edit.php:79
+msgid "How to pay balance orders?"
+msgstr "Com pagar comandes de saldo?"
+
+#: views/product-deposit-bulk-edit.php:97
+msgid "Notes"
+msgstr "Notes"
+
+#: views/product-deposit-tab.php:30
+msgid "Deposit & balance options"
+msgstr "Opcions de dipòsit i saldo"
+
+#: assets/js/blocks/yith-wcdp-grand-total-frontend.bundle.js:210
+#: assets/js/blocks/yith-wcdp-grand-total.bundle.js:214
+#: assets/js/blocks/yith-wcdp-grand-total-frontend.bundle.js:180
+#: assets/js/blocks/yith-wcdp-grand-total.bundle.js:182
+msgctxt "[FRONTEND] Grand total block"
+msgid "Deposit due today"
+msgstr ""
+
+#: assets/js/blocks/yith-wcdp-grand-total-frontend.bundle.js:211
+#: assets/js/blocks/yith-wcdp-grand-total.bundle.js:215
+#: assets/js/blocks/yith-wcdp-grand-total-frontend.bundle.js:188
+#: assets/js/blocks/yith-wcdp-grand-total.bundle.js:190
+msgctxt "[FRONTEND] Grand total block"
+msgid "Balance subtotal"
+msgstr ""
+
+#: assets/js/blocks/yith-wcdp-grand-total-frontend.bundle.js:212
+#: assets/js/blocks/yith-wcdp-grand-total.bundle.js:216
+#: assets/js/blocks/yith-wcdp-grand-total-frontend.bundle.js:196
+#: assets/js/blocks/yith-wcdp-grand-total.bundle.js:198
+msgctxt "[FRONTEND] Grand total block"
+msgid "Balance shipping"
+msgstr ""
+
+#: assets/js/blocks/yith-wcdp-grand-total-frontend.bundle.js:213
+#: assets/js/blocks/yith-wcdp-grand-total.bundle.js:217
+#: assets/js/blocks/yith-wcdp-grand-total-frontend.bundle.js:204
+#: assets/js/blocks/yith-wcdp-grand-total.bundle.js:206
+msgctxt "[FRONTEND] Grand total block"
+msgid "Grand total"
+msgstr ""
