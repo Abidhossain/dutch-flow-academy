@@ -9,12 +9,6 @@ define( 'FORCE_SSL_ADMIN', true ); // Redirect All HTTP Page Requests to HTTPS -
 define( 'ITSEC_ENCRYPTION_KEY', 'TTVqM1YlUHlEOzdwVE48JjRBS3FfKzB2XUQlNmMoN3t2VSoyQTdAVm9YKSFfTGkpNzFkRDNZO0FmJD8mTCwjfg==' );
 define( 'WP_CACHE', true ); // Added by WP Rocket
 
-define( 'WP_CACHE', false /* Modified by NitroPack */ ); // Added by WP Rocket
-
-define( 'WP_CACHE', true /* Modified by NitroPack */ ); // Added by WP Rocket
-
-
-
 /**
  * The base configuration for WordPress
  *
@@ -37,13 +31,13 @@ define( 'WP_CACHE', true /* Modified by NitroPack */ ); // Added by WP Rocket
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'u939052304_M9rtn1' );
+define( 'DB_NAME', 'db_douch_flow' );
 
 /** Database username */
-define( 'DB_USER', 'u939052304_M9rtn1' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', '7q]Eo]bgQ?' );
+define( 'DB_PASSWORD', 'password' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -75,7 +69,6 @@ define( 'LOGGED_IN_SALT',    'bM$`=ke](O9<w^aECG;>y(<7N5`xN]wV!(ume@w*!2;&3,SL?}
 define( 'NONCE_SALT',        'u1TvtP1ud)uPjYafQvX,N7k_+A<wU9XA0lY}; =i|mNQ:p0|`Hix0{jp}L:j*^sh' );
 define( 'WP_CACHE_KEY_SALT', 'OW[:{<T^<h}u:pPx)=} yRcMi<g5}<_W@$V+ :.+w+U).5Vg2d_Tln`0]v]tnsUI' );
 
-
 /**#@-*/
 
 /**
@@ -103,8 +96,8 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
-define( 'WP_DEBUG_LOG', false );
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', true );
 define( 'WP_DEBUG_DISPLAY', false );
 /* That's all, stop editing! Happy publishing. */
 
