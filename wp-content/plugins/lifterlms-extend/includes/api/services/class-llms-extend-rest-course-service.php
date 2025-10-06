@@ -49,7 +49,7 @@ class LLMS_Extend_REST_Course_Service {
                     'enrolled_student_counts' => $course->get_student_count(),
                     'progress' => $student->get_progress( $course->get('id'), 'course' ),
                     'lesson_count' => $course->get_lessons_count(),
-                    'last_activity' => $last_activity ? strtotime( $last_activity[0]->get( 'updated_date' ) ) : false,
+                    'last_activity' => $last_activity ? date('Y-m-d H:i', strtotime($last_activity[0]->get( 'updated_date' ))) : false,
                     'thumbnail' => get_the_post_thumbnail_url( $course->get('id'), 'medium' ),
                     'video' => $video,
                 );

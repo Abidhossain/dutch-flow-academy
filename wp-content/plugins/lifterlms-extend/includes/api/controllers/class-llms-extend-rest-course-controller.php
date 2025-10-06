@@ -58,7 +58,6 @@ class LLMS_Extend_REST_Course_Controller {
                   'permission_callback' => array($this, 'check_my_courses_permissions'),
               )
         );
-
         register_rest_route(
             $namespace,
             '/lessons/(?P<lesson_id>\d+)/complete',
@@ -68,7 +67,6 @@ class LLMS_Extend_REST_Course_Controller {
                   'permission_callback' => array($this, 'check_lesson_permissions'),
               )
         );
-
         register_rest_route(
             $namespace,
             '/lessons/(?P<lesson_id>\d+)/incomplete',
