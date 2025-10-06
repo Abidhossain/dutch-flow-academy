@@ -60,6 +60,15 @@ class LLMS_Extend_REST_Course_Controller {
         );
         register_rest_route(
             $namespace,
+            '/lessons/(?P<lesson_id>\d+)/details',
+              array(
+                  'methods' => WP_REST_Server::READABLE,
+                  'callback' => array($this, 'get_lesson_details'),
+                  'permission_callback' => array($this, 'check_lesson_permissions'),
+              )
+        );
+        register_rest_route(
+            $namespace,
             '/lessons/(?P<lesson_id>\d+)/complete',
               array(
                   'methods' => WP_REST_Server::CREATABLE,
@@ -98,6 +107,16 @@ class LLMS_Extend_REST_Course_Controller {
      */
     public function get_my_courses() {
         return $this->service->get_my_courses($this->student);
+    }
+
+    /**
+     * Get lesson details including completion status
+     *
+     * @param WP_REST_Request $request The request object.
+     * @return array Lesson details
+     */
+    public function get_lesson_details() {
+        return $this->service->get_lesson_details($this->lesson);
     }
 
     public function mark_lesson_as_completed() {
