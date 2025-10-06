@@ -28,7 +28,8 @@ class LLMS_Extend_REST_Course_Lesson_Service {
                 'course_progress' => $student ? $student->get_progress( $course->get('id'), 'course' ) : 0,
                 'course_last_activity' => $last_activity ? date('Y-m-d H:i', strtotime($last_activity[0]->get( 'updated_date' ))) : false,
                 'course_is_completed' => $student ? $student->is_complete( $course->get('id'), 'course' ) : false,
-              )
+              ),
+              'other_lessons' => $this->get_other_lessons( $course, $lesson ),
           ],
           $lesson->toArray()
       );
@@ -127,6 +128,27 @@ class LLMS_Extend_REST_Course_Lesson_Service {
         return wp_delete_comment( $comment_id, true );
     }
 
+
+    public function get_other_lessons( $course, $current_lesson ) {
+      if ( ! $course ) {
+          return [];
+      }
+
+      $lessons = $course->get_lessons();
+      $other_lessons = [];
+
+      foreach ( $lessons as $lesson ) {
+          if ( $lesson->get( 'id' ) !== $current_lesson->get( 'id' ) ) {
+              $other_lessons[] = [
+                  'id'    => $lesson->get( 'id' ),
+                  'title' => $lesson->get( 'title' ),
+                  'is_completed' => $lesson->is_complete(),
+              ];
+          }
+      }
+
+      return $other_lessons;
+    }
 
     /**
      * Format comments into a nested tree structure
