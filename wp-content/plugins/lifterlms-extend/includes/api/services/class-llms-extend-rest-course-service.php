@@ -59,7 +59,7 @@ class LLMS_Extend_REST_Course_Service {
         return $courses;
     }
 
-    public function get_course_details($course) {
+    public function get_course_details($course, $student) {
         return array(
             'id' => $course->get('id'),
             'title' => $course->get('title'),
@@ -78,42 +78,6 @@ class LLMS_Extend_REST_Course_Service {
             'reviews' => $this->get_formatted_reviews($course),
             'next_lesson' => $student->get_next_lesson($course->get('id'))
         );
-    }
-
-    public function get_lesson_details($lesson) {
-      $course = llms_get_post( $lesson->get( 'parent_course' ) );
-      $student = llms_get_student(get_current_user_id());
-      $last_activity = $student->get_events(array(
-          'per_page' => 1,
-          'post_id'  => $course->get( 'id' )
-      ));
-
-      $prev_lesson = llms_get_post( $lesson->get_previous_lesson() );
-      $next_lesson = llms_get_post( $lesson->get_next_lesson() );
-
-      return array_merge(
-          [
-              'is_completed' => $lesson->is_complete(),
-              'previous' => $prev_lesson ? $prev_lesson->get('title') : null,
-              'next' => $next_lesson ? $next_lesson->get('title') : null,
-              'course' => array(
-                'course_id' => $course ? $course->get('id') : null,
-                'course_title' => $course ? $course->get('title') : '',
-                'course_progress' => $student ? $student->get_progress( $course->get('id'), 'course' ) : 0,
-                'course_last_activity' => $last_activity ? date('Y-m-d H:i', strtotime($last_activity[0]->get( 'updated_date' ))) : false,
-                'course_is_completed' => $student ? $student->is_complete( $course->get('id'), 'course' ) : false,
-              )
-          ],
-          $lesson->toArray()
-      );
-    }
-
-    public function mark_lesson_as_completed($student, $lesson) {
-        $student->mark_complete($lesson->get('id'), 'lesson');
-    }
-
-    public function mark_lesson_as_incomplete($student, $lesson) {
-        $student->mark_incomplete($lesson->get('id'), 'lesson');
     }
 
     /**
