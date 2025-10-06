@@ -36,6 +36,8 @@ class LLMS_Extend_REST_User_Controller {
         $student = llms_get_student( $user_id );
         return array_merge(
             array(
+                'user_id' => $user_id,
+                'student_id' => $student ? $student->get('id') : '',
                 'avatar' => get_avatar_url( $user->ID ),
                 'first_name' => $student ? $student->get('first_name') : '',
                 'last_name' => $student ? $student->get('last_name') : '',
