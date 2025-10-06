@@ -3,7 +3,7 @@
  * Plugin Name: LifterLMS Extend
  * Plugin URI: https://yourwebsite.com/lifterlms-extend
  * Description: Extends LifterLMS functionality with additional features
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Rejown Ahmed Zisan
  * Author URI: https://rejownahmed.me
  * Text Domain: lifterlms-extend
