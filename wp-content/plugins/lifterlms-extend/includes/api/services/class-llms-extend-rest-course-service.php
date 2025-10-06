@@ -78,6 +78,15 @@ class LLMS_Extend_REST_Course_Service {
             'reviews' => $this->get_formatted_reviews($course),
         );
     }
+
+    public function mark_lesson_as_completed($student, $lesson) {
+        $student->mark_complete($lesson->get('id'), 'lesson');
+    }
+
+    public function mark_lesson_as_incomplete($student, $lesson) {
+        $student->mark_incomplete($lesson->get('id'), 'lesson');
+    }
+
     /**
      * Get formatted student data
      *

@@ -16,6 +16,7 @@ class LLMS_Extend_REST_Course_Controller {
     private $service;
     private $course;
     private $student;
+    private $lesson;
 
     /**
      * Constructor
@@ -57,6 +58,26 @@ class LLMS_Extend_REST_Course_Controller {
                   'permission_callback' => array($this, 'check_my_courses_permissions'),
               )
         );
+
+        register_rest_route(
+            $namespace,
+            '/lessons/(?P<lesson_id>\d+)/complete',
+              array(
+                  'methods' => WP_REST_Server::CREATABLE,
+                  'callback' => array($this, 'mark_lesson_as_completed'),
+                  'permission_callback' => array($this, 'check_lesson_permissions'),
+              )
+        );
+
+        register_rest_route(
+            $namespace,
+            '/lessons/(?P<lesson_id>\d+)/incomplete',
+              array(
+                  'methods' => WP_REST_Server::CREATABLE,
+                  'callback' => array($this, 'mark_lesson_as_incomplete'),
+                  'permission_callback' => array($this, 'check_lesson_permissions'),
+              )
+        );
       }
     
 
@@ -79,6 +100,17 @@ class LLMS_Extend_REST_Course_Controller {
      */
     public function get_my_courses() {
         return $this->service->get_my_courses($this->student);
+    }
+
+    public function mark_lesson_as_completed() {
+        $this->service->mark_lesson_as_completed($this->student, $this->lesson);
+        return array('success' => true, 'message' => __('Lesson marked as completed.', 'lifterlms-extend'));
+
+    }
+
+    public function mark_lesson_as_incomplete() {
+        $this->service->mark_lesson_as_incomplete($this->student, $this->lesson);
+        return array('success' => true, 'message' => __('Lesson marked as incomplete.', 'lifterlms-extend'));
     }
 
     /**
@@ -147,6 +179,53 @@ class LLMS_Extend_REST_Course_Controller {
             );
         }
 
+        return true;
+    }
+
+
+    /**
+     * Check if user has permission to access the endpoint
+     *
+     * @param WP_REST_Request $request The request object.
+     * @return bool|WP_Error
+     */    
+    public function check_lesson_permissions($request) {
+      // First check if the user is logged in
+        if (!is_user_logged_in() ) {
+            return new WP_Error(
+                'rest_forbidden',
+                __('You must be logged in to access this endpoint.', 'lifterlms-extend'),
+                array('status' => rest_authorization_required_code())
+            );
+        }
+
+        $this->student = llms_get_student( get_current_user_id() );
+        if ( !$this->student) {
+          return new WP_Error(
+              'llms_extend_not_enrolled',
+              __('You must be a student to access this endpoint.', 'lifterlms-extend'),
+              array('status' => 403)
+          );
+        }
+          
+        $lesson_id = $request->get_param('lesson_id');
+        $this->lesson = llms_get_post($lesson_id);
+        if (!$this->lesson || 'lesson' !== $this->lesson->get('type')) {
+            return new WP_Error(
+                'llms_extend_lesson_not_found',
+                __('Lesson not found or invalid lesson ID.', 'lifterlms-extend'),
+                array('status' => 404)
+            );
+        }
+
+        $course_id = $this->lesson->get('parent_course');
+        if ( ! $this->student->is_enrolled( $course_id ) ) {
+            return new WP_Error(
+                'llms_extend_not_enrolled',
+                __('You must be enrolled in the course containing this lesson to access it.', 'lifterlms-extend'),
+                array('status' => 403)
+            );
+          }
         return true;
     }
 
