@@ -41,7 +41,7 @@ class LLMS_Extend_REST_User_Controller {
                 'last_name' => $student ? $student->get('last_name') : '',
                 'display_name' => $student ? $student->get('display_name') : '',
                 'username' => $student ? $student->get('user_login') : '',
-                'email' => $student ? $student->get('email_address') : '',
+                'email' => $student ? $student->get('user_email') : '',
                 'address' => $student ? $student->get('llms_billing_address_1') : '',
                 'address_2' => $student ? $student->get('llms_billing_address_2') : '',
                 'country' => $student ? $student->get('llms_billing_country') : '',
