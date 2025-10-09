@@ -55,7 +55,7 @@ class LLMS_Extend_REST_Course_Lesson_Service {
             'status'  => 'approve',
             'orderby' => 'comment_date_gmt',
             'order'   => 'ASC',
-            'hierarchical' => 'threaded',
+            // 'hierarchical' => 'threaded',
         ]);
 
         // Build tree with author details
