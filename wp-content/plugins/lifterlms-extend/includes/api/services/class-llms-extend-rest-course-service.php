@@ -51,6 +51,7 @@ class LLMS_Extend_REST_Course_Service {
                     'lesson_count' => $course->get_lessons_count(),
                     'last_activity' => $last_activity ? date('Y-m-d H:i', strtotime($last_activity[0]->get( 'updated_date' ))) : false,
                     'thumbnail' => get_the_post_thumbnail_url( $course->get('id'), 'medium' ),
+                     'feature_img_url_for_apps' => get_field('feature_img_url_for_apps', $course->get('id')),
                     'video' => $video,
                 );
             }
@@ -63,10 +64,13 @@ class LLMS_Extend_REST_Course_Service {
         return array(
             'id' => $course->get('id'),
             'title' => $course->get('title'),
+            'thumbnail' => get_the_post_thumbnail_url( $course->get('id'), 'medium' ),
+            'feature_img_url_for_apps' => get_field('feature_img_url_for_apps', $course->get('id')),
             'content' => $course->get('content'),
             'difficulty' => $course->get_difficulty(),
             'excerpt' => $course->get('excerpt'),
             'length' => $course->get('length'),
+            'progress' => $student ? $student->get_progress($course->get('id'), 'course' ) : '0',
             'enrolled_student_counts' => $course->get_student_count(),
             'enrolled_students' => $this->get_formatted_students($course),
             'instructors' => $this->get_formatted_instructors($course),

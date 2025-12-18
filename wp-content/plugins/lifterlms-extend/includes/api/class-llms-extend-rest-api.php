@@ -10,6 +10,7 @@ require_once plugin_dir_path(__FILE__) . 'controllers/class-llms-extend-rest-use
 require_once plugin_dir_path(__FILE__) . 'controllers/class-llms-extend-rest-course-controller.php';
 require_once plugin_dir_path(__FILE__) . 'controllers/class-llms-extend-rest-course-lesson-controller.php';
 require_once plugin_dir_path(__FILE__) . 'controllers/class-llms-extend-rest-review-controller.php';
+require_once plugin_dir_path(__FILE__) . 'controllers/class-llms-extend-rest-order-controller.php';
 
 /**
  * REST API Controller class
@@ -17,9 +18,11 @@ require_once plugin_dir_path(__FILE__) . 'controllers/class-llms-extend-rest-rev
 class LLMS_Extend_REST_API {
 
     private $course;
+    private $user_controller;
     private $course_controller;
     private $lesson_controller;
     private $review_controller;
+    private $order_controller;
 
     /**
      * API namespace
@@ -36,6 +39,7 @@ class LLMS_Extend_REST_API {
         $this->course_controller = new LLMS_Extend_REST_Course_Controller();
         $this->lesson_controller = new LLMS_Extend_REST_Course_Lesson_Controller();
         $this->review_controller = new LLMS_Extend_REST_Review_Controller();
+        $this->order_controller = new LLMS_Extend_REST_Order_Controller();
 
         add_action('rest_api_init', array($this, 'register_routes'));
     }
@@ -45,6 +49,7 @@ class LLMS_Extend_REST_API {
         $this->course_controller->register_routes($this->namespace);
         $this->review_controller->register_routes($this->namespace);
         $this->lesson_controller->register_routes($this->namespace);
+        $this->order_controller->register_routes($this->namespace);
     }
 
 }

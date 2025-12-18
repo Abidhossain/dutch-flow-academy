@@ -49,8 +49,7 @@ class LLMS_Extend_REST_User_Controller {
                 'country' => $student ? $student->get('llms_billing_country') : '',
                 'city' => $student ? $student->get('llms_billing_city') : '',
                 'state' => $student ? $student->get('llms_billing_state') : '',
-                'zip' => $student ? $student->get('llms_billing_zip') : '',
-                'zip' => $student ? $student->get('zip') : '',
+                'zip' => $student ? $student->get('zip') ?: $student->get('llms_billing_zip') : '',
                 'phone' => $student ? $student->get('llms_phone') : '',
             )
         );

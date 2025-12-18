@@ -30,6 +30,7 @@ class LLMS_Extend_REST_Course_Lesson_Service {
                 'course_is_completed' => $student ? $student->is_complete( $course->get('id'), 'course' ) : false,
               ),
               'other_lessons' => $this->get_other_lessons( $course, $lesson ),
+              'app_video' => get_field('lesson_url_for_mp4', $lesson->get( 'id' )),
           ],
           $lesson->toArray()
       );
