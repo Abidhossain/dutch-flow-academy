@@ -120,6 +120,24 @@ class LLMS_Extend_REST_Order_Controller {
             )
         );
 
+        // Remove Coupon
+        register_rest_route(
+            $namespace,
+            '/cart/coupon',
+            array(
+                'methods' => WP_REST_Server::DELETABLE,
+                'callback' => array($this, 'remove_coupon'),
+                'permission_callback' => array($this, 'check_cart_permissions'),
+                'args' => array(
+                    'coupon_code' => array(
+                        'required' => true,
+                        'type' => 'string',
+                        'sanitize_callback' => 'sanitize_text_field',
+                    ),
+                ),
+            )
+        );
+
         // Add Upsell to Cart
         register_rest_route(
             $namespace,

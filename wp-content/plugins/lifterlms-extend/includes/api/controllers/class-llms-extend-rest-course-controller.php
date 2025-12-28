@@ -58,7 +58,44 @@ class LLMS_Extend_REST_Course_Controller {
                   'permission_callback' => array($this, 'check_my_courses_permissions'),
               )
         );
-      }
+        register_rest_route(
+            $namespace,
+            '/course-categories',
+            array(
+                'methods' => WP_REST_Server::READABLE,
+                'callback' => array($this, 'get_course_categories'),
+                'permission_callback' => array($this, 'check_course_categories_permissions'),
+            )
+        );
+        register_rest_route(
+            $namespace,
+            '/courses/category/(?P<category_slug>[a-zA-Z0-9-_]+)',
+            array(
+                'methods' => WP_REST_Server::READABLE,
+                'callback' => array($this, 'get_courses_by_category'),
+                'permission_callback' => array($this, 'check_courses_by_category_permissions'),
+                'args' => array(
+                    'category_slug' => array(
+                        'required' => true,
+                        'type' => 'string',
+                        'validate_callback' => function($param) {
+                            return is_string($param) && !empty($param);
+                        },
+                        'sanitize_callback' => 'sanitize_text_field',
+                    ),
+                ),
+            )
+        );
+        register_rest_route(
+            $namespace,
+            '/courses',
+            array(
+                'methods' => WP_REST_Server::READABLE,
+                'callback' => array($this, 'get_all_courses'),
+                'permission_callback' => array($this, 'check_all_courses_permissions'),
+            )
+        );
+    }
     
 
     /**
@@ -147,6 +184,148 @@ class LLMS_Extend_REST_Course_Controller {
                 array('status' => 403)
             );
         }
+
+        return true;
+    }
+
+    /**
+     * Get course categories
+     *
+     * @param WP_REST_Request $request The request object.
+     * @return array|WP_Error Course categories or error
+     */
+    public function get_course_categories($request) {
+        $terms = get_terms(array(
+            'taxonomy' => 'course_cat',
+            'hide_empty' => false,
+        ));
+
+        if (is_wp_error($terms)) {
+            return new WP_Error(
+                'llms_extend_get_categories_failed',
+                __('Failed to retrieve course categories.', 'lifterlms-extend'),
+                array('status' => 500)
+            );
+        }
+
+        return array_map(function($term) {
+            return array(
+                'id' => $term->term_id,
+                'name' => $term->name,
+                'slug' => $term->slug,
+                'description' => $term->description,
+                'count' => $term->count,
+            );
+        }, $terms);
+    }
+
+    /**
+     * Get courses by category
+     *
+     * @param WP_REST_Request $request The request object.
+     * @return array|WP_Error Courses in category or error
+     */
+    public function get_courses_by_category($request) {
+        $category_slug = $request->get_param('category_slug');
+        $term = get_term_by('slug', $category_slug, 'course_cat');
+
+        if (!$term) {
+            return new WP_Error(
+                'llms_extend_category_not_found',
+                __('Category not found.', 'lifterlms-extend'),
+                array('status' => 404)
+            );
+        }
+
+        $courses = get_posts(array(
+            'post_type' => 'course',
+            'tax_query' => array(
+                array(
+                    'taxonomy' => 'course_cat',
+                    'field' => 'term_id',
+                    'terms' => $term->term_id,
+                ),
+            ),
+            'posts_per_page' => -1,
+        ));
+
+        return array_map(function($course) {
+            $fetchedCourse = llms_get_post($course->ID);
+            return $this->service->get_course_details($fetchedCourse, $this->student);
+        }, $courses);
+    }
+
+    /**
+     * Check permissions for course categories endpoint
+     *
+     * @param WP_REST_Request $request The request object.
+     * @return bool|WP_Error
+     */
+    public function check_course_categories_permissions($request) {
+        if (!is_user_logged_in()) {
+            return new WP_Error(
+                'rest_forbidden',
+                __('You must be logged in to access this endpoint.', 'lifterlms-extend'),
+                array('status' => rest_authorization_required_code())
+            );
+        }
+        return true;
+    }
+
+    /**
+     * Check permissions for courses by category endpoint
+     *
+     * @param WP_REST_Request $request The request object.
+     * @return bool|WP_Error
+     */
+    public function check_courses_by_category_permissions($request) {
+        if (!is_user_logged_in()) {
+            return new WP_Error(
+                'rest_forbidden',
+                __('You must be logged in to access this endpoint.', 'lifterlms-extend'),
+                array('status' => rest_authorization_required_code())
+            );
+        }
+
+        $this->student = llms_get_student( get_current_user_id() );
+
+        return true;
+    }
+
+    /**
+     * Get all courses
+     *
+     * @param WP_REST_Request $request The request object.
+     * @return array|WP_Error All courses or error
+     */
+    public function get_all_courses($request) {
+        $courses = get_posts(array(
+            'post_type' => 'course',
+            'posts_per_page' => -1,
+        ));
+
+        return array_map(function($course) {
+            $fetchedCourse = llms_get_post($course->ID);
+            return $this->service->get_course_details($fetchedCourse, $this->student);
+        }, $courses);
+    }
+
+    /**
+     * Check permissions for all courses endpoint
+     *
+     * @param WP_REST_Request $request The request object.
+     * @return bool|WP_Error
+     */
+    public function check_all_courses_permissions($request) {
+        if (!is_user_logged_in()) {
+            return new WP_Error(
+                'rest_forbidden',
+                __('You must be logged in to access this endpoint.', 'lifterlms-extend'),
+                array('status' => rest_authorization_required_code())
+            );
+        }
+
+        $this->student = llms_get_student( get_current_user_id() );
 
         return true;
     }
